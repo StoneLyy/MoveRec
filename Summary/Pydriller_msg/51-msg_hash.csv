@@ -1,0 +1,3027 @@
+commit_id,msg
+a0defe575bf505d7b91edff443f3fbe0d0fe75af,init
+a743235eaea5f29b5937e96987b3ffd1d5336cbb,[maven-release-plugin] prepare release canal-1.0.19
+4ba814da26fc4506329348d181cb4ff9569bdb7e,[maven-release-plugin] prepare for next development iteration
+5d1e952c6d68194330afff23da58e78ea0734250,给插件maven-source-plugin\maven-compiler-plugin增加版本声明，删除重复的插件声明
+9ad328c5adb0bb1475bc1573f0a0fa317c792347,增加插件maven-jar-plugin的版本声明
+0e283bb52dd04381d6ea7b89a472aa05aaac8ccb,"Merge pull request #102 from diguage/master
+
+修正插件的声明"
+aac4d95b19e5370a8034a9c5bc2d58fee576dff3,修复了重复订阅没有真正修改过滤器的问题
+42b164f86053969a46c3f846b2d9ba9a3096ae48,"Merge pull request #104 from mczcl/master
+
+修复了重复订阅没有真正修改过滤器的问题"
+a2ae8cda50ae8f538dc632f7d64892311da594e1,remove setEventFilter
+13bf7c85a037a9e24d26c8f5c0aa007441fd9ae4,fixed search by time
+ac4970ef3af144b2de95c8cbd09557642bd9acd7,"fixed issue #105 , seek method add format eventType parse"
+befc31146a7bdd8d5b05600acfa1833f04c9f638,fixed parse instance
+5ade05711350fe190ec2898106e591dd0564f4df,"fixed issue #106 , logger exception"
+f9edeca6d2a55d6906346ac91df958e6cb228629,FileLogFetcher's fetch() method should fix up position and origin even if we weren't successful at fetching anything from the file
+50d4b185561ce6d7789df3e8c78e26f73ecfa1db,Update README.md
+5b56a027e59e46f13e9024bc2f24399981c29d7a,"Merge pull request #110 from frew/master
+
+FileLogFetcher's fetch() method should fix up position and origin even i..."
+b0143520eb7d95f34fdf207262970d750836304b,"fixed issue #112 , add mysql 5.6 useconds parse"
+5529dad14b16da31eaa18299f7ef5f5a5a2a1529,add missing api parameter doc
+ae521195c52c63e3db12f455ef3f67851d199ac8,"Merge pull request #113 from WalterInSH/master
+
+add missing api parameter doc"
+d01e82ce3c8e250a51fb43c103221a3fcc3d2773,fix typo embeded -> embedded
+bdf3b0c86164dd042e4d3f3adf05f2dd3cab84d2,"typo, javadoc,code cleanup"
+6a0733bbab7b600c0d41afa8a421e9c443ddecbc,"update guava to 18.0, magriate compute map by package level implement"
+fc9b616f4a0cae5beab24dee20751fef130d4f70,添加遗漏的 MigrateMap
+596b0606491f7890b791c3d6c7f8aab1fbb8341d,"cleanup code, extract CanalService"
+ea889cb0049fd2398ee98bf77d327c2536fc3239,"Merge pull request #115 from wenerme/master
+
+Typo,javadoc 修正, 更新 guava 到18.0"
+7ebb3fd1ab65239b73c02eb4f61268287a78f419,fixed code template and format
+c3f2ad08cd734b32ab4d77cb753840fa9e5240a0,fixed warning
+eeaf5ce910a2d209670479534be387e1fe7c544f,"fixed issue #116 , process empty array"
+c935f06344057d8f95b0eca5a6cd271c07315c05,remove compiler warning
+89056490c31eaa3abd2fa32b593ce94a8559d7f6,upgrade fastjson version
+21abbbfe4754ea56a05fa8adab291f6d5a964d83,"fixed issue #116 , process create index bug"
+3d6174f857c7e76ed1cc02a50e26482b220640ac,"fixed issue #119 , support binlog row image noblob/minimal"
+452fae15fc5f1d5a7c8c1dd65bcc0d671605c6eb,[maven-release-plugin] prepare release canal-1.0.20
+9956b3557fcfd00a9adc266278225ab77c2933d2,[maven-release-plugin] prepare for next development iteration
+f35d965f630799d540ca5c1ba532188b6f1ccb86,test
+87c14f0b5149ef556068b7713236549fb670c772,"Revert ""test""
+
+This reverts commit f35d965f630799d540ca5c1ba532188b6f1ccb86."
+199f30de87c9bb0a1008cd1cf9311b55c6bc2bfa,add a script to fetch mysql master binlog file and sync position automatically
+169baafb8b0347204ea6a1c3e5a6efe2a4388013,correct format
+bb5d5749bd40c3e8404d8772c4bb8ed491cecbb3,"Merge pull request #120 from smilingleo/master
+
+增加了一个脚本来自动获取mysql master binlog信息，并自动更新instance配置文件"
+4459b8acdf00d478d9f9e8b406aa1750b210988a,Update README.md
+f0ce4b569ecddde2ea7b56fd6bb105c48cf8d6c1,"Merge pull request #121 from huyanping/patch-1
+
+Update README.md"
+119af9fca1126a8210c012b967b4998985ffe62d,change rename operate
+d1afeb754098f745322e354e8bf95dd29240d1cd,change result reference
+10930b9e3d7a006f4c1c0eba42dfa6bfddc0a468,"Merge pull request #122 from likeloveluck/rename_bug_fix
+
+修复rename table命令中包含多个表，解析失败问题"
+5f6580399c37259d8318e0d644db2b600eae1eaa,fixed format
+f2f2bfb5383889314bc1b05ac5c65f0c037a2a52,add rename testcase
+b16f4844a113ed5f21bdf13a1defbad4f3bfbffb,fixed a hard coded mysql host ip address
+155c00b2561fdf722abe03f942e4693844da9684,"Merge pull request #124 from smilingleo/master
+
+fixed a hard coded mysql host ip address"
+197a1446b79fb394b1834865a8f5089a953c36bc,fix not skip filter and read the error data
+d887c8f763ed28aba194e9a51bc823a0443edef1,"Merge pull request #127 from dozer47528/master
+
+fix not skip filter and read the error data"
+d976932177288eff95189da8e3c45c40ac42976e,fix rename table ddl parser tablename and schemaname error
+5a34195201e695cb03be0de6b4333132a3fcd1ab,"Merge pull request #128 from likeloveluck/simple_ddl_pattern
+
+fix rename table ddl parser tablename and schemaname error"
+44f2b74862f67eeac2b16738475ff48cb4abdb6c,"fixed issue #130 , support mysql5.6 time2/timestamp2/datetime2 javaType"
+72ceb58fa3e0e484ca27cdfc7fd5f20cd0277561,"fixed issue #135 , isUpdate bugfix"
+8375ea4b7d49aabcf58eb7ecb41f1275a08d4347,[maven-release-plugin] prepare release canal-1.0.21
+643bd5cb71e746255057c82cbde65f0391ed1beb,[maven-release-plugin] prepare for next development iteration
+51ac311aa16ca19d7e288cbf80d3831c5f27e029,fixed git ignore
+9164fe4ca7ef1597baae64675bd9d25ae9907f55,make canal server become a single instance
+7b29828f608f2fd6f48924939186a59b56aa4e5c,add AbstractCanalInstance and remove duplicate code
+ed74d934d396afeedbdab95b22ba0460fe55b041,add setAlarmHandler for otter
+d2f98cda87280a24d6541612732eb27da12d901b,remove duplicate code
+37478f3409f5d3ffb5af1f7e02c6b2005806947f,"Merge pull request #138 from MarkLinHz/master
+
+make canal server become a single instance"
+bf10b16138e66765a75df02b4edc95acb20b1b6f,migrate
+efebbe301a4929e36928e62bc76af4b2d1d49c4e,注销父类已经有的属性，避免super.start()调用了没有在子类初始化的同名属性
+38f2f98da3eb53592c0731297cc19ef858353372,"Merge pull request #144 from dingjun84/master
+
+注销父类已经有的属性，避免super.start()调用了没有在子类初始化的同名属性"
+dc28c68bf0f396cacdaee0ee27fd797e55e9f7ab,fixed format
+4f504aab31ba9adb137536ecfae102072b409ee0,fixed testcase compiler error
+6b9c1305ff4d6de66d3575ab89a377be74be064b,"添加dml过滤判断
+
+修复parseRowsEvent方法中没有dml过滤的判断而导致dml操作的数据总是会输出到store中的bug"
+2e5a165b887fe6cdbd1e081ac931a1fd2adc721c,"新增canal.instance.filter.rows过滤
+
+为parseRowsEvent方法添加过滤"
+891eb960ca9cd239e27526b0e20d6e74e0c52852,新增canal.instance.filter.rows过滤
+369acd8eed9739d12b29c0d40cb85f045e234d31,新增canal.instance.filter.rows过滤
+31ea9fa8f0ec8b68e882de32112d94dfaab1a76f,新增canal.instance.filter.rows过滤
+1813c1eff97660cd65e13678a49ee3a522f2b127,Update canal.properties
+652101035eed9e454f324b76abcfc67b1585c065,添加Rows过滤
+51cfa7fa963ae1420e438a9ba75cb58b04525def,Update AbstractMysqlEventParser.java
+fbd99acac21b90d34d6aa949ff1f3624d8ee1acc,"Merge pull request #145 from OpenZYK/master
+
+添加rowdata过滤"
+c32a5d0882894b3b70d67cfff218925b16b4e0d4,"fixed issue #139 , KILL CONNECTION binlogdump thread"
+70dda221f160076cee3115afc4d9d794349954d6,add yugong
+5932e1e31f5ca4566fca5f93acfddf29614a3422,edit url
+533c5cb8f6bda878779fffb1a4adc792f62a81a7,"fixed issue #119 , fixed batch data changeColumns"
+38cc81b7dab29b51371096fb6763ca3a8432ffee,"fixed issue #162 , fixed IDE CanalLauncher"
+8ded94a09e55edfbf96478b27e15cf23fb631791,Update ClusterCanalConnector.java
+e614c6141d6a16eb0114fc029e06a52358f84926,Update ClusterCanalConnector.java
+11e1d1d6000be292d5c38d21a11c1a71583ecbdd,Update CanalConnectors.java
+4898ed7b834746cc13322e53a7faa9a7518c8f1c,Update SimpleCanalConnector.java
+d7d969915e8e6fd0c96dbad3050234dcfc86f7a8,Update ClientRunningMonitor.java
+6a03ffaf7b44e79c56dff379a3efb99c91d34709,"Merge pull request #173 from lulu2panpan/master
+
+Canal客户端高可用bug修复"
+4f1e3bafe734cba3b27183fb4853686719c2e641,"fixed issue #171 , client HA bug , modify SimpleCanalConnector"
+f1a1cb26cc382a11d148ae68a0c0f1e26f262085,"fixed issue #171, compiler error"
+4e76a4bd6e27472e487bc3136de3c3439e949302,"fixed issue #176 , handle running deleted"
+8aefd7e79bc52db947b4413ea3227221ebae7981,"fixed issue #171, getNextAddress"
+b59984647093ef39bbd3c2801fd0b435a5ed7aa4,IOException限制retry次数，超过次数后跳过binlog解析
+ecba855bf967fb9a374bea3d8872c1dacfa168f5,IOException限制retry次数，超过次数后跳过binlog解析
+63b3c4ab543c5b54b359ad20c396b9e7544d9856,IOException限制retry次数，超过次数后跳过binlog解析
+6eafc73a6588948394ea6e37cc946656a1fa6025,"Merge pull request #177 from chenyishun/master
+
+RDS主从库切换时候异常处理"
+ae05a3f39f77eff75c42a314cd2608f621b0a0c3,"fixed issue #172, 精确识别主备切换,尝试基于时间戳重新定位位点,确保不丢数据"
+c3e38e50e269adafdd38a48c63a1740cde304c67,"fixed issue #187 ,support MySQL 5.7 Json"
+69170f58df0250e43066e4b56e038fced05f2268,"fixed issue #172, support rds"
+ba173fcd48699251a2b4e7ba7f368b9735268516,[maven-release-plugin] prepare release canal-1.0.22
+3a5a4b06a904e8eeb0e1126c909bb7dc7b6762a5,[maven-release-plugin] prepare for next development iteration
+eda24df3fe7bf37f7ec0057adb09dc52bfbbe67a,fixed kill CONNECTION exception
+14a5762fbb9114e2357779f2eff7926645f93817,support 5.7
+f6cf88a6bd887afc56203bf9c4fa2aaccfd76e85,support 5.7
+aa8ea96572d7b012d61602f261a235c7e9b1b245,fixed issue #195
+c99b4b8cd1cae7613aea9491e72762e6c879cdcf,fixed NPE #200
+9742fdc9d9872c39a6baf1c4834259b0c86f3a86,upgrade protobuf version
+c86fba6092979c4d42734903829843c3d62342ae,"Merge pull request #199 from MarkLinHz/master
+
+upgrade protobuf version"
+b349b400cfbc2d963490a84f762773ecf8aa9484,修复issue # 201
+b23e814c481fc9d9d383a96fba52a98e06bf022a,"Merge pull request #203 from kevinKaiF/master
+
+fixed issue # 201"
+5d9d5b1e442d46be3cdd0747d4461ce4404fe407,fixed testcase
+0c9eecd758a8cba0f218a121f83d3e8f01c4dee8,"mysql5.6.29'@@global.binlog_checksum'带单引号导致master退出,优化binlogFormat判断"
+b17c11868c60aaaf953a76506cd8221d8f758c63,Fix a minor fault: Canal instance reload again after startup.
+006dd6364689da592109b8e1e0946e1184beb21a,不好的设计
+8a293e4b0c9f065d6e7484465ab62038244a361a,Update AbstractEventParser.java
+96454d4387695459236ed988c88a453c61334e5b,修复开启checksum后rotateLogEvent数据包解析时binlog name乱码
+350f8637c3d54e4745b26d1bd07ea6c4c0af0607,"1、BinLogFileQueue的listBinlogFiles方法中对binlog文件名进行更严格的验证，必须以数字结尾
+2、LocalBinLogConnection类中解决如下bug
+	2.1第二个dump方法中增加代码""decoder.handle(LogEvent.FORMAT_DESCRIPTION_EVENT);"",解决""((QueryLogEvent)event).getQuery()""语句出现乱码的问题(BEGIN后面多了4个字节),出现乱码不会进入if语句，导致找到的binlog位点不准确
+	2.2第一个dump方法中，被注释的decode代码才是正确的，和DirectLogFetcher不同，此处需要构造子循环进行遍历
+	2.3第一个dump方法中，将每个binlog-file的首个event设置为RotateLogEvent，否则会导致所有event的binlogFileName都是默认的mysql-bin.000001。这么改完之后，和DirectLogFetcher的行为相契合，后者在每个binlogfile的首个event就是RotateLogEvent
+3、LocalBinlogEventParser中增加元数据处理的相关代码，不加的话，所有的event都不带列名，基本上没法儿使用"
+8626c6ee247cb27cea657f1d598c19e1ef0c22da,"1、SessionHandler类中执行SUBSCRIPTION时，应该先尝试启动runningMonitor再调用embeddedServer的subscribe方法
+2、embeddedServer的subscribe方法中应该首先进行checkStart操作，否则可能引起metaManager的脏启动
+3、SessionHandler中增加日志"
+86378cad32bdfcd3db5efd56499edcac2295d18c,"Merge pull request #209 from lcybo/master
+
+Fix a minor fault: Canal instance reload again after startup."
+a5d6c3b7478c882e24d3f891b006113685f75c9e,"Merge pull request #210 from xujianhai/patch-1
+
+不好的设计"
+69a7e6d08380bf36b1c4d3e2febb91a9f87e9b55,"Merge pull request #208 from jianan789/master
+
+mysql5.6.29'@@global.binlog_checksum'带单引号导致master退出,优化binlogFormat判断"
+4898829384d048433c9a54f35d328f4a456318be,"Merge pull request #213 from lulu2panpan/master
+
+修复issue #212"
+83d8a39d1679487522b5e158a20c9e6cc7995d09,add ServerRunningMonitor.init
+6284a429a0d2149795681f585ce92b809c0cabbf,fixed lazy
+ad2a96b3f1dc7f23a0a3878d596d4c8f5bcd6116,fixed json type cast exception
+96dca0b9e6b6dcc12fc439d2f17d85a4656485df,"fixed issue #136 , support rds no primary key && mysql.ha_health_check"
+3f38ad6f4927e1d3bcf43faca8501df1e706405c,"fixed issue #227 , fixed binlog_checksum variables"
+e67f27018cfa305473e0d138de8e235d78c4b8c6,fixed support json inteAddress
+bc7927fe758638afa0af7da3e37a4c6754ce5d85,"fixed issue #227 , fixed Mysql5.1.73 throw NullPointerException"
+83fee4ffbbc87903f05f297615fee87aac2eaf2a,"Merge pull request #231 from alexwangx/alexwang
+
+fixed issue #227 , fixed Mysql5.1.73 throw NullPointerException"
+c57a921a1ab6ad677f9f470ab5454d1c88fda32b,修正批处理中的语法错误
+907ecd43e47acd1b21cbd3798409cad1c6db05fa,修改批处理中的!=为NEQ
+90e6d34fb483aa7e8bac3e3cb2e3bace07d85c75,"Merge pull request #243 from deeplinux/master
+
+原来的example内的startup.bat脚本直接运行时报语法错误"
+a69b69c724ed797b947d4ed8140c355d9183cee8,issues#244
+5055fdb55638e223f73d0fdf5914268ac03fe1d7,"Merge pull request #245 from dangxia/master
+
+issues#244"
+a1207060bfa1f83a6d1e628e0ff01efa7835282a,format
+a483f03711da3ab7542ab6a9fbe05d720496be0d,"fixed #227 , loadBinlogChecksum NPE"
+5f4bbab7226296d5bae45ba6ba3cdf6f3fffd87e,[maven-release-plugin] prepare release canal-1.0.23
+f745c698e9f3c0c3b3e9927eb61f36458ece5279,[maven-release-plugin] prepare for next development iteration
+5c11c717830de628ae235ce690acfd1753be5177,使用netty重构socketChannel（jdk内置），修改了PacketManager实现，以及其他相关引用的类。
+f45f1ac74f14be29c9ab7531ebb768b32614190b,"Update MysqlConnection.java
+
+修复mysql5.6以下报java.lang.NullPointerException"
+5dc62bbda882b13f45a57bf14e55882aede54ef9,seek method also need load checksum
+004f26465ffb8a71c55f108f08edd8798df4f18d,"Merge pull request #248 from z070204z/patch-1
+
+修复mysql5.6以下报java.lang.NullPointerException"
+8141ddc4e8b9e9b2a2cd7bfcb75f5a1e6a184085,"Merge pull request #250 from toruneko/fix-ha-switch
+
+[BUGFIX] 在MySQL5.6做主备库切换时出现的filename乱码修复"
+eef58005d9cf5f3035ccfcf2915770e9610aa29d,fixed format
+db4fc68a550a2a6c42ddc91e7302eca985e9a468,"fixed issue #257 , heartBeatTimerTask stop bugfix"
+36216e63ea6835be146b80b83f4dca45ab46518f,Merge branch 'master' into master
+92c1a517263dd1567c9a505c4aca2afb78db7d3a,"Merge pull request #256 from luoyaogui/master
+
+使用netty重构socketChannel（jdk内置），修改了PacketManager实现，以及其他相关引用的类。"
+ff97dcbbc94cd8e1ddb582f19c06810cc0b177bc,format & import
+0ee2e767d26e9ad72b8b83f307da620782647a44,fixed stop failed
+03ff9512dddee8c46ebf661fefebdea88217b281,fix bug for #202（canal.instance.filter.regex 修改后未生效）
+11d071229132c34ff096f6c974d0093e01c8398b,Update README.md
+045a2e5a5011fdb2daf7adc2ce3a432c1f25fac2,"Update JsonUtils.java
+
+修复升级fastjson到1.2.28后JSONUtils报错的问题"
+75a5a4d7df0bb055e3363bb2168a3326dabe449d,升级fastjson
+c629e8c8991b34e85cc059afffe63884c34bc0a9,"Merge pull request #283 from keyganker/master
+
+upgrade fastjson for security"
+19a56fb77e3e67366382edade55376e7cce80009,"Merge pull request #282 from sun7059/patch-1
+
+Update JsonUtils.java"
+20d8ac67dc04e9e0c4484af769b156bcd75ef00b,"fixed issue #280 , refactor MysqlQueryExecutor use IOException"
+d78b38973759f6b84c6fb463d0426c1cb0003c9d,revert pull request https://github.com/alibaba/canal/pull/256
+83689ee519790b85ee56a54d2e7fa350fef2db82,"fixed issue #274 , support mysql 5.7.17"
+2eb05b5934c6108b60b3f84816054b95db3e3a79,fixed compiler error
+c0f2d274d71bb1a2670497c9a249aa6ffdc981a6,refactoring log position manager module
+73627df082ff499af4ca1c482f79e304905007eb,"fixed issue #287 , support chinese & empty string valuewq"
+e5444ae658cf841577978c2ab7fc2d4fd0a3f69c,"Merge pull request #259 from GitHub-BruceTong/dev
+
+fix bug for #202（canal.instance.filter.regex 修改后未生效）"
+a78622ae0294c9c36b177d42edf74fddc11b09c6,rename log manager module and ajust xml
+b2a5f482ee6269242a6ba13cd99283149f689c98,"fixed issue #284 , add slave_uuid"
+2e3796cb071f4826b356a68b431be386af05e700,fixed format
+7e026f2495afe7e0b8626c348d18446ad3f87f08,[maven-release-plugin] prepare release canal-1.0.24
+4d624cf184492a9e9cf0d763ae7a88d1ef956470,[maven-release-plugin] prepare for next development iteration
+a6604978ed173c79cfad0f6fb1054d642159bb5f,"Merge pull request #291 from MarkLinHz/master
+
+重构LogPositionManager并适配XML配置"
+fdd40224d5ec25ed2a264f2742feaed539498f42,fixed format & import
+6b20959a2d90f861d6fab587ff4bdb0580b4fb3b,fix bug of repeat log manager
+07b979f242dcb1b48112f6e6070cf1709d37a4b2,"Merge pull request #293 from MarkLinHz/master
+
+fix bug of repeat log manager"
+f6c2eb8963c510dc194d636942253ba06e281d59,"fixed issue #296 , NPE"
+a46ac3b8149cfc59f92b6e14b3935cd813acb492,fixbug: soTimeout doesn't work.
+3e5b3e1467cc24df9013bef48710cd0d26ad0a1f,"fixed issue #321 , process TableIdNotFoundException"
+717e2cb7f32c97cb3a7f1d078ec18daf5be4d427,update zkclient to 0.10
+29815c41b07b7b1cc135f4c9c277491e94121b8e,make zookeeperx work
+8600e9825b235b665849d2b15b0fa02b2ac533ac,"fix bug：
+现实运用中出现：client已经不存在但server端的连接仍然是存活状态。
+在此种网络异常状态时，stop canal server会一直hang住。
+原因：异常网络连接由于无数据传输，导致 io worker线程一直loop selector而无法退出。
+
+解决方案：1. 设置keepalive 由os 监控。
+        2. 设置netty idle 机制，定时检测并主动close socket。(fix 时间单位bug)
+        3. 每次新创建socket channel时存储在一个容器内，在stop canal
+server时，从容器内主动释放所有socket channel。"
+48c108806ae4aba3d04c11cf7d9e257ca9609803,Update SocketChannel.java
+9ea88c78637b1063d8c0e4ca4cea44e6a1b62d31,Update SocketChannelPool.java
+b6090da0e5123b843dd9cf50e62cdc3d33f22493,Update PacketManager.java
+525a00ea17bc8cd929aff154e7ea1525f9c2d9b9,Update MysqlConnector.java
+523130cf8b866abe3f497e3258e2e9f180fd7f1f,Update MysqlQueryExecutor.java
+3dba40062441a1a8e72f76fbf9e6baa66b4e7986,Update MysqlUpdateExecutor.java
+0bd4a1146ce0814934174888184c2d5050373ab4,Update DirectLogFetcherTest.java
+0b2f37a2720947131049f938bc111f1040c63d7b,Update MysqlConnection.java
+9ba93bae5f2fc6ad51add52c36d5588ba1511712,Update DirectLogFetcher.java
+ecdd619da78831929d53c27c90f15e193a500998,"Merge pull request #331 from alexandnpu/feature/upgrade_zkclient
+
+update zkclient to 0.10"
+22e3d2f3f1a3ebf892a02cb914318b452224f690,Merge branch 'master' into master
+867d6607d4dd0ddadd5332448870b4be40c2adb0,"Merge pull request #334 from luoyaogui/master
+
+针对使用netty取代JDK的socketchannel实现的优化"
+8e88dc87f72dc3d7f8b4cbe5be15649000994937,fixed https://github.com/alibaba/canal/pull/334
+780b4f715bf5f790fc249830d054d68eb153890a,"Merge pull request #333 from jasonhx140/master
+
+fix bug：异常网络连接导致canal server 无法关闭"
+989a69e7be5f293ee2291e8995b3e75bea365dee,fixed format & import
+b265bf466949071d5612508745638ea2a45264e9,"Merge pull request #319 from day6/fixbug-clientTimeout
+
+fixbug: soTimeout doesn't work."
+62e8ff6ec873d5fb5e7b714495770c8ffa8ec3b9,fixed format
+2cebfa04dd6889141c408e94d64b4bedb4fc9cea,fixed test
+402245dbbf59e57148e485fcc81500db6f6d6ae6,"Merge pull request #2 from alibaba/master
+
+merge master"
+34bcfbc3cb1c7ba992e4d248cca42babc7752a60,不管有没有filter，都应该对meta cache更新一下
+214e404e1b10f20d16cb50fa9c1c8488dfc719bd,挪到最前面
+ca350a79bd800889226f129bb7765fbedde4cc5f,"Merge pull request #343 from toruneko/bugfix-when-filterqueryddl
+
+Bugfix when filterqueryddl"
+67436b2bc4a8e23faabb1555c0d34a2f53e060dc,"fixed issue #330 & #350 , json length & escapse"
+a1cf292baa13c8ae2586160d1525277055635afb,try to avoid use multiline exception directly
+041cbf04c7f4892dba4c87aa0d6141384ead45d3,add uncaughtexception handler
+e8da1c884bce898732ec51868ea1b1a001dc121b,table meta support
+84a9aeb46cd53c98844304aebfef94eb4842cf09,"Merge pull request #374 from alexandnpu/feature/avoid_use_multiline_exception_directly
+
+try to avoid use multiline exception directly"
+788c1d9b84e470d28eaf1198ad0a5d7f18da287b,"fixed issue #360 , socket pool bug"
+676cf4798763d8e65c2e295bf28fc54cced16741,"Merge branch 'master' into table_meta_support
+
+# Conflicts:
+#	parse/src/main/java/com/alibaba/otter/canal/parse/inbound/mysql/dbsync/LogEventConvert.java"
+3930ea0f9bc5076c3f1611bf39e8f0b4cdfafae2,"Merge pull request #393 from KaimingWan/table_meta_support
+
+Table meta support"
+19707f92d4e756585488b2fc7613ff424f7f0baa,merge tsdb meta support and refactor
+4f00f5ea8da0ca78b1744376d2b08dd26a7e712b,fixed tsdb test
+e01e48ff658a566c8983a6487834f06c348cda14,fixed h2 support
+77342663e3fc8ec4b4dd465aa95d998d411c2d90,fixed rds binlog local
+1463463f1e170d3e1335c8aee89ca3fbd09e1e31,fixed data
+8d6f19cc3300bb6a83c3628576c543293e7f6a66,fixed default value
+fa059804cedf2ee8d45b648135f04504aefad8c1,"修复死锁bug
+
+当通过zk-cursor启动的时候，第一个Event类型是TransactionEnd，那么txState变为2的触发条件不仅仅有ddl和dcl，clear方法中isTransactionEnd的判断应该放到txState.intValue() == 2的后面，否则将导致死锁"
+c56f58deae192e410bb6d63e934919078bdfa091,upgrade druid to 1.1.5
+2dc019709b661828a56b6f1111b4701d8890d527,fixed quota ddl
+a3b9f6f1ebb21dd528effcceba2ac207f40b15e8,fixed NPE
+5348994b4a8e63c5ededf27adfaffcb95f1a05a6,fixed alisql heartbeat
+3409472eb9b8d07c0c67f4b7af4ac746edf10e69,kill CONNECTION exception fix revert.
+a9284b1b3967917ee6cef0e85787575e9b121e1e,fixed compiler error
+da3290c381f135782d65826048275981763186b4,"Merge pull request #424 from lcybo/master
+
+1.0.23里面修复的KILL DUMP exception问题在(#334)里面被覆盖回去了"
+01ef15223cafa277ed7f0292ce97781abaf0b73d,"fixed issue #415, ignore flush privileges"
+6b2d80a14590be36c5dd862804618b6568e2c3ad,[maven-release-plugin] prepare release canal-1.0.25
+20942533e61212c48f9d0724654a1c0309665f02,[maven-release-plugin] prepare for next development iteration
+7d485efd71165d34de2ba0d721bad0c530f62310,Update README.md
+d1c83ea7bb81fd14051e33379a19c2351c58b8d2,fixed fastjson autotype
+8b57b9a0a53c46bf22e4cf683d8e616a3f560a0b,"fixed issue #442 , compareTableMetaDbAndMemory"
+912f5db2c70eece6263e84e9f0c8316798d1955b,"fixed issue #440, for null position"
+5aed505429694130a76115b7a4219b1a36f53346,"fixed issue #440, enableTsdb"
+c60b04424b0a357c69ced2e68a847e16ca87a002,"fixed issue #440 , optime find position"
+448fc8bcde787177db5adcc6e26bc5aae1eff4ab,fixed issue #440
+5e206e4f7e7b62c1379f8f9b8945fd1eeb150fcf,"fixed issue #440 , optimize find position"
+8b03f172ed987f723898c90a0b77c6188be4f874,解决destination无限连接等待的bug
+ac773009f8fdcc84a9f44a3fb36f353ab78d682e,"Merge pull request #447 from zhmz1326/master
+
+解决destination无限连接等待的bug"
+d66839c965d9070ee00061619fff97e55e0bbaf4,mysql semi support and mariadb gtid parse
+c6f4de9f88877c4c4625d3ab809d47092a4e75ea,"Merge pull request #455 from lucifax301/master
+
+mysql semi support and mariadb gtid parse"
+9595e6abbd0cc9551ba079326ce32e8f8691c398,fixed semi sync format & refactor
+3104b4cc24bcb53214ec1e33d148950a29db9160,"fixed issue #449 , optimize findTransactionBeginPosition"
+325d16bc66ed98bde5ad5e711dfada32b0a50491,"Merge pull request #1 from alibaba/master
+
+merge latest version"
+0c7aed197a5a4f33cdab13121791e2772b99db70,"cannot build mysql connection.
+
+when invoke connect(), it will return a ChannelFuture instance, and then the ""addListener"" method is invoked by biz thread, however, ""channelRead"" method in BusinessHandler is executed by netty I/O thread.
+
+ChannelFutureListener -> operationComplete() cannot guarantee that which is executed before than BusinessHandler -> channelRead() method.
+
+reproduce it :
+set below jvm parameter:
+-Dio.netty.eventLoopThreads=1
+
+It will caused new connection is timeout when AbstractEventParser -> start() -> parseThread ->erosaConnection.reconnect() is invoked."
+d1f1c0716b29a6896c7d7f044a4edbae9628f12a,"Merge pull request #473 from jasonhx140/master
+
+connect mysql server failed when reconnect mysql server frequently"
+af289cd9fbbb56f6fb0efc7ae2ff32171d59dffb,fixed compiler error
+7cf9375ac6e8229600e5d918b230f56be038b314,"Merge pull request #2 from alibaba/master
+
+merge new release"
+93be9d1909d231b7176292fb565e5963c157fd57,"dump connection disconnected 
+
+dump connection will be disconnected since SocketChannel.cache is overflow."
+a965d2cd04b49f07b1694e83223437a0d723acc3,"dump connection is disconnected
+
+dump connection is disconnected since SocketChannel.cache is overflow."
+2d31e6bf9199d4f324dd659143272e822e1c48c6,"Merge pull request #487 from jasonhx140/master
+
+dump connection is disconnected"
+9316a3df6d4e885e8b0344d7a90e07308e48c123,"fixed issue #482 , retry for getTableMetaByDB"
+91ac0e30aa5ff41937a05077ace692847fae3e46,"fixed issue #483 , support show slave hosts"
+00890f87e5ac9b3e35de14bab6d7c51369db6389,Communication log optimization.
+0b82ee8d10c9fde305c95f1e7cf37b019ff3ced1,"Merge pull request #1 from alibaba/master
+
+pull & merge"
+6da1507405e8556cba7e5296db88ceb691808020,Rollback running state and znode when start failed.
+31ed4efe3af5c4b1f8e0cb42ba9a68c21ec4d0e3,"Merge pull request #497 from lcybo/master
+
+通信模块log小优化"
+b9e3629459beb8c976cf2e3fb74decb356f8c169,"Merge pull request #522 from lulu2panpan/lulu2panpan-patch-1
+
+修复死锁bug"
+b1431f8827712d9e3feb6c9b310c53947bd9c6d6,"Merge pull request #521 from lcybo/monitor
+
+修改InstanceConfig未生成或已销毁时造成ServerRunningMonitor running状态与实际不一致的问题"
+dc0010823f93f83490cf5c776f260521d25a5ae7,"[MI] Use mysql master heartbeat to detect phycial tcp connection
+failure."
+bb0f3b3a7e20a236ff9c6fe264d1e58831710182,"[MI] Use mysql master heartbeat to detect phycial tcp connection
+failure."
+32d417408367de4339330eb5afc5ecb155c11988,Merge branch 'timeout' of https://github.com/lcybo/canal into timeout
+cfa90af33c38435659e7143474a58dad76c5fbe0,fixed unique and upgrade druid
+edc2fbe1dc359f8083b462bba2c24de30338d976,fixed issue #507
+89994c52f96870767b0b0be965389e4c3dccfb96,"[x] Fix Compile Error : TimelineTransactionBarrier.java:[70,27] 找不到符号:   类 CanalSinkException
+[x] Fix Maven Wranning: The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[x] Fix MavenWranning : 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing."
+514876f60fabc6c24a3119a9ec602cc98f2c6ed6,"[x] Fix Compile Error : TimelineTransactionBarrier.java:[70,27] 找不到符号:   类 CanalSinkException
+[x] Fix Maven Wranning: The expression ${pom.version} is deprecated. Please use ${project.version} instead.
+[x] Fix MavenWranning : 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing."
+03452dcddac6ed847bd7245bb57c1965b99f04ff,Merge branch 'master' of github.com:yakirChen/canal
+826a45c1052e846b1250813be74f0382f6a543e3,"Merge pull request #528 from lcybo/timeout
+
+Use mysql master heartbeat to detect phycial tcp connection failure."
+2d49b709cabe1626cf4c5c5b8c942bf7571a5d8e,fixed socket wait period 10ms
+0af789b1c79da60012af14319dc7fbb3287a0688,"Merge pull request #529 from yakirChen/master
+
+TimelineTransactionBarrier import CanalSinkException; Maven Compile 的一些 Warning"
+7b3854218303f6631da69d09d951470e090db377,"fix(dbsync): json column of zero length has no value, value parsing should be skipped"
+863a61d6269e7756c8c797b6409bf28c75604a9a,"Merge pull request #2 from alibaba/master
+
+merge"
+8ad603fea471e6a45b2659f12ac17fa306cca4ed,修复：SocketChannel 默认缓存大小（1MB）不够用时需自动扩充，否则将因缓存空间不足而造成I/O超时假象
+06e7f441144247275a51561fa7eb6ab2a616405c,修复：MASTER_HEARTBEAT_PERIOD 的计量单位是秒（可以包含3位小数表示毫秒），但不是纳秒。
+3e7e7b7f6e0cd9a525ecf96b3192e7f47d262d15,修改：变量命名和super调用
+847ebf9bf3187fb83616badbec1b2562053ae83d,"fixed issue #535 , use show create table to get tableMeta"
+fddaff1bd9b23022cb36b7fa4e8c273901e735f1,"Merge pull request #536 from Wu-Jianqiang/master
+
+主要修复 SocketChannel 默认缓存大小（1MB）不够用时需自动扩充，否则将因缓存空间不足而造成I/O超时假象"
+88c79544f04ebe40e9dc74f8821b61961ef4ee5f,"Merge pull request #532 from LavaCoref/hotfix/lava/1_json
+
+fix(dbsync): json column of zero length has no value, value parsing s…"
+b90c9fac411efbb8dab8862a14724cc7b3ffc6fb,fixed druid version 1.1.9
+6b7109c66b19f5bf97ad7473e0131c50ea8924f7,"fixed issue #539 , support bio&netty"
+cd87ef00cce4b58ff8080bd388dcc454a158f7fb,"fixed issue #553 , merge code"
+499be8bd8ccc8f29d3e5f771b5c3b1beae143739,upgrade druid to fastsql
+256056e14fb12abae0f50952d8646db05adbfd29,"renew an InetSocketAddress to resolve address again
+
+resolve [issue427](https://github.com/alibaba/otter/issues/427)"
+6229a8593f4dfe81f43b5260e16952fccce8e8d4,"Merge pull request #555 from whaon/patch-1
+
+renew an InetSocketAddress to resolve address again"
+28ad12d0ea6fa98559c5898b52ddf9e63911adcb,upgrade fastsql 2.0.0_preview_151
+af002f4e243051f396d670e868f6f842898abb82,fixed bio socket
+511734c3d8ba29a071dbcb05bb49bb4be457fefb,fixed compiler error
+c340bd6565fd099068fd5d57735d50bf1edce266,upgrade fastsql 159
+9b7de00efba899363e587a3b9e1f2beb39142876,fixed performace
+f46133d1168071741e8e3e4235aa635c5870a976,upgrade fastsql 228
+21f3f8c973c8fc3d9d2e93c79707e86474e1010c,支持通过GTID同步binlog
+70e6bdde02288cccbebdb51c0bc52898c6c8ee1a,close zkclientx if necessary when stop canal
+eda7e4ca2b13e48db48c54476066df3ae76d5221,block waiting interrupted  by stop request
+debfdb88730c40b81d497572f208935b6f439263,abstract canal client test waiting until running == true
+7eb6fb3e8a263dee9fc93ce004900e665485914f,fix CanalInstanceWithManager#doInitEventParser bug
+e0fa8e0f7203150eaa7c69ba27a79a7584b5abd5,"Merge pull request #622 from nbqyqx/master
+
+block waiting interrupted  by stop request"
+c8f1d54fa18f724e25f62e2c2feddd3eeb78b76c,"fixed issue #619, improve code"
+5c2ed38d2ff74ebe1ae1d4bbb960983e37c16ca0,"Merge pull request #621 from spccold/master
+
+close zkclientx if necessary when stop canal and fix CanalInstanceWithManager#doInitEventParser bug"
+912a7a12becb51246ae9c55bf16ad4e19a647b85,"Merge pull request #618 from hiwjd/feature/gtid-support
+
+支持通过GTID同步binlog"
+4141049bb90ce6dc1ce05a58c95f2d974fdd5865,在CanalConnector接口加入stopRunning方法，用于优雅停止client
+3c913d1e2209a0ab73b9568f2fae29aa92e80b8b,"fixed issue #126, support gtid"
+57c2cc4c4e81a4014feda7d4a33b7d771d1049e6,"fixed issue #626 , support mysql xa parse"
+fca7da6bba41afa0b0a25dbfaf5a960160f3b8b1,"Merge pull request #623 from rewerma/master
+
+在CanalConnector接口加入stopRunning方法，用于优雅停止client"
+7076e3124d1612f569ebf4500db482d63e51ac61,fixed fastsql
+e251de79f3d24d1b21cd0e45a061d899af556bfd,"fixed issue #610 , utf8mb4 encode support"
+fedc07352b2c7617f65178d152553b83049a93aa,fixed issue #662
+a2241e25217f7ffdd8824502a47bf3b18623dc2f,"fixed issue #641, support uk parse"
+5349a5c49b41dab3b4ca35d6291a4e687302e664,"fixed issue #657, fixed ConcurrentModificationException"
+1f16310b7d694551f094bed49fb0576effefab3c,"fixed issue #663, ddl parse"
+b734a32ae6d0c284718b14078a2a555596188513,"fixed issue #626, support xa rollback/commit event"
+b6967dc0dc84dadeb4c48d41810294df7f65d4d1,"Merge pull request #1 from alibaba/master
+
+pr"
+0f33c8c89c6f19c810dd627f0ba7f56ab02d2861,"fixed issue #677 , add gtidon default value"
+187b98fbda5e5ab95dce1e2117b0fc26af67be03,Boolean Type support. https://github.com/alibaba/canal/issues/631
+4022aa8b5ab1ae3299906c140896c9f7805f42c3,stopRunning in example
+cc8d5b42635d6f1191e6a346dd9cc94bb7bbe24e,"Merge pull request #682 from nbqyqx/master
+
+Fix #631 Boolean java type support"
+11467fca2a078a6868473b61a9608ba45e337795,"fixed issue #639 , support rename"
+77f1dfd324ed4e160189250176b58b04e8d5f038,fixed heartbeat
+ad201660a65871ecc3ea0eb5d5a8c5da6d40b555,"Merge pull request #1 from alibaba/master
+
+pull"
+31f72e1aac99a9f0e4f0bbeb55c2875625c6bbb7,增加 kafaka producer 直接从canal server消费数据发送
+b306bde3ecf31f06675b40e4b01f65bdc2397d22,kafka producer
+9b7d62717ea210d933347a712e38a08c02a04ddd,kafka system.properties 的 bug
+e4cde2f6a12d5d2a44de16baf0274dc2b162c0cd,修改withoutNetty的bug
+0d6757c2572c1611ff119cc6e0b2a8d806ba5843,增加kafka的日志
+e35a06743c69831e71366f7b607abba9dc3cda7f,增加kafka的日志
+330da50a5ecdfd1bb0d9fb1b064e2918d950e392,修改kafka配置项属性
+3e97e6b77115ef5713cbaee7f470a900d0334a93,整理pom格式
+fa34eb0e59f257574996cb03da58cd2e8353e94d,fixed client idleTimeout 1 hour
+6faa3fd586eb902bc78d83c0e55ea17b99f15503,增加对message的验证，过滤transaction begin end 类型
+e7846085fc60f382ce6f6bf899e646c3d03ffa8f,kafka 客户端消费完成基本测试
+d991e6be6086019285d65e9062d97c081319ca54,kafka 客户端消费代码整理
+b96e4dd23a693f352bbce5000e1facf85ed3a40d,kafka 客户端测试类
+74bc6368f235b0dc7f48e5e02921c19d253e31a4,stop running in example
+efb7b32694c9f097dd4d76d5a463d45402239a7d,kafka producer 修改配置，一个destination可以对应多个kafka topic
+ec072a45d853723e0eb35496c49650a10163057c,kafka 客户端 example
+9964bb75b19fdbe7ea0e004d38ee6b2735b839c0,kafka 客户端 example 完善
+345e22bd2ca9475a8ac89d04e22e0574300865f3,kafka 设置独立logback.xml
+4bd2a79905fd71811b63a0199472dc5e37169039,kafka pom调整
+cb6c7ef3e8b468277a7b52e6caefce03e456617a,完善注释
+1b6efdf46399af7e34b891ce97b4c367513aebac,修改kafka consumer关闭方式
+31cbdb1824dc5ea36b425ad3639b0393b6c70306,kafka consumer close方式
+4e41ebf746822ed098e9d6b43a08b807a9d84df1,kafka consumer close方式
+19f4c5ae1bd88522048cf32dcb598c48ab2e0b58,kafka consumer 测试类修改
+cc5eb1075ba82eeef4fb4e88b8a8235c062ab272,kafka consumer example 修改
+df668a6f72e2b1a64c06ee06f49ddf5d6541d2d8,kafka 修改日志输出问题
+d014167226e145e1569552d8b251e9402f1de8f8,kafka consumer 默认session timeout 修改
+593902d349518d27e06562fa755e43b111bcdf1c,修改example的一些bug
+e23a19cd8555b5ccd00e9f7cf317a8541bf5b72a,整理代码
+025d36604b3ec1b6d63a0c50f956b9ceac19bb5c,"Merge pull request #2 from alibaba/master
+
+fixed client idleTimeout 1 hour"
+dca1b2004321c824b33a3eaf27d0d926d35e72df,"Merge pull request #695 from rewerma/master
+
+增加kafka对canal binlog信息的生成消费支持"
+a4255a6377e44c55bd40cb5db1fde113ca9e22b9,fixed format
+4f4b016da3b0b4c25f84897be47fb3e502c1c98b,"Merge pull request #2 from alibaba/master
+
+merge master"
+967f8d6b0fb4e448acd7b7514e4fed1054affa06,Fixes #697 ClientRunningMonitor shutdown delayExector threadpool
+bf02db4cbc0a976790b4ed43ac90fce007bebba2,fastsql 186 for build
+4af1e5fb8460bde9ee9ba78bf19a5b0800793b8b,"Merge pull request #698 from nbqyqx/master
+
+ClientRunningMonitor shutdown delayExector threadpool #697"
+ea555df315b45de5a16fadfc2e8c41b628b42ae6,"Merge pull request #4 from alibaba/master
+
+merge alibaba/canal"
+f867b183ab2f26a2382a8944076a8067ae3fc48f,"降低kafka依赖的版本为0.9.0.1
+申明server的running为volatile"
+5da8d391f8fb99c38353568e3da0f13ad4a69371,"Merge pull request #700 from rewerma/master
+
+降低kafka依赖版本，申明server的running为volatile"
+92778be5bee023ac88718eb1ff2b8fc80c9a967c,fixed fastsql version
+f2e3ff2dae524f8110989d028c6fd2524407f6dc,增加canal-kafka-client的running状态监控
+5f47809c8ea82af3eae651310dc1286fd1e0720d,"Merge pull request #709 from rewerma/master
+
+增加canal-kafka-client的running状态监控"
+9ae6c0c8639b9df9417506e9184f827914c7453a,fixed find event position
+41eef9a090e49f4b0efc537d0c158e590316ccd6,"fixed issue #729 , isDdl bug"
+4d4d97419cab54f28e30e01c65e1d72d2512ca82,"fixed issue #726, 去掉socket receiveBuffer/sendBuffer的设置,影响网络吞吐量"
+f0bed4c762a015857c063bf83cee54c32f47b40d,"fixed issue #726 优化时间类型的解析,速度从20MB提升到45MB"
+54168af790a40b593dae927880bedd1eee9696ae,add create database support
+da8bf59d5b342fa3f66b33cd2b81c08cd1608406,"fixed issue #726 , 多线程解析binlog DML事件,提升性能"
+bb8fec963b8feff9a1737a80eaa9140a951dd89d,add create/drop databases event support
+be605617c3d36df9952963e729ac2c2ec2c714a3,Parallel参数细节的完善
+3308bf0662d55fa95949975f5ee374e309f44ca6,"Merge pull request #737 from lcybo/master
+
+Parallel参数细节的完善"
+cf7af17aec62b1a59a2670400f511fe670234c3e,Create restart.sh
+92c570e967db002e460f367e8429294d6a157920,"Merge pull request #1 from DinoZhang/DinoZhang-patch-1
+
+Create restart.sh"
+3efd589cb169f8f5f70c856427a905cda8c7ee57,"fixed issue #724 , retry for broke pipe"
+cef431c8af7fd05b8f3ec49983eeead178be4e08,"Merge pull request #734 from qmz/master
+
+add create database support"
+38eecd9aef565aa665243edecc473b337351b03e,"Merge pull request #747 from DinoZhang/master
+
+add restart.sh"
+c1805a4831311cc4146db5b9c966f2a6add317a1,format DruidDdlParser
+bef6a66eaf107f6451a352b7d9cb71919e442fda,"fixed issue #296, support getWithoutAck/ack/rollback for NPE"
+441d2d244929f6b28aacdf1c6c58a749cbe87c60,fix issue #751
+33a2a6121a8cae1b91ddc7798c199a4e022a8989,"Merge pull request #754 from wingerx/master
+
+fix issue #751"
+df8fe4a9eb0f82a3b43f974fcfacc0c92e522f35,"fixed issue #756 , improve exception logger"
+8e856acac595a3d37c5d086fb3776eeccaf764b4,"fixed issue #742, improve h2 config"
+89726a636530b73a6b97cecc2b5bcee4fb464f86,append gtid lastCommitted and sequenceNumber support
+10bb800f85ac047071a942a3323fccebed3dac44,"fixed issue #726 , 优化SessionHandler的传输处理,提前序列化Entry"
+c6eee47af67069a514f203e1ea7123a542a01410,"Merge pull request #759 from wingerx/master
+
+append gtid lastCommitted and sequenceNumber support"
+5582a38930814d30b147285a4074fe93c72849a0,"fixed issue #726, 优化SessionHandler里直接拼byte[],绕过protobuf的多次拷贝"
+b19eaeb89a90b980e550e98b38e89efdd5ead222,"fixed issue #726 , 单链接复用ByteBuffer数组"
+617f9bbc624b11ebbb179d6ddecc73c37ba219a6,添加Canal商业化版本更新说明
+b9156936ae98085204e8eea0005931598c143161,新增商业版本说明
+b880d96a862c38965ce26f8766f28806aea2c1fa,新增商业化版本说明
+b9d7f0b6d0bd9a2f6b6c7541e427bc0d6503ced5,Update README.md
+67f2e55d38c50686bb1ba7a68e7c6181617d5c46,Update README.md
+b4c6490c94b9d4c6f1de6d02cf9055403b61c570,"Merge pull request #762 from CAI1987/patch-3
+
+修改Readme.md 新增DTS说明"
+fe38bc16d2c95c4367e23fe06ceb628f20906b8c,"fixed issue #726 , 优化完毕"
+77c1c65b83a13ee416009d028e18555ea4b4a032,"fixed issue #726 , 提交测试用例"
+d520260fe891396cc73d0ece48cc662e5c1ca6b6,remove unused
+7b52568575b03b0791ef05aadbbf5dff9ee8c93d,fixed unused code
+89eb3d60785b2b91e42f8984ec8d6a9db3cacbf0,fixed test code
+20807e58c8f189946bdd26a6ea48ac4233f72c18,Update README.md
+62b1c1ea93f0aac0069c94fa2ff8973b5574d5d9,"Merge pull request #768 from CAI1987/patch-4
+
+修改Readme.md，新增数据订阅活动公告"
+aaf18ccd7e94150c89e49e2b16f875642818ca29,fix issue #771 #756
+ccd1e52411809a796dccc13fd5b91f3557d9a1e7,fix issue #771 #776 756
+22a0d88fe97c57c2a9c7237d60b74edbe77a6ed5,"Merge pull request #777 from wingerx/master
+
+ fix issue #771 #776 #756"
+e608e1d6012e2cf5bfecaaf068a730633dac8a70,fix bug #776
+129051a56e950c84f1cf9673a5e1b6cc3c45538c,Further improvement for issue #771.
+698573b14a26ecedbc55e1594d3be9890e7de6a4,"Merge pull request #780 from wingerx/master
+
+fix bug #776"
+72b907a75f78b3adae78dba42f16b5c1677cdab9,Further improvement for issue #771.
+d624358cb595891bd85d13d43f334978667502d3,"Merge pull request #782 from lcybo/master
+
+MysqlMultiStageCoprocessor健壮性enhance"
+8cfb70e0809ba12fa5bc9f0131e4412064d8b1ac,"fixed issue #782 , 重复了exception"
+c0a40499b0e478398bf838da8b72fa6b2b073bd7,Canal monitoring(prometheus module) snapshot version.
+1eaf198acfc0ae4464446315aba773ca50a27eff,Revert test code.
+fe12a8481f7299f70ee976b670617ed74950bb84,Merge pull request #788 from lcybo/master
+3d5f13fec8b840f5d913103264db8f7f4c2c1f72,kafka producer 适配 row data for performance #726
+50d1ec583b3aca09ada16ebd32bf84ef67ac3afd,"Merge pull request #790 from wingerx/master
+
+kafka producer 适配 row data for performance #726"
+93ebc7b973b282c38d9cfacd7d7846cac309403b,fixed unused repo
+26edbeaa280b8c3617fea51f16f9358d67f659cd,fixed kafka performance
+da1ce51a0ff52ee289ce96243bc4c5952b2dd7b6,支持GTID模式下，通过获取当前gtid值
+7fd958a490d9a5bb1d42d43c84ddbc5e6bf4d6d4,"fixed issue #801 , support canal docker"
+bd6ab1cc80216331f004ef9fd7117c777ac46851,"Merge pull request #806 from wingerx/master
+
+支持GTID模式下，默认获取当前gtid值作为起始值"
+872dad8ce82e21e3acfdb5d3f596e81e52b44f2a,"fixed issue #801 , optimizer docker"
+3c716e2a436f729f1394e9a92e86be2e9095da1e,instance由manager管理时，CanalParameter#MetaMode增加本地文件方式，本地meta.dat存储位点信息；
+4e5e2f84e0abbfd38bd1d5f440b2a02bd21d2838,Merge branch 'master' of https://github.com/alibaba/canal
+764e1b6dc012ac6ce10b17e18ce9fcf95c400d9c,"Merge pull request #807 from qmz/master
+
+instance with manager模式一些微调"
+8a952d3a5f41939b249bc85e7cb3b81ee41ff873,fix bug: kafka get row data for performance
+119c5a697157cc30e3be08faad0f79c724d7dbf2,Merge remote-tracking branch 'upstream/master'
+7c7ce4345565d4d2a45afa12f76868bab0534c98,"Merge pull request #810 from wingerx/master
+
+fix bug: kafka get row data for performance"
+7d9e2dc69b63df1053c5ee89541291e4f9b114ef,fix #802: 从otter中剥离MySQL 相关同步实现，作为example的参考
+02868d8fecb50e445d8b624ca70b25da36cda788,"为了解决回追数据时Rowdata与当前schema不匹配
+对TableMeta提供持久化接口，可以根据timestamp匹配历史schema"
+c4c45d9e0b7cadde871485162e3ed95ba354cc5e,"Merge pull request #813 from wingerx/master
+
+fix #802: 从otter中剥离MySQL 相关同步实现，作为example的参考"
+cd0bf60824e6e469982c2a7b04448393c5198529,fixed compiler java 1.7
+4006cedaad464e2b2accd6d92b7401a4cbf6d643,"fixed issue #781, 修复部分DDL解析异常"
+6d3584b6fb0f8060427ecf23a64776e27c50edad,移除canal.instance.spring 依赖后，需要加入druid与mysql connector的依赖 2. PropertyPlaceholderConfigurer由canal.instance.spring移至db
+f36ce647e690349bb710c01287f359274dd656c4,"fixed issue #781 , upgrade fastsql 540"
+09339333bb1d0e8a501205caa6ddd32757613d27,"Merge pull request #816 from wingerx/master
+
+fix ci: fixed compiler java 1.7"
+23f7b3b5d82c3571454877e32bc6f5bbd020b4c2,"fixed issue #818 , tableMeta tsdb bugfix"
+b1dc5bd59f66fdc6df0dbf449d7b9eec8c58452c,Merge branch 'master' into pyf2
+377a72e1c0373f5377f48e68307baee0c5bde37a,"Merge pull request #814 from payonxp/pyf2
+
+schema history storage interface"
+9e816bc48f9955f9e2839873993cef9627c2f389,support otter use tableMetaTSDB
+61c7f7738d33dfb6bd939c3a4211caf0ce86e218,rds binlog 下载支持
+92f24bd02ea1b0aab409b585087ff763161e91dd,Remove dirty test case
+68d8afae3e9cb4c21c26b3f7c291759f0c9e7426,"Merge commit '9e816bc48f9955f9e2839873993cef9627c2f389' into branch-rds-support
+
+Conflicts:
+	instance/manager/src/main/java/com/alibaba/otter/canal/instance/manager/CanalInstanceWithManager.java
+	instance/manager/src/main/java/com/alibaba/otter/canal/instance/manager/model/CanalParameter.java
+	parse/src/main/java/com/alibaba/otter/canal/parse/inbound/mysql/AbstractMysqlEventParser.java
+	parse/src/main/java/com/alibaba/otter/canal/parse/inbound/mysql/MysqlEventParser.java"
+b53131553ed974544f881791302f53a939ed45f6,Commit test case
+89a32aaabdabe2920045555f2dbded9c9c32f312,"Merge pull request #825 from lcybo/master
+
+Remove dirty test case"
+3eef7b583df9677da7b503007261479be56ba032,Merge branch 'branch-rds-support' of github.com:alibaba/canal
+8ce320148cf57c54215e83af32e0244079fc902e,fixed code
+d7f48f534bd70b041c8971f19ec01f2ed928fd4d,fixed encoding example
+1c245280c7fad1c924e99a3d895b17518adbf591,netty3 future listener for metrics.
+bd14848600fa40729922b988041f5673994ae240,Builder of Aggregator.
+782ef7fe14ca75752b821fe846fecd73058c6a5a,Netty server/client profiler skeleton.
+01e74c73e2b2c6572cdbfb7650aa254e68bcc2cb,Reformat code.
+da5fb30191879fb3d5960b84722583e6deec8f2d,canal server metrics refactor.
+fac278150ecce6dff69cc3a9d5fa696eaee1e4cf,"fixed issue #801 , support canal docker"
+07d4d2023a81cd135c03cb203d6dcd18aee390b3,instance由manager管理时，CanalParameter#MetaMode增加本地文件方式，本地meta.dat存储位点信息；
+2084b1fc37cdf2deabd4c12209bab9b660cb8731,Add listener to write.
+75de57c102f753863fa14978c77d0c821a933c83,Prometheus refactor.
+fec9803aaef80a86ef79c7144806e8263c3fb951,Refactor metrics code.
+179afb03407f7ebc7aa2b330e6de386d5493b537,Canal metrics snapshot version.
+dfd58f4aa1a5d5e590ab76d4c7c40e05befa583c,Improve sink blocking time resolution.
+d7bbb0d1a7957c0b3b23da8bd0c31cdf5e173938,Reformat code.
+ec007924755a0dc51c0037c13b03ab23a324715a,"Enhance heartbeat, rowscount."
+fb1126cf390c3f062ec6ccabbae9900003cd3aa9,"Merge pull request #828 from lcybo/master
+
+canal 性能指标采集"
+d3f52c6d3d683dd4865ae2ac83431982f3d2a5e9,"fixed issue #727 , support rds binlog dump"
+a3bf1d59e64441394b0f91cae933a6f846846615,Add size label for store metrics.
+e8aee3a276b0c8339f015c1e4f30b93c2c183d09,Configurable metrics server port.
+72213bb80dfc48d9c2af8eb844e378b51c969716,"Merge pull request #833 from lcybo/master
+
+store增加bufferSize，metrics server端口可配置"
+11d4761bcb89077c6af358d95aa82d870cf069af,fixed docker build
+8a74504fe3ec5c149b896734d052bb5798b73462,preapre for 1.1.0 release
+13291c8d7bd76c71cfdf3e1a058409393ee16e18,fixed docker build
+84f3d92790e439725d2e8f330c13ef7ac170ad6d,"Merge pull request #1 from alibaba/master
+
+merge"
+c8a32b578c8785601d417b85548c5e6a77ce012b,debug memory leak
+679fd464f4b18a25b3a152785da480ec03f93d56,升级Kafka 版本至 2.11_1.1.1
+15526aab8c39b7fcd4543a1d218e7add62e62ab9,"Merge pull request #840 from wingerx/master
+
+升级Kafka 版本至 2.11_1.1.1"
+feb2af060f74917b0ae8387bdc6f347a31d35b17,"Merge pull request #839 from payonxp/master
+
+Debug Memory Leak"
+efb7adc9675e11df4aed243a8d7ae4f9ade62a6b,Create canal prometheus docs.
+47765526050851ff34f15eccf7e25d0e04b5c6c3,加上 if (logger.isDebugEnabled()) 防止message.toString每次都会被运行，message过大会卡cpu
+a480ef60ea5e0a93a62f83fc5712ddb2f185c6eb,"Merge pull request #844 from rewerma/master
+
+加上 if (logger.isDebugEnabled()) 防止message.toString每次都会被运行，message过大会卡cpu"
+1fd623311eb87e29bab6a8f6c51d0091c3fe568f,"Merge pull request #841 from lcybo/master
+
+Create canal prometheus docs."
+a1588e5f983dd06bfff24ab7c9e99d412f502935,fixed merge code
+3053b9635ac124a58d50a34623bd9452a1efecdf,Add header size for each packet.
+f0ea893bf44127be572d6a1625b132a8ca8b231e,"Merge pull request #845 from lcybo/master
+
+Add header size for each packet."
+e879216fa4448c82931145dcb96a22280196fa01,fixed compiler
+10114f4a9f648ca99c735793cdaee172f910d15c,"fixed issue #727 , support rds binlog dump"
+cc31e2db7ccb07a2227eba0cae598656cae2420b,fixed docker build
+c421ff718b42521474b24fd774476aa5bddf034d,preapre for 1.1.0 release
+156fc0edbe8e63bf4ed141aca58ea59cf9e8be13,fixed docker build
+7ed6fcdf04824947d841654cc9dee57887a6964f,debug memory leak
+2accfbf5db25547fb41fef3842f7c8b3f2142db9,升级Kafka 版本至 2.11_1.1.1
+62f975deeb421017b985ba912459421cef02b39b,加上 if (logger.isDebugEnabled()) 防止message.toString每次都会被运行，message过大会卡cpu
+0131c3ad130d63431766a1b0ee98cc4657219c1f,fixed merge code
+10a80b2752a8878d434d6ce5df851b5633239313,fixed compiler
+a6abe7fa827cb1fc1d6ce3c2009112181107f923,Avoid 48 years delay at startup.
+e81b4279b81507bc8c9a5fb48cbb73fc4d05b3a7,Merge branch 'master' of https://github.com/alibaba/canal
+4a10986b5fc16f98c601160073cfa21bf79f4b45,"Introduce grafana template, update images."
+d06ecdef20b9d9423602b00ff07b5196e281e8fa,"Introduce grafana template, update images."
+59169876eb7a229017c26b381a3cd7bdd0bbc389,Update images.
+a4445043c1f07f6ae6d51ad2747df17e1ac49013,"Merge pull request #853 from lcybo/master
+
+修复启动时，没读到带execTime时，出现48年delay。"
+b6359d014f5ba7fe5bd5ab61b945dfc714b63fa4,Add overview image.
+2656d1d2af9b60e90215bee75ccbfcca61d88611,Improve overview image.
+2784f33b5242037d0f89ace5620906f78a31fd4b,Improve metrics.
+fbb3b814c09124e5f300668aca77468e1ca074d9,Improve image.
+5588da59b900687e786975a38ae1d9d01b28137b,Update response time image.
+35797ca6ff766e87f00da31b3dd848299b5d1fbe,"Merge pull request #854 from lcybo/master
+
+根据comments的改进"
+02757693b42e8553ce634ee5d9fe49c43cb169d1,Remove TPS(events) in tmpl.
+f567abdaee79ae0a7296bede48a33d347e105fcb,"Merge pull request #855 from lcybo/master
+
+Remove TPS(events) in tmpl."
+cb884094d58319e9331d17db7be603022e2a45d8,fixed metrics
+dd8b1ce9551b59b719516615e43193c467214ade,[maven-release-plugin] prepare release canal-1.1.0
+9bde69b6d6f9b3997d14446f1581924365139c0d,[maven-release-plugin] prepare for next development iteration
+0f3c427e2820acd51b63f10533c76edc53530b3f,fixed docker run
+47348e2e9612b3099b81b1d449a095de722c9fa0,新增client-launcher模块，外部数据落地适配器的总入口
+1bef1b72bcd2f142be764deee12d5bab5400ad06,"Client QPS指标的datasource配置项由""Prometheus""改为取$datasource参数"
+de59d224297c9e25e29dd5c04ee5378608257f26,"Merge pull request #861 from Lee-Think/master
+
+Client QPS指标的datasource配置项由""Prometheus""改为取$datasource参数"
+20b0b39b14c94e65844b53064308902a127cac56,fix #849: hbase数据同步适配
+3c80b6c1f7cfa8db6ef6ade66d18f40a4412c25d,"Merge pull request #865 from rewerma/master
+
+fix #849: HBase数据同步适配"
+6e07021223d305b8fe6dec97d54eba83d93548ae,fixed client version 1.1.1-SNAPSHOT
+e7f07d7d3e8cae9f1cd9ae6829a8677e2543b008,整合canal.server和canal.kafka
+fc3de4b7fdf5ce74f0f82fbc0ae2be3d855baf73,整合canal.client和canal.kafka-client
+9e3d4a7ffe5371557d79de1899fb68152a1a1d83,HBase读配置空行的bug
+1aa2e1a4091c9c36e40baca2cdd633b4e7f13aa1,Ensure at least 1 thread for thread pool.
+8585761f425fac6249beb5502e1fa8b0c52a7051,Merge branch 'master' of https://github.com/lcybo/canal
+899592ce2a18f2787ae1adab4ff5347aba769845,"Merge pull request #873 from lcybo/master
+
+单核环境下创建线程池会出错。"
+4fe6c36c499ffe044d50a9ae1900427433797e4c,"Merge branch 'develop-tmp'
+
+# Conflicts:
+#	kafka-client/pom.xml
+#	kafka/pom.xml"
+b7de1e50705fc196d2261a8d983f0228bd86d960,删除kafka kafka-client模块
+6b94f396ffaca3dfcaef5fb6af4c152982054399,移除kafka client基于zk的HA机制
+00b5ade787b97fec5f3cd8601941d5c6d49e80a4,"Merge pull request #876 from rewerma/master
+
+整合 kafka 到 server 和 client"
+c1f92858a27f201504bcd86eea69f0cee34071c5,fix bug: 并行解析模式下，开启gtid 会导致解析错误
+6fe3ef43d86f77718ea701136c705b3cbc08e3cf,fix bug: 并行解析模式下，开启gtid 会导致解析错误
+9434ed513ee526e216b6f5a28b8aac859398a67a,"Merge pull request #881 from wingerx/master
+
+fix bug: 并行解析模式下，开启gtid 会导致解析错误"
+b5e05c8c77fd7091901500360e28f568b20ca89b,kafka client keep alive间隔时间
+d5122dcf50ba90da4c33280a1cfb7bc9bd9f4577,Merge branch 'master' of https://github.com/alibaba/canal
+bcf30a9a05934e30220b9f8e6aec41f2d0246b6f,去掉kafka canalBatchSize使用默认50
+fd5cfe23db71434a600a81a4f35e3ff50c1df9bf,"Merge pull request #892 from rewerma/master
+
+kafka client keep alive间隔时间"
+ea81b1dc92cdfd0ddadd6db36c25ca4989257109,"fix #893 index name contains ""on"" keyword"
+06275a46ed0a0dfbf8a1a9aa2e4699d005084e7a,Fix no data points while execTime exceeding current time of canal server.
+283956ee93473192052d30c3420a3ce9685cce28,"Merge pull request #894 from zhangxin1988/master
+
+fix #893 index name contains ""on"" keyword"
+21ef2e5dd4b1a6de880c432aae1b7172ea7f2397,"Merge pull request #896 from lcybo/master
+
+修复execTime快于canal当前时间，delay无data points"
+ee5775ce05acfc053842a69f24ef745c76c74171,去掉kafka server端TRANSACTIONBEGIN和TRANSACTIONEND的判断
+7de40091a34aaef868fa1244dc29a46602f625e9,fix bug #890
+ebf91397627e22cfbf07263663e40bdb67dbdc4a,"增加kafka producer sender的callback，canal和kafka同步提交回滚
+去除一个canal实例对应多个kafka topic的机制，一个实例只对应一个topic
+kafka模式下server端的批次大小不能超过1M，最大为900K"
+17f345bfe5bdf7d7eb00ffe6667573d7ec5bab84,0.11的环境未测过，先去除kafka的事务
+81c216f1c16a113047202b188a158074c0797612,增加kafka get的超时时间
+728550cac3dd9a400f2d0077c363a25b4a3a399b,增加kafka producer send结果同步判断
+e78de8568e4aed8960ad3ff3c1c9b30577885ffe,"Merge pull request #902 from wingerx/master
+
+fix bug #890: 并行解析 + Gtid .没有初始化LogContext中的gtidSet"
+d4a70d5eea5f6baa5e88529de851136e0675725b,"Merge pull request #900 from rewerma/master
+
+kafka server端代码调整"
+47ac10ca185ef128ccdd055cb83fea5def7428c3,"fixed issue #868 , NPE fixed"
+a9cccb3017709f335c57d74354eef72ac97e9df8,fixed format
+f5bf1667a9bdb5559532ea822615628a6dd68bef,fixed mq and client launcher
+82f8a9fc980dd428eb45c8f66789564632723897,"fixed issue #483 , show slave hosts"
+a49796215390b8e74c201ead54e4db95093f5acb,Fix upgrade protobuf version
+32910b59830d6b10fdd4a2218a5151af4a922838,"Merge pull request #5 from alibaba/master
+
+merge from alibaba/canal"
+e450c3f83fb6dabba3197214dc32ea29c7809f23,fix #912 通过maven插件将guava修改包路径打包进canal.client
+bc8f201b219be35290512a682da4b0b2ebae94f5,"Merge pull request #927 from rewerma/master
+
+fix #912 解决guava冲突问题"
+847634a0f23dbb4094b09e57dc13ef5ddae0603f,"Merge pull request #1 from alibaba/master
+
+pull a request"
+8ae8f526a6e6b10896864ef56216c58886c23889,fix #904: 空记录时sleep 1s防止循环get数据过快
+a6798c61df15741bc5ae4d46e93718db445bbcc1,空数据sleep 100ms
+a332f23b118df9fae99b538ca57410a404218f26,"Merge pull request #919 from WithLin/master
+
+Fix upgrade protobuf version"
+1ab1f119b86d89eb0bd11ab1d19a9340ba4b15e6,"Merge pull request #931 from rewerma/master
+
+fix #904: 空记录时sleep 1s防止循环get数据过快"
+b28e3d6f188e3f4bd999b292b9b387c5c6d66120,"Merge pull request #2 from alibaba/master
+
+pull request"
+ca61be5f5ad0cb73e42c5c4fb2b3c4278ad4e352,fix upgrade proto2 to proto3
+52734eac7e33b7a569b1126e69bea6f6398184fe,"Merge pull request #938 from WithLin/master
+
+Fix upgrade proto2 to proto3"
+e8e00324044f54a385345f99229c3c8cd38b5bd5,增加扁平Message用于卡夫卡数据投递
+abf6a37f3ad07bf2d01e9b29cfef61184fc6ec6c,"Merge pull request #6 from alibaba/master
+
+merge alibaba/canal"
+f3d1c8b754f030feb175966dce8aad2faa32d490,Merge branch 'master' of https://github.com/rewerma/canal
+db56effd911fffc60fa068993d3e9008c4707754,整理代码
+1516cf779db1bcd311c1aa2266403b7399685d00,"将当前的gtid，sequence no 和last committed信息增加至Entry(trx begin/end, rowdata) Header 中,客户端可从property中获取相关值"
+af1a6a851fa63755414316e3f46c9a699e58054b,Merge remote-tracking branch 'upstream/master'
+6e84b98651df5ff5a9450b25f5edca7fc77101ac,example 增加获取当前gtid相关信息示例
+5394613ba667f9747673cb8921fc50acedc9d8b5,"Merge pull request #942 from wingerx/master
+
+增加当前的gtid相关信息至Entry Header"
+6682c56b9f1f15b544daeb2fda51964c371d8c6b,Canal metrics group mode support.
+cae6df1457a6d4871aa55ec82885dd6f74286b63,Update grafana tmpl.
+88bf2ae64dd588251bc6200fd10a45828623142a,"Merge pull request #3 from alibaba/master
+
+merge local repo"
+7005c11ac2b64abad4704c1bab1212d657f5e614,"fix序列化的一些问题, kafka生产端统一使用异步"
+9748fceda8cefb01e673da5575c914e9799d6ffd,fix proto3 bug
+1a8d6e65cf3b471c6ca90f28f13fed6a3464fd15,FIx
+10b0ade627491325199e41aeab4bfc8a764b3fb0,"Merge pull request #947 from lcybo/master
+
+修复group模式报错"
+a11f9e4b34c804cdcd913906694cff80884862b8,"Merge pull request #949 from WithLin/master
+
+Fix simpleCanalConnector bug"
+e9439125bd4beabf385b232cbbf270831bbe53a6,Merge branch 'master' into master
+4e1675033a6bf9aa5d9edc824d53c56b2b057593,"Merge pull request #7 from alibaba/master
+
+merge"
+19f765df77410c2e56a893a1d77aa98b084cef6c,单词拼写修正
+b026c44ea87fd2a392bf3abe59733c9037132910,"Merge pull request #953 from DaiZZZZZ/master
+
+单词拼写修正"
+09df602f3bd060a297bb7362409b344523cb5b8f,support filterTransactionEntry
+d5aa324ce455471cf2ea62d519cecf0062628001,Add RocketMQ canal connector
+1a11153cd28d23e9c9f8fc5c7cdaaf7175e34dad,"Merge pull request #8 from alibaba/master
+
+merge"
+0cda90cdeae57c4d30468ffa581e105c784695da,"默认将数据发现kafka的partition 0，避免多分区的数据一致性问题
+后续将支持通过id hash分发数据"
+74890050d0c323877eb9c1e3dec128e989eb6ee8,kafka生产端增加按pk hash到对应partition功能
+e566160f1ea24c3db15b45f51b1b6ad2ce226b42,整理代码
+4f2b4cea53e9dfc526f6600fbf1c0a3bf955dabd,整理代码
+19b7f730b640471150796f487f002378dca0cc0b,整理代码
+05718a9f20cd8620dcef2bd05c02c0297bb1105b,"Merge pull request #958 from rewerma/master
+
+kafka生产端增加按pk hash到对应partition功能"
+fd80f953e97eaf741ace487f950c8d2492ea60a8,Update README.md
+9535e82da6a3ed760919747122f25b8ee1ae334e,fixed readme
+9d48d23787c8e24689c7a3c8b431c6109e0a5d4d,fixed readme
+00ec70d425e5ebbd0dbcb7211c7354325af99be6,fixed readme
+821f3eced54b8a102fbc25f6ff92946f34fe426e,"Add mq adapter
+
+Signed-off-by: duhengforever <duhengforever@gmail.com>"
+a22517adc21101d85c56acb7a839c9bb5e92d1d5,Fix link error
+40f8c931c7540c826b9dfc8208e2e5950f0b5dce,fix bug #968: 对于workpool与BatchEventProcessor需要手动调用halt()，否则会导致其使用的工作线程(池)无法正常关闭(parserExecutor/stageExecutor.shutdownNow()无效)
+b04446d24de97556c102eab47191caea672368d2,Merge remote-tracking branch 'upstream/master'
+ff592758cfb0ae93a45df0a0e5baf1a15f747a3a,"Merge pull request #970 from wingerx/master
+
+ fix bug #968"
+a37a7ff1423bd3af364fd21cc452ed2784787d31,Add RocketMQ example and polish mq abstract class
+5ae16b1c7c1b7246b564751ea0cc0bdb72f4d5f0,Merge canal repo master
+af03f07cc7706cda66a98df5360b31424cf657d8,Modify default config
+9da8f9cc5a7e214610758667bb030f640f800380,"Merge pull request #969 from WithLin/patch-1
+
+Fix link error"
+fa8ffb8e66176e52464cd04156cd565a5e37f2d1,"Merge pull request #9 from alibaba/master
+
+merge"
+fa8588f766630ecd2b17de5d459ded94bf1dd914,Modify canal-client config and polish consumer implementation
+3ed89877796ab113504165578b7555870b589884,Remove useless log print
+c3327e567ee3a34104e742f69fdb77d9d89440bc,"Merge pull request #973 from duhengforever/develop_rocketmq
+
+[ISSUE 800]提供RocketMQ原生接入canal"
+9344ed121f1aba18da23c3edb6bbd210e4ba253e,format & import
+eb2a83b975f5cae9d7372e72af0f78ee0c815edc,fixed test
+d20485027f8880177055e3269ee861ac54b77c06,"Merge pull request #10 from alibaba/master
+
+merge"
+2e92ec3e4d124609dce4a3eb6a76763bb77c6ee1,client模块中rocketmq-client包scope provide，外部使用单独依赖
+e4b6385dcc439fcf495c81b0c0f89da858dd377b,调整kafka同步发送和消费，确保消息不丢失
+1701a4c97c6bdc040a58ad708124e99885600d5d,"Merge pull request #981 from rewerma/master
+
+ client模块中rocketmq-client包scope provide，外部使用单独依赖"
+53c2a02124a3f17410056e7561082f540724e62c,增加 目标数据库密码加密解密，采用druid方式进行加密解密，并设置canal.instance.enableDruid=true时，请使用druid加密数据库密码。false时，就是使用明文密码。
+4d36c60738345b6123ccdc16cde4688d167d5f73,"Merge pull request #990 from shicmV5/master
+
+增加 目标数据库密码加密解密，采用druid方式进行加密解密，并设置canal.instance.enableDruid=true时，请使…"
+7c44e5933d2cc62d40e61a316f2b41fab1493dbe,"1. AbstractEventParser 中应该对multiStageCoprocess每次在while最后进行stop而不是reset， reset会在mysqlMultiStageCoprocessor中重新创建两个线程池， 如果在dump出错的情况下， 会无限多的创建multiStageCoprocess而且不释放
+
+2. MySqlMultiStageComprocessor中需要判断是否已经shutdown， 实际情况中存在shutdown为true而terminal一直为false的情况"
+5d0f79932a5f49ad7fdbfc34a106a293ebb6ed07,Update README.md
+d88f204a15a89a14c36f2048406d4c4d1ee29f45,"Merge pull request #1002 from wallellen/fix-release-threadpool
+
+1. AbstractEventParser 中应该对multiStageCoprocess每次在while最后进行stop而不是rese…"
+22d1fc98ee011056a800e46d7a69690519eac426,"Merge pull request #1006 from WithLin/patch-2
+
+support  golang canal client  address  link"
+9c24b26d025abb3a58177a515ef9feb8170a76e3,fixed gtid
+b893aafae764aada0b8122b9cb7f7f40472c9487,"fixed issue #1001 , support docker restart"
+fc050c3ce9af338efb61ba8f9d837f8dea886a03,"fixed issue #980 , support TSDB dup column"
+017fe87e4b55b6b1a2880c180f406b6f3e41f1e3,"fixed issue #928, support Dml.executeTime"
+5eb67990ca222fe3f4372965ac396ff3939e7a8a,fixed es reset
+75f380252eb964156714585fb7a00b617ddec679,"Merge pull request #11 from alibaba/master
+
+merge"
+5d55c7ac00d6ba2fb46767a69a25d420e5b22c14,fixed fastsql upgrade
+a823b909ad53c6985fca10c3c7990fd902f9fbfb,upgrade spring version 3.2.18
+c16037122b9f4b1a3961f8b1cef4bd169b7c932e,修复通过`show master status`获取到多个GTID 时，回车符导致UUID 解析失败的bug
+61aea888f6fefe8f00d8b93324aa3638693ac11d,Merge remote-tracking branch 'upstream/master'
+986840b6bfe864126ebcf1fa8666371c05fb63a6,"Merge pull request #1014 from wingerx/master
+
+修复通过`show master status`获取到多个GTID 时，回车符导致UUID 解析失败的bug"
+3e49e33f9ffd68defd59f4b5fbd045089405179b,"Merge pull request #12 from alibaba/master
+
+merge"
+b1e2ab444807c2b8af28bfb97515646405a402f0,Update README.md
+80d3781d8192db8346b4e8009701dc6fc194bf61,Update README.md
+5bc5eec85e99e3be0f068a556e7cb4d4be2647a0,"Fix Kafka FlatMessage Model Null Value set to """""
+a91f204682ced2c193d187e76c65a1a2c33bcf75,新增adapter-launcher springboot工程
+243e129710b957eb66851f1ec60793a9a2c4acb4,jar包依赖调整
+0ee46ad70eb3a15de56c0fb82ba93cd63c9456af,jar包依赖调整
+bbb4c4347eaa9d0a56c55bad2fd50e9ef64dc1fa,修改adapter-launcher模块名为launcher
+1b88430f71ca814badc85ae9582b5c8b3b4a8f5f,"去掉client-launcher, 移入client-adapter中重命名为example, 调整其他相关模块结构"
+1830458b6b8ae0b5479fba287021958a777224a0,"Merge pull request #1031 from rewerma/master
+
+新增adapter-launcher工程"
+2202ec451af6f594399e6b0a3927a658e6391232,"Merge pull request #1028 from ttting/master
+
+Fix Kafka FlatMessage Model Null Value set to """""
+741f6310b34db4e9a9b15d498e0d7e4b8afb4b5a,"Merge pull request #13 from alibaba/master
+
+merge"
+c75c24808664ede8faadabd082b7a191f3c232fd,"fixed issue #1019 , support canal embedded with Entry"
+15e79c140075a145ba8a422cce2ba626fcb222c5,调整Hbase适配
+575dd59c7893e6a41f8b0da6b9f5a107580d40d0,fixed mysql set(8 bit) type parse
+92708346310f679db608a2f64bdde8b22b7d2468,fixed rds ak/sk config for manager
+b5dac60cbb192ff2f9722b4ff3a2c1e4ac103326,fixed cliet-adapter artifactId
+0a7251add08f927f76bc5170258c0662a9c38c82,HBase的etl初步完成
+49caff57599fe550cc55c30a65ed8dfe6f7b8dfb,HBase的etl初步完成
+30a11c75cbaecfb290b5ae43df2191b82818d7aa,HBase的etl初步完成
+8dbf63e4364bcb64b63627ef0632549d10965b6e,增加adapter assembly打包
+27dba9ec1bf921eddc6f2dff9f9a8b5cd797032b,HBase根据datasourceKey导入
+346d091d003a8b604ae2a462bc88bcabc4a57317,"fixed issue #1032 , support raw config"
+0f1334c92c8ac1f3753a8a6f9934d4570000a3a3,加入同步开关
+42a4abe4c7ff6abb0d57adfbac4afee955a88bf7,HBase etl锁定同步等待
+6ee6b3c3980f422921dce524fdf806286572589f,同步分布式开关
+c3402a97f377b3cb8dc1d69a5fab027f293088ee,etl 增加同步锁
+ddfc2464f379a66663720294a341ba533f1c7d83,etl 增加同步锁
+b5f5d3f0f0a92fe8b6fa4e0082ef4dc53c66344c,"Merge pull request #1037 from rewerma/master
+
+完善adapter-launcher及hbase-adaper相关功能"
+d70dc8b88c5cd1a5506b191226fc89d3b8e72244,规范注释
+f7185a618b0e269c3dbe4f2af4ccdd4abba13fa8,"Merge pull request #1039 from rewerma/master
+
+规范注释"
+848cbe11dd024c8226544dbf59fed137a25e39e1,代码整理
+bbfd4b499662c91662acdb81cd2439c0844a6a0a,canal-adapter readme.md
+fd3927ce3eeef0b399a5bc1db30850455e7c6460,"Merge pull request #1042 from rewerma/master
+
+canal adapter readme.md"
+3b1f6ce4fbb0ab00a82d097093d2b7c8958426f3,Update README.md
+5cfbc6b91d0e55baba1fe525c8c3f3d4f63dd82a,Update README.md
+0d0fcbbc0b885d577ebe08eed33ae1b9e413e0fc,修改HBase适配器配置
+fb936f896eb6d2b33c1e3ad6a95c6ddfe4b26ffa,fixed client-launcher deploy
+8446e177030a53997cc7b1f83d5c3580f4dc4ee9,"Merge pull request #14 from alibaba/master
+
+merge"
+0d22dbc9828e24cc5ffbf8bd77914db8b93b990a,修改打包配置
+30b7de7233d30969b13fb2dd970f92042991521e,"Merge pull request #1045 from rewerma/master
+
+修改打包配置"
+2d930894ffc944af6d62bffe60118a7a0c98d3e8,"fixed issue #1046, tinyint(1) unsigned with value 255"
+1e2cf9d47636b382fe1c76f8d00e9e641699603a,fixed bit(8) with value 255
+f822761ab27bc5ee262ca8b80cd2e0dcb283624a,"fixed issue #1047 , support snapshot expire"
+fd7b9d766a89f8a6621d37ac6a109e98f57cd97f,fixed snapshot expire
+87ac3daecc3f45e796ed56bf1a1922200533c26b,修改hbase配置项名
+2c6bd3ee1b23f30fdb2b1f748805284a4fed872c,"Merge pull request #1050 from rewerma/master
+
+修改hbase配置项名"
+a7bf6258f7b611eda80049d79a534073d5e9bb48,hbase类型转换工具类整理
+b4845938693b2c947c764d10b2208c1823968bf4,Add flat message support to rocketmq
+ebaf78f5aaf5d42e55294a8106ef76bc48268135,Resolve conflict with master branch
+86fd77f9c4dd89137ef044ed38f1a17160b1bf1d,Resolve conflict
+d76367584c64675a4492ec738cd17475fb55093c,"Merge pull request #1054 from duhengforever/canal_rocketmq_flatmessage
+
+[ISSUE1027]Add flat message support to rocketmq"
+a0b38a9cacbebca6b001de233e55cded25172a4d,fixed MQConnector
+232bbaf6d419462486029699861050532203ea0a,fixed group name
+c36a51b8e3fd426cc5406b8cd0f6e0a4f1774be8,fixed client-adpater logger test
+071545987b8637e9db748795d0cc66398d819622,fixed mq config
+f9ff05f16c83accfdbbc955562f098bccf70dffd,"Merge pull request #15 from alibaba/master
+
+merge"
+297122f47fa6b87b2c30aeb466201aebc57d6704,Merge branch 'master' of https://github.com/rewerma/canal
+3b4d28eec36e880a476de8a6217f34a2575da8e3,测试修改
+cdb34571abc7ba6e006465a300d5f5a9ee64f395,adapter readme  修改
+423392a18a0cacc61bb9615be49d7e8625f0e85b,"Merge pull request #1055 from rewerma/master
+
+代码整理"
+00fce300725479c5079cd82611d02222f27c8e4d,group 线程池没有初始化的bug
+04e56fb94c0ede318b23c8280cf1c23fea729274,"Merge pull request #1056 from rewerma/master
+
+group 线程池没有初始化的bug"
+167858cd958c380db75915848261b6eaaf7f6221,"解决分布式同步开关关闭同步状态下,
+重启 kafka canal-adapter后在开启同步,丢失数据的bug"
+8f1b66ab5a22b772f59cbac616612b44eb30ffb2,"Merge pull request #1057 from rewerma/master
+
+kafka canal-adapter 分布式开关的bug"
+ddcf619deb331ab6d413e3c7c65c44977c65cf18,Update README.md
+2e1d0e36c598a3746056627b74327a57a0218ab9,group 线程池在父类初始化
+b131e8cfa4c212497b075d5175aa3425aa6fd8c3,CanalConnector接口去掉stopRunning接口
+166a9a7f8f165a65659d881e1926c9b6ed91b80a,"Merge pull request #1059 from rewerma/master
+
+CanalConnector接口去掉stopRunning方法"
+56ed158814f07293114b08ce2111bb0bb39d907a,"fixed issue #850 , support alter lock/algorithm"
+d03e7e2b1580232a38c753d931d8f5e54fcf32fb,fixed canal_version release
+f28efce11eae59aa3c3a5d5573a1aea770192db9,fixed javadoc for release
+774aeeea68a1eae6b9e52d6005e4eb866c891522,[maven-release-plugin] prepare release canal-1.1.1
+b9f40f326fba47d070932741a37d2393da4f5fca,[maven-release-plugin] prepare for next development iteration
+d134aa0c20356a9c60782b74d4ecfe2d39f3e01b,fixed adjust default value
+fa79db65b73655b98307836fea1922885cea87d4,"fix: fix NPE, 使用CanalServerWithManager时，开启GTID模式下，不传入masterPosition的情况下，会产生NPE"
+f3160bf6cb9cb9f5c8930a356afccd1161d17fb0,"Merge pull request #1065 from f-zhao/zhaofeng-branch
+
+fix: fix NPE, 使用CanalServerWithManager时，开启GTID模式下，不传入masterPosition的情…"
+be5f1546ca31ebba70acaf6f550ead3214ce1fcf,"fixed issue #1063 , rocketmq bugfix"
+0f14ed926bc44f74f38e3e0b54d7dfa2d4c860ca,pass useDruidDdlFilter parameter to LogEventConvert
+4c7129115c56fca0949b4e046375b5cd498d5bcd,a little improve about tsdb
+7efd067bd52b8f3d01e6f17fb20b16a0d297b6bf,"Merge pull request #16 from alibaba/master
+
+merge"
+4e18d7800ac72857d52b1b5631bc5c41d0f4e6f4,拼写错误
+82b8b56aa3f969f495ca53a954e83ac55f896ec0,partition默认为空
+1d2e85672ca85dda301ab04c02d6a93654d7f5c0,elasticsearch适配器
+11ac253c46b7043d59cb8d5ea92f313d22e28b32,adapter pom整理
+4ce2b94241fcc9fdca6e3c2c97a99a5ecbdb1a8c,rollback tsdb change
+e4e23c9ecd0ca5a07cdb9436f2f7e27b40e8b055,增加adapter相关参数: retry timeout batchSize
+e1191b665e163f7d385fcce55f8876b1b1b85fa2,es配置加载
+2c9acb655d657c5cf0b4d9addb71eee7b27a1776,单表新增
+dd8243a56d99f5cee72fe6e7065085c36fb7f767,"fixed issue #1075, support message transactor filter"
+1d9e2cceddf722728a8614b8204674fc176f41ee,"fixed issue #1076 , support rds binlog expired"
+2a2977eca7b75b4af207bc06982ab578fbf818d8,主表带函数新增
+ff3ccde62a3bc8dac5ae74872f578d9bd0186cb2,fixed rds binlog dump
+a4856b9a739bcbef6b7550e6ec0d7158f66b91f3,modify
+ed1feb9502e19bfc854b2d82a32253ab469b1449,"application.yml不打包进jar, 解决jar中的application.yml和config中的会合并bug"
+94a3cfa9de36329925398b48cc502e8d0d7807e8,Merge branch 'master' into feature/mcy
+0dea4b7944ce1efdc5bdc5ce7347c9e7feca4747,"Merge pull request #1079 from rewerma/master
+
+ application.yml不打包进jar"
+14e094b52210050b4d1e619c268550c622e34f53,modify
+b2b44555cafde06811bcbde4b2ff555767d6a4e2,"从表插入, 主表为简单字段"
+c9ad18894dc8024ebeb09af571f20d0c324581b9,"从表插入, 主表为简单字段"
+9d04a82c4284aa97d1bbfdbe0a68f6165393596b,新增完成
+a6b16eedfaa156be4ac88c9c61bf10357f3a11b4,modify
+b9c4884af137e92523b13c2799d1acca5f5d36a5,fix #1083
+d3e1ddd2349e8d3a0e3c74fcdd981cb0354c2b17,"Merge pull request #1084 from rewerma/master
+
+fix #1083"
+bb883cd2281faa933833a580b65acb0e30106705,Merge branch 'master' into feature/mcy
+865ba94605ccd029f6c81d2990808ec907172e3e,application.yml配置打包设置默认模板
+3bb408194ddcf39de74af2c94a43537469dc9752,"fixed issue #1081 , support mariadb rotate_event support checksum"
+96b9484f701f7a54534b6b10abb9136e3c61c5ab,modify
+f42f7cfe7283ef827e57df5a5439bfa36f2e67c9,"Merge branch 'master' into feature/mcy
+
+# Conflicts:
+#	client-adapter/launcher/src/main/resources/application.yml"
+5d5aafb7cd193702d39ea37025c81694cd6f14d1,Merge remote-tracking branch 'upstream/master'
+332f759f96f7ff7a6c1b771fa94a493c979b6eaa,filter dml before apply to tsdb
+81f403a9f2820f24cbc35f4513f14ac26283de07,更新完成
+bc399ba9f9b09e3b98b557f7372b737b79704738,"Merge pull request #1069 from spccold/master
+
+pass useDruidDdlFilter parameter to LogEventConvert"
+a9727cf267c2a0f7e0abe80b68285f86ffa3e45e,release包不打进application.yml
+685053599fb01b62242257bb7887715476a7dd45,"Merge pull request #1086 from rewerma/master
+
+release包不打进application.yml"
+9473f4e8fdd1c677ee30bead6b8abfd25c0eb14e,"Update CanalMessageDeserializer.java
+
+fix lazyParseEntry 'raw' wrong value."
+369059fa39bd5d2a93edc3d317ab4cb732295b6a,"Merge pull request #1 from jiacheo/fix-lazyParseEntry-raw-wrong-value
+
+Update CanalMessageDeserializer.java"
+5b9ada1f8c10dc1f5d8779e686f4f9ade4b4e9a3,修改测试完成
+5cc2f8f9f7314d48934343ba1e988b83c2868cac,增加file的path读取
+9d113dbc13cc9fb5b8477d9ff373e613a5f2b2ca,"Merge branch 'master' into feature/mcy
+
+# Conflicts:
+#	client-adapter/launcher/src/main/resources/application-sample.yml
+#	client-adapter/launcher/src/main/resources/application.yml"
+a895ce666e78136a5046641aba2cf3d59c59b603,"Merge pull request #1090 from jiacheo/master
+
+CanalMessageDeserializer.deserializer 方法和FlatMessage.messageConverter 配合的问题"
+8597d9e926c9782c1e5def45947995611cf20b0f,fixed more info
+391e040c6a448bed08f510650b18ebb28024f964,"删除测试完成
+后续: 修改 删除外键的情况, 修改主键的情况适配"
+5c8a5998d95a28270f7e1219dc26534cca1a8384,修改外键
+347601b9fe9d6f0d185d6c9f8e8a07ee95c68f3c,同步测试类
+650446de5b2324ae7ba10049f2c50fe605e374a7,etl实现
+6ff57f53f8169caa1202a1d63caca0c699a6ae2b,"fixed issue #1070, support mysql8.0.13"
+80cf533b050b714ea4a96bef0e7453ab59dd99ee,整理注释
+30d20f824b7e0357f1aab6f1f04449a07bc35a85,"Merge pull request #17 from alibaba/master
+
+merge"
+dab6fa5aa168b3b1f5e56bcd75f7708b0083e3f0,Merge branch 'master' of https://github.com/rewerma/canal
+beed10901d210d5fc6ad45cebeca2c0df3f27285,destory TableMetaTSDB when stop EventParser
+e608f09b53e1d0d0964fda73693320f3f66148dc,improve DatabaseTableMeta
+359aa1a0740d2b47d6ebdc70377b9fbdfa42c5df,fixed compiler failed
+0d9695c3a54647a593c4b5f9476e974d36675b33,增加对array和object类型的支持
+4319b5e888cddec5f54310daf714f8e7f9425025,"Merge pull request #1098 from rewerma/master
+
+ES Adapter 支持"
+59e65ed4a6af40e33b085e26cea377bb7109d872,"Merge pull request #1099 from spccold/master
+
+destory TableMetaTSDB when stop EventParser"
+d8e411462ec26ee8644445280fd88734b53a09d0,增加alter rename 的类型为rename
+1e20cac0dadd0d1e6bc4e84cb04729a706169971,Merge remote-tracking branch 'upstream/master'
+5a76e2aa580664a4764b3d4219a3f71f2475ae00,"Merge pull request #1103 from wingerx/master
+
+ 增加alter rename 的ddl 类型为rename"
+edb5f294ef45174fbd9b7392e16ca17c9a15ebef,"fix：rollback之后继续commit，会产生 CanalServerException: ack error , clientId:1001 batchId:12 is not exist , please check 的错误。"
+238da873b2569bc024a84579cd29e93618c96ecf,"Merge pull request #1104 from jiacheo/master
+
+修复rocketmq&kafka 发送消息失败时回滚后继续提交的问题"
+2e1a1c31e68f7dd2630ea0be8e40ae24736ed2d6,"Merge pull request #18 from alibaba/master
+
+merge"
+8ae192f0a91f331e3343986cd91028c391132426,adapter canal-client 版本
+5b94c69d100ac545a59054dd04e78e4983348fff,"修改adapter打包,启动方式"
+8ee546d34d153e6a4d1ef7b86a4b23e2a61fde09,"Merge pull request #1106 from rewerma/master
+
+修改adapter打包,启动方式"
+f2b8d000f766f644f2332f45daabc84f158aae73,skip tsdb snapshot apply if has not receive new ddl change from last snapshot time
+6de9f7efa730afd9cf0f5607376773b9e453318c,修改 adapter release 打包名称
+3090557eeb8dbc9712bb8f5aa237ec249e957cc3,client 排除jsr305不打进fat jar
+c27d5fa16274207176f9a638ea92e3afca118189,ETL整个destination，同步开关无效的问题
+202557630c027ffb23bac383bd87d409b5e751b4,调整etl锁的粒度
+bc298bedd533bde6247cba6b59207d70f266a4b5,支持hbase rowkey指定数字长度
+572ea9f27a522d9bf67b0d921d1a4a4a5e610ece,Merge branch 'master' into feature/mcy
+b71e2991610febd5d19d9e3a303d3c9fe667ce32,kafka单个partition的发送未改为同步发送的bug fix
+1126d26574a88bed40a5fd34e6b4d0c48745fb50,Merge branch 'master' into feature/mcy
+d2ecb0aad9d2bdc719347032711ebd3df6b29800,"Merge pull request #1112 from rewerma/master
+
+ client 排除jsr305不打进fat jar"
+8f2e2b9ccdbf294ae8d9c54715cc5dcec434f624,"Merge pull request #1108 from spccold/master
+
+skip tsdb snapshot apply if has not receive new ddl change from last …"
+87abaee8a7e50ee6a4c7b5f9b3f70ced217e6ce2,a little improvement for DatabaseTableMeta
+2278340c7b8453e2521bad6bed0b4a82017d47b0,fix: buildLastTransactionPosition 的 for 循环少了 =0
+5ae71121927887b27d42bc9a8d8d10b730932da5,init rdb sync
+a8d708ea1b271e9a03d7a96408e7db17c42b2586,"Merge pull request #1116 from spccold/master
+
+a little improvement for DatabaseTableMeta"
+041225c3f286c8fb8bf59cb5fa2f686ea7903ade,"Merge pull request #1118 from littleneko/patch-1
+
+fix: buildLastTransactionPosition 的 for 循环少了 =0"
+f7ea8df89e618c1d50844ad7c439759077df6314,rdb新增同步测试完成
+6fa111866f5b6b5a43fb8de4a652f1bf92eb42cd,flagMessage json 序列化无null值的bug
+b71472661bdc7a23ac69d5672844446c810e64bb,Merge branch 'master' into feature/mcy
+4faf5428b1a696a253bf2c24891c357adcf79723,"Merge pull request #1120 from rewerma/master
+
+flagMessage json 序列化无null值的bug"
+2c1f3e649aafef87f2ed7255dba513aa34d07e28,"fixed issue #1107 , more info message"
+0677443ccf9dce72d521aee8eca2113edf5be309,"fixed issue #1100 , fix type compare"
+2ac84b4320bd06d8ee97ded033d741fd62920d5a,"关系型数据同步adapter, 支持 mysql oracle postgresql sqlserver"
+f9778a0aff910ec187fbd26f52d443547505cc07,"fixed issue #1087, support kafka docker check"
+8c1f15a49e1714402c76f177e949a248f1e7eba0,"Merge pull request #1126 from rewerma/master
+
+ 关系型数据同步adapter, 支持 mysql oracle postgresql sqlserver"
+c5bd42bbf1f48f0b12c0ac98fda938e282612b9b,"canal server端 MQ 配置修改
+MQ配置可动态加载"
+2a38bca34ba322b547155b7fd14a3f60f88b1bf7,代码整理
+0c3f7a806e491efe7a83d8160b074019ed096952,代码整理
+7d7c82ce9180708ea173b644671248f38ecd4d46,修改mq配置针对destination级别重启
+2d41bb99607ceb342be19cfc23aa4f275c9532cf,修改mq配置针对destination级别重启
+417e04f65584d2758b878249c060b2788f79c7ed,fixed DatabaseTableMeta#compareTableMeta
+357eb885b235673caf2b6769dd31761c164e9b82,"Merge pull request #1127 from rewerma/master
+
+canal server端 MQ 配置修改"
+808bedf9840079cd211fc0a942b6e05d168b8d3f,"Merge pull request #1128 from spccold/master
+
+fixed DatabaseTableMeta#compareTableMeta"
+d7ab6e2dc109325c7f584c3d66d075f2640ce42e,rdb同步适配多数据源
+cc1574d9138b47b6724d53f38c0bbca15a18715b,fixed adapter
+739425e99c192a93b2e870a96c758a1bc6638423,"Merge pull request #19 from alibaba/master
+
+merge"
+4a27d81da150f7df982d7d29343a5583d45b0895,Merge branch 'master' of https://github.com/rewerma/canal
+e7086415f86d86794aa131cb5944e40a5666c89f,rdb专用的的ClassExtensionLoader，默认canal client logger example配置
+7cca8857ffab1252ecbcc847bf7502df455c056c,README.md 修改
+ec1ac6d11c8c10a273b0d24075c88028ceb9948d,"Merge pull request #1131 from rewerma/master
+
+ rdb同步适配多数据源"
+66912d3d0533a0d0046b4c17a34274a4c89edc14,"rdb etl count destination 接口适配
+es hbase 多源适配"
+2e5b7b89af953beb5693baf50d0685f3786ca873,简化adapter配置
+b45a27e231e3ef8228a47977c2642076b721f98e,db同步代码整理
+e7ab25f8198ca9dcad112244e9c27ab7c8dabddd,增加rdb adapter说明
+fcaf8e88f8376bc99b150bf710f46bbe488720d8,"Merge pull request #1132 from rewerma/master
+
+rdb adapter整理"
+3f8cdafea367f0c15504a8ffa38104b8acbad68d,fix MemoryTableMeta#processTableElement bug
+c4947cad3cf9f2984ea2232b63ffb35075e692bc,"Merge pull request #1133 from spccold/master
+
+fix MemoryTableMeta#processTableElement bug"
+03a95221911cc94bcb7c8df8ad98ca9b642addb8,fixed event
+154ba422f2ae6eb5d819f06f5469e256b30f454c,fixed plugin
+752a3cd66ad5be4998b4dc6f98e7ae89f5e656e0,"Merge pull request #20 from alibaba/master
+
+merge"
+8c3ade2d50cc02b4e1e582a2518716ed3a726dce,外部adapter plugin文件夹
+8af1301062ae1b9402ed2c26279027513de2d3d7,Kafka增加参数acks和compressionType
+73de8b32a912a98db94b4c53e9da144e580b2de5,"Merge pull request #1140 from rewerma/master
+
+adapter plugin"
+20062d861d2236ffa381eecd430ff789856c0e65,fixed test code
+d29fe5b04e96181eea29968cda116a4aedbf2c74,去掉调试代码
+5ad9cf3f163d73ceaf84f66959978f0e6d5c044f,let tsdbSnapshotInterval config work correctly
+0a0a39880cb0ecaff8fb40a43e6c4e447f1d36c4,Merge remote-tracking branch 'upstream/master'
+51a299259b773ede4a0ccb4ecd981e798b22f2b1,"Merge pull request #1141 from Renkai/compression_type
+
+Kafka增加参数acks和compressionType"
+dd0457799448c5292095461c3b2a628fa6e3de0c,"Merge pull request #1142 from spccold/master
+
+ let tsdbSnapshotInterval config work correctly"
+fecc112196c139b846e369730feaa6b0579ab25a,"Merge pull request #21 from alibaba/master
+
+merge"
+241c43a8943cae299294939b45690ed80fefc04b,"Merge remote-tracking branch 'origin/master'
+
+# Conflicts:
+#	client-adapter/common/src/main/java/com/alibaba/otter/canal/client/adapter/support/ExtensionLoader.java"
+60e5554125b334569fb6df238bb48fb30eddf860,修改bootstrapServers为mqServers
+c376f0afd298ad7bea97fed0b62f771c386c9082,配置中增加 canal.mq.acks canal.mq.compressionType
+68d8aee6c31b03c321aeb69f77fabc519f24379c,配置整理
+31bf92ec8e5a4f909406e3a1d8eb85e0b55b7070,配置整理
+6f3cae5ddf92857a00ed61f9cadacd4831df9826,"Merge pull request #1143 from rewerma/master
+
+配置整理"
+827b872cf875e81008858e556924d62f9b7bc6ef,rdb 批量并行提交
+d396a0b65c4879e7bca31785a81fd22b2d81bd9b,rdb 批量提交
+aa68408c538cf4840eead881279b3ebe2dc896c9,filter views when dumpTableMeta
+129118b48341f4e776afa6c01bce54f75f1b782b,"Merge pull request #1149 from spccold/master
+
+filter views when dumpTableMeta"
+915849b83ac8aa1c142cc06c7dbc388525afdcbb,"预留sync(MappingConfig config, List<Dml> dmlList)方法
+pk hash以old pk值为准若存在"
+997646b2db5860e0750568ed1094f61025fb6f04,"指定是否按主键hash并行同步, 否则按表名hash表间并行同步"
+b457ecd387d19c54250dc69cccc5c931cf4ce80d,adapter 主配置application.yml动态加载
+5bc0c3f06fd3251d44fd9b4db3094f5c6b78d242,"Merge pull request #1147 from rewerma/master
+
+rdb 批量并行提交"
+7992b883d2e88aa19aaed88f0108512355c23353,fixed binlog checksum
+7ee7ba0e05ae2c5f294670b46a5bcb92f34e5f0b,rdb 批量提交
+14c0e4535adf71e28245bdbff9977cc9df8a644c,将oracle mssql pgsql 的jdbc打包进lib
+fc6c87138233034ef3a62d7a8ea0f8a665322fa0,"Merge branch 'master' into feature/mcy
+
+# Conflicts:
+#	client-adapter/rdb/pom.xml"
+8aea31232b4409896591194d42fa78fac94a0a23,"Merge pull request #1151 from rewerma/master
+
+将oracle mssql pgsql 的jdbc打包进lib"
+bc056288d4454aca2616dd8f74c03e6c7bee9a74,rdb 批量提交优化
+9dc4d78b3b12ae24bec976d239f32bb81f89acfe,fix
+0a3c1645e8ab0efea010306620efe125d58e1360,"Merge pull request #1153 from rewerma/master
+
+ rdb 批量提交优化"
+d34bee33595ef975f0831fda89ac0643e89183fb,adapter 配置修改动态加载
+991418ce6ef9f7edce57d85c691dc45b0c6695ed,修改rdb批量提交分批的问题
+fcdf95b5ecc3dc59e0d52f3de5fb594162cc6215,rdb 批量提交超时提交
+178bea07a806755fe880f32b85beb93bac2ae69d,"Merge pull request #1154 from rewerma/master
+
+adapter 配置修改动态加载"
+affd598470776f461f54cdc3f40c92fd72fbe931,es readme.md
+43db5bec976b770acd537741fc0ddbc6a8a9510a,"Merge pull request #1155 from rewerma/master
+
+es readme.md"
+50630cc9344d966cb4daaa3ca33d6d2b8abbbdc6,Support client connect rocketmq in aliyun
+b6f1e0d13c4feb3e93a200688008dad4e5cf6b07,fixed rocketmq ack npe
+a7be9c75f97bca9227d19f48e7fa721811b23a54,fixed mysql rotate checksum
+26700f30056ec7e1faee0d7107e3af58e0f5d685,fixed batch sync dml
+5d71d50d4eaddf5ce5c378924552f811fd3fff9b,"Merge pull request #22 from alibaba/master
+
+merge"
+4bfc476e08b6ab41f33921ab0a25ef1b1eb1ebc4,Modify rocketMQ related pom
+c0bbe530f106a16025ee2d2261b02d75d1dae49c,"Merge pull request #1169 from ymwneu/supportRocketMQ
+
+[ISSUE#1109]Support aliyun RocketMQ"
+56ec66f90ecb00684a568304f5d7e6de5592e449,adapter 分批同步
+638952fad19768cb748f666cee0e311fe598c826,fixed binlog seek & aliyun ak/sk
+67cc73b8e2c91a3901d4e5f62ce4d3cf3daa0277,adapter 配置修改
+ad18e0335d738fdf856566f57ae5ff75342b9272,"等号两边都有空格
+
+格式保持一致,看起来更像大厂出品  ^_^"
+e711f1a09195d9232601048b6048287822d4e2a2,rdb 并行提交
+89ec3037d4c76e784ab8e73ca3ce4f4f41699432,"Merge pull request #1173 from RickJou/master
+
+等号两边都有空格"
+cc97f3b331d5c6d7cbfb9a96b57f082ada5dbd92,"Merge pull request #1171 from rewerma/master
+
+adapter 分批同步"
+aa89453bf66b18102a96b95755731ad6ab13eaec,fixed adapter
+3b25b3b3423acb9694a7e8459efab4f91f8bfb02,"Merge pull request #23 from alibaba/master
+
+merge"
+ec235f3efd395d43b0fc84ecf27234400c6073ca,fixed rocketmq ak/sk
+29f03bf398ae0dcaf4a2ce26a243332192c05443,fixed batchSize calc
+839d5415fc47a6090b2c7cc22ecec04f8c93ca65,add max.request.size config
+90dab6831b2fd858eec030ffc56ed60405d71d0f,修改接口引用
+a6ee87281a5eb91885dd4ac62b9b6bfd946b3718,"Merge pull request #1194 from guixincui/master
+
+修改抽象引用"
+df4c66b9e25a7700f21f5bc2868b3cc8692b0e6d,"Merge pull request #1193 from woshijay7788/feature_kafka_config
+
+add max.request.size config"
+f7bf4ac6ff260377d7879a6fc1e05c596737827b,fixed log test
+cbab3fb561f6c22d65a00512e72d462b407cfded,"fixed issue #1168, support filter with compareTableMetaDbAndMemory"
+4e9e3f5abe243ea6a85fbb438fdf7c90adb6abf2,"fixed issue #1192 , NPE test"
+cf23e0ffea37ba67aa022e9dff9d0247fd624910,fixed javadoc
+8496ceaf155d7dc93b928fd3b6af9ccafa979e62,[maven-release-plugin] prepare release canal-1.1.2
+9aaf20fb5ef1632d00aaf0dac487ccf18b606906,[maven-release-plugin] prepare for next development iteration
+9bda60bf89dba37a7f75eba3be0f3e39ba92a623,fixed pom
+9dfa5da7bcfdf7de90e0fcccf8792e7d74bad6b0,"Merge pull request #24 from alibaba/master
+
+merge"
+67cd0e5fca335654aba10986ceb3b3a30abfb50f,"Merge pull request #2 from alibaba/master
+
+merge master"
+91b036a4fcc135d5727993fb5b18f4779af695ae,fix   Datasource named ${DS_PROMETHEUS} was not found
+6c3b3acde0960fe4a888ecf4ebb572008b097619,"Merge pull request #1202 from DinoZhang/DinoZhang-patch-1
+
+fix Datasource named ${DS_PROMETHEUS} was not found"
+46b65282735bcb52360ab5f381657a707a49c97e,fixed tablemeta check
+b97d377d83d8975507a23c9098c29e7d31dd6f3e,移除adapter pom中的parent fixed #1203
+37094447b1e39c6a36c71a9e168f8cdf4ce39584,"Merge pull request #1205 from rewerma/master
+
+ 移除adapter pom中的parent fixed #1203"
+f1710f1c7fa93104d71455c928a9217cf72b4a3d,fixed #1201
+b7d2ad2e18b2d9aaefbf6b7db0c7253ac322cc4f,"Merge pull request #1208 from rewerma/master
+
+fixed #1201"
+f04447837c59817c6bb827816d514a4792f04c08,client打fat包排除其他
+e7b678d5e0714986d830701b1a1b364c0161acbc,"Merge pull request #1218 from rewerma/master
+
+client打fat包排除其他包"
+cf5e42442bd265a01ccb98aad34f7f4abcaeb8e1,mysql jdbc依赖移到外部pom
+65f2695963e9a03339e361d7f137a050e28265d4,rdb 关键字转译符过滤
+5fe7ae1613d5ba8cc1b8fa268d19b9c589246298,"Merge pull request #1228 from rewerma/master
+
+rdb 关键字转译符过滤 fixed  #1224"
+339ecdd81729f17f30d15538125ce5aa185e532f,fixed #1229
+19e164b599b9c945dbaa8b1137ef916c277ff984,"Merge pull request #1232 from rewerma/master
+
+fixed #1229"
+dac642f7448c12323639529671c5dee926a8d6d1,"Merge pull request #25 from alibaba/master
+
+merge"
+1b11aa1d2190d469579475dc43f648475f2ed51b,"fixed issue #1220, 解决一下no alive canal server重试过于频繁"
+c045dc244edc81435d11a3dc1bacfee3f8a445a7,optimizer filter
+ce956c980dc73dbee8cdc45e5b0663bcb0969d34,add github template
+5a99de1fa966ca1c6e6d1b829e59d46907507c6d,switch file format from DOS to UNIX
+f0fc37c43bf02bc38ea3eeabfbc54f11ef70275f,switch file format from DOS to UNIX
+dda80819848f3bd8f38c03c43e93294732dee77d,"Merge pull request #1263 from tankilo/master
+
+Linux启动脚本格式是DOS，需要转换成Unix格式"
+ac738dae05454d4e5de862847a902b6db2f27745,"Merge pull request #26 from alibaba/master
+
+merge"
+03ee9c7ecf8120b5fe8d47ed2c0b3b64dc376e01,根据主键Hash增加正则表达式支持，pk通配符指定自动获取支持
+547cbf82c83eb4987e9568569788818fe1e7a806,对原生message发送mq的分区支持
+5650b56bedc4eeb919a1f1389b5d67adf57be6c3,打印错误日志
+24d898d87a0f9b7636627842ba5d7ea0d30fc49c,rdb 全schema同步
+99a1123e010eea0b087c11421932c820c34a6681,整理代码
+7c63e81e01a2acb7385c0511232d39df360a4001,"fixed issue #1256, rds alibaba_rds_row_id"
+706ee88914c738073b0ae34180f10ce90fbb845b,"pattern表达式调整
+pk缓存"
+eac3f5ce5fa2152136e525e1909c91d7373381f8,修改convert时设置pk
+aeecf87490eee5dc297dfea7d3b5f25c660d8a80,去掉对before的判断，分区发送的表pk不能修改
+bd5110b9519878fb368bcb592195ecf103b46392,"Merge pull request #1266 from rewerma/master
+
+增加mq 分区规则配置正则表达式"
+277a273ebc71ada14372698fcdbd83ff120d45bd,"fixed pull #1266 , optimizer code"
+f6a931d8c6901c08382d06000dbe2fdb8ced1374,"Merge pull request #27 from alibaba/master
+
+merge"
+48de904ee169e1f9343026aedb82bdfd95cead15,去掉 #1266 中增加的 protocol 的多余的依赖
+72bad4d54c412c8b3d9e6fc21553aa196e73b0ec,"Merge pull request #1272 from rewerma/master
+
+去除的多余的依赖"
+0197482618bae84bb60c9f7302ed57fca8872951,fixed partitionHash format
+35e0e882c10f2e49831639a2ce753b8d75ccb597,fixed hash mode
+89a49433494a7cb3bb1e1aec3f354ec86d140494,Merge branch 'master' into feature/rdb
+ba5865683fcd1ce2730cdcad88824d703292918f,Update AddressUtils.java
+5c4b1f6e6312978802c5f638c2e1ba32388e49ff,modify
+995a33a645b7da18a92854e51c0c2b65b24d1977,"Merge pull request #1278 from WithLin/master
+
+Update AddressUtils.java"
+0523b68c26c5ef2b715966cb6d28d18a73d61a9f,fixed parse error
+d2e3e1983140182dbe38aef629613cc7ba57d618,"fixed issue #1282 , NPE"
+fbf249580f595e973f1548193de66c4f43af304d,mirror db
+3acdffb29708fe4e9a393c7032ad0db840cdafa3,mirror schema 完成测试
+689366248d8d6fbb0f0c0dcbf39a26a3ac27138d,"Merge pull request #1289 from rewerma/master
+
+rdb adapter增加mysql镜像db(schema)同步"
+833cc55e2639048b5ecd0f7eeb12511d4fdd9cca,"FlatMessage没有默认构造方法json反序列化的问题
+Dml类增加isDdl属性"
+51d94efc9ce17532046874f264531d009430f974,dml类整理
+a7526dbf4a6a2daccc393be69570e36af4fbd672,"Update README.md
+
+FAQ link error"
+6ef48591a1fa6c39058637c6c0754fba7889ba04,"Merge pull request #1299 from rewerma/master
+
+FlatMessage没有默认构造方法json反序列化的问题"
+ff71bf515ae15d597f700bc0dfde5ebad1f9b0fc,"Merge pull request #1300 from gsfeng179/master
+
+Update README.md"
+bba800eb968660ce21974757cfbf0840422259a8,修复开启gtid时，同时开启tsdb后gtid 属性丢失的问题
+d8d3246e3046e7286d81c51f3be9d1b4babd0acb,Merge remote-tracking branch 'upstream/master'
+ef72cddfe8c576dcb6aab7acf6141e86e7cc4978,添加带kafka消息offset的Connector
+276a2b988a6e10e5eb5cefb79efa9ba94d568c72,"Merge pull request #1308 from panjianping/master
+
+添加带kafka消息offset的Connector"
+990fa9498a039a8b2b510f8d3d96ca149ede6b8e,添加 KafkaOffsetCanalConnector 使用示例
+4ef45b9a1dd8b601d608b65e2d4d1143c81ee11b,"Merge pull request #1310 from panjianping/master
+
+添加 KafkaOffsetCanalConnector 使用示例"
+035ef265426cf741b5db606ce9918eb09b945052,"fixed issue #1306 , support MySqlOrderingExpr"
+75ee65f9e8a7661be3cb022473aa8a6a97262cac,类型转换问题 fixed #1313
+34b5f9c927c41d18b780a0fc0c60bca2be8a55bb,modify
+840148fbf6332d75f914666f7cd6dc224877405c,"Merge pull request #1326 from rewerma/master
+
+类型转换问题 fixed #1313"
+3465866278ffd1c9da395577f17402ade061a0bc,修复开启gtid时，同时开启tsdb后gtid 属性丢失的问题
+354d64069f2455885eb9b6d8208b5f22ce1efe64,adapter增加同步异常重试
+d5f44dd76f2e935933a829f304b45b9e32b52c25,Merge branch 'master' into master
+0469d28c05c1fb2cc9e7c486ccd28cde336745d5,"Merge pull request #28 from alibaba/master
+
+merge"
+b5697a366abcf0c03e5a58d879740ac0f196dd71,merge
+dffbc437a6f9204c1a3bf6b4304ea45e6aa3fa62,fixed #1338
+ade2a5436901ccd51c798fb387ce5958f6348775,"Merge pull request #1340 from rewerma/master
+
+fixed #1338"
+19c35c0b086650b4847fdaee306eadd9d3c9623e,修复:当mysql 发生过purged gtid时，同时开启tsdb与gtid后，gtid属性丢失问题
+82a78546ab1a099531556a696dd3fde21d3a24e2,Merge remote-tracking branch 'upstream/master'
+9e6adff94278b2cf8550c084e0e4dda3c6c096b6,"修复adapter无法回退的问题，fixed 1341
+修复HBase断连的问题"
+d9e259dde43c47fe12cc00a5d465335247bf9540,增加支持按库名、表名动态发送topic支持
+830e149d0eaec84118f042c19991562d08de0d31,fix bat syntax error
+150a13824bb3dcd6371fb63fc5b6c5bcb9419328,修改 kafka 异步发送 flat message
+d8737a5228cebac7daf287536d7b0758127e5576,"fixed issue #1343, support charset 255"
+2afe7debda87183d95bc297036d447e3e381aef2,"Merge pull request #1305 from wingerx/master
+
+修复同时开启gtid与tsdb 时gtid 属性丢失的问题"
+953a0d0583ce2f60e0b9a9153a4d7c045ee531f1,"Merge pull request #1349 from mujiansu/master
+
+fix bat syntax error"
+f100aeda39dfecf103025b544f3f227af5c1c6d9,"Merge pull request #1345 from rewerma/master
+
+fixed 1341"
+f72ac9a3bbe906cc844e2f4b3753bddcff10296b,fixed adapter throw exception
+7ea1468a8d6b05d233e6a84407467c76a6907147,adapter 分组间线程统一抛异常
+14ba358525068163ea462f5c490aff24677fa23d,fixed dymaic topic
+8d845217676aad598eed07641397688fbc46c0fb,"Merge pull request #1355 from rewerma/master
+
+adapter 分组间线程统一抛异常"
+7c79714528cdfa2300504294911760ff09021b7a,增加远程db config配置
+71b7c0b868c508bd130e0a4fe7c49826eedcbfc2,canal server增加数据库远程配置
+a1091368fb9fc58ee2c55fee4e702da7cd9e3976,modify
+5e116de264433cd70b40af15d8611fdfdfa04215,"Merge pull request #29 from alibaba/master
+
+merge"
+100b43a5dbca4c9dbb1c33a5fa79bf5973878dd3,Merge branch 'feature/mgr'
+661752096c101f8f823d43b74f300b96b4c13bde,增加注释
+f9e19d46c4b4e9ff756e4b2b39f0b3a7e3389937,增加注释
+114c3bd0207a63d9255a9da7d39ef50a1f5c7dd7,modify
+a70178afef945ee539f2136c6c322a2c1d704bba,"Merge pull request #1357 from rewerma/master
+
+canal server配置统一数据库管理监控"
+b0eaa156cc572cb05b0e00da7cc8453102c6c4aa,增加adapter远程配置
+ecd9ababa164dd08d24791e08e844776a71d849a,modify
+3dec7c50ce31192881f9baad2915f9e97876d8cf,commit
+1dd9934f9c36929959b3c46a957e4ea1b5bb34d9,fixed #1359
+94b8fdbbf42b7228afc073494d9986b56c12e380,动态topic的xml配置
+3011c3292be610a2ac19b34076c84bfdff80c688,"Merge pull request #1362 from rewerma/master
+
+fixed #1359"
+b348260288bd43724f1fc1f01728914a6730f9e7,"fixed issue #1363 , date format"
+779ebad89034442974ddf3122cfffe82f21dbcea,"adapter 远程配置
+修改rdb热加载配置的问题"
+4bdf3d766f46f24b80ef94aab1e56e9a904caf51,modify
+a63e9821151439185f53d23fc6c757e350222de4,添加注释
+35fcd568228e16fbaf0bf5a07b6db4441ad5aedb,"Merge branch 'feature/mgr'
+
+# Conflicts:
+#	client-adapter/rdb/src/main/java/com/alibaba/otter/canal/client/adapter/rdb/monitor/RdbConfigMonitor.java"
+a91aebafc2cb227b7c4e20ebaa71b17a74b756af,modify
+c66b6a0f0f3eba00529ca81d9392805767c361e3,fixed charset
+fdf150bd24c0ef91ebed438558dba58e61733af8,fixed issue #1341
+670b7830a5d0547a049c669a8fc98775c90c3a83,"Merge pull request #1383 from rewerma/master
+
+增加adapter远程配置"
+de501c85a15b13f1f76d434aa92b6fcacbebbc61,"fixed issue #1374 , support queryLogEvent partition"
+63ad80c8c4e21361cb46de03e7d5110751fef5a5,fixed 1390
+690222bde88e4638bf094599b79cc8a0a31459bb,dynamic topic 正则注释
+b845a67666ca01e062df78d8e2f4169e89dbb743,"Merge pull request #1391 from rewerma/master
+
+fixed 1390"
+03e6662ce50cd1166444468dabd46d2523f9bd18,fixed mq
+f1a998b2d5f4a5fd1c3826d0f521fa348d75160b,fix filter transaction entry logic in EntryEventSink
+f1753e79f92376e31fcc83acc2a7df7111bc4178,"Merge pull request #1407 from lileibuaa/master
+
+fix filter transaction entry logic in EntryEventSink"
+92666b41e876839609c42ff73b21e39c1e1ab6f4,"Merge pull request #30 from alibaba/master
+
+merge"
+b00d347eb077b0448f55981c9b76a1fe82f8a4ed,"rdb adapter 增加 truncate dml适配 fixed #1408
+fixed #1403"
+725960d46efc5032cc1c4d0ad0cdccc8b4262332,获取TableMeta信息时，增加一次retry操作
+70a4f0363d6b5c89919c0a49db279a163401f7f3,"Merge pull request #1412 from rewerma/master
+
+fixed #1408 fixed # 1403"
+7e4912cd2e703a1132a9bcc78e3437fa9a6e5276,"Merge pull request #1413 from wingerx/master
+
+获取TableMeta信息时，增加一次retry操作"
+77646c018562470f1b5d43f7756156d9c248c5a8,拼写错误
+f26adff7c79f16dd5e858444ea59b4882df20edc,fixed #1416
+7f9dce4b7739026cfd7dc117612bdaf5e923af52,"Merge pull request #1418 from rewerma/master
+
+fixed #1416"
+18b304f99dac5a5feaac52c87e4560f77c552d41,specified mq dynamic topic
+ca41be8412becc012c410a588c40df18c119d238,fixed #1420
+60441d8b31dd9892af191ca4bd726777b031cb55,fixed #1396
+739f3b4fa1622155bbb55bac7e4f7b1d4dc8df7d,fixed #1433
+e4177ab0ceda430510f778b2f67ec004c0f48346,"Merge pull request #1419 from rewerma/master
+
+specified mq dynamic topic"
+47d791430487d4323e213a61aaa88762d177ec5b,停机时清空zk客户端信息，修复重启时报出的zk连接已关闭的异常
+e387cfdee5858b2155805b6bb25a35359a486d1a,fixed #1430
+171bedf488ba41d8950896b91112af36a61220d0,"Merge pull request #31 from alibaba/master
+
+merge"
+d2bbe9b0616debc0e616a45a4e37fc15ff79889a,"Merge pull request #1440 from wurongjun/master
+
+fix #1430"
+4beb1e6855b78a4c67494b7379356dbefbf52832,Merge branch 'master' into master
+ff1fef1eb645db9b60fe3cdeb2ed4e15dd0b1e99,"Merge pull request #32 from alibaba/master
+
+merge"
+2d88d803ee46a6412ded38b74ff72bad97ece05e,merge #1440 and fixed #1430
+ba9d9dea6d846b97e052b4dc071ac58e49017088,fixed #1433
+cbe88af2e3de9fcb6f17305c19244193fb84375b,"Merge pull request #1442 from rewerma/master
+
+fixed #1430"
+6e0e3fbef1a62719545d19ad09fb149238a84076,"fixed a word
+
+change '租' to '组'"
+d935c3964884cab5b2ba0d22eba691fd41043625,"Merge pull request #1449 from wdlily/master
+
+fixed a word"
+8d4fbb395be4b7052593fdd6d19bb4708eb60cd9,"fixed issue #1451 , fixed NPE"
+2f214ce3a65dabcce5d4e89f7bee1573ecf6a739,"采用事务批量异步投递kafka flatMessage
+fixed #1454"
+4ebf17f57b8c278809f081b9e59d2c89e2a6b4ef,代码调整
+851637611f43765bf076a42b24654aad90893373,modify
+197ca67c8bb798fd99f1fba1beb166a2bef8e1d6,测试调整
+5f8eb4d261eca0a119ebdce0b039aa4451c3c023,"Merge pull request #1456 from rewerma/master
+
+新增kafka消息投递事务"
+b04d948064f19ac0825f06e5f621e4d726ed1d03,修改注释
+db5495d158c0deeeac87444af13c4ac7fd87e8fe,"Merge pull request #1464 from KangZhiDong/master
+
+修改注释"
+a7467539c7b2ceb094baf22325cdb3d75227a3f3,"整理server端远程配置, 统一扩展接口"
+8f76b33214a39dd8a3afe80ad166bb1f33e1ff51,解析配置修改
+9a2e890f5741ffc1d8016d08f4bf1893f4487e09,"整理adapter端远程配置, 统一扩展接口"
+32031da9db40be9825d69b84019ae24b82b4ca58,"Merge pull request #1475 from rewerma/master
+
+整理远程配置, 统一扩展接口"
+ccd39e9d62680995f98c101f4f483352d0b8921d,"Merge pull request #1 from alibaba/master
+
+update"
+bb64d842983f6051e2a12992278ec3f257d6e1ef,修复从数据库加载配置写入文件时因目录不存在出现的问题
+032301102c076e74fc64c56f62a2215d368156cd,"捕获""rs = query(""select @@global.binlog_checksum"")"" 结果rs为null的异常"
+e3d05f6201dd4104cfaa3c5e56bd446b1b60b1c5,"Merge pull request #1482 from wurongjun/master
+
+修复从数据库加载配置写入文件时因目录不存在出现的问题"
+43f869599d48008a966e7b000b889dc4bac0bb9a,"Merge pull request #1484 from liulangwa/master
+
+捕获""rs = query(""select @@global.binlog_checksum"")"" 结果rs为null的异常"
+7b6b332463aa610053e476424cab1302740801ef,"Merge pull request #33 from alibaba/master
+
+merge"
+a20960834bb019b17431c30d7cfd174c14792113,远程配置代码整理
+8211ef35e62b166c630f4e9224f675fe6b8aabdc,修改yml配置读取绑定，遵循spring yml加载方式，支持environment级占位符替换
+597a08ac37085e369293f98ba60cf6d220dbe2a0,通过groupId过滤对应的adapter配置
+10276e254a6fcbd6069aff4ec90a062f88f4e4c4,mq模式下adapter配置增加groupId属性对应
+5284aa97931d05376e79e5bb917c28df9ea52312,fix bugs
+f6d03bcb37033429abf765ab71f783a3c22e9da1,fixed #1490
+ad62275cd73971f2925c21bf3be51accec1459b1,增加kafka自定义properties
+0c5f5c128ff876a5dadbc22951b9c4f61ad8c74b,整理代码
+aba8df699c0f96e841dd4f589c208d52c6014759,"Merge branch 'master' into feature/es2
+
+# Conflicts:
+#	client-adapter/elasticsearch/src/main/java/com/alibaba/otter/canal/client/adapter/es/config/SchemaItem.java"
+83b760494d1de49e531e0f4b7763204877d286c5,"ES adapter代码重新整理
+新增upsert属性"
+0ef21e41552298ecf309a15cef00679081e48242,代码整理
+947cf130ab6a00741c5803b6d9c9cefadacc31d7,fixed #1504
+5a4cfeab46582337de021fe69069c13619cc5b14,"Merge branch 'master' into feature/es2
+
+# Conflicts:
+#	client-adapter/elasticsearch/src/main/java/com/alibaba/otter/canal/client/adapter/es/support/ESTemplate.java"
+c14ed724ff9f3b4f097fe006bf3da9b025ae1837,update中增加upsert判断
+cfdf509f9a93a012fe50e82beb8a7ffcb3a8cc23,增加对pk的支持
+476244b26d84e3752801683f1e1e954afbe55498,modify
+44beaf191655973e9c79e4fcb071bd44e9dfe61f,修复当 canal.mq.flatMessage = true 时，MQMessageUtils::messagePartition 数据分区错误的 bug
+05cc627b5da499fb43784259cd8bf4c2ac081468,fix rdb etl bug
+e07db7b178551e711d179dbec12fa7c23d7589f2,"Merge pull request #1507 from i404/master
+
+修复 FlatMessage  Hash 到不正确的分区的Bug。"
+62338a945e85c19da2f53cfde1dd7fa318ff3c10,"Merge pull request #1496 from rewerma/master
+
+远程配置代码整理"
+79a3961da17f259ea4ebae64b05adefc276fe63a,"Merge pull request #34 from alibaba/master
+
+merge"
+57c3226e5659dff8e7718a898cdd9f49dec24d8e,Merge branch 'feature/es2'
+8cadd585c6af6f22036393614c66e6c45f80ddee,"adapter rdb无法同步ddl更新问题修正
+adapter/support/MessageUtil.java"
+f7e490f7a01f48fac31df22ff5f0b45780516467,"1、adapter/rdb，从库表字段(varchar,char,text,longtext)非空约束时，无法同步问题修正
+2、主库存在0000-00-00 00:00:00时间时，从库表字段是非空约束时，无法同步问题修正"
+01dc8ce2b8429c360b233f997624ae85e3257a71,YmlConfigBinder代码整理
+1de8b27da1982eeddd5042ad1c4de879248bc9d6,"Merge pull request #3 from alibaba/master
+
+merge"
+a68bd288521127293dc9b7f48393e234a2a9d74d,CanalParameter类添加parallel参数
+17efc2ada01b677c09d26db15051c0ffce9b83d4,es 批量提交修改
+fcc1fc78aed684d5d9fefe6f77294c5666772551,fix #1521
+4017de51024016a15029cdba66ea0ba7612a70cd,"Merge pull request #1526 from jiuchengspotorg/master
+
+adapter rdb无法同步ddl更新问题修正"
+0fff514876bcbe6e7947ad58b198048d6eb01256,"Merge pull request #1533 from DaiZZZZZ/master
+
+CanalParameter添加parallel参数，用来配置canalinstance"
+1473a4a6b5b7cffad01eadf5f1085f2db0d0abf0,"Merge pull request #1523 from rewerma/master
+
+es adapter新增upsert属性"
+072420c32bc49cb2779fcab216db971d08af6103,fixed
+0c4711ab6206254e24797959a587c157ca91c136,"Merge pull request #2 from alibaba/master
+
+合并原项目最新代码"
+ae474d67ad874241e9e224ec19000fccbb2a6af4,修复当适配器mapping文件修改时，无法生效的问题
+f21abc13af4fa9fa843f1c4e16d3128948d3c605,fixed #1538
+fd4c8db92b10b9da15a362102b2056b9bfab668f,"fix issue 1532
+
+因为binlog日志同表名大小写的原因导致kafka的日志恢复并resize，报错之后引起集群崩溃
+现在修改为投递消息的topic不区分表名大小写"
+f2368e54698a7e9ef18e9450fb9e836c3152df29,"Merge pull request #1540 from wurongjun/master
+
+ 修复当适配器mapping文件修改时，无法生效的问题"
+5e2eabb3c261ea8bb145a69a1394b235fa4fab7d,"Merge pull request #1544 from finefuture/MQ-fix-pr
+
+fix issue 1532"
+f664af1af49b8522474a03adec082235b8f6ce80,"fixed issue #1546 , support drop database"
+d377a92a5d0906b7501f96805a4591c837e670aa,"fixed issue #1548, NPE"
+e7f069850f74b27b5a481bf56b711b6d3cdad330,fixed #1538
+8187d7c5df34c3f6b3714d1439d733a3957777f4,Issues #1460  修改utf8数据带表情字符错误
+b891afa50eab722cc3ba7fa8f4e1b63f7c38e60b,增加时区判断
+81ab7e97839ee854eba54335b5d63c1176d7fe2d,Merge branch 'master' into master
+9888fae559a319e08e8a255725f0d711789d020c,负时区的bug
+5d4210bd221e3279a411d58ed8d2ef1c1363e8cc,modify
+17813811877d870de8e09f152d68567c711f6a55,modify
+7abf50f233867934c9a4d0d5011a66cf3e1d782e,key改成大写，小写不会生效
+c4599df1c236adf526c33b12b698fd8ee88cd686,"Merge pull request #1560 from dragontree101/doc_mistake_key
+
+key改成大写，小写不会生效"
+7436d9f06f6b0917c013627c6f9aec1d1ed79d85,"Merge pull request #1550 from lee123lee123/master
+
+Issues #1460  修改tsdb中同步数据带表情字符错误问题"
+14c1af4c801ee5a6a76ca9f2da64b25e428aef90,"Merge pull request #1542 from rewerma/master
+
+fixed #1538"
+64ca62b986db41eaedf9bd425e501f4c229c38d1,update
+a34f9ae97b35c69abcff0382a35cf17708c13dec,Merge branch 'master' into miss_producergroup_properties
+9d4b61f0833a00cfe5a1694717cd59f5bbde828c,"Merge pull request #1567 from dragontree101/miss_producergroup_properties
+
+producerGroup配置没有读取"
+7dab5ac6c2490b5451b1d004e33e75320a467a59,"Merge pull request #1 from alibaba/master
+
+update"
+2707c12570de69b9f00ba4ebabfa97d725f77630,"CanalSharp has transferred to .NET Core Community
+
+CanalSharp has transferred to .NET Core Community(NCC) and became a member project of NCC."
+ad39559f8c4b15e8ef30ea844466f8ede76da907,fix #1585
+7b6e482827c478d739ee74b8b6a78d3cf80c05c2,"Merge pull request #35 from alibaba/master
+
+merge"
+971c9a88c29f6c5f3930107361125703ccc76cb4,modify
+43045bc672a4836bd73f06608351bbe3892420ad,use system time zone for es datetime field formatter
+05ad671cc16f77e0980d63320212e78f7fff331d,"es增加relations配置
+配置monitor yml加载使用通用加载类"
+4bd91a10792b8d27f7807665718795bb551ad89b,fix bug
+078673c6a9215520e1d2a0b098e1df040720abf0,fix the error log does not contain table name
+4df60a0fb58313b4fcb7e817849324eb8a83de0d,es增加父子文档索引同步适配
+e03705e2112d0435f18183a777a333851d392a86,es父子文档索引ETL支持
+df98fec945295514df37137332e3ec72ad64e20b,"解决单核服务器无法订阅数据的bug
+
+解决单核服务器c中anal.instance.parser.parallel = true时无法订阅数据的bug"
+cf4db1625dcb230d19fb78f78ca3cc1ad742d4aa,"Merge pull request #1605 from lizhyocx/master
+
+解决单核服务器无法订阅数据的bug"
+6d280d1048ed2df18f962ed852b1b863621aaa81,"Merge pull request #1597 from KangZhiDong/master
+
+fix the error log does not contain table name"
+5c96bf282e0d88a51e5a2eb713bf5c27be687b5a,"Merge pull request #1590 from rewerma/master
+
+ fix #1585"
+b114e0cb15270a46ba1cc73039e4be521002f992,"Merge pull request #1581 from alexinea/master
+
+CanalSharp has transferred to .NET Core Community"
+95b26c4d1d44ec377436ac0b383237c3863e82c0,"fixed #1433, optimzier code"
+9db2bd291b0c8efc9ea0db2c63b2b6dacd0c2c4c,"Merge pull request #36 from alibaba/master
+
+merge"
+941ed7f60d47cf757132699d05efd79a32901db3,Merge branch 'feature/es2'
+6b3bf31404719fc1e0f236595019f4e5901c6e4a,adapter代码整理优化
+51c469aa6ffe6157749c1aa2394ac27e8a8b782d,es etl 主键类型bug fix #1559
+a2360efff9465243944b81af5f930c7a8e336054,"增加对sql字段 `` 的支持
+fix #1559"
+5821c1f60670c20b7cdcd3e0a44ea07689b5a749,modify
+06bfcda275680ccf8c6dd3dbc2b58ae6fec59242,code optimization
+3b618740d453d37ed9491fb4fd62de184036c87c,"Merge pull request #1607 from rewerma/master
+
+ES同步新增父子文档索引适配"
+17a6ba9c9c4ba9901f32011350c84692b6658fad,fixed travlis
+b488ca02d81548a1de02cee376854e34f24963f6,fixed travlis
+03d46f150f8712fe2d1e21092800b94b9baf312e,"Merge pull request #2 from alibaba/master
+
+update"
+9b2ad0eafdd40af08e915d05ae511ed1e5a88516,set utf8mb4 to support emoji
+024986a195951f41cc1d29074d389f71fc37d809,fixed travlis.yml
+2810e7e815acb833085a0cbcf5199adc1d09fd4e,add mvnw
+e7b81cd83a57f0c1817074e322ebfbb025edfc78,fixed mvn wrapper
+38336b249e7c899bddfd561541f944ffa3d96f83,fixed travis
+e07fdb6426045ae0129263e40cc4253bf6d9d35b,Update README.md
+d448455ebff31d341a60685cda8fc765086329f1,"Merge pull request #1613 from KangZhiDong/master
+
+set utf8mb4 to support emoji"
+b0f4e4ee789b6ca84db1384ed75240c7fbcf75da,fix #1608
+8fcdd7f7980f3acb67bdb6c35aafd512b0181ad7,"Merge pull request #1619 from rewerma/master
+
+fix #1608"
+0411d99e7bd6dca87c11b7213bb8e33786933333,"Merge pull request #37 from alibaba/master
+
+merge"
+0181dfaa42281d669fd2b9b9459533609afb16f0,"sql解析对case when 的支持
+fix #1598"
+4bad0e88f849a9f7c16c012d7fec9bf2165ead05,增加日志配置 fix #1570
+a81d2710ff927925301c7fef0aee51696676cec0,fixed MQ partition
+024ffc2aa27d1ef01f71adf52ae636a1de1af0bb,fixed mq partition num priority
+38d8c3d4627b9ae8875212d39e2ea6534dff728a,Merge branch 'master' into master
+99cccd21139f9cc5fff3482899e24d25fa1a20a1,fix #1608
+531b53522820f539ee7bc4f7dbb54bfb40187bd1,fixed bug
+b2b69307f9fbd1fe483ebe498883613531898f36,fixed rocketmq
+f6ca489984d49b0b5ab7320034abef8800559f54,"Merge pull request #1620 from rewerma/master
+
+fix bugs"
+c94e3a00245aec003bfadd97a906436ebefd4246,fixed default properties
+844c019433d8d57fe25ab67f27b41ba8418a1b32,"Merge pull request #39 from alibaba/master
+
+merge"
+579fa72ae236b2f3101d9b835f66bfad59b30354,kafka consumer connector引入事务隔离级别 fix #1512
+37c5168a7dc2199d3eb2530294d2bd2894d76d75,code optimization
+08167c95c767fd3c9879584c0230820a8476a7a7,"Merge pull request #1622 from rewerma/master
+
+fix bugs"
+661d1192658f6153d467fa69ab81a5c33688c951,"fixed issue #1625, mq dymaic topic match"
+95bed6bcf6c1b0a1d6594f7298c1a34f0a264a2f,fixed fastsql
+c5be5b7a8a26fe6e848a09e743c4e50b34230be1,"Merge pull request #40 from alibaba/master
+
+merge"
+a137deeaffdb0212b32bb0a51fef47875369a635,使用统一log
+c101ae2280cde01b2fe3d28d47afbabf60cd5cff,Merge branch 'master' of https://github.com/rewerma/canal
+0ec46991499a22870dde4ae736b2586cbcbfea94,fixed format & support Mysql Auth Switch Protocol
+739963acd03c9633416ccca85a80ef1cc8a6ff40,"fixed issue #1636 
+非flat模式，当MQ主题为多分区时，数据拆分只取了for循环里面的最后一份数据，
+导致消费端只能消费到一个分区的数据"
+99b34ff632fc2791cda799181cc9573678d77110,"Merge pull request #1639 from wangsaner/master
+
+fixed issue #1636"
+20e7becfe90b62e8f95bdaf870a8e4de5c8dc48c,fixed format
+97640b717b855ab8b56e3ca37026732e5d56eebd,fixed compiler
+d6ef66a281d17911336dc750ce5c1a0aa93b6779,"Merge pull request #1 from alibaba/master
+
+merge"
+9826948ebb885dedebd6bd52fae5363e94286040,"修改canal.mq.partitionHash散列规则，
+当指明pk级做分区（schema.table:pk1^pk2）时，由table.hashCode()^column.getValue().hashCode()改为database.hashCode()^column.getValue().hashCode()，从而支持同库下不同表hash至相同分区"
+39aeeb8c58c2e8f23b6a99ab1094587e9e26d54d,"Merge pull request #1641 from wangsaner/master
+
+ 修改canal.mq.partitionHash散列规则，使其支持同库下的不同表hash至相同分区"
+a7f9a779ad26a7bb3ec614dad604f25e03cd39c3,"fixed issue #1640 , support schema partition"
+f63ce4ffe623a6bbcaca5023fd3512e493d442c0,fixed mysql auth
+d715ff64b41c90b26932233062eef016aa2c6441,fixed packet write batch
+15e29d276a9dc3ca7c3204bd5d15714c1d64fa1a,fixed default xml config
+d3195ac9736a259dc167f343240415291bc00f17,"fixed issue #1626 , support alter table id first"
+82ed9db8aea313421b7d6fa42bc10a84c38d8a65,fixed rocketmq partition out of range
+d13c1eb17ce4ce3f85e86895c6996b3a90fbb0d1,Merge branch 'master' into master
+08af40221f1367c6ec5e4710a4e4d17d9baa7236,"Merge pull request #1658 from rewerma/master
+
+adapter 日志打印修改"
+b95c0d03cf42e8637b72b7f2d2dbfab894bef1aa,"fixed issue #1660 ,support mysql8.0 caching_sha2_password auth"
+d76d25df6c2aedfc2c93314107d25be481b0974b,flatMessage模式下默认canal.mq.lingerMs=100
+2c320e861825b2ad39e904d25ea3278903f7425e,"Merge pull request #1661 from rewerma/master
+
+flatMessage模式下默认canal.mq.lingerMs=100"
+a7b12c70989174668a8c29c044567ca02e2f1f50,[maven-release-plugin] prepare release canal-1.1.3
+fadfe1d6caa64ce6f03a6d070571d70a6d3073e3,[maven-release-plugin] prepare for next development iteration
+6febcf1a0f98502434b762461b2cc2fc47b8bc28,add test coverage and jdk11
+95c69bb854e0e17e1cd82d32e0efc4df8e79f2b6,add test coverage and jdk11
+386567a633588a040647a2fccbc8a8d0b654a1ca,resove  Could not resolve dependencies for project com.alibaba.otter:client-adapter.hbase:jar:1.1.4-SNAPSHOT: Could not find artifact jdk.tools:jdk.tools:jar:1.7 at specified path
+21309cb06518b2366f011418c1547edb5c95543d,resove  Could not resolve dependencies for project com.alibaba.otter:client-adapter.hbase:jar:1.1.4-SNAPSHOT: Could not find artifact jdk.tools:jdk.tools:jar:1.7 at specified path
+68ebb3a95768df078f100e27515a2c1b49e47894,update skipTests=false
+2b8120b6edab3f451c79467f59e39d2851760848,update pom
+e139698f6e4196bb6cd08f5b6d4be9be6062be99,update pom
+e5c7bbffbf4efce8e404519613f5453ddcf738d8,update pom
+dfab98fce19234e6501c45b6af9a41fe042a26f2,"Merge pull request #1669 from lovepoem/add_test_coverage_and_jdk11
+
+add test coverage and jdk11"
+5a2efbf9cb59009d003d40316d2513c3bddbbd1b,update jacoco lib
+0de8f4691e171436d1af683626e4e685eb9877c2,update jacoco lib
+8c68cf833a656942a7343b23a3e3b892d0bee562,update jacoco lib
+1fc880f255c14375c398cd694525f428257dd273,reverse jdk to 1.7
+cd007088db6dc37c17a388eb76e6e8908da15f82,reverse jdk to 1.8
+55030476ee3d64a24ec98c542b734bcfebb25dce,reverse jdk to 1.8
+c5736bd5f3c38724b20304be2df6d07b00ca5e89,"Merge pull request #1670 from lovepoem/update_compile_jdk
+
+update jacoco lib"
+69df50fe170f023ebc565186c72a2673fdab2b64,"fixed issue #1672 , CanalKafkaProducer send"
+d8996432b9f4920afe14c4bd500120d62907c804,add issue template
+80594444f7f745182ef2968976868fd2d4a972a4,fixed issue template
+df86f94409be9502270db5c0f0502b23facd99b9,fixed issue template
+8cb85753bbca4dd60022165e45bae98fcaebc4d4,"open the switch to get codecov test coverage (#1671)
+
+* add codecov for test coverage"
+67faf0e03ef0de75339db1ee6621e7b843bb1c8f,resovle config/metrics as a destination folder (#1678)
+a8bf2b641fabed8a699a3ff999b5954647ca9ff6,String.split(String regex) bug fix (#1696)
+16f335c3815a20cd643d79540064f01bea4461c5,"修复rest etl 存在SQL注入风险 (#1685)
+
+* kafka 模式默认开启事务异步发送
+
+* fix adapter etl rest sql inject bug"
+2b738f4e0474468f58e4e01688678896314efd7e,"fix bugs (#1712)
+
+* kafka 模式默认开启事务异步发送
+
+* fix adapter etl rest sql inject bug
+
+* fix #1704"
+3165cb9640dffab410ac49b486a943ac1717e0c4,"支持用户自定义的CanalAlarmHandler (#1736)
+
+* 支持用户自定义的CanalAlarmHandler
+
+* RowsLogEvent增加对TableMapLogEvent判空检查，防止NPE异常"
+e94ee643164336c849c19611928c48db6604ff47,fix typo in trace log (#1738)
+8f088cddc0755f4350c5aaae95c6e4002d90a40f,"Fix es bulk (#1743)
+
+thanks"
+4c690fb5a3f52bdd1f8c894e61fe9ea8b21d1136,"Null point Exception during loading the checksum (#1788)
+
+If you connect to the mysql with version 5.1, the result of command 'select @master_binlog_checksum' is an array with only one Null element ."
+24fae6fa521c6ab0ae53522c7daf069404322a13,"变量定义错误 (#1776)
+
+* 变量定义错误
+
+* 变量定义错误"
+7427a746121cd8347d5f406463832ce3140adc98,"improve es etl (#1758)
+
+* fix typo in trace log
+
+* improve es etl
+
+* improve es etl log
+
+* improve es etl by add threadCount
+
+* improve es etl by add threadCount
+
+* improve es etl query
+
+* remove comment"
+72c4daba5fa073a552d73646185c0a200fe67715,"1：添加对于查询结果中，MAX( CASE a.key WHEN 'WORD1' THEN a.value ELSE 0 END ) AS… (#1794)
+
+* 1：添加对于查询结果中，MAX( CASE a.key WHEN 'WORD1' THEN a.value ELSE 0 END ) AS WORD1 的竖表转横表的支持
+2：添加对于查询条件尾部，使用GROUP BY _id 等分组语句时出现的sql解析异常问题
+
+* fix index out of range"
+331dd63c5ff4b711792b0c50a7ec9bd47346f70e,Message转Dml对null值的判断
+b870e7ecd078c86f1f40b575fdbbe4166da93fcc,Message转Dml对null值的判断
+4f7842c84366baecdd2bf840cea44bd7b67334c4,Message转Dml对null值的判断
+3b9ff26d1aa4cb38b938fe80874298a72da83941,add logo
+d0a83aad2758c28e84b5581fbf740ed5a4ffee55,Support seamless docking with Alibaba Cloud RocketMQ commercial service (#1849)
+37fc248ebfbe7352319c2fb67c42833e48a5d96e,删除操作计算hash值的情况没有考虑，导致删除时的分区和插入时的分区不一致 (#1848)
+4075a0623f0f0ca527dfb6e97ba31fe1039ff78d,set the validationQuery while testWhileIdle is true (#1827)
+f9989e085674c0f5068f9568448329fa8513d16e,fix:未捕获kafka事务异常，造成canal ack异常 (#1814)
+8df6d6fed8b9256a4591d5e0499d36a9bef3cf33,"Fix: 主备切换后没有往Kafka发送数据 (#1810)
+
+发生主备切换时，调用canalMQStarter启停对应的destination。"
+ce7948d6e72f2399caeeb279e1702225c89cdad3,"fix Message转Dml对null值的bug (#1808)
+
+* Message转Dml对null值的判断
+
+* Message转Dml对null值的判断
+
+* Message转Dml对null值的判断"
+e808c6ec70d5be731d0e8ba18f9eed10a29336c3,"AbstractCanalInstance的subscribeChange方法，增加对AbstractEventParser的类型判断；MysqlEventParser对Gtid的处理需要考虑兼容性 (#1824)
+
+* AbstractCanalInstance的subscribeChange方法，增加对AbstractEventParser的类型判断，以支持用户的自定义CanalEventParser
+
+* MysqlEventParser对Gtid模式的处理需要考虑兼容性，支持系统平滑的从非gtid模式升级为gtid模式"
+058e1fc546d4d2a7bd50c2a2e748c088b2cb5258,fixed delete message send mq bugfix
+95602f4784f809bf2ed39ac17b562597304084ae,并行解析模式下有丢数据风险 (#1857)
+75b4911caf188e2318fbade94d23d2e2f3b32ad6,线程安全的获取meta (#1866)
+5ac0f7b710c02d1612ca2c5775e6d572bace5512,"按主键散列，未设置主键时无限空指针异常 (#1889)
+
+当按注解散列时，如果监控的表未显示设置主键，将会导致flatMessage.getPkNames()为空，导致无限空指针异常"
+74489d1bba073abd343c042b2733d201d9dd8895,当MQ配置为Kafka时，支持配置Kerberos认证 (#1895)
+6c494f8892a1c0e54fe51702f677661dfe3b7afb,add rocketmq-client pom version
+5bea876ec98c3f4e3ca0a2eb21996f8ee6cf9bad,"fixed issue #1352, add pkNames for flatMessage partition"
+8728beb4b6820d794dfb4bd1d26980f4d5541fe6,fixed compile
+adccc0e9120bc561f5ccc6084b0ea1fa73e2693f,add logger info for query_log_event
+24f0eece425c359fd4f497a297baca082481c252,"Merge pull request #1 from alibaba/master
+
+merge"
+49570834934388acdfcf0cdceb276fce0e8ccf5d,"fixed issue #1897 , memory event store ack null"
+a847660a456a028720b916408ed12b6a0992b1f2,"fixed issue #1826 , remove kafka transaction send"
+c81034dda342e8cda9b377f96d8da6b4cede152b,"增加表字段过滤功能 (#1914)
+
+* 增加表字段过滤功能
+
+* 增加表字段过滤功能
+
+* 更换fastsql版本通过编译
+
+* 1.修改字段配置格式 2.增加字段黑名单配置(冲突时以白名单为准)"
+f04e742f4f1f88360d20819b0005f560524d3b99,"#1897 , fix DummyEventStore implements new method (#1932)"
+803c0607d3ac89479de5f4e42f87eeca05fc47d3,Update README.md
+0cf18976d996787921e2eb5337df99a5436792bc,"Update HbaseSyncService.java (#1936)
+
+Fix batch update or delete with only affects the first data issue"
+b5c05c2fd28c31db8dedc795cd616389df80a309,"Add unit tests for com.alibaba.otter.canal.parse.driver.mysql.utils.MySQLPasswordEncrypter (#1937)
+
+These tests were written using Diffblue Cover."
+60a46ae94123ebfc9815df0e60b08f755ecaea7d,fix #1761
+b43043f4e46c2660dddd129c8f1f3588c455d442,Merge remote-tracking branch 'origin/master'
+e87a0c3b63f74897809627283a8e93c942a622c0,canal-admin init
+fc39b2af6823bad0a2c67248aa3673f8fc0b45d5,modify
+a93af74539163e6bbff46238b8fb4f29cc761160,modify
+64ff14030426f21f67f3daf2a03b87e5c7e41e48,modify
+317439670c8386a7f5894eff22f05bfec9d338bc,modify
+50ea6870dc79b4459be941436fdfb91a2c3b3467,modify
+28c0aac98dbe59d30c645ad03382bce366f261f5,modify
+ec5f1eb10d6282ad864591dba3981ef04af8c7ad,modify
+598f15a40491b76e31ce38176090a12d188d928e,modify
+e4b37f33de8b8f344c28b6c011eb31150b3c028d,modify
+c7967e989c1dc9460239fef46b086019e4078c1b,modify
+015026ea91c654c495c0769d4a49abc222129152,modify
+23209f24ed8af9a8cc6688ba17e9ef582640a20b,增减jmx状态控制
+64824bc5aa5b7cc7f49b238e34c3878cd379370c,modify
+4c3ef6772cb4f4ccf6d77230efd63b4f12608ca8,modify
+5741f5a347d49a492b258b45c14b5ac70063c549,modify
+6b9487a0a0ab22e52f2dc193143198d123829311,modify
+8639b45fe9a99486a29df1adff56f71dbdd64dde,"fix #1761 (#1973)
+
+* Message转Dml对null值的判断
+
+* Message转Dml对null值的判断
+
+* Message转Dml对null值的判断
+
+* fix #1761"
+92dd2bb18971eafaa74fa88e651ca17b3ec674c5,Update README.md (#1981)
+c070757da008a09f74dfe075eb33276f0bf64bb6,修正文档链接&优化格式 #1965 (#1967)
+7044e172f5afc9eef7fdd30b7cc3bd5571e8715b,jmx 客户端
+c2ce662f9a94f680d692dae597b441ef9ecd1e6d,modify
+31ae308760365e8fa5e591814f9b5465440ec2e4,增减jmx状态控制
+6f129bf5242629d0aee4f04a59d02464744138ef,modify
+28da536ec8539a0ca7747330a0938b235d1953f9,modify
+40d2a8c6cc7b8387f0c33fb1438f4e7aad533cce,modify
+4efc0f6078d94062b884a1cbe50c2037f1bd0b8d,modify
+f3daceea6b43632de35f27f164b88d2cefa01ff9,canal instance manager module finished
+62072ea9ab3cd88596668c4e56b198408be742ba,modify
+9cc6b674266fdcece479f79f0dbef391bbcf100e,ddl sql
+c8bb6e200cd90dd21a659ede854ea299330c6a94,modify
+483044916d8935d3ba4e2809127c451734091606,canal admin
+7cec0994e97d126274aef7a7dd95ec96a896bb89,Merge branch 'master' into master
+4c0d82fb98d5b42e854f7424029dbca1f166aeaf,Update README.md
+10f4ef6acd3f4b9ab37d2ba8f39934433d732b1e,"canal admin (#1998)
+
+* 增加注解
+
+* modify
+
+* 文件大小写问题"
+c1bfad4f2d45f53cdd24c54d7baef061eaeb495e,"1.not compile canal-admin module,unless you need it, to be optimize.#1998,2.support JDK 11 & 12 ,3.fix the CI block test"
+c48e80a1630fba5353e3aa23bb40d580f3d0eb1f,"remove oraclejdk8 CI config,add oraclejdk12 and openjdk12"
+be9813142f0d5b9a3223f13ebb0e59be82be1813,remove openjdk12
+44722fe01c5568239e190775c5c9dc7360335db1,"canal-admin-ui 指定profile编译 (#2019)
+
+* canal-admin-ui 指定profile编译
+
+* 启动实例时选择指定节点
+
+* modify
+
+* modify
+
+* 静态页面修改"
+db23f15b61f8829dc56dd5028037dc8efefc0b8c,fix: hbase etl sql syntax error in some case (#2034)
+bcdbf75dc585adf6085675ef9fb65f43fd02bb64,"Add unit tests for com.alibaba.otter.canal.parse.driver.mysql.utils.ByteHelper (#2039)
+
+These tests were written using Diffblue Cover."
+fdd07635673bc0e2a3219ff1a2825fb7d352a75e,"新增es adapter rest client和认证机制 (#2046)
+
+* 新增es adapter rest client和认证机制
+
+* 修改getMapping位置
+
+* 代码调整
+
+* 代码调整
+
+* 整理代码
+
+* fix #2048"
+066743cfd69d696ab8d66b6fbc5a638cbd5bc2ca,always check whether ringbuffer has an exception in event processor (#2053)
+7547cac3c5abedd34e113631ff71065136c508ea,fix compiler problem: upgrade rocketmq to 4.5.2 (#2074)
+78af6b1130e1bf3220c73443c08a304298ee155f,"fixed issue #2067 , add example"
+7b245c5a643ef6d0489c711910c1c378000c781a,fix #1762 (#1959)
+2d3baeab7d58c77d16ad1557c0092c434f35af59,fastsql tsdb testcase
+8b54b9e5968adfd7249c6921bc8d1e3e06d4ad61,add python client info
+86cd805a6439b7fb82268eec84e8bb281da09414,upgrade fastsql 973
+bd974e3da82dd0be95ed1f7fb55828463aba2835,upgrade fastjson 1.2.58
+3a74f6124a7b82ca210acafa5888aaf0a042255c,"fixed issue #1940 #2088 , add canal.register.ip support docker"
+983ff5fc73fa3be65a08af6d0b1024e52a153803,"查询数据过长变成byte数组转化为json解决 (#2090)
+
+Caused by: com.alibaba.fastjson.JSONException: syntax error, pos 2, json : [B@406b7f2 #2089"
+e376a129edcafc8198cc2743f1622ac149767e97,fixed canal-admin vue
+3d4dbc9a8c53de730e5b0433c39ea1d69e2dd480,"fixed issue #2099 , support user/passwd acl and canal admin operator"
+2e1b7a5093bdd273ae9dbbd4378930e408fc8cb4,"通过http从canal-admin中拉配置 (#2093)
+
+* modify
+
+* http拉取配置监听
+
+* revert main pom
+
+* 整理代码"
+bf89974f7c7933661696013220a99fc9c3cb331c,"fixed issue #2099 , support remote config poll"
+7093179cc8912666ce3a4e3dbfa1a55f18563038,"fixed issue #2099 , rename poll to polling"
+d92badeb4507779b83ca428131c5bb812b712ac5,admin assembly打包 (#2104)
+c48407b449e69416de7cad272e0da8d9560b98f6,"修改npm profile (#2106)
+
+* admin assembly打包
+
+* 修改npm  profile"
+7386327af997dbff7c07d64d6867f5540f777e22,"code optimize (#2107)
+
+* admin assembly打包
+
+* 修改npm  profile
+
+* code optimize
+
+* code optimize"
+f52b2cccd57f537335f1acff6cf1b26ccdd51522,fixed testcase
+e8dba4121653bef04b180e342133524df650ad19,"code optimize (#2108)
+
+* code optimize"
+89055f740547f6fe49fc0c1580e8435f88f70451,"canal-admin完善 (#2121)
+
+* admin端口调整完成
+
+* server端适配调整
+
+* 调整部分功能
+
+* 单机/集群admin调试完成
+
+* 重新发布前端页面"
+274e91f8aa2bb4683d536320ff5ae8db5ab41e31,"bug fix (#2122)
+
+* admin端口调整完成
+
+* server端适配调整
+
+* 调整部分功能
+
+* 单机/集群admin调试完成
+
+* 重新发布前端页面
+
+* bug fix
+
+* 解决server端admin配置会被远程覆盖的问题
+解决default-instance.xml无法加载远程zkServers配置的问题
+
+* 集群模式下取活动实例的问题"
+4e0b8a02781b355ed4c3e8dde041429662d13dd7,fixed admin
+ba24c158339a6480b0c18989c59936672f7174f1,add conflict file
+456945fe3a99f640944366633ddcb1f9d84a4938,add autoRegister and cluster
+a60ec6fa42030eb5a909a07bcbb86dfe4c61917c,fixed tescase failed
+3a388308d96a6a4ee280c80ddbcaae915cc087e3,fixed compiler error
+1bcae9dc49ff28ad1f086fa0cb8781d1b49c0cba,"template config load (#2123)
+
+* template config load
+
+* compile vue frontend for product"
+c76e8ba0e47bc3cac3e6ae1c908fbff8334ca818,fixed canal-admin
+44187d9e3a2a127db274af588be92d889338a19f,fixed docker config
+cfc95e2b7a783bb6b05ceeb2d724c26a616b0193,fixed docker config
+5addd246ac2ebeba8377e57fbbbe3a70d7cd234a,fixed unused error
+95050ff3829972ec9ea8938c11ca0a558e8a6d0f,fixed test example
+0d42bdafe228fcc8e643d5b7e72cb6b81fb824aa,fixed stdout
+ccc45b672c29ee979c389ec2453dd74ab65af697,"fixed issue #2127 , remove logback stdout"
+d53bfd7ee76f8fe6eb581049d64b07d4fcdd692d,[maven-release-plugin] prepare release canal-1.1.4
+2bde4327c75c23792d464f96b1a7f90d32de4ef2,[maven-release-plugin] prepare for next development iteration
+a9e83463e01fed690cca0c8f858f38f355c5bb00,Update README.md
+403fdf997c54488376bf73c4933e76b3aa40936b,Update README.md
+ecdab76705d99bbc95309d4c06e249e27f43de9b,"fixed issue #2129 , Negative seek offset"
+60e26d1dddbb90de9fe7a69456be22795bcd2e73,解决修改数据库远程配置，canal-adapter 一直循环destroy、init。 (#2137)
+1dd4674ccbd2b51a79c3cab033a25e27ba1e228f,Update README.md
+a0387faa6780358e20b6daf9e13fb71200d53710,Update README.md
+08a2f0aa44a9f55a7f26e0f6da12b84c2df31163,Update README.md
+bc9c7f0f1dfb1d45ea664d5f459e70348adf5271,Update README.md
+5fbd6f66064b2e3bdf3093c68f783d2bffdd4410,Update README.md
+520f5771d8c4dd18ebac73f24421ec0971398ba3,Update README.md
+803565456f0dd5cf6a8883c47fc5e68fb3a5eead,"fix modified_time null value error (#2157)
+
+* template config load
+
+* compile vue frontend for product
+
+* fix modified_time null value error
+
+* modify"
+31bb85bea3a7b9f2437b4edaf3f949507e13b9b6,"fix bug #2023 and code optimize (#2167)
+
+* 减少等待刷新状态时间
+
+* fix bug #2023"
+c093fbb8f68ea8a3ddb9553af1920e91398fd2e2,"动态刷新同步锁状态 (#2181)
+
+* 解决修改数据库远程配置，canal-adapter 一直循环destroy、init。
+
+* 解决动态添加instance和对应的adapter无锁状态问题。"
+419a73b3dea062e5354e893067b319f64ff13304,"fixed issue #2168, ignore create database"
+365ca4d01f1db42e78308991a5ee58aada771395,fix：当查询列包含常量拼接时解析主键字段进行条件拼接时会多出 where null=null (#2188)
+5214257cd42801a8ec08155820d6cadf8c7ae4c3,"ES子表含group的where条件拼接 (#2190)
+
+* ES子表含group的where条件拼接
+
+* modify"
+5ec20872577e5aadb3b5c681d7281c641a29e2b5,"fixed issue #2197 , startup.bat fix"
+79552e0a37980824ca77f6eb49ea17db07d0fd87,rabbitmq(amqp)MQ支持 (#2156)
+61726c7e0594a793255d2f16499ff7dc8a2bd8da,"fix: ES配置文件监控问题  (#2202)
+
+* fix:
+ES监控配置文件时如果第一次因为文件错误新增失败后，再次修改不会新增的问题
+ES监控配置文件添加的Config缓存没有带Instance导致匹配不到的问题
+
+* fix：ES配置文件监控不生效"
+f45c0206da5fc8882a34b7efcce0d8975612ac1d,"Add elasticsearch 7.x version adapter support (#2246)
+
+* init es data sync upgrade
+
+* Add elasticsearch 7.x version adapter support"
+fff623acb112fe28867e3314d5e8ecd41e9fd0e0,"Add unit tests (#2235)
+
+* Add Unit Tests for the following classes:
+
+com.alibaba.otter.canal.client.adapter.support.JdbcTypeUtilTest
+com.alibaba.otter.canal.client.adapter.support.UtilTest
+com.taobao.tddl.dbsync.binlog.JsonConversion_Json_ValueTest
+com.taobao.tddl.dbsync.binlog.JsonDiffConversionTest
+com.taobao.tddl.dbsync.binlog.LogBufferTest
+com.taobao.tddl.dbsync.binlog.LogEventTest
+com.taobao.tddl.dbsync.binlog.event.LogHeaderTest
+com.taobao.tddl.dbsync.binlog.event.RowsLogBufferTest
+com.alibaba.otter.canal.parse.driver.mysql.packets.client.RegisterSlaveCommandPacketTest
+com.alibaba.otter.canal.parse.driver.mysql.utils.ByteHelperTest
+com.alibaba.otter.canal.parse.inbound.mysql.ddl.DdlResultTest
+com.alibaba.otter.canal.parse.inbound.mysql.ddl.DruidDdlParserTest
+
+These tests were written using Diffblue Cover
+
+* Add dependencies and refactor"
+d86b0e6e677a588b2793eaf18a2abd37d11a1653,fixed  testcase
+0c27bcf73e4505b464dc8c26e6410aae0b08e06b,"Fix issue #2221 (#2242)
+
+fastjson修复了拒绝服务安全问题，升级到当前1.2.58的兼容安全版本1.2.58.sec06"
+46fe40ed4774c5a698b75754ab809f64920cdba3,use es6x/es7x instead of elaticsearch project
+26013e239d4da723efe1b23a56a01be7bffe40fb,Update README.md
+460479390ac6e4b37de33f327265b658b1447b34,bug fix (#2249)
+c634f98fcac51ea37edfe12a8442a9d19c54f1b5,"bugfix mysql >= 8.0, 缓存层移除，EbeanServer 运行 Fail，Unknown system variable query_cache_size error！ (#2264)
+
+threw exception; nested exception is javax.persistence.PersistenceException: java.sql.SQLException: Unknown system variable 'query_cache_size'"
+0fb717a97f2b954908b6756e17d97304e0b1ea27,"fixed issue #2258 , optimizer kafka send perf"
+d505b5ab9dfde4ab0d4dfd74473b3901c155e4ad,"fixed issue #2258 , optimizer rocketmq send perf"
+dd93e2b0c4b4479e052da2c63d3065a2ad5108b2,"fixed issue #2258 , optimizer rabbitmq send perf & matchTopics only match one Topic"
+e4e66b143cfd34b4430da74e0b95f49b4addca63,"make canal.admin.port canal.admin.user canal.admin.passwd can be override by system env properties (#2274)
+
+* Update SimpleAdminConnectors.java
+
+add more information about which server execute failed
+
+* Update CanalStarter.java
+
+make canal.admin.port canal.admin.user canal.admin.passwd can be override by system env"
+4af3b24b69a2db0994a4da4efa6655da0e97176e,"fixed issue #2281 ,  null reject"
+7d91850be6c94d588c26579c2b9a6f3c825b2126,"fixed issue #2257 , time 100 parse bugfix"
+9c75e25da788e8a951f19eb59b7bace77488be78,optimizer pom dependency
+31562919bbd072a8c89a38f39a302ee4b56e7295,rename canal-admin project to admin
+b64a3e301adbe3af60311ab6cc7882a7013cdab7,"fixed issue #2286 , ArithmeticException zero"
+65b5325ca63e8a033a92823e7eacd7e193f1e2fe,建议增加一个属性，针对根据某一字段hash时，hash算法可以不根据database算出 #2248 (#2294)
+dd7554374fd655561c0b9f6c6f40f8c7e5d8cc51,format
+1fa9020599a8c84137acfaefaf0994abe99a3507,format
+c4c0255073d6fafb80a17d2ced9f485213c084e8,Update README.md
+6d9ea571869b4a355f1b1280c7bb21a636f41ddd,修复子线程阻塞造成不能中止的问题 (#2508)
+31acfc01019883c8066538d846e7d47de09bad8c,修复kafka消费回滚的bug (#2521)
+b6333f018f265859796d3c2871ec62e95b374864,"Revert ""修复kafka消费回滚的bug (#2521)"" (#2526)
+
+This reverts commit 31acfc01019883c8066538d846e7d47de09bad8c."
+70d8a379f28a92e6365bfb56285b35567ddd239d,add Rust canal client support (#2518)
+a71375dad5ce1ecf801fe94528198239bd1d1f9c,fix(canal):fix endless local binlog mode with exception. (#2597)
+9cc8caa834d74ce7b90db340138cfc26d7563e47,"feature(canal):support start with timestamp position(empty journal_file,set position=0),#2594 (#2595)"
+4fc7e5f7d950c9d4f9679a0c4f6d64003a8c9bed,fix bug: wrong quit command implementation (#2554)
+265a8e8594f68882c24e8d72319a4b66966527f0,"模块化mq connector (#2562)
+
+* add connector module, add kafka producer connector module for server
+
+* add rocketMQ producer connector module for server
+
+* add rabbitMQ producer connector module for server
+
+* optimize code, add annotation
+
+* add canal message consumer connector for canal-adapter module"
+ab74b2c82cdbbd5808ecea8e45dc2100a7e8d9f2,fixed mq spi package
+523e8b85e64aa31c1c66789c5741ad113ff0bb26,format
+b9a157657fb0f1a44c3409fc9cd485f362766349,merge /pull/2373
+bd56438eca1a5e7ec1103d01f61098aa7d8797d3,sql语句增加引号，兼容mysql关键字 (#2358)
+0d5505aa2c6c3104bfc8b500ef2ef4528f574a2e,"fix_json_type_opaque_parse_err (#2318)
+
+对于`JSONB_TYPE_OPAQUE`类型的解析计算`q_max_bytes`时，多算了`1`字节"
+92f04f86cb0956fc958012baa336ed02b89e486d,"添加目标表不区分大小写的支持，并可开关（默认为区分大小写） (#2329)
+
+* 添加目标表不区分大小写的支持，并可开关（默认为区分大小写）
+
+* 添加目标表不区分大小写的支持，并可开关（默认为区分大小写）-format"
+18418ebd982e4a14c303155e0a23120bee122737,merge pull/2120
+5e761e14fabb57595954f457909a6253ecece5b7,format
+c21c18458b7f32c1276ba2215e06ef5f7480c4ce,fix(project): fix isDdl judge  #2599
+beaca165d02394aa3cc93f0284d0c540ec63fd93,Merge branch 'master' of github.com:alibaba/canal
+30a1b067a81a2ffc9c640051b3fc5b4caa0d180d,fix(project): no need to process tinyint(1) specially #631
+b2b2a82554d2876a4fd29f77e38e05cf72580c8b,"client-adapter 写入kudu (#2396)
+
+* client-adapter 提交写入kudu适配器
+
+* kudu etl 处理数据缓存提交问题
+
+* Update KuduTemplate.java
+
+* 1.写入kudu前获取元数据方式更改
+2.解决etl批量导入kudu数据少量丢失问题
+
+* 1.修改文件头注释
+2.调整kudu更新事件update为upsert"
+afbf125231e842835aba9b5947fd1fd3ccb2b606,fixed format
+0e3d719a399634a62223b5f19845dfe7b21bb019,refact(canal):duplicate dependence
+9f6021cf36f78cc8ac853dcf37a1769f359b868b,fix(dml): revert wrong fix
+b5b08e92e337cc6c70bc4c5b53db96c48fa0811d,Unbuntu 20.0 默认sh为dash执行时会报语法异常 (#2939)
+576406a4ceb9b0c41eef6111d7321d914c89136a,Fix:Alibaba Coding Guidelines-所有的包装类对象之间值的比较，全部使用equals方法比较 (#2918)
+b82c8bca83d39b12c40887e920ee9266500713dc,Fix:Alibaba Coding Guidelines-Object的equals方法容易抛空指针异常，应使用常量或确定有值的对象来调用equals。 (#2919)
+72ae7ba8d783ea9231e1ce1d98517799a9fafd4c,meta admin (#2836)
+cdd077b75820b542a69b08ee3bf9c652f481c9f0,FIX NPE When ddl event (#2801)
+746d51e621cd7d8c1c35615cb3d40dfe8f457309,"Change maven repository to HTTPS (#2763)
+
+* change maven repository to https
+
+* change maven repository to https"
+985892cf7eac955d48882c4461f31a392c24f40b,Remove deprecated sudo setting. (#2749)
+e4726972de7f4255b7d4463d65769934181d27a4,refactor: delete duplicate code (#2748)
+182163c3bd48ee4baac5b4dcbe2955fc5c946a2c,"MemoryTableMeta ddl 处理注释2 (#2694)
+
+* MemoryTableMeta ddl 处理注释
+
+* MemoryTableMeta ddl 处理注释2"
+90bf9e6de5e90211f223583ec13097611ff05785,align h2 version to 1.4.196 (#2663)
+b79af4605468519481111233569612abc19b65a7,merge code and fixed issue #2755 #2756 #2735 #2714 #2711 #2710 #2616 #2602 #2585 #2565 #2935 #2434 #2623 #2418 #2387
+b81e9dfeb860ac03e9c693ef01269bcbc169ca56,支持不同topic指定专属partitionNum (#2479)
+df60eda679e98de25b8ed1689f5529f6972eb861,= code cleanup
+e7658879bce801da20c3ebd571ceb0a9fff8f6c8,"= cold cleanup
+
+  * using lambda if possible (we are already building in Java8)
+  * using diamond when new generic instance
+  * remove used improt"
+43c23ffb97c51593de16d761811e1326132f339c,= remove unused improt
+df24596092971cf2578244b69c61129d8ce2b336,"= code cleanup
+
+  - for loop replaceable with enhanced 'for' loop
+  - using diamond in generic type
+  - collapse try catch exception
+  - using try-with-resource
+  - using  List#sort instead of Collections#sort
+  - replaced lambda with method reference
+  - using native compare method to compare numbers
+  - using switch instead of if for in ESSyncUtil"
+6989eb3d2b9cfd93a5941be8db2fa1e9c9e86a56,+ fix logging call placeholders number
+5065fea963aa4ca63617de06b0aec32b60336d3c,= fix BooleanMutex's inner Sync to `static` class and add test case
+e7de8289cd6aec125512e6c787105e3d4ef07ecb,= code cleanup : modified inner class to 'static' if possible
+435db30b7bc1eb25d8bed4d617330d7eb22f0de6,"= performance improve
+
+  - using bulk operation instead of iteration if possible
+  - terminate loop after condition is met"
+362974b1c29b27639fe5bf06105180c9972ceb72,= code cleanup: remove unnessary boxing
+9a332940d75b99bebf6ed86911521d1794bf000e,= remove unused import
+09429c241f2912e615bda3e67410cb71a375988b,= inner class MessageEventFactory to be static
+de1dd7060939ee4a47691cc24887b07fedf59253,"1. Add MariaDB gtid support 2. fix issue:#561 增加一个外部参数控制，允许位点不存在时自动重置到当前位点 (#3025)
+
+* fix issue:#561 增加一个外部参数控制，允许位点不存在时自动重置到当前位点
+
+* Add MariaDB GTID support"
+8ed82caaefd515187cdaea0bb180a448d93437a6,Update README.md
+bb1b6b98629685d5e578f74cf46f0615ae248bc7,Update README.md
+693f8d501a10968545e20f1b248306cab2fa9fcd,replace fastsql with druid (#3132)
+272d575c780fb1726a2c46fa558c2cb2ed1336a1,Update README.md
+c94276b1ac2931dff3db134289ae925c66e82ccc,Update README.md
+a5c09c521e9bc383587658f77fa3d984126df247,Update README.md
+20add85ff6db78961222e0dc291ce71fb7efe9e6,"统一Canal 依赖的Spring 版本，升级ibatis 至mybatis (#3182)
+
+* fix issue:#561 增加一个外部参数控制，允许位点不存在时自动重置到当前位点
+
+* Add MariaDB GTID support
+
+* 1. fix maven central repository url access error.(Update to https)
+2. upgrade spring version to 5.0.5.RELEASE
+3. upgrade ibatis to mybatis
+
+* fix unit test run error"
+d7414258959608f39316461c008df9e9d720df5a,"升级guava 至 22.0 (#3184)
+
+* fix issue:#561 增加一个外部参数控制，允许位点不存在时自动重置到当前位点
+
+* Add MariaDB GTID support
+
+* remove client pom bad ns
+
+* upgrade guava version to 22.0"
+8cfb07f07ec9c321500e869559d6e78419ba27a1,"数据库名称如何存在中划线""-""情况下,SQL执行异常 (#3228)
+
+Co-authored-by: liguowang <liguowang@aerozhonghaun.com>"
+846c8870ae9609e364f83b1e963f7ad96bb39112,fix: issue #3076 (#3077)
+66408782b0eeebd3bc4a6aaa977c04822b94c027,"process()方法中，在retry循环中处理成功应该break (#3080)
+
+process()方法中，在retry循环中处理成功应该break"
+82b18ebe62d1c9c4eca379a3026f31442cfa4e20,feat unsigned bug (#3104)
+5d8ec31bc46df02831cfb70da749b9cd753a6927,fix #3119 (#3121)
+fede3b3d1d2439b0c9f5c3342041269a21c9dd19,fix #3126 将hbase-client依赖修改为hbase-shaded-client (#3127)
+58448e559df680b2fe6317dff60c14140fa5be16,fix: issue #2649 client-adapter启动时抛LinkageError异常、#3073 client-adapter通过启动参数传入`canal.tcp.zookeeper.hosts`为空值时抛异常 (#3074)
+32d9e589150bae5f14e34f943e5e43d7a9759753,升级rocketmq到4.8.0，并且支持环境变量优先配置 (#3450)
+e8d138d3bde874c2bee4896d3ee601a5ddba6377,fix: uuidset combine fix (#3432)
+f5f79104eb581ecf1678b40fe673b57a71931089,fix centos 6.10 yum bug and update jdk8.rpm download url (#3398)
+b1dc3821ead0119977c7b36e3eca7b5bcc584829,fixed config url auth
+f66baeabf10f93980162121825847bc74becc539,修复最近位置被remove掉，导致重复消息的问题 (#3276)
+25feab4af8b930e18bf08b35575bfe5ea48e299e,support rabbitmq port by config (#3236)
+91bddfeed6f250460238027e5a2eb3191bd6f87d,"修复接入阿里云RocketMq no route info for this topic 问题 (#3220)
+
+Co-authored-by: hai.yu <hai.yu@snowballtech.com>"
+33721d03943f52f8fe3c6cc375032a2dcd4fb5a5,"update druid version (#3146)
+
+* replace fastsql with druid
+
+* update druid version"
+a0f8e182ecf029baa6c818c8135967faedaf1f16,"修复当host中存在冒号(比如https:)抛UnknownHostException问题 (#3223)
+
+* 修复当host中存在冒号(比如https:)抛UnknownHostException问题
+
+* 更优雅地解析url"
+85df89f777f6836cb6cf37a0acfcb5535af6d472,"fixed issue #3377 , escapse schema name"
+64ea4ff22263143a2338486ef909b6d98d875f39,"fixed issue #3267 , fixed rockemq send null message"
+7857df970125ba9de8e47af48dddd03dc2a9e573,add sql parser testcase
+94425223bd356f295704f4c44932535099160273,"fixed issue #3454 , concurrent env bugfix"
+21904ef1dced59874da83b3aeb9fa2bbf668de5a,"基于明确的I/U/D是否过滤 (#3452)
+
+* dmls filter
+
+* dmls filters
+
+* 基于明确的I/U/D是否过滤
+
+* 基于明确的I/U/D是否过滤"
+a7720b51e4586a626e548556229764b7c38c7bb9,"支持rocketmq的消息按照tag去发送 (#3438)
+
+* 支持rocketmq的消息按照tag去发送
+并对应修改了配置文件
+
+* 将tag的设计转移到Rocketmq的单独配置项"
+f0417502f8ad655ef487d0e8fc9dcbe61669340f,"fix: unit_present typo (#3461)
+
+https://github.com/alibaba/canal/issues/3434"
+17f4ee13e76bee5eb73a85b58d4c867b8621de19,自动注册时可自定义node server名称，canal.properties#canal.admin.register.name，为空则使用canal.register.ip (#3459)
+75174a63afed37d2569b7f4930dec3c47923c597,增加rabbitmq消息持久化deliveryMode配置 (#3300)
+1369418c6ac96f31c521047060a51e07bc7e00c6,fixed code format & merge
+a09cd9adb5872be6d6bf0a13a42aa77fd1920e99,"fixed issue #3110 , json escapse"
+0c399509a9b7bc6d273523d2de3be9e72ec8df1f,upgrade druid 1.2.6
+f9e0dc7daa4f3b4ff6a8f8ab51620ce8b7f427b3,fixed testcase
+64862503baeae083b7350b4cc10ff19c98b68ccc,[maven-release-plugin] prepare release canal-1.1.5
+5cc85ff2ded1a88fbb13c80da2f72c0aa3306e3d,[maven-release-plugin] prepare for next development iteration
+474063af3b51c86b173bd6753ff98727aca1e44a,"fixed issue #3494 , polardb-x 2.0 cdc support implicit_id/varaibles"
+eef3bd92bae2b00d0624a0e058b531fb5e456a12,"Improve MAVEN build Performance (#3851)
+
+Co-authored-by: Chen Zhang <340355960@qq.com>"
+3c20fd09ad2199eaf8b6d09fbb35dc0b24572b74,fix issue #3839: 修复alter table character set类型DDL语句解析BUG (#3840)
+63407dc57061fd7027927e8cc69366bf9c3e9c1d,"canal adapter phoenix (#3290)
+
+* canal adapter phoenix
+
+* canal adapter phoenix
+
+* canal adapter phoenix
+
+* canal adapter phoenix
+
+* canal adapter phoenix
+
+* canal adapter phoenix
+
+* canal adapter phoenix
+
+Co-authored-by: lihuav2017 <lihua@able-elec.com>"
+911711248c4fdac09aeff8c3fe85406e5b472ce3,"修复rds高可用主从切换和oss相关问题 (#3480)
+
+* 修复rds oos 拉取的binlog 的消费逻辑以及本地消费到直连消费的逻辑衔接
+
+* 去除无用代码"
+d79431c7e5d26ddd7aa0b75da5c89d92bbc30915,fix typo (#3532)
+31a0fdc807651782ec4e209f6489bd4288b5143c,add note (#3550)
+2550d8eb65aec2e772b9ee799d5d7db81f0fba5e,Connection is already closed  fix (#3587)
+ea20076a32fc4425baa2574b58e0b5d29b5160c6,fix: rowChange typo (#3593)
+997957d6e01f665636204bc37a71fddd3c13e33c,新增配置 canal.mq.enableDynamicQueuePartition，获取topic对应的队列的数量为分区的数量，以支持动态队列的场景（如阿里云的rocketmq，无法人工设置队列数量，可能会动态伸缩） (#3670)
+d67bea8f3d66d96c93f5141f0124cf86f51395a1,"repair issue #3678,#3680 (#3684)
+
+* repair issue #3678,#3680
+
+* repair issue #3678,#3680"
+9e11c3c0186342fced8661f8c86e7f71c56eedd5,"定时保存snapshot到DB的逻辑中，schema名称获取错误，在有配置canal.instance.filter.regex时，由于对应的table无法被匹配中，导致compareTableMetaDbAndMemory方法不被执行 (#3693)
+
+* 避免重复订阅zk变更状态
+
+* Update DatabaseTableMeta.java
+
+获取schema的名称
+
+* Update CanalController.java"
+de95a6a1284d13ddbc8b48eb090b77b8d3e12c90,"refactor: Use Java standard library instead of Guava (#3708)
+
+Co-authored-by: Moderne <team@moderne.io>
+
+Co-authored-by: Moderne <team@moderne.io>"
+4ce401d2196c4616400a4b730b047b8f19b89ef6,fix: 多destination的场景下只能生效一个 (#3772)
+5b6fd8094ab1874268716a06056c1cf307fb155a,"增加Apache Pulsar MQ支持 (#3791)
+
+* done pulsarmq
+
+* del pulsar consumer
+
+* pulsar partition
+
+* done pulsar consumer&connector
+
+* update pulsar-client version to 2.8.1
+
+Co-authored-by: agapple <jianghang115@gmail.com>"
+40d840375fd1ca2736c7a417a7dab66d2b4c7684,fixed MR
+0a2254eeafa3445c1fa737b76e9142a04c7977b5,"add tablestore adapter (#3754)
+
+* add tablestore adapter
+
+* add tablestore adapter
+
+* fix bug add add log when etl fail
+
+* fix bug，tinyint(1)以及rowupdatechange
+
+Co-authored-by: agapple <jianghang115@gmail.com>"
+f26b84ffc223b602776f7ae61b7258c2bdd47262,"fixed issue #3829 , kafka connector support k8s env"
+3bb49e19d222e8b5c6192dbed6ee48a707b000d5,"fixed issue #3576, stop exporter"
+2c892fce9b919b2915eba1c94d8669a0103c6e87,"fixed issue #3484 , fixed bat script"
+b48c434ffd61786aba5f8555b61e98ee5014cb55,fixed phoenix version
+c42ba95eed8ae84a0e21c20024d37c95ffc7d9da,fixed pulsarmq package
+b54bea5e3337c9597c427a53071d214ff04628d1,"polish the code thus make it more stable (#3855)
+
+Signed-off-by: 元组 <zhaojunwang.zjw@alibaba-inc.com>"
+2987d081618795825ad6173f5e7041cdcbc1fdd5,fix issue #3144 (#3712)
+88d472ef1e2e88048545a985185e1c3be8ef7e36,"move protocol test to protocol test directory (#3864)
+
+1. move the protocol test to right directory
+2. fix wrong string format params count
+
+Signed-off-by: 元组 <zhaojunwang.zjw@alibaba-inc.com>"
+9f5e8fd1c413f354084e36e043147394d9dfec81,rollback guava version in adapter module (#3880)
+622fed84ce8df253829f2f745f7e665d365af1d1,fixed logger name (#3887)
+2623d08b8c23254797106c81380ebf07aa1ea6d3,"rdb配置不支持yaml后缀文件 (#3964)
+
+增加rdb配置支持yaml后缀文件"
+8804647c3067e1a7780635690b5d2899e6c1f0c0,avoid print password when logging (#3969)
+bac016f89e8f455ef2ab4b655369b5122a2640fb,<feat>: support visibility columns (#3976)
+ead91433d7f18c37cda215f2a90a78ddefb1b498,fastjson update 1.x to 2.0.2 (#4160)
+571e7f4e2553975161b28432f175f054e2dff403,fix ojdbc6 wrong corrinator (#4132)
+8114d77a2039dddc11a03b117a88d6cbb79e7a4b,"Add verification: the user can set a password with a length of less than 6 digits when updating the password, but the password length must be greater than or equal to 6 digits when logging in to canal admin, so the length verification function when updating the login password is added (#4103)"
+25be0259a426a92f3ffbe289638aff90add3109f,"Some tweaks for pulsarmq-connector (#4060)
+
+* 1. Add the com.alibaba.otter.canal.connector.core.spi.CanalMsgConsumer file to the META-INF/canal directory under the pulsarmq-connector project
+2. Introduce pulsar-client-admin for Canal to automatically create multi-partition topics
+3. Add the judgment that roleToken is null
+4. The disconnect method in CanalPulsarMQConsumer removes this.pulsarMQConsumer.unsubscribe();, this code will cause data loss during stop
+5. When getting Pulsar messages, they are all processed as flat messages, because CanalMessageSerializerUtil.deserializer(data) will deserialize exceptions
+6. Use groupId as subscriptName, without the pulsarmq.subscriptName parameter, the entire adapter will be the same subscriber name using pulsarmq.subscriptName
+
+* 逻辑优化
+
+* 代码优化
+
+* 针对pulsar的调整
+
+* 恢复代码
+
+* 恢复代码
+
+* 处理Producer失效的情况"
+33733aef252e1869e2e4f926e4c4a16e33c290f6,fixed compatible and code format
+bd3224eea1ad74179df8521de7e000033100d5f3,Upgrade reference log4j package version (#4017)
+977031a6662ca61949428b7865879baf266eca5f,Improve MAVEN build Performance (#4055)
+c0001afe8f3eb99afafffca68f68ebd275ebb058,use hostname if register name not set (#3968)
+6965726dfeaba4f175d23c2d77e11bd7553506b2,"fix bug #2023 (#3871)
+
+* fix bug #2023
+
+* 配置canal-adapter，docker生成脚本"
+67e85d201c3a1473b3d99fa2a41f7019d0ed08df,remove client adapter Docker
+bd1f91cd9cf7829c1fc184a4ebfde09d92cb5e30,fix sync order in RdbMirrorDbSyncService (#3928)
+c775478a56854d749c408f7a4e2d82637b034fc1,"set backtick by DbType (#3984)
+
+Co-authored-by: agapple <jianghang.loujh@alibaba-inc.com>"
+11a5f2a0fa8cae5e8e2a7fa11d7105ccc5f153ed,add druid stat filter (#3985)
+e48bc35f356695f254e27d4b8d78c778c6aba1b4,通过索引别名获取mapping，返回数据为真实索引，而不是别名，导致mappings.get(index).get(type)报空指针异常 (#4122)
+b532e90ff41c921a8afc97c7da93d006de1c3f1e,"ESAdapter Support the same instance cross -library query (#4161)
+
+* ESAdapter Support the same instance cross -library query
+
+* fix null point ex"
+af432bf10a8c4ad4ca879e868e145d0223082b78,fix data truncated for column issue for type `year` (#3866)
+591126ee6bea0ebfd2103312432182bf4ae74fe4,update (#3326)
+885f05fb6a85bbae42db35f9bd1526c4680579c9,"支持定义rocketmq client日志路径，及修复一些bug (#3229)
+
+* 修复接入阿里云RocketMq no route info for this topic 问题
+
+* 支持deployer同步rocketmq时定义rocketmq client日志路径
+
+* 支持deployer同步rocketmq时定义rocketmq client日志路径
+
+* 回退guava版本号，解决adapter的java.lang.NoSuchMethodError: com.google.common.util.concurrent.MoreExecutors.sameThreadExecutor()异常
+
+* 解决adapter启动报com.alibaba.druid.pool.DruidDataSource cannot be cast to com.alibaba.druid.pool.DruidDataSource异常。
+
+* 支持rocketmq client 配置日志路径
+
+Co-authored-by: hai.yu <hai.yu@snowballtech.com>
+Co-authored-by: agapple <jianghang.loujh@alibaba-inc.com>"
+b12945d4a984acb85fcc67f9f3dfcb482780f00b,format yml
+4315f203a23a39af1c0a8aba402a66876dea5405,"repair issue #3401 (#3923)
+
+* 解决OutAdapter单例导致的问题，如 1.多个es7 outAdapter的多线程问题（共享同一个es bulk request），2.多个es7 outAdapter共用一份es配置问题
+
+* 1. 优化adapter和监听器之间的代码结构
+2. 监听器只处理匹配的配置文件
+3. bugfix-es adapter配置文件回调时漏写esVersion
+理论上一个adapter实例对应一个config配置文件
+
+Co-authored-by: agapple <jianghang.loujh@alibaba-inc.com>"
+ee51f338e0bced4d28784ba1e5a72858c5dca3d5,fixed outAdapterkey autoGen
+9b9cfe4037885dafde7b7139523419d098256664,"fixed issue #4152, TableMetaTSDB support canal.instance.filter.query.ddl=true"
+b7eff723a34d22065c0bb249c009ac68664c9af8,"fixed issue #4027, CanalServerWithEmbedded.get support newList"
+4a22d72ef4ec3d7cc7d19546a6403c199873aaef,"fixed issue #4018, fixed CanalInstanceWithManager thread-safe"
+e41e9039842b1400029a71c35522b466067e5261,"fixed issue #3538 , compatiable mysql8.0 filed meta"
+a574b91fdf19e28e4860f604bca350d24e4bbb28,"fixed #3976 , support LogEvent.MYSQL_TYPE_TYPED_ARRAY"
+656a1d23c225636be215a5e3e65e9fcd2bf9df3f,instance.properties demo
+d71a208123d92cc74837087a03f0dd2982f5fba5,"fixed issue #4178 , support -00:00:00.12"
+fb0f274ba81dfc207162e4ffaebbeb1dc67dc9f1,fixed logger
+05a52f1bd371e2e132445975bf7c3e70cfbdf8b8,upgrade log4j version
+7dfec19c6888c3d8fb4c0601349e42dd39fa9caa,"update druid & fastjson2 version (#4183)
+
+* update fastjson2 version, 2.0.2 -> 2.0.3
+
+* update fastjson & druid version"
+eef1ee85fba5fc9176b42cc39f7bf922715a1c49,"fixed issue #4014, support java8 & java11 G1 GC"
+e2248b3d3574769bd37af2a24b188488262d1f07,update phoenix pom.xml
+99aefaa1188b8bc004722ee9ce1d8f58203b0a76,support mysql 8.0 transaction_payload_event
+6c81ab6fdcb251619017545f57c9001a3e76c690,fixed compiler error
+54c645f315fcdcb15543aad100d9088e57d736b4,fixed test failed
+7ee246ca5a5fb9dcb15b33fad93b0683c79a0b16,[maven-release-plugin] prepare release canal-1.1.6
+7b8ff04d20cd8a6bd9f7cb9e3c4a33c16c94caee,[maven-release-plugin] prepare for next development iteration
+a99dc0cbe843611bea5b86d3533efd3247d7408a,fixed testcase
+e19bf1ecff96094fb6efad5e42395669101ffcd2,"Fastjson2 compatible fix (#4189)
+
+* update fastjson2 version, 2.0.2 -> 2.0.3
+
+* update fastjson & druid version
+
+* bug fix for fastjson2 compatible"
+7aaee7b4397e5bc998b58f56cd5746e16f2a5eb5,修复升级2.0.4导致兼容的问题 (#4202)
+bc4dceea1af7010e10d2f0d829316873ee63283d,"fixed issue #4216 , support polardb-x show databases"
+753fad66394901ae83861110331b46f61efaabc6,"fixed issue #4216 , support polardb-x show tables"
+bac1d543f1f94066bf87b31dd09b2f4c9936751d,"update fastjson & druid version (#4224)
+
+* 修复升级2.0.4导致兼容的问题
+
+* update druid & fastjson version"
+a96db39420347bbfdc2f4e9ef598701265e3cc1a,add polardb-x parser test
+eee73dc4b10b7ee55111d3aea9480782a20ee0d4,optimize YAML config loader (#4332)
+3dc86330a8d63068ad49aa317015aadb45a048ca,fix bug BASE TABLE as table name (#4217)
+72c0e24cfd664fa21bf352a15c99adf23fc55cea,fix issues#4328 (#4329)
+b390e74a186daaf766f3c4ba4e1293b5a85f959f,"docs: add nodejs canal client support (#4260)
+
+Co-authored-by: zhangxunwei <zhangxunwei@dxy.cn>"
+4d4199c8019c1062564f50802d5973a8f224bdee,fix destination not encoded (#4279)
+41bf3e2289bbc3584e38355b28df15edead0e01a,"修复Canal指定时间戳启动失效，总是从最新的点位开始同步问题 (#4348)
+
+* 支持用户自定义的CanalAlarmHandler
+
+* RowsLogEvent增加对TableMapLogEvent判空检查，防止NPE异常
+
+* 修复Canal指定时间戳启动失效，总是从最新的点位开始同步问题, issue: #4347
+
+Co-authored-by: 云时 <mingya.wmy@alibaba-inc.com>"
+0ef7b28c03a3231cdabd0bb3a54d8c90f44c9044,"fixed 4334 , support jdk8/jdk11"
+2faecec749ad58c94b9ba7c8511aff20129c8520,"fixed issue #4266 , typo"
+9d37bb87b75b4f0c584cf2cdbf97a5df3cdc22a2,"fixed issue #4243 , support auto register for cluster = null"
+7585d9c98bfc7e63361b5b0066cb5647fe99b7b9,"fixed issue #4225 , support mysql version >= 8.0.26 heartbeat v2"
+92758b8c87b5090a81fda10d555ea3a49bdbac07,"fixed issue #4308 , support query_log_event for maraiadb 10.10.1"
+ce916ee4078974bee4ea746cc0ba12d094dd6cbb,ignore compression event
+ef7e21e4b204024c76b51c9fb8e29feba14b3da4,support jdk11
+c055737e24fd55b5ddf9f048c5d8afa29ff1d9b3,support druid 1.2.12
+fb6981356f93ac9f9b892ac4be13791251729ab9,fixed mariadb 10.x
+c16d6e772919869f34e5effeeee516e005d14b7c,sync canal-template.properties
+3bceb07c44afc55c4f5fd657516ce863ec07f243,"update fastjson & druid version (#4406)
+
+* 修复升级2.0.4导致兼容的问题
+
+* update druid & fastjson version
+
+* update fastjson version
+
+* update druid & fastjson version"
+aa29f12d968f24d66f893bcc428b792e7e46dd33,meta.dat文件数据丢失 (#4397)
+571fa0d6fbc9033b781ec2b180b042f00a3ece97,update fastjson & druid version (#4438)
+10ff148aba071df4704f64aedcf920da2069ba2c,"局部变量线程安全，优先使用StringBuilder替换StringBuffer (#4472)
+
+Co-authored-by: 夏亮 <xialiang@newerabc.com>"
+fa0c08c170793e77f72a5e87a2b779086629587d,"1. CanalController stop 需要同时将 embededCanalServer.stop (#4477)
+
+2. ServerRunningMonitor 线程池未正常回收，线程池管理与 start/stop保持一致"
+272b1d5d119621af4d11ed7e295143860a09cd6d,"vuln-fix: Use HTTPS instead of HTTP to resolve dependencies (#4437)
+
+This fixes a security vulnerability in this project where the `build.gradle`
+files were configuring Gradle to resolve dependencies over HTTP instead of
+HTTPS.
+
+Weakness: CWE-829: Inclusion of Functionality from Untrusted Control Sphere
+Severity: High
+CVSSS: 8.1
+Detection: OpenRewrite
+
+Reported-by: Jonathan Leitschuh <Jonathan.Leitschuh@gmail.com>
+Signed-off-by: Jonathan Leitschuh <Jonathan.Leitschuh@gmail.com>
+
+Bug-tracker: https://github.com/JLLeitschuh/security-research/issues/9
+
+
+Co-authored-by: Moderne <team@moderne.io>
+
+Co-authored-by: Moderne <team@moderne.io>"
+279d503cf4e3dd9f420a9e47a801dd49650779d8,"fix_ETL同步mysql关键字报错 (#4346)
+
+Co-authored-by: foleyang <foleyang@cogobuy.com>"
+4c7cdbc7f33b239d7ba12c8860f9d06857ff4ecf,optimize code
+afef45500ef716e24e88b39f415eec0cd6f54d9a,use compact BigDecimal
+f7a4979b153640ba5877d61911b868a937bee240,"performance optimize , 1. cache string names 2. cache Charset"
+869e831b046d0a0f23a5e3fe6b46cc572fe67e75,"performance optimize ,cache integer/long valueof"
+9c6f6f5cdf1931a20e1389c7ea7dd13699fe94ec,测试类报错 (#4518)
+b937ee613df0f3d1682e6d5db2e62ce02202ed82,"Revert 4516 feature/macy (#4519)
+
+* 修复测试类报错 (#4516)
+
+* optimize YAML config loader (#4332)
+
+* fix bug BASE TABLE as table name (#4217)
+
+* fix issues#4328 (#4329)
+
+* docs: add nodejs canal client support (#4260)
+
+Co-authored-by: zhangxunwei <zhangxunwei@dxy.cn>
+
+* fix destination not encoded (#4279)
+
+* 修复Canal指定时间戳启动失效，总是从最新的点位开始同步问题 (#4348)
+
+* 支持用户自定义的CanalAlarmHandler
+
+* RowsLogEvent增加对TableMapLogEvent判空检查，防止NPE异常
+
+* 修复Canal指定时间戳启动失效，总是从最新的点位开始同步问题, issue: #4347
+
+Co-authored-by: 云时 <mingya.wmy@alibaba-inc.com>
+
+* fixed 4334 , support jdk8/jdk11
+
+* fixed issue #4266 , typo
+
+* fixed issue #4243 , support auto register for cluster = null
+
+* fixed issue #4225 , support mysql version >= 8.0.26 heartbeat v2
+
+* fixed issue #4308 , support query_log_event for maraiadb 10.10.1
+
+* ignore compression event
+
+* support jdk11
+
+* support druid 1.2.12
+
+* fixed mariadb 10.x
+
+* sync canal-template.properties
+
+* update fastjson & druid version (#4406)
+
+* 修复升级2.0.4导致兼容的问题
+
+* update druid & fastjson version
+
+* update fastjson version
+
+* update druid & fastjson version
+
+* meta.dat文件数据丢失 (#4397)
+
+* update fastjson & druid version (#4438)
+
+* 局部变量线程安全，优先使用StringBuilder替换StringBuffer (#4472)
+
+Co-authored-by: 夏亮 <xialiang@newerabc.com>
+
+* 1. CanalController stop 需要同时将 embededCanalServer.stop (#4477)
+
+2. ServerRunningMonitor 线程池未正常回收，线程池管理与 start/stop保持一致
+
+* vuln-fix: Use HTTPS instead of HTTP to resolve dependencies (#4437)
+
+This fixes a security vulnerability in this project where the `build.gradle`
+files were configuring Gradle to resolve dependencies over HTTP instead of
+HTTPS.
+
+Weakness: CWE-829: Inclusion of Functionality from Untrusted Control Sphere
+Severity: High
+CVSSS: 8.1
+Detection: OpenRewrite
+
+Reported-by: Jonathan Leitschuh <Jonathan.Leitschuh@gmail.com>
+Signed-off-by: Jonathan Leitschuh <Jonathan.Leitschuh@gmail.com>
+
+Bug-tracker: https://github.com/JLLeitschuh/security-research/issues/9
+
+
+Co-authored-by: Moderne <team@moderne.io>
+
+Co-authored-by: Moderne <team@moderne.io>
+
+* fix_ETL同步mysql关键字报错 (#4346)
+
+Co-authored-by: foleyang <foleyang@cogobuy.com>
+
+* optimize code
+
+* use compact BigDecimal
+
+* performance optimize , 1. cache string names 2. cache Charset
+
+* performance optimize ,cache integer/long valueof
+
+* 测试类报错
+
+Co-authored-by: gongchangyou <gongchangyou@gmail.com>
+Co-authored-by: ChanaLii <316529035@qq.com>
+Co-authored-by: zhangxunwei <zhangxunweia@gmail.com>
+Co-authored-by: zhangxunwei <zhangxunwei@dxy.cn>
+Co-authored-by: tianpeidong <39491687+tianpeidong@users.noreply.github.com>
+Co-authored-by: dataccs <dataccs@163.com>
+Co-authored-by: 云时 <mingya.wmy@alibaba-inc.com>
+Co-authored-by: jianghang.loujh <jianghang.loujh@alibaba-inc.com>
+Co-authored-by: 温绍锦 <shaojin.wensj@alibaba-inc.com>
+Co-authored-by: noaso <noasoso@gmail.com>
+Co-authored-by: HumanPassenger <40585855+HumanPassenger@users.noreply.github.com>
+Co-authored-by: 夏亮 <xialiang@newerabc.com>
+Co-authored-by: 华仔 <591327356@qq.com>
+Co-authored-by: Jonathan Leitschuh <jonathan.leitschuh@gmail.com>
+Co-authored-by: Moderne <team@moderne.io>
+Co-authored-by: 杰锅不是锅 <1105568074@qq.com>
+Co-authored-by: foleyang <foleyang@cogobuy.com>
+
+* Revert ""修复测试类报错 (#4516)""
+
+This reverts commit d8999813544a06235dca13539f1d8e571b9600aa.
+
+Co-authored-by: gongchangyou <gongchangyou@gmail.com>
+Co-authored-by: ChanaLii <316529035@qq.com>
+Co-authored-by: zhangxunwei <zhangxunweia@gmail.com>
+Co-authored-by: zhangxunwei <zhangxunwei@dxy.cn>
+Co-authored-by: tianpeidong <39491687+tianpeidong@users.noreply.github.com>
+Co-authored-by: dataccs <dataccs@163.com>
+Co-authored-by: 云时 <mingya.wmy@alibaba-inc.com>
+Co-authored-by: jianghang.loujh <jianghang.loujh@alibaba-inc.com>
+Co-authored-by: 温绍锦 <shaojin.wensj@alibaba-inc.com>
+Co-authored-by: noaso <noasoso@gmail.com>
+Co-authored-by: HumanPassenger <40585855+HumanPassenger@users.noreply.github.com>
+Co-authored-by: 夏亮 <xialiang@newerabc.com>
+Co-authored-by: 华仔 <591327356@qq.com>
+Co-authored-by: Jonathan Leitschuh <jonathan.leitschuh@gmail.com>
+Co-authored-by: Moderne <team@moderne.io>
+Co-authored-by: 杰锅不是锅 <1105568074@qq.com>
+Co-authored-by: foleyang <foleyang@cogobuy.com>"
+cd798b71e93fbbdae95f526344c4066ffd175f5c,"add proxy for SPI (#4520)
+
+* 测试类报错
+
+* add proxy for SPI"
+ea8fb5e5b88fd077561a1358db19716421d8ae3f,修复client中的kafka consumer消费回滚的bug (#4532)
+62c43337908acc75824a3c42c3d0b6546da32e41,canal中的flatMessage中添加一个参数，记录gtid #4509 (#4521)
+41a2a87a910598c1174e72c832b6f73deb8b3253,fix issue #4267 old和data长度不一样而产生的下标越界异常 (#4504)
+9d0a37241f6233c84165404f6d7b89865a9bb258,fixed desc table case insensitive
+a10698e4a8019137c1dd1e95978befdd6d92dee6,"fixed issue #4491 , upgrade druid 1.2.15"
+aada80ba381367faa75a680749102f334d30a9c9,"doc: update readme (#4589)
+
+Add contribution leaderboard badge into README file.
+
+Signed-off-by: frank-zsy <syzhao1988@126.com>"
+b52c5d149ba903cb1411d563aef75cb96045bd72,"Update LogEventConvert.java (#4653)
+
+fixed issue #4652,  解决mysql中类型为MEDIUMTEXT的字段的javaType在不同场景的解析不一致的问题"
+9edbe7e8275bef5619f426ff16d9a9f071e163d7,"支持 mysql_clear_password 明文密码模式， 在一些开发、测试环境可能遇上。 (#4628)
+
+Co-authored-by: zhongfu <zhongfu@tesla.com>"
+5d7d19fdb1a4e94f3347ae91f64e635a395b532e,"增加rabbitmq配置，以持久化方式投递消息 (#4644)
+
+Co-authored-by: wangheng <760261296@qq.com>"
+a04a1912a859422a987354eb47b2d87de8d53663,"add support for polardbx multi binlog streams (#4660)
+
+* AbstractCanalInstance的subscribeChange方法，增加对AbstractEventParser的类型判断，以支持用户的自定义CanalEventParser
+
+* MysqlEventParser对Gtid模式的处理需要考虑兼容性，支持系统平滑的从非gtid模式升级为gtid模式
+
+* add support for polardbx multi binlog streams #4657
+
+* support auto generate instance names #4657"
+82b3aed62b0c600fb0740051f9aee6c33eeafa1c,Update README.md (#4688)
+18c38ee05713084df5ceb9bd2673c80ce51f8bcc,upgrade fastjson & druid
+bfb8cf4190aa8c2d0f209658a631f3c5df47f140,"Update Dockerfile (#4775)
+
+Set the Author field of the generated images. This instruction has been deprecated in favor of LABEL."
+5f667c3574fddd82b2bd5b0b29a10a56bcaae663,Merge branch 'master' of github.com:alibaba/canal
+04a2b6f941f6b59e7895aa8126c625fb4b758f8a,修复从远程下载rds-binlog文件到本地时响应头获取不到Content-Length导致的NPE的问题 (#4760)
+08239ef23f6db31387eaadce1d12503d694eebd2,Merge branch 'master' of github.com:alibaba/canal
+c8de48bbd52c3eb14134d7d56b090fdd8fd636e3,fix typo (#4720)
+b8c2a757a02e89bb36966d4c4a4b4eef6d252cf0,增加对mysql的caching_sha2_password认证插件fullauth流程支持 (#4767)
+97aa441bcad4955226a1364275e271d93347ab11,fixed PR format
+fccc6bc816aecf411e5ee3817ca09ba82e844f22,fixed #4665
+d8169cbf716e05e9a6cd803bbd9562ea07d23e1b,"fixed issue #4813, support metric.port = -1"
+cc75d3dda47bbb1954cadd11db07c161cf8b0fd3,"fixed issue #4706 , upgrade fastjson 2.0.31"
+894ef6e610c5528e9629cc10f3619852c46c0224,"fixed issue #4659 , gtid NPE"
+d4c8780f2627b416afd8944fdb98120743211fc3,"fixed issue #4786 , revert compact BigDecimal optimize"
+f067f761c7b4fd9193dd30db78c9d70f838a6a9d,"fix issue 4806, make Common.init success (#4830)
+
+Co-authored-by: eli.zwy <wenyang.zhang@ipinyou.com>"
+ec247114fd5dfba4ff4a0bae17decff239a9b3a7,Update pom.xml (#4591)
+d8a70d0c2f1215644267b5fdd43e27e120e52aec,"fixed issue #4822 , fix connection close"
+159457cccd6c5a3d8e0cd5f8f06f80d983838abe,"very very major：Adapter rdb bug fix (#4742)
+
+* 异常点描述1
+
+* 问题描述
+
+* bug fix
+
+rdb yml文件 编码格式问题，导致所有outerAdapter初始化失败；
+kafka消息空跑，数据全都丢失 问题 fix"
+7241af84f700396b0b183d6e0b90384c17c4e34c,"fixed issue #4742 , format"
+252ca0279fe80cdd5bbfd010f8cddd74e4426fd5,"fixes issue #4388 , support mysql 8.0.20+ TransactionPayloadLogEvent parse"
+f13cc4ee9f642732f5212bcb1a7377748a715ac9,"fixes issue #4388 , support mariadb 10.x log_bin_compress"
+681d03fbe7f0c32cdae6af3c44877ffb69f30638,upgrade dependency version for CVE
+ab30f3bd8dc6657dc7821352de930e69ea19efbd,"fixed issue #3350 ,upgrade netty"
+69cfbabb102bbe10fafece460f0406d98d623ea0,upgrade spring cloud & spring boot version
+d90066e01b8b8f9a1afd52eeae23c2ff49ad0328,upgrade spring cloud & spring boot version
+63dfbf65df11c77c18824292ef6b46452c84e78a,es8x adapter (#4640)
+2786e06ccf1f6306bf6bc83f9fec0117ee171888,format es8
+a216b55010a9542ba70897903ad5abac1b919ff2,fixed password length 6-digit limit
+5ea9259f0d08b9414c4030b3a817ce7812bc6855,upgrade kafka-client 2.4.0
+d623bea71a542604bfb2a166c47fa603c04a6c90,"解决rdb下有多个配制，会导致配置相互覆盖的问题 (#4560)
+
+恩baseProperties这个变量是共享的，不能修改这个变量的属性值。要不后续的配置都会改变。关联issue为4355"
+34e9440383068c28c24a215e39b55fe790117f0d,"fixed issue #4864 , connector.disconnect optimize"
+d4a09704f263d34018f5c77ec85a0df1bad571db,optimize gtid
+f9f810226dae3dcd47032e2f63d30e169395a10d,"fixed issue #4869 , support admin tsdb config"
+cda330e49e9db70c86d241e19ee649b8a39c6b98,"Fix Configuration property name '-id' is not valid on canal 1.1.7 alpha 3 #4879 (#4887)
+
+* Fix Configuration property name '-id' is not valid
+
+* Fix Configuration property name '-id' is not valid
+读取原配置文件"
+11f89163c1df061f8e73b47475cca3382606a049,"fixed issue #4813, support metric.port = -1 (#4891)"
+ed754b520356413427a97fab542f43aa0d3563bc,"fixed issue #4884, osbase/osadmin image support amd64/arm64"
+0f6b9d156a7fad7e2734ff6b5fab7cb2f39c617b,fixed concurrent set properties NPE
+738f41049f9f9a2f706f687c047421ad828ecdd3,"fixed arm64 stack size too small, upgrade to 1m"
+066b022bb303c3a4c0d49b255d1c3338c46f8c48,"fixed arm64 , support mysql 8.0"
+6440b744f20637c0aa07a82bcf03fa001b998efb,"fixed arm64 stack size too small, upgrade all to 1m"
+7e0061fe939cd307ce7d38e4132e355c4d53f53b,build.sh add platform
+ba924b9f1da3b093c0ae4f35dc09e65b6608fc92,update org.postgresql:postgresql 42.3.3 to 42.5.1 (#4898)
+ea8949298fc74310990f24c864db218c7ccac312,[maven-release-plugin] prepare release canal-1.1.7
+b32220188907809e17a59908bc2b507dbee301e3,[maven-release-plugin] prepare for next development iteration
+bff394042a1122e5149441e2d266ada6ef217601,fixed testcase
+c8ef9552ec40fbd8eb032f4d8efa2a9edf2f93c8,"fixed #4907 , reset tsdb build context"
+26ba84e27e31203c98bc1121b32c78dafb3274d1,"Update KafkaCanalConnector.java (#4927)
+
+update fastjson to fastjson2"
+259008a7cd6a213315a9b19549414a2c58cd3695,update config
+55a5e7592bb39170004b7dddd4083ed5c66d8e80,"fixed issue #4930 , check embeddedServerstate"
+163f71997142919ee1034e668b3bbe14c6e3e83f,"fixed issue #4923 , support fastJSON Feature.LargeObject"
+2c7e918f3051bce74fae1ad6bf85e0d7cbe829ae,"将 Logback 升级到 1.2.9 及以上版本 (#4934)
+
+Co-authored-by: wangsc <Asdf1234>"
+98677c5bc8a95879976a793b3a3deb39bfa450e8,"fixed issue #4941 , remove default passwd"
+b4074206ca87fa2a40fa618be87b2e654543e4e6,"fixed issue #4940 , support percona 8.0.33"
+fc3cfc5c0c6ec35ba8499afc0476dedde8cdb594,"Fixed bug where `cp -f` actually failed, (#4942)
+
+because the symlink already existed."
+c65477d97a1605666e2d41db58054a5a8a3937c8,loadVersionComment() add logger.warn info (#4943)
+0e4c5c40d7c426c4c2a8eb4dd695dfece1ff3779,format code
+ca79258e4f64591f52e482bc39899831010b33d4,support rabbitmq ssl (#4965)
+9baeff55e4d90e5b2cf80f903d7673a51b0ec95e,enhance clickhouse support (#4957)
+93dac2d335a63e05e726754eae02614ae02b5156,format clickhouse adapter code
+67e0928d805bf05373ba5f79f3d7b5fbe9bfc344,"fixed security bugfix #4941 , process auth failed"
+e233bec66a5d97e36f3eede442f3176543d044aa,"fixed issue #5012 , support mariadb 11 for Q_CHARACTER_SET_COLLATIONS"
+fb35dd4254f35257489c813d59ebd1c496353906,Update README.md
+54145ced5e7789f7ec969aef3858413fbeb35cda,"fix parser failed when binlog_row_value_options=partial_json (#5018)
+
+* 修改json部分更新的问题
+
+* 保证after-image的情况下位点回退完整"
+04c11ec8eb13f8c24611cf927a93bdedd22bbd8e,"fixed issue #5017 , json partial update fixed & format"

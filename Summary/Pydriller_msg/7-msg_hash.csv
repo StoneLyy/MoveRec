@@ -1,0 +1,1029 @@
+commit_id,msg
+ae2e0364a92e71de2f85d3ba1ae2129a5736985d,* Initial checkin of the 0.9.0 RC15 sources.
+13767057022209ae2096c1807438e93da7a5c3ff,* Copied admin from CVS
+2d9b46a4e13adf2ece473f45639aa4120621c18a,* Changes for git repository.
+5e03ae1693b0d33260de8aec713794152d14871a,* History adapted.
+cad13e52ac091ca0226bd0d0aa362542d1c2e6d1,* Flash files added.
+bdeba1ea48b838f21f4d82cc0cd4df561e09f723,"* New plugin: jump to last edit location (like ctrl+q in eclipse)
+* mac: fixed open multiple files (thanks for the patch)
+* fixed: pasting multiple nodes drops arrow links"
+9f8cc5bb2239a1c2ea323f3526883338e66129eb,* From cvs.
+e317915790acb1a02762b8f72b4823aecf31b1a3,* From CVS
+9ce10ad13c62bed7fe3dde62e6ea13ab92af3752,* History forgotten.
+9e0948eeed5872f3b5a7bdfd4f5d6ef3cb757f2f,Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+00c858818662eb3d5c71ad18bb02e35d33ced089,* Release notes corrected.
+1567a525e34172112011ad97a502f073ddb132c6,"* using links for double objects
+* typos"
+cb6e9d3a9e29129a2a0621591e1a368b918f2ef0,* Bugfix for empty title
+fe388db34097a760214579a17a51327081445abc,* Reactivated the plugin.
+0c24bbb911dc561f48ba5b4e214c51b8f5d18f06,Merge branch '0.9.1-changes'
+3d3f3016afdf21e91d7f6113d9acc968000634db,Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind into 0_9_1_collaboration
+a0eb17b1dd254764e70f6a1e5d3e39a6c25a76fc,* Jump last edit location works besides that the selected is restored. Grr.
+d6f7365b9ad0e6a7be54f0fe353d7e80c12130ab,* The bindings are not part of the repos.
+e0ad84d045247575167b711b2a368217967ef7bf,* Plugins don't restore the selection any more.
+4091a7af72c0b1fbf657a238e4a65341cbfaf368,"Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+
+Conflicts:
+	freemind/version.properties"
+bdcd5f2a10b2a780f891e4c8a509d19570be1476,* Version properties causes permanent merge conflicts. thus local.
+b77960ed7829e6439e166549d9ac220df0c8da4f,* First try to clone nodes.
+ad9bb4d4b21a94bb2c21a45f8b88cf14489fb231,* Fixed: remove cloud around root: https://sourceforge.net/projects/freemind/forums/forum/22102/topic/3867308/index/page/1
+905e9d188bfdc19277698d38259b05ef0ddb8347,Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+b31e04ac7ffb422b8622bb6715360500180cd61c,* More clone functionality.
+67a3a6c96df4f87a100ccca2ab956403dc1eb8be,Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+74cf189a08b677867e35dcdc644ee73ad2cd01d1,"* Cloning works with ""move nodes"".
+* Moved plugin to ""insert"""
+260138da0c3e53dfd9be6a5f56f5f29b60290c47,"* Fixed bug with copy&paste
+* Clones can now move completely"
+f515a1ce47d87a678a5258804a2cebab7db6635f,* Left/Right problem solved.
+22fff29298066fc3b92283a5e5b4c428185ef981,* Fixed moving of super nodes in combination with the shutdown of hooks.
+75fd0f5268efa5a08e3e921c961ba3f13ffe1db6,"* Refactoring
+* Started with the error cases."
+2289e3f68c2ecc0dbfe3c3d51cb96438cc59fb48,* Some error cases are now caught.
+eb7e5117e81d74f9530ee9b33969e26526faf61b,"* jump last edit location with 10 last edit places
+* icon for cloning added."
+2c57e24acbcbc7a5925863d8d8b7454232bb4184,"* Reactivated the database collaboration plugin (I had done this already,
+but the sources are gone...)
+* Using prepared statements for database query."
+35f1eb3b37108fa762cc2c79b9e7d9579554dca8,* Title indicates user of collaboration.
+2928d10327a392fe98c892face746b2964dd387d,* Add hostname to username
+7a18a680d733cb611af628fc52ca2bde1ed892b7,"* Master/Slave role added.
+Merge remote branch 'remotes/origin/0_9_1_collaboration'
+
+Conflicts:
+	freemind/lib/bindings.jar
+	freemind/plugins/build.xml
+	freemind/plugins/collaboration/database/UpdateThread.java
+	freemind/version.properties"
+bbd6960b30557893048ee3c9f36802b15593d9a9,"* Startup/shutdown of coll. fixed.
+* Started translation."
+1f3519b8d1df442bf8cb3f23648d9fe78c7b7752,* Start of translation of the database collaboration
+6c699101d681c742f594ac2e94f2fcc063c96415,* Title line translated.
+afd060b4a649e877926770d45eabfa75ed80cef1,* forgotten
+8cd352ece2c30d6e4ba9b3b903ed6db2736d03c2,* new version numbers.
+d2e1df0d5e56b31e9b8181f627dbfde7f4c6f353,"* Commited patch Support priority icons when importing from MindManager - ID: 3260285 http://sourceforge.net/tracker/?f\
+unc=detail&atid=307118&aid=3260285&group_id=7118. Thanks to the author."
+89212bc2a70f3d52ed4cddcaf41aff12e7f81fbb,* New feature: restore of tabs and zoom implemented
+66318d9f78d640a1ea75ec135fc0ff776f669a67,"Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+
+Conflicts:
+	freemind/history.txt"
+818987329e641126ff4f16c7123c27d4b2c35449,"* Selection is refactored and stored, too."
+9a7f540458506d2e97c0c8dc31f72970676c8748,"* Last selected nodes are restored, too."
+a8e89d218087fbbbdad4d8d47216e1021d32c50e,* Option to switch off the restore feature added.
+3732d81b765703a91f59729f582c44df099cd499,* Fix: open centers the map.
+1a8dfbfcba54ce2a24c50ccdb609835ec2041d36,"* Zoom storing now for open/close, too.
+* Tab restore should work now as expected."
+6125405a089c952a0d3556a43ce86c6b1bd5d031,"* All attributes are ""required"", this is better for readability."
+133195d8ce575217a90631bdb6dcc06e8fd31847,* new maps are moved to root.
+ecd1956689f7dbc3543cf7a1c0ea1724f2b94ce1,"* open/close in the correct order
+* positions are saved, even if the map wasn't changed at all."
+dd7cce3f7ad79ff0856454e9b2b356676a184314,* little improvement on clones (refactoring)
+564557cfeb20c730d60e53cc0bfa91cc3df48939,* version increase
+74a3b109e0fee029b29ce90f652857c89d7de81e,* History adapted.
+a1e7635a48d48f8bfff33c80a535a869c812058f,* Restore selection if no valid node was selected the last time.
+7a2006959ece407b0c30e9c9422c9de90d6fae76,* Refactoring.
+4f600e793f7cd92be5c314985323d0c1957503af,* Refactoring of mOriginalNode etc.
+7f5789bff3993842b462dd0f4d75a415801717dd,* Better clone display using state icons.
+7d770673259015660b8c5c0c3e4c5739f66ae495,* better state icons for selections inside clones.
+8c48cef0ce613614ead9984b240a5878ba596ee4,* paste as plugin as a template.
+b574dfcb8b1a540572cc5b2694aa27af22cb8136,* menu item only selectable if nodes were copied.
+98142c8ff070a9349b9d3f1c12715e3505e95696,* clone refactoring total.
+f3bd6f27b1f94b5b241af64ee221f9dc62ad446d,* Fixed creation of third clone.
+5442ecbd20f3b077ccbfed2b84ac8356cbe0bf6c,* mulitple clones are now possible.
+ae4753f4fff6dab5e7dc666c77014edab157b265,* Shadow clone plugin added.
+c9cc5d7abd7f958061f28ec47f7cc2bf92878ce3,* Export to pdf opens viewer afterwards.
+1c2840d40ac4831568c6e62f94e348970ce3277e,* better calendar operations.
+d639ab96dcaf0d2aef9a5ee68337adc3f5470b39,* page up/down in calendar revised.
+06c007da31729184578a23c022d62126c25f7d1a,* try to fix paste actions and the corresponding selection focus.
+6ce1972826bb35a932c4155e22849d7323836c89,* Fix for slow FreeMind on multiple maps open.
+187600058a901b1c82caf44e6c92abea0e66aa34,* Even more easy.
+5671daeb3b25a4ae1ecea783f81ff28da0a2d52e,* fix for the fix.
+f4403627a7c23610edfdb7a7126b67ed2d2a0bd9,* Fix for fix for fix...
+5b174744ec4e3443691e9de5010a8f7289672e4f,* Fixed for working in shared desktops: http://sourceforge.net/tracker/?func=detail&aid=3304466&group_id=7118&atid=107118
+f65c9e6080d8ef533685825139d128f6af14f6b8,* Export of branches to PDF added.
+a100796e95b5d8c475f11d23569967e22d11539f,* User Contribution (Thanks!): Proper window title in Gnome 3 * https://sourceforge.net/tracker/?func=detail&atid=307118&aid=3303016&group_id=7118
+fe2a5b24528537e0554df27f2ffa76d427403dcd,* Fixed browser for 1.0.0
+f4a1f8df1a899872163e392f6507b4b08e0285c0,* user contribution. Thanks to the author.
+268f78c899977adb1e8f13ea265b440ed7a4cba5,* user contribution. Thanks to the author.
+65c4ba5352f185c5caf71aaace47dcc38fb33116,Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+e811e4bb88cb9a083e614374ff9eb8b7378ae593,* Changed the change map shortcuts to something more familiar (eg. from firefox) with control page up/down. (with history)
+e0a1befaa5629f204985161ebc2a876415c99f63,"*Fixed translation of export xslt dialog http://sourceforge.net/tracker/?func=detail&atid=107118&aid=3308701&group_id=7118
+* German added"
+1ad1069533281e250a41f2ae398e1873a8db932b,Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+87c459ddac86294a3a2c836664b16d336b3d3820,* Bugfix for null pointer exception because logger isn't initialized.
+731808e65bbf907d87d71643e049c6866590db3a,* little stuff
+016693d096174dc39b7ef6d6a76de1ee440c9b4b,"* Move tab left feature start.
+* Refactoring tab handling"
+d266d5863b7dd453afe47a8d42f83fff2cda87c2,"* Patch From https://sourceforge.net/tracker/?func=detail&atid=307118&aid=3309127&group_id=7118, thanks to the Author"
+2c9ec22756ae36fcd6895d7616bcd9d2fd803281,"* Patch https://sourceforge.net/tracker/?func=detail&aid=2973357&group_id=7118&atid=307118 integrated
+Thanks to the author!"
+57ed833d4d5c1dfa275a76a3d9422e8d36ccec30,* Patch https://sourceforge.net/tracker/?func=detail&aid=1909107&group_id=7118&atid=307118 integrated. Thanks to the author.
+03d40feab18ffeee208a210ce99c0c0b56c3ab87,* Patch https://sourceforge.net/tracker/?func=detail&aid=1079144&group_id=7118&atid=307118 integrated. Thanks to the author!
+02daa5c8477a98e337b654c08899d91a81f789e1,* Typo
+fb1d4947618c43748a9c2f7605bf195d01519a20,"* Patch https://sourceforge.net/tracker/?func=detail&aid=3276562&group_id=7118&atid=307118, thanks to the author!"
+0d81a3e45c7359ea062412a9d771a98947d0d5db,* Move tab functionality added.
+e1332d618e7acaab505baea9270b41ded7afe4ad,* Moved tolbar items into inner mode tool bar.
+ba931c2b756603dceb61d10ea55ae9073ca92617,* Progress bar takes map amount to load into account.
+bfd79f5394a7f87e9db30f1a8e48b3224e29a0c5,* Better filename for export branch to pdf proposed.
+84370c2031467d7cae100ce06d8614ecb5a52c65,"Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+
+Conflicts:
+	freemind/history.txt"
+7c52f4575d3edcb16d04d8bb8bb09b897d5b8274,* only one toolbar.
+4e29ccccb086ee5fdbf82fae9f5c9525bf00498b,* Groovy script at startup supported. This is useful eg. to export maps from the command line.
+7a5a4c8411fd862a95bf7d106f7526d88230993c,"* from command line, too."
+b03ef5a706b0cebf6f0fe37e3c8df0c82c7ac816,"* Added html export, too. Look at accessories/ExportToHtml.groovy"
+217b9c2a76823f69c9dc71866704bb8df4968e66,* Doc added.
+0f45680df62e945350a420e4d636db8ff10493b0,* Accelerators for calendar. (Translators: add accelerators in your language to use this function!).
+d01f9cff10b7d645219b63034d9e0b6a76dd4295,* Version increased
+a0d48ce3e3ce08a93ed7ac061ae5d0e54aa0ca81,* removed double separator.
+6f56b5186b409ec00fccf10d794e1b3a63138ecd,* Opening documents from explorer will open it in a running instance.
+568b6997c2eaa4544b52c6e16be1ac1917cf267e,"* File deleted at the end
+* File permissions corrected under unix like systems."
+7c566c501a37f85992d82bae87f62a002ccee4f9,* mechanism to open files in another instance can now be switched off.
+14432d858a04513345bd18fd52b1c38a4438b78b,* Export format for PDF can be choosen. Thanks to the author Andreas for the patch.
+ed9416c17e70f74f0349a2e370e621fdaf65da2a,Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+3994790eccad60c2bdd775e00b05c994d2a03edb,* Starting with publish/subscriber for changes of a map in the file system.
+d1df1012969966883e24ed439d44442956e3d853,"* New functionality: ""File changed on disk: do you want to reload?"""
+37ba35db65bef20fbf15b2183c5a10dc3b95e6c9,* option added
+97867344c1cb70a3be48d645fb225f02cfa8b336,"* output on status bar, if changed map isn't reloaded."
+3568cd9b90744bc4b41557029c85dd2e9d9d4eaf,* multiple reload dialogs prevented.
+c03405e7a3f5d989bb0044ec610c3d1a876cda7c,* New functionality: Paste images from clipboard. Thanks to Anantha!
+bf505f7483623277be7efab6757e5b92211e6d52,* fix for time list close bug.
+8ffc172fce98dee7696b76ff244b5c301d12ffcf,* Fix for image source.
+7f824f9d33bf50dc13fddda73978c4c89e446cae,* Applied patch Search function fix (Node ID) - ID: 3344781. Thanks to the author.
+3ff22ba122d266ae4dda59ccb0b30664c1306a01,* Applied patch Summary: Replace onPress handler with onRelease handler - ID: 3363942. Thanks to the author.
+43d62fc4771e22a902283525e4bbcac7c31b9f76,* Better naming of the edit server.
+f1d0cfa17a493502264bac151377f97cfa3ab224,* Preparations for headless export.
+39d39d6c87b8d19f6ce4920469aeb00c7956f599,* Updated russion translation. Thanks to sergey.
+280e74338dbe0b8544659648814c3010b663dbe9,* Painting without complete system implemented.
+5395ecbec3bb3673a1b812c17745d6cf28afac51,* First headless export.
+fd34f12a34a04e4c65e81bc7aecd8e63744824f8,* printing to file is working (nearly).
+1ffd257a5c4c775e61f791a43991b3ebc1a75968,* Better bounding box for export.
+108efc66613073cee6f134b28231d85421726bb1,* refactoring
+7906dab718c87d92eb96c7d351c43c5e0f32a302,* refactoring
+f0bc585ac7c6c1b41b69ec9c6321ea2b1b637f79,* main for static export added.
+67104136c1b3c89aae205086ea9610fdabea7e99,* refactoring.
+1261ea644d99ef46c8ee7440b0489b2c81fb2dc7,* complete map picture in jdialog.
+f0637d887eaa42773a290a7fc18f4ec82db70e83,* cleaned up the code.
+17a91ca83bda72be8fbb75e38f944dc0cf65cab1,"* bug fix for new search&replace dialog.
+* Dialog closes when map is closed or switched."
+bae927530ac9093ffd216963f8b8bc8bfd9e8a40,"Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+
+Conflicts:
+	freemind/accessories/plugins/time/TimeList.java"
+8e72a33d6f45b99c81d379bea356d8c595139f0a,"* Accelerators for search&replace. (Translators: add accelerators in your language to use this function!).
+x"
+c80f78ca39843d1b3a50ca8bf78f4c49b21f8fa4,* version number.
+52ac2335549f6087e89c6f26393a2df2306e848f,Comment added: * Headless export to png added. Usage: java -jar lib/freemind.jar freemind.view.mindmapview.IndependantMapViewCreator <map_path>.mm <picture_path>.png
+e13ccef3d3fdda1b018332b2a13533d527fd20ba,* First successful change root operation.
+fe9736eb5933f6393245be79868deb13cb230d25,* all parents are now treated for root node change (this was a bug fix).
+6ef2c057a2c3efed105a90a3d6d674de3fb7e6b5,* more todos
+486a9e639fbec5c59a8bf6207a4aa766b91274e3,"* left/right improved
+* menus organized and cleaned up"
+ab0335d762f262ed2653f9f75c303971836c68a1,* Fix for export on command line. font creation improved.
+1ec8ce570362d02013e84fc895e668e4c9ff37fa,"* Undo for ""Change root"""
+664087320665acf95836efd2f28dedfbc9020ba4,"* Plugins at root are removed before changing the root node.
+* better documentation of the hook interface"
+c996e74bfbce2fd1f04797cdb465733307aa2ba2,"* Now, find treats notes, too. (To disable, set resources_search_in_notes_too to false)."
+1018d479ccc447ea65c4dfa1844bb003dcb1b60b,* nicer search dialog where it is possible to select notes search.
+a10babcdfb0b102886cf7081d7f8a157321e9794,"* First try for ""open directory for link"" (not running and not complete)"
+6b156fa3c4ea9b878aa7a7f2de7343339218c3d8,* new plugin for Wiki initialization. Thanks to the author
+55c868a05b8762956cb8a4ae0dad04dc83a49c18,* open link directory with error messages.
+931e194f30770b067a7fed7c7cca6ae704d3c12e,* messages removed.
+0192a6c96862e10ac91069260e66f851a8138c3f,* Paste as plain text added: you get a single node with the copied text as the paste result.
+ffecaf15e1ff51e3b66de6e545af9af4c8a5c498,Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+5e7c2c1989bf1381b4886aa2cd64e5ed4d588714,* Tests can be run via ant.
+329964e99d0b9135d37696224909758d9f1a78bd,* Bug in doc of headless export.
+54ed3fd2bddb76312622915c432bbb348940e06b,* First tries to integrate maps into FreeMind.
+3d67bafba02b08fadf0a0a1543e59788d75257a9,"* File Memory Cache added to be able to work offline
+* UI of maps adapted to FreeMind"
+f8cd33ee83e2f54f9cfe2865f228c03708f367df,Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+8252b8425a9606128e65a46b8d7ce3c77766d077,* No errorneous tiles are stored.
+f64167be868617bc576fd87a50493bfa02f36fe1,* Popup menu added.
+3c62a1df0f475114cbcd1b53a2eea2ce37d070ff,* First integrated build possible for maps. The maps opens.
+fb4a833c72f81c4b38f9c950cd9c69549ac3a575,* Support for external plugins
+132f2010b5e6604535bc46e7fa44dc4d9045d8c8,* First set and get of nodes inside the maps.
+d688edc2f50a483061b953dcbd5d7f3877380cdd,* Translation for maps added.
+4a044979ecdc1d27a98a088581be0ce64d37db0b,* Option added to avoid tooltips for notes. (https://sourceforge.net/projects/freemind/forums/forum/320014/topic/4777695)
+6c7dda81d698fb6cf001a069f794759959c9257f,Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+7ab7a544b8364fdfe78ea02563137eba0a06ea5b,"* Place of nodes in open map window works.
+* little refactoring."
+a96636ba64868f7fe8f12af794ad5aa36768b450,* Icon for nodes with a location.
+4540aa59d4cce1907555ebc51c863b500c0dd62e,* icon for action
+7944fa019e3cdc26e5a9f7d821afed966b618517,* remove node position added
+5a7d4fe9c4c0a2b6e7919a9fcdd727860025537a,* show nodes added.
+9a5fe0ea1feb372599603fb69d7ed51cc43885b4,"Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+
+Conflicts:
+	freemind/Resources_de.properties
+	freemind/Resources_en.properties
+	freemind/freemind.properties"
+fd09dbffdbee89806d70dab5d4c97d6c29906f29,* encoding changed.
+07d38a8f493b48760ea6df10ee383f000411d941,* formatted and imports reorganised.
+22f1dd116300361d23d191c7d4d2c6e7d197c75b,* place node is now undoable.
+f71e65abe227108ae5bcacda8e9f9f5618ed7a72,* Tests carried out with xml output.
+5d6d8cb1f00f33e7d4a274b06a04277d5891c085,*other report dir.
+09eb22ca1760fe87e9850c817d3c4a70340c1f5f,* Possible to show multiple nodes
+ebca759295aec612471d38a4fdf5171ab06d2478,* refactoring
+e8c964b231827b944229abf5186feaca5106a47d,* Multiple selection in maps.
+286184020abbaad38c7ace0ed7dd1d0946688f2f,* initial selection corrected.
+26bb28a1fbfe2bb120b09278703b4929f000969d,* version increment
+d34801e04f54d0bab955c44309fe4f76f54ec9ce,* File cache choosable now.
+df36f0745fccc5ff38583e5b956b224e9dc38e43,* Binding for nominatim search results added.
+6041d0bf9da140ac0b77934fc768bde325e4594b,* first dull implementation of a tooltip.
+ac7c8823edd2e2474368c2c72aac45e769ef1a78,* n tiles and synchro added.
+625ebfe860e7618ad67a9e2ff745b95dd7d8561a,* Correct tooltips now.
+813c51452dff4b1449f657600a5c1c84a08c0b48,* sync of threads improved (but still not perfect).
+0759214101183aa853979f450a340b1a36c41c34,*
+3c272b4e8b8dfaf7512c267fc9b467f08dd3895d,"Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+
+Conflicts:
+	freemind/history.txt"
+636ed1605aca457bbcf8d17ddc8b62031f11377d,* Using temporary files for tooltip storage.
+97df51c383c18e501af443bd58cbc6e9ddba3cdb,* tooltip loading only once.
+3aa3840124e0e8aca78279c19d9aba125e394d76,* Fixed https://sourceforge.net/projects/freemind/forums/forum/22102/topic/4801690
+cee2c059d6291bb523b9adad6e10a44303958824,* Logging removed.
+7e768b0254a13e99c495918661fa22c7e5a0a74e,* Store tooltips in map file.
+871a612b9cbbd48ea4d7f5976f2b72fb4d5a7976,* Map positions store its map-source
+e086cd5dac5154e3e1c823e5269219d1bd5801e2,* Map source is stored in auto.properties
+a7b37ebcfa823b2b551f5f10329c0a05dc205707,"* Fixed ""Jump to last edit location"" in combination with automatic layout.
+* Refactoring on maps"
+3be3e728aa0a622156663c9a7b7758c0148847d0,* Map: cursor movements added.
+58f76ce8fa6d16df41e48e0a1d95acabbc3b377e,"Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+
+Conflicts:
+	freemind/history.txt"
+e587a5456dfcc45ea6a56bb83ece9cff452560d9,* automatic tile loader (from osm) added.
+9fb6cc10e239c46fd814653866157ed4d5630c8d,* Tooltip creation synchronous now.
+4297c47246ba0d31344e19791e297d235fd4a99d,* Threads removed (no longer used)
+59f8c1046f2da32c3a309e7e633a1f31e5a3c750,* Controls moved to menu
+734b86d505318ef5d86e71db9c454232ee87d707,* settings are stored.
+23a2183ce6985d9999b826044d7abf906d88f036,* Menus revised.
+1cb219ae7fcb722d56f7fd76d088b0c3d666de5a,* Search bar added.
+7a0e6298e1858c0d8f11d3576fbe324eef84e3b2,* tooltips corrected.
+c341f08e75d135e1e16113fd38e90a75aa32aa13,* Search bar with clear button.
+32d616a6c7c307d4a78bc23f08b2c218abb4cd02,* Search bar can be hidden.
+e76a9a8026b34f12797aa08a44a40d8aff187a0a,* offline removed.
+d87ec8c9fa7d0f7d68c7ee6b0ebd9ab75fb17ada,* refactoring
+7b3d4e7a37cbf143f7b53fccbc1d7fb3df0029f6,* Added spell checking. Thanks to the author Eike.
+79b9327052cf89cf53f6cf0d76dc84234a0b9c24,"Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+
+Conflicts:
+	freemind/history.txt"
+020ae484725e549cf9f7ae44941a5c6dd29e4f48,* ref.
+5620de084235f9c75b58281b271dd625472ae187,Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+ebe51c5c9f6fb7a66172717f53f472998961e937,* Double click places nodes.
+4a83fb0e5f273e3e39632296cb995d18bcd8d0e6,fix typo
+57673482a1454566cfe28aad592f13e09c17ca2a,"* Patch: filter by ""not containing icon"", https://sourceforge.net/tracker/?func=detail&atid=307118&aid=3442896&group_id=7118, Thanks to the author!"
+d0cfeba0c4b63b5a8df37d0a6dc2b82b1f40085f,"* Patch: File > Open should behave like File > Most Recent Files * https://sourceforge.net/tracker/?func=detail&atid=307118&aid=2975476&group_id=7118, Thanks to the author!"
+8de4616d1201c85e61f5f11caa2106f239eb99c4,Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+8e5f37085efb0a1493f1f15c2e7746102dad214c,* First try for context menu for map markers
+80d7f6aabb79481d4615f88dea9bb9826d6e4209,* First double click edit text box on maps (still needs work).
+c9f057bfe82f8531ed28c97809d5ee1dbbaa1cb4,* node editing prevents mouse clicks and movements now.
+732418b9b12b5a3a346c0bcf91b2ed8e6cdc8122,* bug fix for tooltip creation
+48fd9920c18573437ae7f03fccab333e391780b6,Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+104cdffc4b8435f5adfd406c27818771f59d5357,fix key for spell checking in resources file
+f07159b7ddb25097a27370db234902d0aeb3cc5d,* Fixed layer of textbox.
+23e196fe6680d88f7a7134f0f7f9535353dbb5ed,* Refactoring
+b9d64dc0ec7d88b3813b66791b2835153886f030,* Refactoring
+ffe1c1269db17f53ab8532385d9a6f6199113406,* Added property and functionality: folded nodes are hidden from map view.
+db47644c1065d860997d460b872aec2d2f908082,Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+32ed632e4ab84dd9f0793704ae9861d909606085,fix problem with focus loss in compination of spell checking and edit node text
+88f56b9db00e318883d44777c9dbd21e326eaade,Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+fa3873f7325e747c57770d7fd9eec58eace1a0d3,Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+c8b7722572650d7dc17533b59e81d9c252b5535d,* move commands improved.
+dce3b7bfdd36b2365b280760617999e244aa1d42,* Tooltips are stored on disk now.
+25535801af4352576118e09abb6fe5242fe84b15,* Refactoring
+69d75eb5f06c5045d0234d4fddaadec49964da91,* Add map to node added.
+5530eb28c15342190ff0d66805623ebd601dcde6,* Select node new in context menu
+ea094574dcf49cc39abf85cc19a53bb3643346dc,"* remove node's position in context menu added
+* fixed undo for remove position
+* refac."
+4909120ab05277c5add7e56a7a844d18e294b646,* Fixed node hook undo action for hook with standard save mechanism.
+50462b2a811b05c4a1d554af7ab54319ee266795,* Export map added.
+aadfb3ab971c716996a0acee21d78a9f233d45f5,* Map export improved (refactoring & without zoom controls)
+0743d8fdb21e91191bead2162bf77a92f6db4c5f,* Relative tooltip locations added.
+7c7b4d6055b51de4042549af3a16d0705401ba88,* image insertion with relative path now.
+e87db3ef4d081a177786ef468a14dcb3a6f3cbf8,* Fixed file generation for export branch to html.
+7fc28233bbc798ec00529be82bcedf7eea253484,* Key support for search field added.
+3218755e2efc81e5a04e87a267d0d71d648e5d17,* Change map position with drag&drop.
+bfcf18025d680b81c320a474290550a828537911,* Context menu for nodes with map positions added.
+84bc572c0b44a32be4c9e9b2379a83bb6936cad1,* Map is opened if not already open.
+e6723235aada1590b9966f303ae9a7edec8a700a,* QuickLook plugin from Dmitriy Vsekhvalnov. Thank you!
+a17d415a7f953cf9512fc1832845357058acfcde,* Build result added
+92bacdc5cc02ca0064ebb5cc54cb4f030a0331c5,* DMG creation for quicklook automated for macosx.
+f684b9068ef45bcbfea1f5ef21e5d23240e2f17f,* Added map actions to node's context menu.
+3f533a04efe3adb8674862c6b608c1efd530aae0,* Options added to option panel.
+20311177581ace37a25d40a5eb86cd1b81c3f589,Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+b9cf5236a6485bc1c7d59d366dd0b663c1f4008b,* Location docs added.
+3f80466a9894979aace97f7f9811b64d84a91e32,* Vers
+a48b669c19faf41b376c80bc2d91a9afaabaf6b4,"* Fixed Quicklook (folder and permissions)
+* Screenshots of QuickLook
+* Reset version to alpha, as bug http://sourceforge.net/tracker/?func=detail&aid=3432919&group_id=7118&atid=107118 hasn't been fixed yet."
+f3f7e89bf1d9254cad318b867ed02165b578085e,"* Bug fix for Problem with greek text inside long nodes after upgrading - ID: 3432919, http://sourceforge.net/tracker/?func=detail&aid=3432919&group_id=7118&atid=107118"
+b1c18f27d7cc5544ecd6cb285204b9f89cc26d9a,* Fixed coding of search queries.
+a5c4a894aa3c0f559d41b52f62ae19b6a6808dda,"* Nicer symbol for maps
+* Tooltips are deleted from file system, when changed."
+3dd12f6324329ce2f929010cdf6f13ba2dfb9dba,* New feature: add link to osm.org webpage to node for locations.
+3642573633bb9b87addec5991f41d759ae8e23cf,Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+e6b636ef991b956037fbf3d85f5399798c9cfc4d,* Fixed link creation for tiles at home.
+f020b7c3e27dab51d52a557ea251369e2013c9bc,* Drag position of map pointers fixed.
+742efb239c70d6e319c50060612f33964cae02a0,* Fixed pasting of text containing \0 characters
+5bf12abd4c927d635c5f1db8ae5c2419ecc9ca54,* Corrected right click detection for nodes.
+fbe2ff3191e059e5814cb02a75bafca65f86fd0c,* All map operations only operate on non hidden nodes.
+a071eb0a1c916936d5b93600cc364493c448bcc2,* Tooltips are only checked for existence (and not loaded).
+b7948428b64ec6a08a84a36447dd99ba33d6df57,* No hide mechanism in display class.
+96957740bdafc80ac6838119f19241e646545682,* Paste as image is last transfer handler (least priority)
+1cea374bb2d2057c586fe4faa17f6370c568a6cc,* Right click behaviour fixed for linux
+a386f6da4b0b3df345f3a94b687a2ba1823d8ac4,* new status bar that prints the nodes history if mouse over.
+21f38c9983c035b75f3f8f601dadaa5c076c9cd0,"* New status bar for geographical maps:
+  * hierarchy of nodes are displayed on holding the mouse over a node
+  * distance between cursor and mouse if not a node is below the mouse"
+4af4ee9355b6e427d4f2ffbaf73a82bffcaaa18e,* Better translation
+cd1b5c9667b24bbe966b7af76222b132a5509e2c,* Corrected click behaviour under linux.
+90450053c0372e0071c16b090e2e84aa8d51f83a,??
+3181185ffe40965a33b79ff8596620ac9406148e,* New language bulgarian. Thanks to the author vii!
+f71e4eea75c5a08590e48ae7b8638840c68ffc5e,"* Reorganized popup menu: new node, copy as link, search and maximal zoom actions."
+02b125bfad5af1188cf70dd1eed9c9aa92e64797,"Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+
+Conflicts:
+	freemind/Resources_de.properties
+	freemind/Resources_en.properties
+	freemind/history.txt"
+8ef1d20899aeb491cce0d420fc9a338cb6baafae,"* Copy as link for nodes on map, too"
+3ff0b1b86692c56da68036516f53dfa7041fdabe,* goto node added.
+bc26a09db596a8e994e1aee453e1e770a2cbe7ad,* Edit node added.
+bd4606dcc7c94ddbefa8b28ed8b9b4140c95cdba,* Edit node added.
+cee53d85cc31d2faaeee346364142a4be820544c,"Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+
+Conflicts:
+	freemind/plugins/map/FreeMindMapController.java"
+3957a7807a707cfeebc4a3a82aa5c00ae5f7049d,"* Menus ordered
+* Move = select in map"
+594389d37da7e343cd9c8289471e1aad8480a2f6,* Shortcut for remove place
+4692562238b4eb7b61448a82f41745b5a9f6a57e,"* Changed focus behaviour of nodes: now, after cut, the focus for the node to be selected has to be realized with obtainFocusForSelected. Otherwise, no node is selected at all.... This makes the handling of other windows possible that have the focus for itself."
+800eb0136f30fb1a7e09fc758abedabdfa0a0160,* Better movements implemented.
+01cc53b75472f7fc48eda8c654c075ac635615f7,"* Map movement on drag to the border.
+* menu item improved."
+ebc46160d8d843785989be5ec05cd8e2ba42534b,* script that converts the Berlin POI of OsmAnd to FreeMind map.
+a2e5a024c8ec0d77c06db25b66924b1e14d7eff0,"* tooltip creation prevented if LOCATION=""false""
+* copy as link from context menu fixed.
+* memory consumption reduced"
+c54d597c77c7b192d5fc7cb8c66bdc2ec91a88e8,* Remove performance bottle neck for saving large maps.
+26457f35e73d9266976dd0b7ae9f210aa20b68e3,* other poi files supported.
+bfe4a43490b7d39eb56f8e8ff4fd1a86986b631c,* nicer title
+e6c31b7cff615d3b3d5e75f238b46a3fdec4300a,"* fixed the ""file changed on disk"" question behaviour for negative answers."
+862fc1f1f7b2a3317130b414f158c193838428eb,* download address added
+e24ea5cb3212290236d5a1be8c0372aacd816e5b,* set/go home implemented
+6623142bae2282ec7f4a48ffd3bba9d18c02f7bb,"* Bug fix for zoom to big
+* Refactoring"
+e188a23cb14b8e9289d99810670003d0c5f039a7,* zoom corrected.
+87a8ff7ae3df3786c17fb1cb017ecce697e1a4e8,* focus after click corrected.
+059f412896ac8487f5552aa6032cf55139876897,* Focus fix again
+e095e7defe010beabea386bd1b735ab97cbc255f,* distance and node providence are displayed together.
+f65569a77b3932cbe1c9ce2cf63fabeada3b12cc,"* Fix: Search field query
+* Better layout of search field
+* removed debugging."
+e38ab415ea92d463d03d6a23f5fb9768526a6ff3,* find dialog: cursor move fix and selection change: select all on show
+a3768494c4b51a253f6ecbdeb3c51a4bafb756b4,* drag only when distance big enough. select otherwise.
+973255977e62e921fd13789efdd7dae5f0f55582,* Hopefully corrected right click for macs
+5be76247b8b8ca54805e87c63b911aee1903b83b,* multiple select of osm map nodes with shift
+69fab3d10139d127684e893f3d3259aff6e573a7,"* Picture creation even if no tooltips are created.
+* Less debug messages."
+8ae89888e3cd6f6372c4ae4c6b88081f7af2031a,* first part of multiple map location selection
+8d807f07dd2da2c94879260440b69bee8a83a752,* Multiple selection with rectangle possible at geographical view (press shift before left mouse click)
+b066826264a47a0df389eb25d1068488f66190cd,"* New focus concept. If nodes should be focussed, then the corresponding mapview is focussed instead."
+54cd811797aa4351d41e24617b88819526f7fefe,* show node in map fix if node lies outside of map center area when zoomed.
+a945b627039372d2f48beb2d647c02a0d7a7c3f6,* Corrected ctrl+ and ctrl- for zoom actions in geogr. maps.
+3d1f893a1abfe9692a0b6440e62a0fa8ed2ebe77,* little bug fix.
+8cf6821b888c7936622ffade2f1852abeb993049,* less debugging.
+24e7eb1b5a92b35bfbd81252379b4371fab29587,Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+f50cad8e7a04551056ad3aefa2edb6ee934768c1,* osm file cache: max age can be set by property tile_cache_max_age
+90a4a98aaf3b2b620e7a1ebb42875fc1fb195c85,Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+5a9e8b40beed4718868caa2d6ad5e001b5d1ce1f,* Proper osm user agent and tile cache method according to osm's tile source policies.
+ee01134361ecdb427dd28de80185dc1a368e6887,"* mobile versions of the Freemind 0.9 online manual.  The ePub contains a Table of Contents that matches the major headings in the online manual so it's easy to jump to a section of interest.  Besides eReaders and tablets, ePubs can be read on computers using free software like Calibre and Adobe Digital Editions. Also attached a Kindle version (mobi format) for use with a Kindle device or with a Kindle App on a computer, smartphone, or tablet (including an iPad)."
+e9487905f1a0241b464847ed9c3bc3f265c73eb8,Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+5cbac2e75b2c2fc8e20da5caad3e4dc429fc3da4,"* user agent according to osm tile admins
+* changed zoom keyboard shortcuts in maps"
+f717614b783c0f6fd6da87f31e230fbaea11d8b7,Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+71437f0481a8ce0b15847b21db11f9237c7efe83,* Yellow marker for search results added.
+b91b818d84068635f29e5d89cfa877d7688c5a91,"* map search marker improved.
+* timeouts for nominatim connect request and hour glass added."
+804a793e2d2818a3c9c0e08937fafbd4c4d62a1c,* keyboard navigation of maps improved.
+e089956eb22bed0a0197c5f831dde94db0429ec8,* cursor with shift moves page wise.
+3c6f31f067d3ad4cc485863fe103d93b9dd2df1a,"* left/right
+* license added
+* ids changed"
+1c0d4d0cfd11143aa6a90c2541136d50632b9ee4,* license for converter added.
+78ebb4320a5fe47d1780e64711ba69a9df5144c5,"* Export of multiple nodes as PDF (for each node, there will be one separate PDF) possible."
+7e40dfd9b0c51b50533cc430b2031f8b8d28119e,* Fix for auto repeat cursor keys for osm maps under windows.
+307f02fc0d1de82512198d179877fa172af43184,* FIX: Toolbar can be hidden
+b79aa200914f11bd9b6a5b202662141b144fad20,* fixed cursor movement with control pressed.
+a11ddd55a5293a77b78e1c29328c183a66fd4c88,* New file dialog abstraction (for mac and perhaps for linux).
+4345c47c501c2e5261f6fc60a383653a1b747b40,"* file chooser for mac, directory selection"
+8c58f712d62cb8d0c0c360fbbb339a06d47ca07b,* Awt file dialog for java 6 or below doesn't support multiple files.
+7c59106756c4523c4b739b0874b0a0b5c301eb0c,* Time management: menu added and a method for journals: make new node with current date.
+375c34c70c3bbbfb0a746b0d06f5558072e65a65,"* ScriptEditor: escape handling improved
+* MapDialog: if search bar visible, zoom keys disabled."
+7e090c75b4f329c8f7a55d4a1b1613bb98e5347d,Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+57ad2f7a331d8719b9665c62f6282ced4b1cd1f4,* Adding directories to windows installers.
+821d2a47be8395c902de4155406663033b63e3dd,* restructured menu of search/replace dialog.
+aa083559cd781d7dab4eddd62092f035d43b678b,* corrected file chooser results for mac.
+ab0161c9c408b77988ec2be24f5b640d167dac29,"Small refactoring done.
+
+Signed-off-by: Gorka <gorka.puente@ehu.es>"
+00197183b46368fe399cf3544992cb97dbde1113,"* time list: enhanced by ""new sibling"""
+17b23737a234f03fabdbdd8da158889f48c2433a,Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+05147d2c934c31e51d86a4748504c2e2c6765da5,* more logging.
+a74b22821800a78bcd295ab402efbf39584731db,* FIX: Text based exports are using the correct order for the first level nodes.
+12ddf1167f25de5beba751c2c0117fa9a5dcf563,Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+59b567bd4cbbb72f16bd1d2517ae83190f42ed55,* installer task for mac os x
+30015bb69ba6c20f83d1bd4d9555a65a2e1d37d8,"* NEW: If you have addresses as nodes, these can be displayed on the osm-maps very quickly
+* FIX: For search/replace
+* FIX: For export ordering."
+91ddada656de87e00492bb1ccdf6da42302089a3,* Updated the russian translation. Thanks to sergey.
+b9cc71a1e20c65dd61419bfdf11239027a9cb487,* Test logically removed.
+9b140bbd11265cc2089b7bdbc3fca1b27f7edf13,"* NEW: Find as you type: if you type an address to search for in the geographical map view,
+  the find window is opened."
+e17ea5d1a351cc7e9c53f32b607d496cc45d7a11,Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+7babeed55fb7d544078e4190379bce021e26d4f1,* FIX: for dipatching events under mac os x.
+9aec66ae6207a102a262f78aac75a7fa4ef1518e,* immo added.
+b6d87935e3bd036b18b65d587411d4906342ff9a,* FIX: Calendar is displayed better on mac os x.
+d39e582986e8fd7802c1d48f67552ea46ca95385,"fix spell checking problem in windows (problem was mouse trigger behaves differently on diffent os, see documentation of isPopUpTrigger)"
+63025cdb20b904cbc7137b8a364033afb7f3746d,* FIX: Waiting cursor on script operations or many scripts.
+3b81101dd8c386b72dc5582f027c2e4ae13e559f,* Added an additional question for the internet search for node's content
+79360d716d2cba24c5b535cf7fd42e1bbb67704b,Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+f96289cfb7fb1420c65b627ffe7f25bfa49ffc47,* FIX: Focus after direct search
+17f4cf7f1532e1f7eef04e0c152871a0a4381d25,* NEW: Menu item to display current log file added.
+bca0535056d47c859b7b838ad6e494de842a9039,* Improved script as it now preserves all icons.
+8cd8b2d2388e91975f6eb28054a14ec3c4268e4a,* Improved script as it now preserves all icons.
+1824ebb418a930d02bebed94c2a4d250253a8aa0,"Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+
+Conflicts:
+	admin/docs/features/1_0_0/immoscout.groovy"
+539c3bd2c7d189cb76db3026073aed1c47c90c5b,* Log file viewer: scroll to end and not modal.
+af1b37d5ad7244740876f9f3397c05eccc5f3e17,* Remove icon is exchanged as well.
+c174ff378f76aa9b8055740aa368fe2aef5d244a,* NEW: Added support for osm's new transport map
+1fb3914704561c69d3839c2798e9550273485b89,* NEW: Added support for osm's new MapQuest.Open map
+56f0961b01d02609e5a744863a297095e58a21b1,"* Refactoring zoom controls, in progress."
+20a2f9510da91c5421eef1ae8deee14f9e0ee665,Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+458ee61d538186f0da9fd1bf5d1b5f5932db6d9e,* forgotten to check in.
+f14a415f2d20648e72beec6975ac7892b6ea512c,* Zoom combo box reappeard in main tool bar.
+eb3a73a2d142e56bf8b4a79aa3e91b314b6d6580,"* Tiles at home removed, as it no longer exists."
+d590837aecbefc9f02f8d1f7209a7eec882972c7,* tiles at home removed (no longer active)
+b2ad42d8c3bd40f17a0c4752c5da80c04212efd3,* version
+c01565ee4aff63bae0ab4f27074282b35c774ff9,* tail -f added to log file viewer
+3957614b3da142de070c6066491a009c6f23bed4,typo
+7559db56978d5a1f967eae3d9f677dc99ac33c65,* Mac file chooser is now used everywhere.
+3793694386df6a4549ea6612a54699ab7888a205,* logging reduced
+291e465e2442e6f306569cb2146350176f38489f,* Again
+7769cf7cf7513a872232e0bbb8b919decebb7c76,* FIX: Scripts in Patterns should work now.
+fbeedba247cc889c934c2934b29e1ebb3a5b44d5,"* NEW: In the new search dialog, folded nodes can be hidden."
+caa3c87248b473371f6648de6d286dea170c2787,"Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+
+Conflicts:
+	freemind/history.txt"
+659e3764592a2d7ab499f8ce92f741175e88bacf,"add spell checking for long node edit too, clean up spell checking initialization (now only once in FreeMindStarter)"
+3dd86aa0a128f9ce7b1134b725c35422fd297148,* NEW: Purging of old tile images in cache added
+c10e45d2b746ec6a79bd735d03e7398c050177bf,Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+861129dd396384e5f882d37f2db4fe0d0cd228fc,* FIX: Clone functionality in combination with the automatic layout.
+8bef05f7c68fcd4a458254f8e10d4a4ca9c1e776,* cursor visible in log file viewer.
+4b09d2ff9ff396241598916d3647e114e4271793,* Bug fix for null file list.
+c35da98320b317fc10b4b8e1595a4f3faca32693,* Foxus fix after map change on the jtabbedbar under mac.
+ce02d0b0cca67f0905fb1e85e22f18d2e6f22386,* Started to correct the paste action. (in progress)
+048215c7b72fc552894800d30197fb5de2ec017d,* Fix for paste and mine types.
+a4dc717cb6afd2f813ca791646c00377f1f824ab,* FIX: Export with XHtml (JavaScript version)
+af231828230799c37a8dfb6e4fe7269e41ec2f64,* FIX: Export of children fixed.
+c2c38a1693b66397d09e1ac62f57c902a0dd8c1b,* File name proposal fixed.
+356309d0acdfc695cb33acde094e482c7e45984e,* NEW: Keyboard shortcuts for tile sources.
+886f7c6a181d9216ed1b3f288ef4bbcc0ec92947,* Fixed sorting of new search map
+b3915ee8bae36081c707d198a3cf08c03a34e32c,* Fixed filter after changing folding status.
+05714a40486333663983142245a4b889fbcf4fe7,"* CHANGE: In new search (& replace) dialog, sorting is case insensitive."
+c48c881a2228299b61543c0298819a6e0a334b3c,* preparations for the next map feature.
+6b7bb700221f6c69e668507d9eb39ab67fdd55ad,Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+7e20013415085e829d31dcab1013b6d9e44c9047,"* URL and spaces started
+* Undo of paste actions: starting to correct.
+* Refactoring and documentation enhanced"
+fb4e012f6a0694980162bdc30141c0944a71318a,Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+cbde24d5a831ef8df5b165e7dbdc7883c66d10c3,* Menu position of map fixed.
+f2446d07104ba2e8d6067a719b64bfe3e8a7b886,* Foxus fix for calendar.
+144dd98eb587b0137fdb5bd64c6d067c6c74ae28,Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+d3ee7b043d1f41a616cb2e8801dfa9ca33adf1d9,* URL Conversion tests enhanced
+92665d1d1cce2524e94823903643037b2a1f6543,* ToRelativeUrl: refactoring and more tests.
+ae51906345c01546d6fefc984657c99398e173ff,* More tests.
+f3d52e44928b7da397041f6e03e594338ca62885,* rewritten algorithm for relative urls.
+ec652172eb010c32f3afe66f3fe6b16d469913ce,* more refactoring
+06211bf9852e4c1e2ad692bd4e7c638a15626a9c,* more fixes for links as urls.
+36a84111541876c923c8344fad9e10f9c5b9061c,* display of html nodes in new search&replace dialog fixed.
+482b2c15e7007c29770b6fdb5dd9345b919b4651,* FIX: Open files with spaces under mac
+eea036a2f46fa96bcf96df388a1da8f316d15b1a,* Move back and forth added (first variant with strange keyboard shortcuts...)
+84b20e66136258c5fc5dfb2783c303e8cf44e2ce,Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+b47320868f9825fa9f7ffa94a6bb5882aa8cdaed,* Better version of move action.
+1f0cadd7e8e8248fb67d4a728d61e8a04894465b,* zoom fix
+b4ea04c435f12ea8bb1b4657cf584675f9014045,* positions persist map open and close events.
+1358991d91f4060dac7ffa9688312d9c70ea40e1,"* FIX: Undo for paste actions
+* Fixed undo for paste actions."
+4d44d4658d65c910c50ecff4c549feba25de2c88,* version 1.0.0 beta 3
+9d0249bf5ddd82e7be31f6c83e19446d93a72cf0,* FIX: Exports and spaces in file names corrected.
+ecb6f4d0e8df576546ba284875cecf53cbc3d66e,"* more logging for clones.
+* starting to fix shutdown of clones."
+784bf2211a7868d920711920ab7b1e5ef79a3668,* FIX: Removal of clones fixed.
+355ace6ace16772fb1993cf346b1778aa521e9f3,* NEW: Show clone nodes action added to navigation menu.
+077c78ca0fe90f106cd34cd27ddfdef6e3ed85e9,"* FIX: menu position of search actions
+* FIX: Jump actions in maps and enabled flags"
+ae9fcd338fb009caa77f1cc1f9712a9893f4e8b5,* FIX: Error case 'clone inside clone' prevented.
+802fa16d3c22bcf4b21b5112141c62c3ecae9413,* File forgotten.
+a17d9647939d46c73a4601644beea5c992b9a9bb,"* More javadoc
+* immoscout: detection of changes doesn't work
+* bug on position jumping fixed."
+24c94f97e033048129a0fa38180d1de08999387e,"* change: position store removes positions, when moving after having moved backwards."
+0a53e44797f049dd25649063d42bbb13fb14c194,* Fix for change
+0c3d2907ff153fd9f2c6dfe45cd6f615113c89b9,* Initial version of an importer for osmand obf files.
+c16a8dc4816f76551b6582c97748070f8ceb1ce8,* First compilable version of the converter.
+b404e8cbd76285e356ca6ef6903f066843d9702e,* more docs and windows batch file.
+5b6d94776833d3b368b47e65336317814c07f36c,* obsolete. Good bye.
+9c0c2e0f2270877f763ce2e4647209d1480f1cd7,"* Added ""Show actions in log"" to log file viewer"
+bd225710960793a59c56f4b64c21bf48fd938c3c,* NEW: Feature: set log level in log window.
+9215973323ee00b75b798951562f308578bebace,Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+e50bc87aa16fd0c28de1ee1619fb36f7977a01a8,* Log levels added.
+50492b01b32a1f82cb4476316602d04af7daf094,"* log level is only set to proprietary loggers
+* create a new menu for the loggers."
+64fce1f764ce3ad073244c7f86415caff1e5c886,* some calendar tries. abandoned for now.
+21a0a5d634571a7cbb714404073bd1805e33c74e,"* Workaround: Java7 Update4 (and some java6 version) have a bug. Result: update files from 0.9.0 or earlier does not work.
+  Remedia: insert own Xalan version (at the cost of 3MB extra)"
+e9123b7d9480e95af56ccbd62b49f111b314f093,* Version increase.
+c4ed63489f4fc96e67567e394cbe81a5d3f9e5d0,"* Added even more xalan libraries as the bare xalan.jar was not enough
+* Added test to verify the java bug."
+90f10a383af0d82618b1c01ce05737b542748cdf,* Version increased
+2977bca45435c03620ebb6eccd059a546bea6e97,* Mouse wheel zoom speed on osm reduced.
+a9e05b97c503cc2dc976df1f459d2b084e34611b,* Zoom is set for example for move home action and others.
+50fe4c271c7ffacfeaf4c55513c1fa1fe3d996c2,* Menus revised.
+08ff13818213e2f381752eca325a1ac34ab789c4,* Refactoring
+22fb012fbc9b3da698f5276a5dd8bc1aaab23108,* Refactoring
+7bc389734589bda79b59434dcabcefeb269ecd86,* Mouse wheel limitation
+2526a9e5d6f2d4ab93c3ea94d713986afe18be1e,* FIX: Zoom combo box is restored from stored zoom value on open map.
+33ce5a0af63756d9b3c15c2a07fc1694949b55d1,"* Removed cut buffer in registry, as this is the wrong concept (ongoing work...)"
+157050975f7caca3d848edb01987f97eb6aed0ea,* Bounding box added.
+e9c732290b51afcd1d26d6cc231b55e2ea12216a,"* Copy coordinates added, something more, I've forgotten..."
+e864db3e83b5d7e55f459f79b788facea9407943,* Project files for converter.
+9ec2c7784d3e02743ed54af0af476abce8573879,* Little improvement
+c085c9d9b7285fc28540672f4dadfa06087c6c88,* Format added.
+55d517362fa663d489fcd039c6764a24c32debbe,* Geographical search results are displayed differently when selected.
+90e710930cbf584931a1b4b9047745dbb31cd8dc,* Goto Search added.
+1f9db6bb7bfb132335d32e03a23d79883edfb5de,* Geographical search results are displayed as table including its distance to the cursor
+7a9c699a8766a9426ef535dacd9bc398f1ae9163,* First try to make the search field with a split pane.
+d2c894bb65a6e8c4da46216b6e82403e3e01cbc2,* Split pane is removed completely on close search field.
+2d2ce0dc5a022475b281685195c2b39adc925e16,"* Map search result table: layout is stored
+* Restore layout works now."
+c7f96f29872b9954d34fc0837ff314b81f1d42a1,* Geographical search can be limited to the visible map
+efa2cba115a4ba8569d940c818d6f2bc58e5f399,* Bug fix for sorter and selection of results.
+c394fa6a786753a6ec7c5b48450406b6cbd36dfd,"* Better signalizing of location limited search
+* Bug fix: search results are removed before next search."
+7b7276a5fedfa92770827818c94eb4c348b9d777,* Bug fix refresh search results.
+16da0db03959a29caebddfe5586f7bb2a9672c1e,* http-Proxies can be used
+f40728b573b4bf608d8a0a312cce4c229f1b742d,* Proxy settings can be done via preferences.
+6df7aadb21dc73e2ec55fa95c6ba65c6206f6c6d,* Fix for wrong password entries.
+5457fb25913435df01645fd0bf293b5541757894,* Little things
+691d13479f6da371a80ad904cbadec1bec72a702,* Bug fix: password should be read correctly.
+bf900d921394e0f05536885abbd9aa3f80612d5d,* last map positions are stored in preferences.
+03b4d4f29a1d77936316c8bbe2b3d7374c379f97,"* workaround for java bug http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=7075600, see FreeMindStarter"
+0f88b372e39a3b24af2babb103e69286f002b148,* Page format for print jobs is stored in preferences and restored on each startup.
+be42fd855c1147498cc8d8e1d062e59802f316a4,"* Cleanup: own search menu for maps, shortcut for show hidden nodes and bug fix for this functionality"
+9c9b086c6cdce194b505774ebad26a0ed1eb6493,* Internationalization of export pdf dialog.
+c04b071025777e34e8d8fafcb7bb4f636c93640d,* Reordered note options.
+7c265fc4906287637e9a68ec9fc67a39bb7ab119,"Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+
+Conflicts:
+	freemind/Resources_de.properties
+	freemind/Resources_en.properties"
+1250ae05c1384d8fa0e50285f24c5f5840db069f,* New option for menus to break into submenus if too long.
+0163a861e2f758220e45a9376c8e8f45f3837608,"* Started to create a viewer for maps in the browse mode/java applet.
+* Refactoring of tool tip methods."
+5c06772c2045125172469d81c0aa29116d341955,* NEW: viewer for maps in the browse mode/java applet.
+5ee5e851e29687d5deee99da5fc9dba60cf98e01,* Fixed tooltip creation
+13bb9922b3cdd8bd3c75fc551b826cd060c9b7e5,"* Follow link is only enabled, if a link exists."
+b07ff9e3c96b447c35fae55e613f0ed42e50e6b9,* Fixed selection of search results.
+68d06f7fb48d8de62ebf93d85c59ccbd33c7bac2,* Focus after closing search window in map fixed.
+95fac113b6b07f7c1799a52976e150ce456f359a,* Fix for mac compatibility
+47bfd7a56310171b2997c3631c02a4e331f43ad9,* Free node movement is now switched off by default and can be enabled in the preferences.
+38a29de0a295479636de357e28034075164c5f34,* First try to correct the windows function to follow (ie. open) links.
+6a1fdf35d7816b50c1681a74f97fa641a4eebac8,Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+87290ad0291b6298cc61f8461dcc0d5ec8e13c7a,"Revert ""* First try to correct the windows function to follow (ie. open) links.""
+
+This reverts commit 38a29de0a295479636de357e28034075164c5f34."
+6e36260676d5f2a5681708dc4dc9aa67d377b981,* Next try to correct open function under windows
+759a26119f9106f952b638096f62d2c39e3bed74,* FIXED: Hyperlink open for local file references with unicode characters (for java 6 or higher).
+ec2b50112dc6795ccbafeb04aa9ac2990565141b,* Fix logfile window creation and destroyment.
+015c4ffc83071b118060ae6828ecc1f80eaddc3c,* Fix open on windows of urls.
+e587aa68ba979df5291f32f9217f417bd7e711fb,* Search results are displayed with text
+e4fa317c293fc06b97442561231c5c9e5c32627c,* Implemented shortening of map markers on bigger zooms.
+0ea13632710c9668e332b73b31a5bd782bbe9f10,* Refactored
+9d812801fee2c88aab38e8b2ff78db5253412e1c,"* Warning is issued, if search is limited and no results were found."
+4aee08e7c9c84badca22fa132d105c0b7c776f5a,"* Y-Size is shrinked as well, when zooming out."
+68966b764edfc7670ee06b7c95c2a8f610ec63d3,* Fixed last day of month display in calendar.
+d65d812749a97e9200dccd6de3cf9ed7261714ba,* Added right click on search results.
+b03fc0918805005f0c1689f276c5e93841bc459c,* Refactoring
+426a7a75539e710db9524e49312666370c1aaaf9,* Search reenabled.
+7e57e6b00dd76df2a35aaac830d8a8261f524eec,* better german trans.
+84b74d92b7e4ed0b2cbf1eb320e2ced1ca043fb0,* Reactivation of distance metering.
+8981ad6f6cf444fc50684fc0c2ab0ed00ef5373f,* Improved display on Retina. Thanks to Rika!
+3b0710f668f91852a6e92c79ff22d259af91ad37,* Version number increased
+07e589bccbaa9ec3bce0ab280659f6e2fbf09d72,Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+b9455080b6d619104791b96e5198021640aab789,* New japanese translation. Thanks to the authors!
+5077b0cf52761a1c4569d06f6379a278e6982752,Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+ce233504ff763403fb790adf31db8dd18a6a896e,"* New language ""Serbian"". Many thanks to the author!"
+95891d4537a989d6a0b128852da1f7bdc4c7eb19,* Bug fix: open hyperlinks that are not local links fixed.
+bb48b6ca814112c5e1dfc087779727d4ba4e3d77,* Version increase
+e0005cb901bd0290594c8258716989ccdf4eea8d,* First compilable version of socket collaboration. not yet functional!
+baaeb8ecb83d86ee7d444d4ddab299ce9b262b06,* First communication has been done.
+b9f541ccbcdf738d0d301df5dc388bf16304ed21,"* Next version, command exchange is possible."
+00f0c53a5dab3a42c9134fcd72da8b0902124d50,"* First bi-directional command exchanges.
+* States and command types of communications are tested against misuse."
+480cdaa1263e804243ff0090fb4d1ffe3c480901,* Shutdown seems to work.
+1d7d997a89b071d1c9d2ff79894e27f38819536d,* Users are presented as a title.
+ee90549110e019e71ce6327137d63d505e06568c,"Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+
+Conflicts:
+	freemind/history.txt"
+92cb39a8bfaaab813ad4404bd355cbd98e6312f5,* Big maps can be shared.
+133c2f440d9674775d43d104abf936147b648348,* added timeout for lock holders.
+9386dfedb76fc76a089ac2f60391343e34837457,* Named locks are now used.
+a9b386cd90c736337248387b32460a04cab1a86a,"* IP-Address is added to header, too."
+a9367aec366d5df3c9f29c0c3848594de9d0eb89,* IP address and host of master is transfered and displayed.
+19ed1e8784ed4eaf1b3a5854ed7e95ec721528ef,* Wrong credentials case handled.
+82214cc7e1dc52257f0fb7e24964151102df5f9a,* Connection error cases handled (on client side).
+bb7f08c0baca5995ad6c0f148c9658aa38ae1b1e,* doc added.
+52fb013dea5f7f1c6e6fba343b131f7c9af9df03,* Search result table on geographical maps: control+enter places the selected line in the map.
+6abb7e6d938f4c97b2c61b7edbbbec05f8a645a4,* Better response for empty searches
+d686793af7799a68876d4f557ded982a8180c53f,* version increase.
+724153aa3803a43c92b544d7380552777a509466,"* Fixed undo in collaboration
+* shortcut for menu in log file editor.
+* imports organized.
+* transaction handling unified."
+9e0cd6a54c5b9b680f895aa3d937e50825b7edeb,* Fixed shutdown of clients and master.
+75967678de6b79211cec4c6d2b7c2057a4fedfc7,* Ongoing task to fix shutdowns.
+3751a931807f07ae34f800c8268ceb7d255c53d5,"* Fixed error on occupied socket.
+* Splash isn't annoying anymore."
+5e98e26334b84f69c6c6a167d71525a488ffc361,* Removed CVS ids.
+ba58c09f83143ccd08e45e31cd6a7d5d11399cb9,* refactoring of link id classes.
+596b39f851f87e749b3b14f7fbee3e9f780ec520,* More refactoring of state class.
+4158cdc64f9b21403525e1fa9f814ea77c99a1ba,* Fixed export to directories with spaces under MacOSX (and probably other OS)
+cf6049dd3288b7cea3c5a21903cd98d51f8ebc69,Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+8acd955b9664415f54790171d53b7a46b071be84,Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+fbe1308e91ceae01038bcef828e79f926f615205,Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+78208e2f165b1d090f7c227f844c1be08389f59f,* Revised the german translation. Thanks to Simon for the suggestions.
+0ca7468b157e80beeba4ea506f680ebdac9aea43,* More refactoring of registry.
+4aa9972139f9ecdd72d688ac57e6c7f7394d0c76,* Bug on undo fixed.
+ff653e42705f5f8fd26e535d6b7fc65e0c906b8d,* Fixed undo and creation of nodes
+9b2853da5bee51b8ce68d2b6ce91e88248923a9e,* Better debug output
+7d49532f5745a986caaa25107c280efea351369f,* Sync added.
+96f7754f65531118c7a108621ddc5ba2000a9694,"* Refactoring: double xml action for undo is bad. Removed.
+* More debugging."
+5fd63f4875a57f8589d6acc6ffd44975e4ae6723,* Fix for undo on clones.
+8a5bf06877be871a7c388f63e1ea1914f1e9f905,* Changed filter insertion.
+0c59f6be56460d850090b7ab7f6278f961ee7132,.
+4b3dbe7cb377cda949dafe40f97dcbab9d1cd3c5,"* Docs enhanced
+* collaboration is entirely executed in EventQueue."
+1240a44721032379bd5d15023cb4b3491b96cf67,Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+e47306d187240b4094d4cc81c8a57ac383e923c7,* Fixed cut/copy and paste of parts of graphical links
+a8afcd09d49c43f77f9eb4fa8968d2d774ded109,"* Fixed cut/copy and paste of parts of graphical links, part II"
+96865b3948a49cd52f7b9a83611b87f91f179368,* Semicola removed.
+0e976afcc2c82318e17a8903fb004ceed427e271,"* Search is only closed, when no error has occured."
+df8ce01343985c57db1480094c331ae7e83b21b7,"* Doc enhanced
+* Schema now validates 1.0.0 maps."
+b11025e6e954fcabc9e8a6240f8ce39e3bdbbb2a,* Fixed cut/copy of clones
+1f3fe79389a7c66c3fa36bf1e9e15d35d0c3d04a,"* Performance of cloning increased, messages translated."
+158d702436c7ccc9b1f6eacced302910c313e072,* Better clone id management
+f8bc17854218a3edccc203f99f4d99023ccc66d7,"* Removing of clones removes the cloning function from the last, too
+* Selection of the next node after delete fixed."
+5ec0633da8616504b1032fb3c87e0de7a3ebfcf4,* Cut/Paste of clones is working
+50fe4e5e705289cb1294ca9dc007b031b57b09da,* Disabling clones is nearly working.
+0dad4e6120f4f9071eee4bdcd027b026a7966823,* Clone stacking allowed.
+ce1c81cf800b64a0dc0c0aa5dfe31918792ccf1b,*  Moved clone icons to registration.
+3a01fd064b2320d012cebf7643bb60e0f10c04aa,* Schema validates.
+6fc87304ef5891085ed6a54f21b9ff7b89c43270,* Corrected corresponding nodes in move nodes action.
+9afeef0b350e77c47c7e2f843adb88fb8b930094,* Fixed adding places to clone nodes (more general: to add permanent plugins to clone nodes).
+951d27a357551abfe6338606d4262850d6d531f3,* less debugging.
+73bcdef8bb09b5df9e77134026c1b555cfa9468a,* Less debugging.
+bc806a614bdc6012fd9a7b75485aa32391037d6f,* Fixed bug on not existing clone ids.
+757f8596170646e0422ba447006da3721f692d46,* Better zoom handling
+622a395c32dd0b0024412b11642aea1558b36386,Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+80f8eb676e2da9fd516cd2efa71f94038091b3ad,* Updated japanese translation. Thanks to the authors.
+2ceea6eac8971323b0b5c51bbb3cecbff5aab156,"* (Existing) Option ""Search in Notes"" added to Preferences Dialog (under Behaviour)."
+fd24bc7908f6d7e709004bf17d0724575395a2c3,"* Searching for notes is now possible in the new search/replace dialog, too."
+2aa40d530eff9c71beb31ecdbaa96ca1ea9e9120,* Splash shows names of maps currently being loaded.
+6c92f6574dfcfa7e8ae02d270267e2d542d0aa35,* Updated doc for version 1.0.0
+5935e4bd7e4c0d9336e1ebba7b8124e8d63ba2e5,* Test fixed.
+f92b3232ad478be06895900720aba9ef45c0bac1,* new search/replaces accepts all type of regular expressions.
+299974e1649fe82b4d207036b7118a9ad601e32a,* Initial checking of immo search (in german).
+42885a1bee8646615b6edfbcc71ed6db239e6816,* Fix: clone actions with folded clones.
+a9384b8adb228d3e9bd1e26c6575e64268a284bf,* Started to correct the clone mark on move nodes.
+ea7279a75c19796a714317c0ea45562884c4f0cb,"* New simply html version
+* Log message improved."
+d7c88d1f7df0edab34aace5aaa1cd8874df5e672,* Corrected remove of shadow icon for move actions.
+88b8a519c926862adaf21e7d3f259172742a913f,* More simply html integration
+7cdbfac084ad2014bc4ec3ffb29a4873da3eee16,* Re-added the filter button to the browser's toolbar.
+da407090014da7ffae14ee4109bfb668c115187c,* Clone node itself is not synchronized. Only its children.
+32c51c9f9053a79bf75cdce39d8e0a387fe23e82,* More clone actions handling
+b03caef2bf5a68520b277897df733f75893914b3,* Fixed search bar-divider location of map search.
+f3952390c67a99f44cadb33d3937f65f56fc357e,"* Setting property values corrected. (before, it was not possible to set the home position for example)."
+0175e58955995148ee8e1c3566c25978024be379,* move forward/backward in maps corrected.
+09bacdeb940375ea5d7a81ec11c833cb6070410f,* reenabled node movement.
+094b963abc18e87436191e935237bf3062f4eb8f,"* Fix: problem with additional newlines in HTML nodes.
+* typo
+* additional constant for simply html"
+e3d049dffaeb4c5e82c07bc0112cb79887a17b0b,* New sort tool to sort mind maps externally. Thanks to the author!
+a66a0a98d5c7ded69ad5ebccd7ecf52254160b63,* logging added.
+4932dc3fbcc909dbc27940d4e1919ceb97a45bdb,Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+c9012eb013b35331fd6fed93350ff580796079af,* version update
+c01f37ce8f001480ec233ef5d21f4519a53c22f9,* Fix: Font name is displayed to the current and not the last selected node.
+b9feda1a610892806b1d9ce42859286d9796d9fb,* Update for empty file names.
+6a64ba9bbd5d23706d80648501d66f94084a510a,Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+998cc7b52a4abf71812faf8d11143ec49474cab5,"* Fix: Collaboration mode, see bug report https://sourceforge.net/tracker/index.php?func=detail&aid=3600130&group_id=7118&atid=107118"
+ac0a2cff6a8cdb4fc441d1546ba119bfe2b4c459,Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+f0fdae69d5ef277c6d90e1002478b07472c8480e,* More logging for pdf key documentation open command
+e6425a91d58c22b02995e2a09321757e2386f166,* Fix: Open of key documentation http://sourceforge.net/tracker/?func=detail&aid=3603709&group_id=7118&atid=107118
+20af93d88c7343a72a95dd5db74f93659e00ed38,* Fix: Too many processes if many reminders are used: http://sourceforge.net/tracker/?func=detail&aid=3601229&group_id=7118&atid=107118
+25011b23100892208ce58714e643b2ad772a15e5,"* Fix: Newline in collab mode: https://sourceforge.net/tracker/?func=detail&aid=3573105&group_id=7118&atid=107118
+* Fix: Map changed in background and close issue."
+fbe92956322729d73a6628bb1015a9fd067b4362,* Added undo support for inine node editing (also fix for https://sourceforge.net/tracker/?func=detail&aid=3603909&group_id=7118&atid=107118)
+194dc8b487fa8a952f348a880287c2b8a811c8d2,* Updated dutch translation. Thanks to the author!
+a64f39b2d33929b7a0fcc5e8b90a465a16c66066,* Copyrights year increased to 2013
+14561df91b2efa522741ddbf5ffd0eef36c57d93,* Fix: Attributes in clones.
+b27402544e6adf6ad2bceed7b05f7bb9200bc42c,* Fix: Reminders in clones.
+e49143c7791393ff02c14022b4cb0f468f87ecc9,* Improved startup performance of maps with many clones.
+4d4fb90d7833c579c8de52a3cf6a71440bf1c48d,"* Some performance inprovements (logging removed, caching used), but not very much."
+dbd993c429fa0aa276c65f159623f422295f31ba,"* Little performance increase of clones
+* Better docs."
+cb4425129197b87bf53a0b5213b0102b4f86ed51,* version increase.
+9278eecfe9ccd12deb65bfd846f506b5c52ede27,* Mac changes repaired.
+fee604695a6a81341885377512f48129c6a19a08,* Little clone performance improvement
+17b79088af2592f342846f2dad3b73ace12a702f,Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+051c203277ac80646c92bbf5082b687716262d89,* Update of JMapViewer to release 2013-02-10
+ab4ed8d64e8d85ac1f61629b674093170cabad3e,* Updated translation. Thanks to the author.
+cdd1c936a679d05a32500b64347eef76129768ea,* Translations revised. Duplicates removed.
+95058b7d5c76c8478f33190d29e918b9828ac0d5,"Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+
+Conflicts:
+	freemind/Resources_nl.properties"
+cc5b292d4ba1048742e323efd0a64f6921b5c65d,* Removed more duplicated keys.
+dcde68659f6653cac06fee625c0c0530221d5fa6,* Batik 1.7 update
+bed7e453e2109eb18a9a7031071bb96d898bcccb,* Updated translation. Thanks to the author!
+c16516ef94ad80055736bce6ad2b988ca44af183,* Fixed link export to HTML
+f37909df64771b1eef95a98d918475ebacb6877d,* doc improved.
+53e7a0836da0519ed7b3ef30a894b8fe3f320b20,"* Map locations are not exported to plain HTML, too."
+614e966863fc0e42e33d7f2186e5249be6ee620e,"* Map locations are not exported to java script HTML, too."
+5757a187c0252191dd6a522bf3750858626e4e97,"* Map locations are not exported to image HTML, too."
+854a6b9f470994bee0848181ccc032f74b9f1ba3,* Compiling but not working flash plugin.
+c85d0ede08b3858f9448e504322ffa61459edd00,* flash runs again. puh.
+52016613e33fb0b484f9d2354bfd55e62c6d77cb,* Fixed flash player: links with special characters are opened successfully: http://sourceforge.net/tracker/?func=detail&aid=3608139&group_id=7118&atid=107118
+af7b75a645a8e703760451a0f40f57764ae1634b,"* Map locations are not exported to flash, too."
+aed18d9e544f3f5e176860b4936f5682503830a6,* Better icon
+6605a7e7e70022edfadaa765d0abffddece6d1db,* security setting for flash added.
+9ae8e5a00d695da3f7fc32b284e9ff83fa13b8bc,* Taken number icons for flash from dimitry
+15670a7ad7690ae14e182c6bb1dd74ee8250dbc2,* Updated freemind.xsd schema for attributes.
+5cf9c768f1ff4cbc8d202a657228e9aa17075cc2,* New: Note window position on the right is possible. See Preferences.
+e46c716e59fb3e11a93f7ad63660046e10e9eee9,* Fix: Reminders are alerted too early: https://sourceforge.net/tracker/?func=detail&aid=3609262&group_id=7118&atid=107118
+cb292d179fca198e6169f647493583474d2b8856,* New: Multiple search results selection in geo maps
+5256caa1cb24ec777a143e0c4ec2116a2b7548ac,* Fix: Focus after note window close corrected.
+b6f652a6cf8fbd45a69696cc89ea9cd89fc4f0c0,* Progress dialog for long running tasks added.
+057ec991c7f26716f987f35ed4dec0b9aa5c92c5,* Fixed swing threading issues.
+1bc37f98645a50c65f05ec06c9060818cdf876c3,"* tried reverse lookup from nominatim, but doesn't work, as expected."
+5b6e0478a90ab2991cbcc4e192853a653af3c78a,* Fixed packaging of mac mountain lion with java7. oracle java is now included in the bundle. See http://sourceforge.net/projects/freemind/forums/forum/320014/topic/7012032
+17c7087dcdb19285f34769feefc765b531570233,"Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+
+Conflicts:
+	freemind/freemind/main/FreeMind.java
+	freemind/history.txt
+	freemind/plugins/collaboration/socket/SocketConnectionHook.java"
+dcb82d74dff2bcc6b6437add02db83138c53a2bd,* Fixed merge
+e1429d1a91dac1eab5d994f5f00c114113ddb63b,* Tooltip times are now changeable in preferences (https://sourceforge.net/tracker/?func=detail&atid=357118&aid=3608925&group_id=7118)
+2254c0536472f07b212805db0eb02f2620e7adda,* Map wrap over.
+098f5cd41d871be1eb1420396bae290f26d4d025,"Merge branch 'master' of ssh://freemind.git.sourceforge.net/gitroot/freemind/freemind
+
+Conflicts:
+	freemind/Resources_de.properties
+	freemind/Resources_en.properties"
+e7eb501ef7420b03f408cb6fc77c484340b1ecf6,* Jortho 1.0 integrated
+c619ae3206369c17016f3959ebb00a329ca453c9,* Packaging corrected.
+561cb1d64de193c12ceb4e9c1342efdaae8f6682,* Main toolbar: width adjusted
+7e97c74afd542865034d45b2f05c93e50f13f55a,* Version number increased.
+c654b07b29d156767b168facb0e2eb22286c825f,git url changed
+b417e153060cb77a7f840ed430cfae4f72a08302,* java home
+4a7a10d9984a745d3718c57565d4795723f0523f,* New greek translation. Thanks to the author!
+1e593b441d9ef5cdc0b0cd040d4457979626a3b3,* More points are stored as last map positions
+ec2fe6f9ef997ddb8e5ab4fd59241be457cafa49,"* New: page up/down moves cursor only one page, if there are many nodes to the same parent"
+2c2c9b1fe54955c0bc13ace0553530bad033682a,* first try for folding button. still under development
+be483becca59d704185ff128d9eeb55e8fa48693,* More button design
+5830fd31b159684f1627600fc5dbf277add32714,* New turkish translation (73% complete). Thanks to the author!
+dff1e64e2cdf87d07409a6621624ea9f600024fe,* New portugese translation. Thanks to the author!
+f45870b24af8b95336ca3ababfb9041e3243ee6f,* New brasilian(!) translation. Thanks to the author!
+0e47bd9b16a376e34863a104cdf4a493bdd6c43d,Merge branch 'master' of ssh://git.code.sf.net/p/freemind/code
+37591d488ac475457472a68cacbb91a1baeb6ac8,* More button design
+b0b9eda24195ff6a28e0441d0a51a8d85a37c769,Merge branch 'master' of ssh://git.code.sf.net/p/freemind/code
+62dfc6d3dbde948416e94fd083c43c021618ec18,* correct location of folding circles found.
+913112718f74870e885ca05a7c585df2a886ccdb,* Folding and unfolding works
+abe69508368f2e1f29edb3e17117a8901134d55f,* adding and removing nodes works for folding buttons
+da17d958a082c12ea782b465f56ca154f2df8e33,* circle positions corrected.
+4d4e08b1d6975142354d3b81b9ee9cba76dbbb91,* Corrected button locations
+c5b06d2ba7ec8439412fdc9c883ae1ca93112106,* Fix for bug report 1140: Link to parent in Branch As New Map is incorrect. Thanks to Alexandre.
+6d86f81c5f4d972c4b43605d13810259af798133,Merge branch 'master' of ssh://git.code.sf.net/p/freemind/code
+d5c66d38b69950134619afab1073049cb356a2c9,* Better animation
+53fa754f86bab9177d1cea637cbbb980a3d63679,Merge branch 'master' of ssh://git.code.sf.net/p/freemind/code
+829de3cae06815e8f2c0d3879bf934845aaa4211,* Fixed JumpLastEditLocation for non existing nodes.
+a4069b1eb8e4c85af2ce595ed912b380c0fc531c,* Fix: Alt+o in external node editor provokes that the menu is opened (windows issue).
+1e86e6302700d1f46772e82a1c281b71e115eb80,* No color fading on opening the folding circle
+4b99073aeac1dedfd28306f3eee3eb7c8c543073,* Fix: update map as changed on disk question for hidden maps fixed.
+2191d14b4926a65d4a9b7ece6e07d18f91c6ac0c,* Fix: cancel the edit of existing nodes inside geographical maps deleted the node
+f2244311d8a4350c00939004d6fb04644443bbb0,* Fix: focus after editing in geographical map
+dd64692eb62ef01f9415648f26aa049f831fe4cb,* Standard styles can be translated
+00ea00e4d68cec62a3c04d2f992f56ecb870ffb9,"* test for relative windows urls added
+* tried to fix alt+o issue under windows for long editor."
+c3c45d7f017cba38311bc71097669896a747a6d5,* Reverted to former behaviour.
+1f6402452969ba89dc273f1999a1d169550d4bb3,* New: Clone types can be chosen: complete synchronization or children-only-cloning
+734f93e9a3d868c6518385e359c50c02da7dbb22,* Version increase.
+e51245ed310b55750bb519d7fa13036f8e6a9faf,* Fix: #1145 freemind does not close files after export
+25866d11ad2ed299191b7bd124f5c30d1d04b605,"* Fix: #1142 ""ant dist"" stoped working on linux after commit. Thanks to Alexandre"
+35b6b774991d06bda903dd31b9da04d71de9fec1,* nuance
+70f0bd958e68a52bd58ca61c3ddd483d2682409d,Merge branch 'master' of ssh://git.code.sf.net/p/freemind/code
+8c71966b9879fd1e2d830c3a2cd364c66d625510,"* New: folding button for easier folding added.
+* Fix: #1146 Erroneous folding symbol created"
+b754d75e374cfb4f303c704024aba8ab478d6716,* Prefix test added for Tools.
+2d32f9e7a16718154f4f04704c8b20dd158a791e,Merge branch 'master' of ssh://git.code.sf.net/p/freemind/code
+24c250696d4e59ae61555b2459a06d5c46f058b8,* Folding circle drawing improved.
+b44059d8e8b48a21ccf6db348d181c6b844f0f67,* Anti-alias for folding circles fixed
+ec4587c85ae5d770c5c8333a6159f7e78c03140c,Merge branch 'master' of ssh://git.code.sf.net/p/freemind/code
+f69e9199b4e9f7c061f440326c33fafbf5cb9b6c,* Node folding buttons can be disabled.
+14239170647b3edf95e4652d6ba5212cd68e7029,* Folding buttons can be switched off.
+4ba7fb17b507355d88cb0356e737e243d33675b4,* Little clean up
+795f6cc850e32e3bc341f097d9768844cc243b82,* Corrected folding buttons for filtered maps (https://sourceforge.net/p/freemind/discussion/320014/).
+265257805e05e7dcea4dcdfdf6ea331f7ef07bec,* New italian translation. Thanks to Valter!
+dc735460daf2aece1724587aea77db54beb4fa86,* Fixed edge width for fork nodes.
+4c0fac848c595a95e36107e88a2a1934fea86b8e,* Updated japanese translation. Thanks to the authors!
+af4f31c969838cb3de1f044fec7edec626a9e2e5,* Fixed note icon to appear after paste.
+b9de499b6518e06b3c52cc38baac2aaf65343cda,* Fixed svg jars.
+b793cb97ad57b11cff3260978f10745bfc57a8ae,* Fixed edge width for fork nodes. (contd.)
+57ff6e978e40d5f28142a374b3e51ca6a1bed039,"* Fixed menu items: edge styles and widths are selected in the menu, now."
+cfeffcb18ee2e36af5661b044f110bbda7665123,* Bounded node view additions to nodes and not the the map
+49fe4f9d88cb1426374f5af3a18787086dab44bc,* fixed node motion
+89a3c0996a5e9117598a06b386be0e74772bcbe8,* Exception on auto save removed.
+f7b0fda9eefb72cc826f561f02a31b10247b7b85,* Fixes a null pointer on automatic save.
+764d70fe95d93448aec23e77bd60feba51e124a8,* Unused code removed.
+1cdad1cfa180bf0b9bee8eeedd7916225c709971,* Tests for layout successful.
+4b2a8d7b14f9baf20d5bf64f6973dcc43e5bea80,* relative tests added.
+f5a2eb36ad52481e51797536aa72aa724b2408ef,* Scrolltest added.
+ebee3cf4582a954347060ed968d27304d77b7c18,* No window focus task for debugging is created.
+a1abf6ec8e1a7abd5ed2df23a97cf37ec3b3e6a5,"* Open recent files is working, even, when & occurs in the file name."
+b9b765f14940545f76a4896ff9b3107e5c1d88fc,* Only changed properties are save to the auto.properties file.
+730ade0104bb0384a9cbdc4ecd456063a045ebb4,* Doku enhanced
+c72bc5b3293336025c097f2c6fc345ae22ac2a77,* Reduced freemind background activity for folding circles.
+c620d055cc9641bfa32aadfb3ad79d82e7c28432,"* Reverted behaviour to diff based scrolling
+* Move mouse to stay near point
+* Less logging."
+ada4fd80cc0f0b3f13d5605936c70e10fbbe3c91,* less logging
+d7bed474e3cdfe10ecab130ab8bb5413e8c1de8b,"* mouse move only, when in window
+* less logging."
+aed916fa3c6cfe06e6dc69bbb12ed66aa762daff,* version increased.
+76f11c4391302ff0a3a7df4f6f5980aec8bc6e96,"* Examined ""choose directory"" and java7. Result: java bug was fixed in java8."
+879059f7f571d3f3f498961e0fc9db2804c05dc7,* Fix for quicklook
+95a67b57a559b3533fda6d082df4c631d07cb3ae,* Fixed: getPrefix
+e7135f274f1620e7b051e4b51290e28e19c7b6d3,Merge branch 'master' of ssh://git.code.sf.net/p/freemind/code
+eb42bd10231467b0e269fe7116e622486c1b4d8d,* QuickLook fixed
+1f9b35a4d4d0e328a5bbea76493a139c83ecd2fa,* Fixed paste of images.
+be5020a0b9047971f297a96d59f8bc1f5653b6d6,* Update jgoodies
+30e8d4aa22dd8a1997ae9c513c488019d990fd2d,* Update toolbar fixed.
+bbe6743859b5b977fa0adb6c8c99a6ab18db59a2,* Fixed display of fonts (esp. font sizes) in toolbar and format dialog.
+f883ed2f9f9ad5f7e6c7d168d232a70b5116f942,"* Moved commit to branch 1.1.0, because it involves too many changes.
+
+Revert ""* Update jgoodies""
+
+This reverts commit be5020a0b9047971f297a96d59f8bc1f5653b6d6.
+
+Conflicts:
+	freemind/history.txt"
+c5a8c8dfb9dbc34e457f1d533547d0ba572669e9,* Fixed export to LibreOffice.
+fc47f7bd3e053a92bbee47c8097e2f84cb2e2a97,* Fixed export to LibreOffice.
+5fd468838200aa7357b388882ecb22427c7fd0ee,"Merge branch 'master' of ssh://git.code.sf.net/p/freemind/code
+
+Conflicts:
+	freemind/history.txt"
+72d47eee4e7b491d318d9db5b4d9d99284b3795d,* Java url fixed.
+b4db157658da2694d693fb0253f85c17cb95bae2,* Fixed windows installer for 64bit.
+f68bfb9a0c112a286465185c95130f8322ecde40,* Fixed windows installer for 64bit.
+fb609aaa29ab37105fe3e04e09df51805a1405c7,* Fixed windows installer for 64bit.
+9dea3ad01e77adbc4af6095ec1471152b6623bf2,Merge branch 'master' of ssh://git.code.sf.net/p/freemind/code
+b098ff4a58e40aeeb68f74e9be09687790e48078,* Fixed geographical search at the very first start of FreeMind
+82ee74615ae0046715a11c05fd426cf12b5118b8,* File filters (e.g. only show .mm-files) are activated by default
+f378c12e794dcb8885e8a404c4db77042d9d0597,* next try to avoid bug 1159: focus jumps to file-menu after closing html-editing-window
+e01557decaea780867e88a86a6154427ac204faf,"* Fixed windows installer for 64bit, using launch4j"
+6a444b111faade22f945668b345d58ad8e95a00b,* Version increase
+1d8327cb7085a0b51f409bbc789fc9c1db7998fe,* Test fixed (all 62 tests are ok)
+aead874aa227dddd8ddb6e94e41bef7f9f47df0c,* Two more successful test found.
+f358a12d61365596cd968f14739682bdf8fc4cd9,* Reduced logging.
+64044b0dc3103b25bc1f3d4ef371c96f2891eb0b,* Fixed folding circles in browse mode.
+6c94439c4e85b68c89de39ee5a296b2d6792909a,"* Fixed folding circles in browse mode.
+* Documentation enhanced"
+15c439b79d8e69044ec6eb62ebc3d0605764f076,Merge branch 'master' of ssh://git.code.sf.net/p/freemind/code
+e107c41427a694f228c1669752b626c326465c17,* link to http://freemind.sourceforge.net/wiki/index.php/FreeMind_1.0.0:_The_New_Features added.
+f8dda226d98cfd9a93f1c8e7e56bd9e361ca38b4,* Version rename
+d6770c2636ca2a775b50dcfc2b036d68d92f054c,"* Folded nodes are hidden on geographical maps by default.
+* less logging"
+c8d150c009676a27c14ed61fc780d42530cc9768,* imports organized.
+d505551328a588b26d4742f5534accd1b4c05b2c,* Fixed jumping in Calendar using mouse clicks
+aaf602023f56f973c129b488352fe3718854933c,* Fixed: move downwards into an encrypted and closed node isn't possible any more.
+e7354af8bdc3c78b4b69f39da930a64993d0703c,* Doc enhanced: no locking support for node editing.
+d7abfd746589c4ebdbe940795b208d8f4e829e3a,* Fixed windows document icon
+e957844eadbfd0224f5d94110b5a5e01e3a91db7,* Fixed windows document icon
+170d9a37f37d29c82af2d3f601b5b776fe18b0e8,Merge branch 'master' of ssh://git.code.sf.net/p/freemind/code
+50f50ad8b5a9f411a35e217b77f405f09cb299d7,* Merge symbols removed.
+d6810742924eb1155c3332bfebcb06d417219275,Merge branch 'master' of ssh://git.code.sf.net/p/freemind/code
+4ea35e22358adef724ff051a2e06018dfc9393c7,* Corrected link to raw indexes
+72cfc5eb672a9db1d23d8a102032dfa3e60b34d5,Merge branch 'master' of ssh://git.code.sf.net/p/freemind/code
+e7933dd4dc1973439b7039208a8b989437829dbc,* Updated japanes translation. Thanks to the authors.
+5b7a95ace0e8667a403efba75a2bf62e6c94e244,"* Fixed persistence of ""complete cloning"" across cut/paste.
+
+Conflicts:
+	freemind/accessories/plugins/ClonePlugin.java
+	freemind/history.txt"
+7444ceeb0b255abbbeed737be82e82f0efdce5e0,"* Fixed save of notes, when containing tabs
+
+Conflicts:
+	freemind/history.txt"
+c34483ca55426e426b9318252844170ef91baceb,"* Fixed restore of session when opening files from command line
+
+Conflicts:
+	freemind/history.txt"
+cc7d83911e1a09309e7641dbe2972ee4b757deb4,"* Fixed #1178 [Shared map] Nodes are lost when moving them through drag & drop
+
+Conflicts:
+	freemind/build.xml
+	freemind/history.txt
+	freemind/plugins/script/ScriptEditorPanel.java"
+d9e6b8760f3b3e6e95d8a12b6ba754ddd104a28c,"* Fixed: Bug 1181 	Folding symbol is invisible on black background
+
+Conflicts:
+	freemind/history.txt"
+58e1251cd96259332ef91c830014c5dde3b9ddb1,* Formatted
+2d9eecc5f8d9579fa92cff552c06231952c5d960,Merge branch 'master' of ssh://git.code.sf.net/p/freemind/code
+95ed8fe2a7ec07f6795f7e1c9e72571775e532c1,"* First try for deactivate clone action
+
+Conflicts:
+	freemind/Resources_de.properties
+	freemind/Resources_en.properties"
+0c7a5b01de01988634943120e6e31c3f544a983a,"* Clones can be deactivated by menu
+
+Conflicts:
+	freemind/accessories/plugins/ClonePlugin.java
+	freemind/accessories/plugins/DeactivateCloneAction.java
+	freemind/history.txt"
+d2a464d32120d4e504ad13b2b8385c9bee51a3b5,"* icon is removed during clone deactivation, too.
+* version increase"
+e2aedb2169c20c59189c4df4a5f909cc6df58109,* installer fixed.
+e971c788db66ca4345eb2ec882a3740379cef2fa,* path of ant
+08042abcacd90fbab3dcebb51c08644d49086d3d,* Updated translation. Thanks to the author.
+8c502ca1550bb2cf7448e8cfcfb5422bebdbb893,* version increase.
+1cfc2481573e1056d4a174666be9ca8ebf3dad9c,"custom_settings such as ignore folding state
+
+Set longer autosave time interval, and ignore folding state by default.
+
+Signed-off-by: Jiang Xin <worldhello.net@gmail.com>"
+e099cddb6ff2bbb64f85ddca7aef0c457df92a09,"Setting dialog for my hackings
+
+Setting dialog for my hackings, such as:
+
+* Unicode output,
+* Save extra attributes in other XML file.
+
+Signed-off-by: Jiang Xin <worldhello.net@gmail.com>"
+f6df7afcd6c809ab1b6f13fdfc2c690a0638f623,"README for GitHub
+
+Signed-off-by: Jiang Xin <worldhello.net@gmail.com>"
+eed4da0138468d86532c6cc77630ed858433dbeb,"l10n for zh_CN
+
+Signed-off-by: Jiang Xin <worldhello.net@gmail.com>"
+2af1a8eef280363153ec57d5a45f07840b9fd67c,"l10n for MMX addon
+
+Signed-off-by: Jiang Xin <worldhello.net@gmail.com>"
+629966ce3e20d222107ec8b7b13d5c8d11f8ee05,"Load with .mmx file when open new mindmap
+
+When load mindmap, join <filename>.mm file with .<filename>.mmx.
+
+Signed-off-by: Jiang Xin <worldhello.net@gmail.com>"
+836a351d44fbe6e0b70a20c365c71e92e0eb7c7e,"Encode mm file in UTF-8 format
+
+Signed-off-by: Jiang Xin <worldhello.net@gmail.com>"
+b4b038615a0f4533dadb3cd3bf8302e8fc30fb7d,"Show MMX patch version
+
+Show MMX patched version number on splash screen and about dialog.
+
+Signed-off-by: Jiang Xin <worldhello.net@gmail.com>"
+26d38d4b573b38d01f862e4bb8f04167bb4b5b75,"Save extra mmx file
+
+When save mindmap file, some fields save to a extra file, named .<filename>.mmx
+
+Signed-off-by: Jiang Xin <worldhello.net@gmail.com>"
+a3674b02e0143170b24926dce603acf660434600,"Do not escape utf8 characters as entities
+
+Signed-off-by: Jiang Xin <worldhello.net@gmail.com>"

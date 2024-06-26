@@ -1,0 +1,1269 @@
+commit_id,msg
+ee3e004fc070148d445f13745e63d5c443b6b1c0,Initial commit
+d877f176a4b78511200233315aef3af8d5f556ca,Castor sm-model first commit
+fe8d67701a17adae389c26e14544ef3f5d93d6bf,updating main readme.md
+1bc571b635a7840d064a9911f388a5d5fb7efc96,adding debugging arguments
+84910639a2eb3bcf9372ae35dc1fe0b9bae1b1eb,added debug arguments for regularization
+c0f34a687e2258dc3564d9f100974c3633a8f775,testing call fixed
+46d913392b1a054b91febb7a4b1b65343b651258,exp() preidction scores after logsoftmax
+7b20f50800e0bfa06fbc69dbe8a69d6b7331a843,debugging for training loss
+73ed76951c39888774a566cc669cbc20126852c1,merged changes
+ae77b6e57b562f8759acbb71534d6f834bc901da,"fixed outputs, now stopping on MAP improvements"
+e6aa9bfe07820c1f7913f8abef345e128c2da6bd,added times to training
+b2c82f7e089471dd07e57c01f4675a35ecb90312,now preloading data
+67a93a736fe91670079941b5b32296aee2037a18,important slight stopping criterion change
+f91f1055683ed23da19b6fef46006bc084e3c5be,"fixed variable perf bug and added debug arg for testing on each epoch (#2)
+
+Because of random word embedding for out of vocabulary words, the performance of the final saved model was variable. This is now fixed."
+73577acc3f7dc63571dd1f76980b2e6082a0ac3a,"Castorini smmodel (#3)
+
+Code bridge between Castor/sm-model and Anserini"
+31928de93c270abbf4f0f9d89b7da5d046839930,"Castorini smmodel now python 3 compatible. (#5)
+
+Model is now python 3.6 compatible."
+d4ac752cf2c6f1a3fdda81ad6fd9ed41be8936ad,"e2e castorini/Castor castorini/data castorini/models (#7)
+
+Initial integration of Castor components for e2e QA demo."
+906218b623ada266bc4796664e4401c283d19004,"Improved README (#11)
+
+Issue #1 : Readme instructions updated for running the model"
+b893f2a1b1876f068ae94a376c7c9e6e53c53be4,"Idf baseline for QA datasets (#14)
+
+Added a functionality to generate idf scores for TrecQA and WikiQA datasets."
+3de103ac799a2ed5152052c3120801d21771782a,"end2end qa pipeline (#16)
+
++ Added a setup.py file
++ Reorganized the bridge file."
+2758dee98f77c156fad283388357b328aea68ccf,"Idfbaselines (#17)
+
+IDF baselines:
++ using QA dataset only to compute IDF
++ using source corpus to compute IDF
+
+Results are in baseline_results.tsv"
+a67e2d12c4d79287de28b41e436fe6c4d9a108ef,"Ext feats bug fix (#19)
+
++ sm model no external features baseline
++ sm model with IDF weights
++ sm model with IDF weights without removing punctuation --> barely better than df/idf (a la Pytorch).
++ sm model with stemming before computing IDF weights
+^ all on the TrecQA dataset"
+d12a9cb4759b844f773a702297a3f9fbf04d2271,"Relation prediction model from Simple QA paper (#20)
+
+Initial implementation of RNNs for relation prediction described by Ture and Jojic:
+https://arxiv.org/abs/1606.05029"
+7d0a78d1a79ff982291e8b81b1be285961216459,"Kim cnn (#21)
+
+Reimplement Kim's sentence classification model #12"
+212aa6fb938b2e0ce475d1bca6161c342f76b95b,"renaming sm_model; faster bridge (#18) (#22)
+
++ renamed sm_model
++ faster bridge by obtaining the IDF scores of a term directly from the Java server"
+9bd5b7bb2aa97c4157a61e772fcb15157792d400,"Corpus idf (#23)
+
+as part of sourcing-IDF-from-index and e2e experiments."
+92789cb9f5877ce287a8f5063f2c04540dd0bc24,"E2e sweep (#24)
+
+Now ensuring that the bridge process raw candidate sentences fetched from the index, exactly as was done for the best performing SM model."
+43dd6fdb1f4298f96784249a04d24f6bcc12bdda,"GPU Support for SM Model (#26)
+
+Add code to using GPU for the SM Model (#25). To use the GPU if one is available, add the --cuda optional parameter when calling main.py."
+945b1fa6c018aabdf4c71c21907258b496ac93e9,"Fix vocab caching issue (#29)
+
+With the line as-was the vocab cache was stored as b'the' rather than the, meaning that word2vec wasn't found for terms causing massive performance loss (AP 0.71 cf 0.77)."
+4c081645a79959ee1a413ff7fbd70396d2a62613,"clean up the relation prediction model for Simple QA - Ferhan's paper (#28)
+
++ cleaned up the model code for the simple qa directory
++ created vocab objects for pre-loading word embeddings easily"
+a0755e6aa3e572b56facdf014eefdb0c1cbc7c32,"SM Model Jupyter Notebook Tutorial (#32)
+
+Notebook tutorial for SM CNN."
+061cc8dd09bf68cf9cb8451f92fc8d59a72148b2,"Used torchtext to refactor relation prediction model - much cleaner! (#33)
+
+Refactored the code for Ferhan's relation prediction model using torchtext"
+a6fc10818f6aa1ed60a8d4e0680983deaed9cad1,"Fix SM Model Internal Reproducibility Bug (#34)
+
+* Fix SM Model reproducibility bug
+
+vocab is in different order every time, causing unseen words to use
+different random states
+
+* Make requirements.txt usable from conda and pip
+
+The existing torch requirement does not work with conda or pip.
+Also upgrade pytorch version while we are at it."
+53e0de03d7f3a7e3ad1a2a4c7a6ebac1fa5f1fad,"Kim's sentence classification model: Upgrade to Python 3 (#36)
+
+Kim's sentence classification model: Upgrade to Python 3, per issue #31"
+449d715ab0255145e3f50413af13ce49ef2a0528,"MP-CNN PyTorch Re-implementation (#37)
+
+Re-implementation of MP-CNN in PyTorch."
+b4dc87d46f91c702c4fc8b162e5fd645dd54b331,"Explicitly open files with utf-8 encoding (#35)
+
+Same issue as castorini/data#19"
+fc91a0b04a80178d467e3d4e7884461eb4d2de7e,"Nuking simple_qa_rnn since we have separate BuboQA repo. (#42)
+
+cf. https://github.com/castorini/BuboQA"
+d2d958cc51f5b4996e95831f4b99ad9a9368b61a,"Kim CNN: Early Stop Training (#40) (#41)
+
+Stop training if there's no improvement in the accuracy over 5 epochs"
+a3294339fb4fab033bfe3546ab238f988e0645f7,"Add seed and thread arguments (#43)
+
+So that any experiments can be controlled from the command line, I've set the defaults to what they were hardcoded (for the seed) and num_threads in kim_cnn to be consistent with the default in sm_cnn."
+245b0325450ef90f87d521cee3f2200997829c11,"Set gpu seed for SM model (#46)
+
+Small fix to set GPU seed for SM model"
+a2904efe5a8ba40cdd7fdb86a57ada5935d97936,"MP-CNN Bugfixes and Improvements (#50)
+
+* MP-CNN: use consistent unknown vector
+
+* MP-CNN: Make optimizer, patience, etc.. configurable
+
+* MP-CNN: bug fixes
+
+* MP-CNN: update README
+
+* MP-CNN: remove unused import"
+a60172276864c094479adcba0698c97b994dba5b,"Option to disable the CuDNN backend (#52)
+
+Some of the kernels in this backend are known to be non-deterministic. It's also not clear to me whether it's enabled in a default install or not, enabled is set to True by default, but I think ultimately it's a runtime choice."
+ed4dba249712e8bbaf5ed7c1486dff52b472daf4,Typo fix (#54)
+aba4dd7e8993d6a7c4d8eba1b62dabe2ae324fe2,"MP-CNN: Add Additional Features (#51)
+
+* MP-CNN: support external features
+
+* MP-CNN: calculate overlap in same way as SM-model
+
+* MP-CNN: properly calculate idf overlap"
+636223923386b394771814eba4af9305d5d33bcf,MP-CNN: early stopping (#60)
+a471cea2c59077ac01b1543e1c45a9b0fef3a79f,"reimplementation of SM model (#48) (#62)
+
+* reimplementation of SM model
+
+* features without normalization; parallel running of different modes
+
+* minor fix"
+36b1ddb8588145dd91d338e28d7d0ca504c9ee31,"SM model for WikiQA (#63) (#64)
+
+* support for WikiQA dataset
+
+* parallel runs for both datasets
+
+* minor fixes
+
+* updated README
+
+* removed data folder; added scripts to create dataset; updated README
+
+* after CR
+
+* after CR2"
+511f29a2a6d3e06b9c77e3d05938d03bff1c5f8c,"kim cnn with torchtext (#59)
+
+* kim cnn with torchtext
+
+* model
+
+* import style"
+e7ca33de288137eee71480c91ce2053b9fa2aa37,"Add convolutional RNN for sentence classification (#57)
+
+* Add SST data preprocessing
+
+* Add ConvRNN model
+
+* Add LR scheduler
+
+* Add grid search on hyperparameters
+
+* Add random search
+
+* Add CLI options
+
+* Add usage to README.md
+
+* Refactor code
+
+* Fix randomized search parameters
+
+* Update README.md with results
+
+* Use Dataset and DataLoader"
+e61db8e7c0d22e4d076ae91f54c48b196172300a,Remove Kim CNN data (required for bfg repo cleaning)
+857cd43934c651e9b4c2c4819692284ad4e944be,"MP-CNN: Optionally Visualize Training for Debugging  (#67)
+
+* MP-CNN: optionally support TensorBoard for learning curve visualization
+
+* MP-CNN: bug with SummaryWriter comment
+
+* MP-CNN: add instructions on how to setup tensorboard"
+491f0b32d59ef944cf6f5ea37b27c0d4886a2fde,"Updated sm (#72)
+
++ removed redundant loss regularization
++ added script to create torch word embedding file from word2vec model
++ updated README"
+00ef2d0fdee9ed259b4e14bf415ee150d12d9137,added RetrieveSentences.py (#73)
+8fd1ddcb4c904dd42939de4d3f5e4bb58e68840c,"Added RetrieveSentences.py (#74)
+
+* added RetrieveSentences.py
+
+* removed index"
+7957dc7638e9be5ca61ffdd7f9ff5f9d43d05068,"Tweak conv-rnn model (#75)
+
+* Tweak conv-rnn model
+
+- Fix misplaced zero_grad()
+- Tweak model hyperparams and optimization algorithm
+
+* Fix typo
+
+* Add new results
+
+* Clean up extraneous code"
+4dea22b40f5c77a7b343cc3ffe0d694ceb8f4962,"Deterministic CNN #45 (#71)
+
+* Deterministic CNN #45
+
+* Describe the data source"
+09b3a790a2a1db87ee27ca1e2413022d766d5d68,"Use torchtext for MP-CNN (#76)
+
+* Add SICK torchtext Dataset
+
+* SICK dataset - torchtext postprocess into class probs
+
+* Update model, driver, trainer, evaluator for SICK for torchtext
+
+* MP-CNN: Fix bugs that prevent SICK from running on gpu 0
+
+* MP-CNN: make SICK dataset w/ torchtext GPU-agnostic
+
+* MP-CNN: support sparse features / idf overlap with torchtext
+
+* Add MSRVID dataset with torchtext and update MP-CNN code to use it
+
+* MP-CNN: Make torchtext deterministic by setting python random seed
+
+* SICK and MSRVID datasets - add pair id for debug and build test vocab
+
+* MP-CNN: Update readme to address potential module not found error
+
+* MP-CNN: address review comments, can run on cpu"
+4470983504b560b105d4ddb8a4449bd62e39dc21,"TrecQA for MP-CNN (#77)
+
+* Add TrecQA dataset and modularize MP-CNN infra
+
+* Stylistic improvements
+
+* Fix and warn about trec_eval path issue
+
+* Update README for MP-CNN
+
+* Update incorrect map/mrr
+
+* MP-CNN: address code review comments
+
+* Create common Castor pair Dataset class
+
+* Move map and mrr computation to Castor utils
+
+* Make map mrr utility trec_eval path more general"
+4132874bad5ee210e8e42acf4f8a779bdfc86073,Add WikiQA Dataset (#79)
+2344354cbf9e0afaf5e1b705cd1e75d5075eef45,MP-CNN: add trainer and evaluator for WikiQA (#80)
+aaff291edba2e69fb06a72a214bdf7d641b9d9d0,Update Kim CNN SST-1 dataset to use torchtext 0.2.0 (#81)
+0722dde06e280695ed09e827ffb983578f102bff,MP-CNN: Add hyperparameters used to achieve paper perf for WikiQA (#82)
+61c8c0e622caa69e8579174dee429901128dc7e1,"update nce-sm (#78)
+
+* update nce-sm
+
+* refactor code, update torchtext
+
+* use shared evaluation
+
+* refactor code, use shared data loader
+
+* refactor code
+
+* refactor code
+
+* refactor code according to Michael's great suggestions
+
+* update readme and requirement
+
+* update datasets and readme
+
+* update data loader
+
+* add space between +"
+ad69d3abc24e22608c14c332ec81e07bbe99a124,"Connected to E2E pipeline (#85)
+
+* added RetrieveSentences.py
+
+* removed index
+
+* connet to E2E pipeline
+
+* updated code
+
+* Some modification
+
+* clean up
+
+* config
+
+* documentation
+
+* added documentation
+
+* update documentation
+
+* update doc
+
+* update doc
+
+* add js
+
+* updated documentation
+
+* changed doc
+
+* changed requirements.txt"
+aee154172286c54d309dd54a759273e8b1044e23,"avoids parsing exceptions (#88)
+
+* avoids parsing exceptions
+
+* remove unnecessary print"
+28a198f33cc98cfafb2941cb42043a5c23d7ac69,"Update bridge (#87) (#89)
+
+* initial commit of the updated bridge
+
+* moved bridge file to the root
+
+* after CR1
+
+* after CR2"
+0a3ce7015c1612e913433566d4ef6a18a6c861c1,"Update readme (#90)
+
+* updated readme for easier replication
+
+* updated cd changes
+
+* link change"
+a363e3d256c018ed501ff66b7bb285951500b639,Add flag to support onnx (#91)
+68e0ef45b277a0e6b3386c4d2455de9fbdd04ad0,"Util to build w2v pytorch model (#92)
+
+* util to build w2v pytorch model
+
+* added the code to build the .pt model"
+85f35bb994ce2a26121ea72132d33ae02a31084c,"connected the pipeline (#65) (#93)
+
+* connected the pipeline
+
+* minor changes to api code"
+eee160ea41bcc2d7e4a9bc9526dd1b1710ee7bf5,Use view instead of unsqueeze since ONNX v1.0 doesn't support it (#94)
+51d8e2952562e88ab332a2fc6e856ee2ecaaff28,"add NCE to MP-CNN (#84)
+
+* update nce-sm
+
+* refactor code, update torchtext
+
+* use shared evaluation
+
+* refactor code, use shared data loader
+
+* refactor code
+
+* refactor code
+
+* refactor code according to Michael's great suggestions
+
+* update readme and requirement
+
+* update datasets and readme
+
+* update data loader
+
+* add space between +
+
+* update refactor code
+
+* add nce-mp
+
+* remove duplicate files
+
+* update readme, refactor code according to mp_cnn and delete duplicate code, follow PEP8 standard
+
+* refactor code, add/delete comments
+
+* import exit from sys"
+cbd54cb3825f10d2d77887b238c0f84f34c55056,Kim CNN README remove torchtext reset (#96)
+5fd31a0434a94522ccef9e694572991c3628e6c9,"Update path name and README for NCE-SM (#95)
+
+* update nce-sm
+
+* refactor code, update torchtext
+
+* use shared evaluation
+
+* refactor code, use shared data loader
+
+* refactor code
+
+* refactor code
+
+* refactor code according to Michael's great suggestions
+
+* update readme and requirement
+
+* update datasets and readme
+
+* update data loader
+
+* add space between +
+
+* update path name, update readme
+
+* update data loader and dataset name
+
+* refactor code
+
+* update readme"
+ef21aa975fefb22985e54f844a0c6f8e03bd10b8,SHARCNET tutorial (#97)
+cc7471a595c8aee58446e5f3da2a348da1458ff9,Initial commit
+9e2aaf278881b328009005ef766f2c173608b4c1,Add preprocessing scripts
+e08f85dc0951ed17beedcc1279dce1a7a7e1ff23,Fix sigma bug
+579d187d8e028f628fe05bf0260bef949d01a08a,Add VDPWI core models
+5df6123abaeba7c34190015c30fc8560c68a8a4a,Add training code
+28f62623be5c4ec444805a956e4b72066b2f3db8,Workaround PT padding_idx bug
+a110b031645342214dde9de7f8c5c1c868ab60a4,Add GPU loop unrolling for SimCube computation
+b06547b36eb1839e6e0ce5ad48fb7cd93f189f63,Fix norm gradient explosion
+901ce4d6a4aaaf76a40864461752fdbd0c622533,Add tensorboard visualization
+4b266431ffb077ed50be619cb6142030faf70337,Add hyperparameter tuning script
+73823fcc32922649906ba11bbbc8bc2a0bdfb82a,Make model parallel wrt batch size
+f7a0167b81b040c9764522e431ee8937155c2664,"Migrate to from GitHub castorini/data to uWaterloo Castor-data (#103)
+
+* Refactor main README
+* Update Anserini Dependency docs
+* Update idf baseline and Kim CNN docs to use Castor-data
+* Update remaining READMEs to reference Castor-data
+* Change default path from data to Castor-data
+* Fix wrong order of embeddings path"
+344248449ef19d673ca46ccc49d14389b236355a,Update README.md
+cc53e60098569b4f6ba73ef715289fb47b063c29,Update README.md
+bb5cf71f9c7530997f28b3083930a00ead546ac4,Merge remote-tracking branch 'vdpwi/master'
+76a99398acd9a4771e22a0265d6cb8b8fd7403ab,Remove extraneous files from VDPWI
+4ece3c7adec760e23a34ab43be1fbafcbf6f6795,"Merge pull request #104 from daemon/vdpwi
+
+Merge in existing VDPWI code"
+fbd8629ca2d81a1f948a67188694170706568370,Move MPCNN API to common module (#105)
+d7a631b0a9fa1358b182fe4ae0f6c44afcdd7b3e,"MP-CNN with Bugs Fixed and PyTorch v0.4 (#107)
+
+* Refactor datasets
+
+* Update evaluators
+
+* Update trainers
+
+* Update main and MP-CNN model
+
+* Add serialization util
+
+* Fix bugs
+
+* Refactoring for NCE to use new parent class"
+0c3a91c4431d85a6a77e8f0970bb13d4e7ca5c6d,"Check in MP-CNN Lite Model (#108)
+
+* Add MP-CNN Lite model
+
+* MP-CNN Lite bug fixes"
+494ce36575f3b8264df82fcf2b0497650f685470,Refactor VDPWI to use common API (#109)
+ef052408196066ad6ee69b70bc13fa4993378824,"Update MP-CNN Doc with Pre-Trained Models (#111)
+
+* Delete outdated troubleshooting section
+
+* QAEvalutor bugfix
+
+* Add instructions for pre-trained models"
+62f8abec7f9b12b1bac2175f84b576942f77f4e8,"Add README (#110)
+
+* Make *QA/MSRVID work with VDPWI
+
+* Add README"
+5bf33bf8ea4a163ee54799412209ae21c68c3c79,"Update README to use Castor-models and Instructions for Internal Users (#113)
+
+* Update instructions to use Castor-models
+* Consolidate requirements.txt
+* Refine README with convenience scripts
+* Update internal instructions
+* MP-CNN working dir minor edit"
+bc58fc7607a1c926107097ec9eaa9c8e3ae0d75c,Update README.md (#115)
+3b426c1c2521ebefdb10cbe466ae57d91502ca55,Update README.md (#117)
+97a76495fdd0fcdb280f6c03f7c479a6137ae349,Update requirements.txt (#116)
+c59739488cc23018fc28c6aa1279cec410b0a711,Update README.md
+bc74ae6531f6b67234e85a4d406188d9e171da56,Update README.md
+e9c011b42123db7f55837818baecc74db09c6f76,Update README.md (#119)
+90dc6af78c2254d41981606003b9df5755edcfb4,Update README.md (#120)
+cb9fad9f9723be0b568e83363da773f2e2e05952,Make ConvRNN compatible with PyTorch 0.4 (#122)
+5cc027f03e21bd786059ab09fbcc23db03b4302a,"Create Castor-level SST dataset (#123)
+
+* Move SST to root directory datasets
+
+* Fix bugs"
+921a45e7caff0552f0e11a29041ba4e49abc4d92,"add storing prediction/qrel files option for test set (#125)
+
+* add prediction/qrel files dump option
+
+* fix comment"
+2f7731b4d5d5b4f74db23d0e0286f5d5d118cbce,Update data path (#127)
+e4149ff40079555ee40b2d7b1f4bb2c226359407,"Use PackedSequence for ConvRNN (#126)
+
+* Use PackedSequence in ConvRNNs instead
+- Zero-padding is incompatible with the current model
+
+* Update test script
+
+* Clean up comments and logic
+
+* Add TQDM to requirements
+
+* Add results using default hyperparameters"
+a4e847725c10bb799799fdeda7529ebd595e9a2b,"Change default hyperparameters for VDPWI (#130)
+
+- Default hyperparameters on SICK now use different batch size, RNN hidden dimension, learning rate, optimizer, and number of epochs."
+fae229eba46b33cf680ab4a5f20cc1ee19cb3bc2,"Update VDPWI README with new results (#131)
+
+- Update with results on SICK, TrecQA, and WikiQA datasets"
+8563ad5976057fd87fc1fadb813a7e21a2fb18b5,"Kim CNN OOP Refactoring (#124)
+
+* Nuke obsolete artifacts
+
+* Refactor Kim CNN
+
+* Make kim_cnn a module
+
+* Fix bugs
+
+* Update README
+
+* Add choices to dataset arg
+
+* update for sst2
+
+update sst.py
+
+update sst.py
+
+* Add Kim CNN dataset choices to args.py
+
+* Update tuned SST-1 accuracy"
+5ff980d120af8f93d5630475255f2cd41931817c,Add Apache 2.0 license (#132)
+82bf90f4bb85d7ce0bcaadf756abe12e356636a2,"Tune Kim CNN for SST-2 and Improve SST-1 Results with Dataset/Initialization Changes (#133)
+
+* SST change min_freq and Kim CNN init distribution
+
+* Add tuned results for SST-1 and SST-2
+
+* Fix typo"
+8a00f9cdcdee682a630693aef8cfc1b956bf4f07,"Make Kim CNN ONNX-exportable (#136)
+
+* Kim CNN - only set embedding for corresponding mode
+
+* Kim CNN ONNX Export
+
+* Specify dummy ONNX input size from command line"
+5afb845a4ba2bfb0ac41e4d5e0e482bdd2697141,"Add PIT2015 dataset (#141)
+
+* add prediction/qrel files dump option
+
+* fix comment
+
+* upgrade to torchtext 0.3
+
+* remove ngram
+
+* update device
+
+* minor update
+
+* add pit2015
+
+* revert update torchtext
+
+* revert update torchtext
+
+* revert update torchtext"
+10e4e568172528baa1f622afdaf34a9b0213f373,"Add twitter url dataset (#145)
+
+* add prediction/qrel files dump option
+
+* fix comment
+
+* add twitter-url dataset, minor refactor
+
+* fix minor error"
+1b817d3e241dbc2630784e24ec4ddac88c5c3024,"WIP: Add Reuters-21578 dataset (#147)
+
+* Add ReutersTrainer, ReutersEvaluator options in Factory classes
+
+* Add Reuters to Kim-CNN command line arguments
+
+* Fix SST dataset path according to changes in Kim-CNN args
+
+The dataset path in args.py was made to point at the dataset folder rather than dataset/SST folder. Hence SST folder was added to paths in the SST dataset class
+
+* Add Reuters dataset class, and support in __main__
+
+* Add Reuters dataset trainers and evaluators
+
+* Remove debug print statement in reuters_evaluator
+
+* Fix rounding bug in reuters_trainer and reuters_evaluator"
+999e0c88f26de4e2f538e051d2be7c99970237ee,"Add Reuters dataset option for common.dataset (#149)
+
+* Add Reuters option in common.dataset"
+de56206fe4fadc723b5751c635a4cb1e6d72479c,"add SNLI / STS-2014 / Quora dataset (#148)
+
+* add SNLI dataset
+
+* add STS-2014
+
+* add trainers and evaluators for Quora
+
+* add quora in datasets/
+
+* process the  merge confict in common/dataset.py"
+7dec34a1065f91347aaad15521d089a425e535a3,"Add sts2014 and quora evaluators in common/evaluators/ (#151)
+
+* add SNLI dataset
+
+* add STS-2014
+
+* add STS-2014
+
+* add trainers and evaluators for Quora
+
+* add quora in datasets/
+
+* process the  merge confict in common/dataset.py
+
+* add sts2014_evaluator.py and quora_evaluator.py"
+ed4f01852e8977f74d9d2a63fc06097ce29d2183,"Baseline LSTM implementation  (#150)
+
+* Add ReutersTrainer, ReutersEvaluator options in Factory classes
+
+* Add Reuters to Kim-CNN command line arguments
+
+* Fix SST dataset path according to changes in Kim-CNN args
+
+The dataset path in args.py was made to point at the dataset folder rather than dataset/SST folder. Hence SST folder was added to paths in the SST dataset class
+
+* Add Reuters dataset class, and support in __main__
+
+* Add Reuters dataset trainers and evaluators
+
+* Remove debug print statement in reuters_evaluator
+
+* Fix rounding bug in reuters_trainer and reuters_evaluator
+
+* Add LSTM for baseline text classification measurements
+
+* Add eval metrics for lstm_baseline
+
+* Set batch_first param in lstm_baseline
+
+* Remove onnx args from lstm_baseline"
+650882fb6eafbcb5f9848817e70de3d0a31b8864,"Add HAN and XML_CNN for Doc Classification (#154)
+
+* Add Reuters option in common.dataset
+
+* Add Reuters option in common.dataset
+
+* Add HAN model
+
+* Add XML-CNN
+
+* Add HAN
+
+* Add Hierarchical tokenization for Reuters
+
+* Add README for HAN
+
+* Add XML Readme
+
+* Update HAN Readme"
+6daa5a128fd651b6190db7c73fdffdf07262a5d7,"Replication of STOA for Reuters Dataset (#152)
+
+* Add ReutersTrainer, ReutersEvaluator options in Factory classes
+
+* Add Reuters to Kim-CNN command line arguments
+
+* Fix SST dataset path according to changes in Kim-CNN args
+
+The dataset path in args.py was made to point at the dataset folder rather than dataset/SST folder. Hence SST folder was added to paths in the SST dataset class
+
+* Add Reuters dataset class, and support in __main__
+
+* Add Reuters dataset trainers and evaluators
+
+* Remove debug print statement in reuters_evaluator
+
+* Fix rounding bug in reuters_trainer and reuters_evaluator
+
+* Add LSTM for baseline text classification measurements
+
+* Add eval metrics for lstm_baseline
+
+* Set batch_first param in lstm_baseline
+
+* Remove onnx args from lstm_baseline
+
+* Pack padded sequences in LSTM_baseline
+
+* Add TensorBoardX support for Reuters trainer
+
+* Add Arxiv Academic Paper Dataset (AAPD)
+
+* Add Hidden Bottleneck Layer to BiLSTM
+
+* Fix packing of padded tensors in Reuters
+
+* Add cmdline args for Hidden Bottleneck Layer for BiLSTM
+
+* Include pre-padding lengths in AAPD dataset
+
+* Remove duplication of preprocessing code in AAPD
+
+* Remove batch_size condition in ReutersTrainer"
+cc275f6bde52c103358f8ddb62648a50c597bdae,"Add CharacterCNN for Document Classification (#155)
+
+* Add ReutersTrainer, ReutersEvaluator options in Factory classes
+
+* Add Reuters to Kim-CNN command line arguments
+
+* Fix SST dataset path according to changes in Kim-CNN args
+
+The dataset path in args.py was made to point at the dataset folder rather than dataset/SST folder. Hence SST folder was added to paths in the SST dataset class
+
+* Add Reuters dataset class, and support in __main__
+
+* Add Reuters dataset trainers and evaluators
+
+* Remove debug print statement in reuters_evaluator
+
+* Fix rounding bug in reuters_trainer and reuters_evaluator
+
+* Add LSTM for baseline text classification measurements
+
+* Add eval metrics for lstm_baseline
+
+* Set batch_first param in lstm_baseline
+
+* Remove onnx args from lstm_baseline
+
+* Pack padded sequences in LSTM_baseline
+
+* Add TensorBoardX support for Reuters trainer
+
+* Add Arxiv Academic Paper Dataset (AAPD)
+
+* Add Hidden Bottleneck Layer to BiLSTM
+
+* Fix packing of padded tensors in Reuters
+
+* Add cmdline args for Hidden Bottleneck Layer for BiLSTM
+
+* Include pre-padding lengths in AAPD dataset
+
+* Remove duplication of preprocessing code in AAPD
+
+* Remove batch_size condition in ReutersTrainer
+
+* Add ignore_lengths option to ReutersTrainer and ReutersEvaluator
+
+* Add AAPDCharQuantized and ReutersCharQuantized
+
+* Rename Reuters_hierarchical to ReutersHierarchical
+
+* Add CharacterCNN for document classification
+
+* Update README.md for CharacterCNN
+
+* Fix table in README.md for CharacterCNN
+
+* Add AAPDHierarchical for HAN
+
+* Update HAN for changes in Reuters dataset endpoints
+
+* Fix bug in CharCNN when running on CPU"
+f0a5c370bce6ba3c54e4c3a8ad24dd6f04743870,"Fix KimCNN for SST, AAPD datasets (#157)
+
+* Add ReutersTrainer, ReutersEvaluator options in Factory classes
+
+* Add Reuters to Kim-CNN command line arguments
+
+* Fix SST dataset path according to changes in Kim-CNN args
+
+The dataset path in args.py was made to point at the dataset folder rather than dataset/SST folder. Hence SST folder was added to paths in the SST dataset class
+
+* Add Reuters dataset class, and support in __main__
+
+* Add Reuters dataset trainers and evaluators
+
+* Remove debug print statement in reuters_evaluator
+
+* Fix rounding bug in reuters_trainer and reuters_evaluator
+
+* Add LSTM for baseline text classification measurements
+
+* Add eval metrics for lstm_baseline
+
+* Set batch_first param in lstm_baseline
+
+* Remove onnx args from lstm_baseline
+
+* Pack padded sequences in LSTM_baseline
+
+* Add TensorBoardX support for Reuters trainer
+
+* Add Arxiv Academic Paper Dataset (AAPD)
+
+* Add Hidden Bottleneck Layer to BiLSTM
+
+* Fix packing of padded tensors in Reuters
+
+* Add cmdline args for Hidden Bottleneck Layer for BiLSTM
+
+* Include pre-padding lengths in AAPD dataset
+
+* Remove duplication of preprocessing code in AAPD
+
+* Remove batch_size condition in ReutersTrainer
+
+* Add ignore_lengths option to ReutersTrainer and ReutersEvaluator
+
+* Add AAPDCharQuantized and ReutersCharQuantized
+
+* Rename Reuters_hierarchical to ReutersHierarchical
+
+* Add CharacterCNN for document classification
+
+* Update README.md for CharacterCNN
+
+* Fix table in README.md for CharacterCNN
+
+* Add AAPDHierarchical for HAN
+
+* Update HAN for changes in Reuters dataset endpoints
+
+* Fix bug in CharCNN when running on CPU
+
+* Add AAPD dataset support for KimCNN
+
+* Fix dataset paths for SST-1"
+91ed6261db12f1903980ec3cf474e849bc945201,"Add regularization modules for LSTM baseline (#156)
+
+* Add Regularization Modules for LSTM
+
+* Update Reuters Trainer and Evalueator for regularization
+
+* Remove unnecessary comments
+
+* Comply with PEP8
+
+* Comply import order with PEP8
+
+* Fix typos in README.md
+
+* Comply with PEP8
+
+* Add BSD 3-Clause Licence
+
+* Remove deprecated call to Variable for PyTorch 0.4
+
+* Update dataset selection in main
+
+* Remove block comments"
+addc4506d161281ef3f1958ca9791ce0764af790,"Add model checkpointing to ReutersTrainer (#158)
+
+* Add ReutersTrainer, ReutersEvaluator options in Factory classes
+
+* Add Reuters to Kim-CNN command line arguments
+
+* Fix SST dataset path according to changes in Kim-CNN args
+
+The dataset path in args.py was made to point at the dataset folder rather than dataset/SST folder. Hence SST folder was added to paths in the SST dataset class
+
+* Add Reuters dataset class, and support in __main__
+
+* Add Reuters dataset trainers and evaluators
+
+* Remove debug print statement in reuters_evaluator
+
+* Fix rounding bug in reuters_trainer and reuters_evaluator
+
+* Add LSTM for baseline text classification measurements
+
+* Add eval metrics for lstm_baseline
+
+* Set batch_first param in lstm_baseline
+
+* Remove onnx args from lstm_baseline
+
+* Pack padded sequences in LSTM_baseline
+
+* Add TensorBoardX support for Reuters trainer
+
+* Add Arxiv Academic Paper Dataset (AAPD)
+
+* Add Hidden Bottleneck Layer to BiLSTM
+
+* Fix packing of padded tensors in Reuters
+
+* Add cmdline args for Hidden Bottleneck Layer for BiLSTM
+
+* Include pre-padding lengths in AAPD dataset
+
+* Remove duplication of preprocessing code in AAPD
+
+* Remove batch_size condition in ReutersTrainer
+
+* Add ignore_lengths option to ReutersTrainer and ReutersEvaluator
+
+* Add AAPDCharQuantized and ReutersCharQuantized
+
+* Rename Reuters_hierarchical to ReutersHierarchical
+
+* Add CharacterCNN for document classification
+
+* Update README.md for CharacterCNN
+
+* Fix table in README.md for CharacterCNN
+
+* Add AAPDHierarchical for HAN
+
+* Update HAN for changes in Reuters dataset endpoints
+
+* Fix bug in CharCNN when running on CPU
+
+* Add AAPD dataset support for KimCNN
+
+* Fix dataset paths for SST-1
+
+* Fix dimensions of FC1 in CharCNN
+
+* Add model checkpointing for Reuters based on F1
+
+* Refactor LSTM baseline __main__
+
+* Add precision, recall and F1 to Reuters evaluator"
+97bdaec5bbbc82ddf967f210d3ebd15ebc038004,"Add AAPD for XML_CNN (#160)
+
+* Add AAPD for XMLCNN
+
+* Add kwargs for XML"
+3dd3ced6616b6a19ae84ec925e3a300b3a0963ef,Fix HAN for batch_size 1 (#161)
+951df4ada5a0d65ca75640d6d5416ef47a79d6cc,"Neural Document Classification  (#159)
+
+* Add ReutersTrainer, ReutersEvaluator options in Factory classes
+
+* Add Reuters to Kim-CNN command line arguments
+
+* Fix SST dataset path according to changes in Kim-CNN args
+
+The dataset path in args.py was made to point at the dataset folder rather than dataset/SST folder. Hence SST folder was added to paths in the SST dataset class
+
+* Add Reuters dataset class, and support in __main__
+
+* Add Reuters dataset trainers and evaluators
+
+* Remove debug print statement in reuters_evaluator
+
+* Fix rounding bug in reuters_trainer and reuters_evaluator
+
+* Add LSTM for baseline text classification measurements
+
+* Add eval metrics for lstm_baseline
+
+* Set batch_first param in lstm_baseline
+
+* Remove onnx args from lstm_baseline
+
+* Pack padded sequences in LSTM_baseline
+
+* Add TensorBoardX support for Reuters trainer
+
+* Add Arxiv Academic Paper Dataset (AAPD)
+
+* Add Hidden Bottleneck Layer to BiLSTM
+
+* Fix packing of padded tensors in Reuters
+
+* Add cmdline args for Hidden Bottleneck Layer for BiLSTM
+
+* Include pre-padding lengths in AAPD dataset
+
+* Remove duplication of preprocessing code in AAPD
+
+* Remove batch_size condition in ReutersTrainer
+
+* Add ignore_lengths option to ReutersTrainer and ReutersEvaluator
+
+* Add AAPDCharQuantized and ReutersCharQuantized
+
+* Rename Reuters_hierarchical to ReutersHierarchical
+
+* Add CharacterCNN for document classification
+
+* Update README.md for CharacterCNN
+
+* Fix table in README.md for CharacterCNN
+
+* Add AAPDHierarchical for HAN
+
+* Update HAN for changes in Reuters dataset endpoints
+
+* Fix bug in CharCNN when running on CPU
+
+* Add AAPD dataset support for KimCNN
+
+* Fix dataset paths for SST-1
+
+* Fix dimensions of FC1 in CharCNN
+
+* Add model checkpointing for Reuters based on F1
+
+* Refactor LSTM baseline __main__
+
+* Add precision, recall and F1 to Reuters evaluator
+
+* Checkpoint only at the end of an epoch for ReutersTrainer
+
+Add detailed log printing for dev evaluations
+
+* Fix log_template and dev_log_template in ReutersTrainer
+
+* Add IMDB dataset
+
+* Add support for single_label datasets in ReutersTrainer
+
+* Add support for IMDB dataset in lstm_baseline and lstm_reg"
+f510fa6baea530e91d039b7d5310369d61d3be2b,Fix VDPWI focus cube padding (#162)
+56e29c886e52d8412b1ef165b26d0b5dfe9f55ec,add seperator (#167)
+7c3c15649da990d970a34ac4bdde8a835ff3168a,"add DecAtt model (#170)
+
+* add DecAtt model
+
+* update readme, add dropout
+
+* fix more comments
+
+* add trecqa, wikiqa results
+
+* remove extraneous comment"
+57f53a81b51f31896f7b8ca979b473dd3a17c732,"Add SSE model (#168)
+
+* runnable
+
+* add util file
+
+* update readme
+
+* update final layer and add model name
+
+* update argument
+
+* update readme, delete useless args
+
+* fix comments
+
+* fix more comments"
+dc086e895f3176560a417535aadeea88d5454714,"Add document classification models and datasets (#171)
+
+* Add ReutersTrainer, ReutersEvaluator options in Factory classes
+
+* Add Reuters to Kim-CNN command line arguments
+
+* Fix SST dataset path according to changes in Kim-CNN args
+
+The dataset path in args.py was made to point at the dataset folder rather than dataset/SST folder. Hence SST folder was added to paths in the SST dataset class
+
+* Add Reuters dataset class, and support in __main__
+
+* Add Reuters dataset trainers and evaluators
+
+* Remove debug print statement in reuters_evaluator
+
+* Fix rounding bug in reuters_trainer and reuters_evaluator
+
+* Add LSTM for baseline text classification measurements
+
+* Add eval metrics for lstm_baseline
+
+* Set batch_first param in lstm_baseline
+
+* Remove onnx args from lstm_baseline
+
+* Pack padded sequences in LSTM_baseline
+
+* Add TensorBoardX support for Reuters trainer
+
+* Add Arxiv Academic Paper Dataset (AAPD)
+
+* Add Hidden Bottleneck Layer to BiLSTM
+
+* Fix packing of padded tensors in Reuters
+
+* Add cmdline args for Hidden Bottleneck Layer for BiLSTM
+
+* Include pre-padding lengths in AAPD dataset
+
+* Remove duplication of preprocessing code in AAPD
+
+* Remove batch_size condition in ReutersTrainer
+
+* Add ignore_lengths option to ReutersTrainer and ReutersEvaluator
+
+* Add AAPDCharQuantized and ReutersCharQuantized
+
+* Rename Reuters_hierarchical to ReutersHierarchical
+
+* Add CharacterCNN for document classification
+
+* Update README.md for CharacterCNN
+
+* Fix table in README.md for CharacterCNN
+
+* Add AAPDHierarchical for HAN
+
+* Update HAN for changes in Reuters dataset endpoints
+
+* Fix bug in CharCNN when running on CPU
+
+* Add AAPD dataset support for KimCNN
+
+* Fix dataset paths for SST-1
+
+* Fix dimensions of FC1 in CharCNN
+
+* Add model checkpointing for Reuters based on F1
+
+* Refactor LSTM baseline __main__
+
+* Add precision, recall and F1 to Reuters evaluator
+
+* Checkpoint only at the end of an epoch for ReutersTrainer
+
+Add detailed log printing for dev evaluations
+
+* Fix log_template and dev_log_template in ReutersTrainer
+
+* Add IMDB dataset
+
+* Fix duplicate printing of header in ReutersTrainer
+
+* Add support for single_label datasets in ReutersTrainer
+
+* Add support for IMDB dataset in lstm_baseline and lstm_reg
+
+* Fix evaluator call in main method of HAN
+
+* Add IMDB for HAN
+
+* Fix for single_label
+
+* Fix evaluate_dataset method for single_label datasets
+
+* Reduce default patience to 5 epochs before early stopping
+
+* Revert change to save_state rather than the entire model
+
+* Add Yelp 2018 dataset
+
+* Integrate Yelp2018 with LSTM baseline
+
+* Replace Yelp2018 with Yelp2014 dataset
+
+* Add Yelp2014 to LSTM Baseline
+
+* Integrate Yelp14 into LSTM Regularization
+
+* Remove dropout in HBL for LSTM Baseline and Reg
+
+* Add Yelp for HAN
+
+* Fix the saving issue for HAN
+
+* Fix loading for HAN
+
+* Fix typo in ReutersEvaluator
+
+* Print to STDOUT rather than logger
+
+* Print XML-CNN eval to STDOUT rather than logger
+
+* Update max_length for IMDB dataset
+
+* Add single_label support for char_cnn
+
+* Fix evaluation method for char_cnn
+
+* Remove unwanted parameters from ReutersTrainer and ReutersEval
+
+* Fix code formatting in lstm_reg/args
+
+* Add support for IMDB and Yelp in KimCNN
+
+* Fix single_label incorporation
+
+* Remove unnecessary conditions
+
+* Fix num_classes in Yelp2014
+
+* Add single_label support for XML-CNN
+
+* Fix call to evaluator in XML-CNN
+
+* Address PEP8 issues
+
+* Address PEP8 issues
+
+* Address PEP8 issues
+
+* Address PEP8 issues"
+d326e575c671ce670d2904622b298e72dbbaf0a8,"Add TAR and AR  (#172)
+
+* Add TAR and AR"
+aec0826356dc60fb67fd921ae06ce58782b7323d,"Add ESIM model (#169)
+
+* runnable
+
+* update mask
+
+* minor update
+
+* minor update
+
+* Update README.md
+
+* fix multi GPU issue
+
+* add visualize argument
+
+* fix more comments, retab
+
+* remove util"
+84225d208c15b41e07616f5c681e258fe309846b,Add char_quantize for AAPD (#173)
+385525487070dea91dc91110369ab44c88af273c,Tidy up some code (#174)
+f8c56756652c95a6ebce1c169aa04b506805e03f,Delete baseline_results.tsv (#178)
+81946d22fcf78f8a56875af003337581cde84709,Update README.md (#179)
+34bd4400319e64d39ec155e9315b237c94dfbd7c,Update README.md (#180)
+430fd791dc8ba8b080a0f2ffa312264c46cff907,clean and update PIT-2015 eval (#181)
+fa2f59535c71a0fb4586afbe543b81ba812c8630,"Remove document classification code that's been moved to hedwig (#186; close #185)
+
+* Remove document classification datasets
+
+* Remove ReutersEvaluator
+
+* Remove ReutersTrainer
+
+* Remove document classification models
+
+* Remove document classification from README.md"

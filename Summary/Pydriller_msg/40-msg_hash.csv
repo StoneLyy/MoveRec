@@ -1,0 +1,2344 @@
+commit_id,msg
+ebfb0c6f962247e29306c5bcba6525a66a1f3d42,first commit
+3fbfab4288367e2ebc9ca60e5dbc70b594935ea3,init
+c54064ee2099dea14bba7cc369498a40ed87314d,as.sh support java 11
+4bc2ef53e256668588a50fce0ac47cd132fdc144,update dependency
+92cec155833b86327da201d9c863aa209f67b4c2,add LICENSE
+389b5c90a0af54d808d60b011fe4c6aa6487071b,add site module and sphinx support
+521f52d98578bbf5b1c717e705cc85f152cb1c1e,add fork me at github support
+3da94b822b9044ddf918365eebf6e6dd5f4420f8,add packaging
+61e4467ac40aa10250eeb89b5ea4b715c7b245cb,add ImplementationVersion support. #4
+7d0e75baaabb7a8f673fc129097a32d864261d0e,separate doc zip
+9245b693e420c74ef18f405778f531a68f144b2e,add maven central deploy config
+4295ecf67f83e9162a114f9381f91aa387f0ea0b,update scripts
+24c90ae071f69db61815fd0597f25f43d4e1c99f,[maven-release-plugin] prepare release arthas-all-3.0.0-RC
+e7f5938234a4abc789362d8cbed824f1c40b0fc2,[maven-release-plugin] prepare for next development iteration
+1ac5ac0fd4d77be480da7c862b75982fa2621807,update as.sh download url
+32fc04d64d9c0a3930487220b8c03b06e01968d7,fix log path error
+996fb4d827f43ebffeb15c0c1a2d43c0cf974094,support Implementation-Version
+ef2917541ac289f18840ff14d907ac84d8d491db,improve welcome msg
+3358f31841d6b2a9dc9bde8ea3593e09e8ee0a2c,as.sh support download from maven central repository. #3
+9f6cba09df308ba2bbed19c27a5c0b6cbb49fda2,improve welcome msg
+5941f9b5c54b0550a4ebbe829ab4bbb397fcc77e,fix as-package.sh
+e640fe8cd37462eb45289186420c77cf9f7f1f8a,as-package.sh print ~/.arthas directory size
+8077e2714d13d1f6984aa868b18efd4dc4685eb1,add wiki pages
+661e84f9a93836b6f8ba57092cb93c442c908f8f,add maven badge support
+24efb9281bfc51ea91c8fb084cf8830e39cc158b,update doc
+1d869f6a48977f9404fe5fe97974b2db38ded055,update wiki link
+06d3862ca3555e5d0bcac13f9623c0b222406e19,add CONTRIBUTING.md
+65515c935676a83b126a4ffb1f303c0d93060d31,add maven profile full
+73ad24342da6ddf859c4c7e152fe0117932d4731,update pom.xml
+b64385307572836e5730959edcb3bc3723de561a,update doc
+01a39f0fb2fae4930552dd0c7822276455d66d69,update as-package.sh
+54ca57afa1afdfb52b0fc673ca4ba89e5a57d656,fix wiki link
+b651be88262a3e57159461f61257c678a360465b,update doc
+a301bf201a508db0033d5f02d81c9f862aebf4a5,change google fonts cdn
+3a390171ebcec90d95929e54ebfbbaea41554c93,add baidu tongji
+6bc8a7eab856141bb28d4d3f1df6d8fe56d18c69,update doc
+12ed8da8b53eabe7a2113ec75b83bd7e42a526cc,update doc
+4b63e3891f4137e64f53fbcd5db81a7fbdc047e4,"add arthas.png, favicon.ico"
+85be1ab784ba28f8439dfab3da65bcd795cb8964,update README.md
+5b8ca1e4d5878508565155cf3de8721cc9617136,fix path in description
+afb3854c3bb02f996b221afb443cabe26f169aa0,"Merge pull request #18 from nzomkxia/master
+
+Fix path in description"
+91b78650be06a0db785aa2ee6fe72ec3c071eec3,disable user stat. #21
+1faf2371314446cdcad21127aa608d140c90c08f,remove reflect call to VirtualMachine. #23
+cc6fbc5fed126e054b168803a8ad4f3cff50b503,check vm java version before attach. fixed #6
+405c310907e006011b5ad65da65d058459b86f0b,"upgrade netty to 4.1.29.Final, support java 10. fix #24"
+112ea79127d15572e78f4d59efecc44ca8f82d96,add web console doc. #15
+08e3c65ad1d9978e2e6ca23c965ded23be085947,upgrade to 3.0.3-SNAPSHOT
+1c07b1b360519d0cbe3d838a550971faf5d8e891,fix javadoc
+4335c3129bc8185712f06a88d068208a8216cc00,[maven-release-plugin] prepare release arthas-all-3.0.3
+f9b4c081ff2e2a78e1b1d7cf5a6337e4dcf563ef,[maven-release-plugin] prepare for next development iteration
+4b1fa89878c8c3c6b60f0e3d7790c310428952fa,fix install-local.sh do not set ARTHAS_VERSION problem
+36a593b43b97d7588c8998d8fdfcd821947c6986,[maven-release-plugin] prepare release arthas-all-3.0.4
+5f517cb6dd587bdf77aaf369230e3f4462a53082,[maven-release-plugin] prepare for next development iteration
+08fd5157cebf147b40d39de75b33198a1e6f7132,update as.sh to support ubuntu. #25
+7f236219ddbd040764dd821cbcbd44899dd57c90,update doc about install.
+163b28e6da85f00055e0d717cfc1c23892890781,add maven wrapper. #39
+cc1446b8a251e4c44cc03190b5d0f13602885e47,as-package.sh support maven wrapper and auto extract project version. #39
+d24d2187dc965b8680ac718fff9bdfe88d449fd0,update doc
+7b0e516a1142d763467824a3882480ac730d93fb,update install-detail.md. #37
+6dfed04a5fe7d58140409a97481094c0189f6bac,update doc
+65a280d73e6b4db0792fce86aaf463ff6ebad625,update release-notes.md
+ffd73118a20c344a223b61d1195ac45835041279,Add English version of README.
+226c1871ca8775b6b168b9791ff03f4526b24699,Polish English readme.
+b05ddf017ba3e6b17aa8a730df646f0e474fb167,Fix broken links.
+504ee08eda382bf2a79a94dee787badc3c02a588,fix:#42
+f4bc64eef9d1e2399807c742e03b8da7cc6725d9,Fix unit test failure.
+80a30351d3f196b47c35eab77dd98099ae1de9fd,add:local debug test
+28f7f5f8347a691c88550e936b714cd62177b479,"Enhance English version of README, add more showcases."
+f8d5a43129394bd793438f793a8ed8ab13950a5e,"Enhance README, add more showcases."
+3fe0a159405b0f53cfb70c25763627ee02c09862,add English doc support. #56
+02744f9f5fc0ba44d1147367fed736b31b1fba46,add readme for en
+a1228f6e3c0810b83f2aeb99cbb482a34da6592b,installation_in
+95f501b1fa06751d87c35e9663b3b47c75c01b96,"Merge pull request #57 from Hearen/master
+
+ReadMe and Installation translated"
+ac0da39acabd4975cb1a5d3a25e648e6825b48b9,"Updated dashboard.png
+
+Fixed typo error ""memory"". 
+* Expected : Runtime
+* Actual : Rumtime"
+5d2278382710f22a15b247ad4a11978f5d202a77,Fixed typo in dashboard.png
+2526b84d97e5dfdb2302afc1e85586e921860423,fix:#62
+9d91350bbe9603f81c1a6d5640084d8e082734db,Remove unused script. Fix #62
+a9fccd6158ea2ede42f3bba4008ccfd11964fa51,quick start en added
+60ae3fd0e8f7929bc505dea59163a5697037cc71,advanced usage translated
+194e7b9624b14d00cb2253e73c86b9899aea5b0a,"Merge pull request #68 from Hearen/master
+
+en doc: quick-start and advanced-usage"
+e1600e10b7bc4a93152f235f622b3c9c271ec18e,update OGNL links. fix #60
+5aa9db19d955c27a35f1684fa459d7258cffcded,add starts license badges
+3221e44304ffe1eb4728e0560b8808096a194aaf,remove java.util.concurrent.ThreadLocalRandom to keep compatible with jdk6. #28
+c811e96aec3c958993b2d02b2c37faffd881a66b,exclude en dir. #56
+daa694d097b9f407ac557eb5f28f196762907513,update doc
+6d8ebeea239c129843305ee37928e93b102d588a,update manual-install.md. #74
+280fac704cb875cbfc14012da295b064f3788fe8,update as.sh to support --versions
+c6fec020d6cac5c4a8af68a0518ee015a997ab2c,Make English README default. #67
+fb3822190956e942b4593063275a64a82877a8d7,update manual-install.md. #74
+0eb07b444116f59f689a43281d99d7deace36bda,"Polish README, add monitor command showcase."
+ffae59d324f87de6f17b9ccd31648dfe67edbfe2,"Polish README, add time tunnel command showcase."
+b8825ddfa6cbc5d609e0d34b2731def1526af4c1,update sphinx config.  #56
+f8eed249129f8df8c80653f89e3e7513b7c00e9a,Fix the typo in CONTRIBUTING.md
+f45f401c49783e194a4f281a0e851c8a3342c3ca,update links
+25adb5816f870e445730f03c0c6695308275da5c,commands list translated
+fec10d726d3fb2dbce4d1b5d8a048dfdf5220499,dashboard translated
+dcec10bcc0d435076b01484c509fb1891b87b2a4,typo fix
+1b21fafa1eb780e21fdf7a861ef103e31ef2fbaf,fix the screenshot missing issue in dashboard
+70f9a85142268c5bdf0553354c51426974ad35cf,"typo fix
+
+fix the screenshot missing issue in dashboard"
+0b70a9deb695fa619dad10b9bd3a0f8bd276f492,Add English README for compatibility.
+bb945824bc8ca3997247d485a8ce223deeaa0c14,remove old compatibility code in as.sh. #92
+99fa83ab651b6632dc9a1f4a8432936dae7c09c7,Merge branch 'master' of github.com:alibaba/arthas
+14a8332d93d3f8938d0dfdeeaa8cb9171ef99efb,增加memory 可读性
+b697c9990408872b6fd464c06f881e008fe1f8c7,Merge remote-tracking branch 'origin/master'
+9c1031568c8a1f91c078b5f483c16ba1b25630c4,update en/index.md. #51
+af45b299a4fbae65d5101c0490b7ab9a347d3bde,jvm命令中LIVE-COUNT命名有问题，应该是PEAK-COUNT，并增加DEADLOCK-COUNT
+056abe437ef2b8ab449ca14e81f29dbaa3c1c39e,"Merge pull request #88 from Hearen/master
+
+Fix some typos and translated commands.md and dashboard.md"
+adccaa95b0fe2a73425fe45bc235456aea4d0f18,fix en doc link. #56
+a6e99993bb4dfc103e72fca89068c5681c4f0532,"Polish README, add credit section."
+f2cca01cc859603fd03765bc47b4cc85447234b3,Polish LICENSE and add NOTICE file.
+01dd5d777b0f52a89b7737747b7d2953b59b8a47,update index.md
+b7dcab1289f852446368a47dc57a6ac0e96baf1e,Merge branch 'master' of github.com:alibaba/arthas
+f439650dd101e84b8eafb5a01e803f9d2a2d6209,Update link to documentation.
+325fc1f77ecaa8f80ed4634847fa9b9daf16d510,Polish README_CN.
+2c4e9edd360aef8920a2ebc67fd7008a0f72f80e,fix install-detail.md. #51
+c1882dc310f27169d43eacec61d2c19fe3a9191a,update doc
+fe44e00bd16481da61e2120282957c21b571c84c,command thread translated
+9048a43729eb42c3f4d583f7683d5d512ed2a77f,Add English doc to Thread command
+de6ce956e16fd179f7d73e38ae106c7fbaaa3dbb,Update issue templates
+1e44b37584b89b6c96011daa611a150d5826c656,Update issue templates
+9843449c8cc3d21cbf70ac7dc2ff4d7c335ece20,command jvm translated
+c268f4967f670633c704dd6b2edeee0d94c055db,sysprop command tanslated
+a674e84dda7b41bb4094d54a4144926717bca95d,getstatic translated
+612d60fffc14a754d3faf6399c93fe03274a00e5,sc en
+3cf39a0c5eb82c2e3883536f71cc4b526b46d85b,search method sm en
+3915b748656acfe6300b5dcfc72f39c81e2b9924,dump en
+b8040c551bcc20e1eb35376822113a811f290b54,jad en
+7fd17685ea1042b1c034495bc0ac3ae1f668a8a0,add humanReadableByteCount test case
+e08d8dc051161403d7a9af79b3e2f350efdd7400,classloader en
+303b28ae32107b9b3ac74e1ab97ca97ae056edf9,Improve readability for JVM command.
+892dbf720305fdd3ad674f13d890a7ffd49607b7,Add English doc for JVM command.
+7123bd6eeb42c5219a125e782fd02a32e19e40ac,translate options
+5f5c1b5ae912b176e254132e83c5f6ecc4cb7e52,"Merge pull request #104 from Hearen/sysprop
+
+Sysprop translated"
+4c087ed0b9c4c123314106a6d3e16cc9da548e69,"Merge pull request #105 from Hearen/getstatic-translated
+
+Getstatic translated"
+aa7fad3e0447ce40839ced773d3b150c56b04297,"Merge pull request #106 from Hearen/sc-en
+
+sc en"
+d9e7c959225ab13d7dbec6e6755c1bd183b76a22,"Merge pull request #107 from Hearen/sm-en
+
+Sm en doc"
+83bc8c908e951ba1f6c5f11c078cd62dcfa34d8a,"Merge pull request #108 from Hearen/dump-en
+
+Dump en doc"
+92c62ee2835e589604c4cddd8067afc1ea3873cd,"Merge pull request #109 from Hearen/jad-en
+
+Jad en doc"
+b2e0bda539e755c09c899a5eb27871e139136142,"Merge pull request #110 from Hearen/classloader-en
+
+Classloader en doc"
+2d416eab3e7a7036867db8b60ec15d131457e4cb,"Merge pull request #1 from alibaba/master
+
+merge"
+d162e673eeb0fc835dc242ce3b83bb4f3bbb37a1,add ArrayUtils test case
+36e6904bd0b542e5987811ed72e36d58e200a904,fix links
+3b83ce2d1b50894b45fa5ad0877f0b3d538babe3,update translate
+7ec67222147804e4abfa34b380719bfc1c39727c,redefine en
+49c6a6ea2b132a4b669db981e510dccc8b36e376,format fix
+19107ba0379b6c678001809eae6eb7f5b74d9c9b,add jvm command thread related document
+d28c9d4def2602d8e7afc10572de536c2c360a33,add jvm command display file descriptor count
+7bb2abe5eaeb725022d2608a0ebd6d61c09d76fe,monitor en
+0a40370bcb98ecc141f02ddade93bea2c6138d53,typo fix
+b61da4568f42b4cf5ddd863170caf9f5cae0f1b8,"Merge pull request #114 from alfredzouang/master
+
+translate options"
+66101e14a3bae25c57de54785b906f226173e73e,"Merge pull request #116 from Hearen/redefine-en
+
+redefine en doc"
+a7178bd071757fafe7a8d7b59d1dcb59af2037a1,"Merge pull request #117 from Hearen/classloader-cn-format-fix
+
+format fix"
+267a186d8fc5db6106d9b4456b90ae664ffdeebb,"Merge pull request #121 from Hearen/monitor-en
+
+monitor en doc"
+68e507042f467d463998a4ab04be0ee26725ccac,"Merge pull request #122 from Hearen/monitor-typo-fix
+
+monitor-cn typo fix"
+610ff685bfe7ff3b64bbc694af60ca3c7a57bb92,watch en
+a66fe61c3c5c56abde8e47207873faa102fdfd4c,Merge branch 'master' of https://github.com/alibaba/arthas
+6f1053e5ccc71232d9f1836ea233fcd7598d7c5a,trace en
+3c4124d02a50f8a482ee0a2d6f0a6ff0230fec2c,"Merge pull request #124 from Hearen/trace-en
+
+trace en"
+04373f37bd35bcaa8cf84ab930511fece41ae1e1,"Merge pull request #123 from Hearen/watch-en
+
+watch en"
+7a126d236d41900c429dd85d1d62ab4f44297191,stack en
+e737ac5d71ac12d067bf1c23ca330f694e1c4202,"issue #112 & issue #113
+add ArthasCheckUtils test case & translation"
+18903423c3486e71638c1cb9f76b1a8f58b81f11,Merge branch 'master' of https://github.com/alibaba/arthas
+9e7d7c26e9f6e7fd2a3e2a6e8a2585cf9a7ff3b8,fix debug support. #128
+0e813b87ab0cfe8d3ff3794010029e2264d941e2,tt en
+5d8da38c34ebd62324d8197ed3a60fffb35cad90,"Merge pull request #125 from Hearen/stack-en
+
+stack en doc"
+618f50f671dfa37a3bc86eacbc5fd3083e07c5cd,"Merge pull request #129 from Hearen/tt-en
+
+tt en doc"
+29eef89b8622f8bb0d0904d4488405559681feb1,"Merge pull request #126 from earayu/unit-test
+
+Unit test"
+a6a0101d7598c6c1f2709c16835dd2b3c25efa49,remove the code that replaces 127.0.0.1 with 0.0.0.0. fix #131
+14c66103e2a3450e067c6613ca2601ba1f055b3c,update start-arthas.md and add en/start-arthas.md. #51
+1f469f6020b1c78f115570de7163b9554f8d4761,Merge branch 'master' of https://github.com/alibaba/arthas
+700c0cb4415df7cce346c7cb76fa4a52d0c54bfa,unit test & comments
+537be5ba7155d8e730707bbf77d80a53b33f4424,"Merge pull request #136 from earayu/util-unit-test
+
+unit test for unit/matcher package"
+354ee39224531bfcb31179b9d50d131980e73c16,contributing en
+3948c6c7899855e423d06c7160eadbbae81059f5,fix some typos in quick start
+6fc0a5bc842dd4262bf887cd697bc6e36c69e4df,fix typos in watch en & quick start en
+1ad373529add8188fc5554f168c74b6fcaf0b7bc,fix typos in advance use en
+92494d04ee80fd6353d5221dd7628718dd3415a9,fix typos and optimize descriptions - options
+2d6f9c6b016d2ece81e8d273e98f9a8a32a0eaf1,Add file descriptor info.
+af9eb5d869ad9a766cc873eee5aa10b55c7afd91,"Add English contributing doc.
+
+contributing en"
+819d45a7efb40afabb46d10e62c5d1fa73cf9d96,Typo fix and description improvements
+fc35390dc9323453451121f465295c4a4f3f56eb,release-notes en
+9237e9b32aeb04a544dd5a793a204dc6d731f074,"#135
+1. change the param's name, from 'string' to 'target'
+2. get rid of the magic value of: * ? \
+3. bugfix: return false if the pattern or target is NULL"
+90e53467b1c4974347bc2a9fc167d55fa5947a90,Add English doc for release notes.
+e3567e2317df80626c80e66e94376d77e823e671,unit test for WildcardMatcher
+e440e624d4fedcc9d7a4eb9a01c3724d5c0955af,save-log en
+f590986744fa3a1d720750b4f078f8e629badec8,"1. add some comments
+2. do some minimum refactor"
+462be5bca27e28a94c12386ca87704e6137a8bd6,IPUtils.java: comments and some minimum refactor
+e3ce4e7e5176b8ed458f23922d3593cb0896963e,Bugfix wildcardmatcher
+e5da2c64dff0ab1762ed95a2ba37ba18e0df318a,Add English doc for Save-log
+f6970242e9f597c54bba32b89831e2ce38116f7a,batch processing translated
+3149c00de43a031552d2fec9c63d962af26cb3c4,Batch processing translated.
+c9d9edada8424b9bd339d6d0e46c3f1513f5f223,"README-minor-changes.md
+
+Some improvements in Grammer of Documentation"
+f70e0626f3dde0038291123615462dec8604704b,manual-install en
+76eca52834dc7313c21b1781e4ecfa621ed77bb2,advice-class en
+2ac526af16590efaaef70e55d68dc314d6991e2c,"Merge pull request #151 from Hearen/advice-class-en
+
+advice-class en"
+1f9371d879a91071860c66c82f58de179ea12a29,"Merge pull request #150 from Hearen/manual-install
+
+manual-install en"
+21e6dc69e9d97c21d1777f259ca5b7dba2274fb4,"Merge pull request #149 from ktz72/patch-1
+
+README-minor-changes.md"
+3fcbad51640e9497629654b26ceb58bdd946c9b7,Improve grammar in README.md
+4d46b8c2a528beef289fac4c2afdd8cf4f901f55,Improve grammar in README.md
+d091cdd74238d5603fc344f9dd83f5241691c02e,"improve the descriptions and fix some typos for the English
+documentation"
+afa9bab5ba8831e83fad024e6affdc2c434c0c0c,"Merge pull request #154 from Hearen/manual-improvement
+
+improve the descriptions and fix some typos"
+ea540554b1cb48a417df11342d7f13026ecf697a,update en/release-notes.md. #51
+55cff99e87728fa6a75bad0bd6bd61043f3795a6,merge CONTRIBUTING_EN.md into CONTRIBUTING.md. #51
+e6a0f1dc20517e93d2bfb7217c7b72ffe82bf0b6,update README.md
+03d1e1fcd23981557081ba23dda9b513cfe2b98d,fix en doc edit on github link.
+1d81cd7b28eef93b43871da40fc431fec091159f,update README.md README_CN.md
+76640cd08803b98232b497508dd8238a5f05d4b2,add en reset.md. #51
+99f54a9cfc6252f1998836b79cd56d7e8229a206,add en keymap.md. #51
+2702059874d62336ff39fb192cfb2d59fc3ea695,add en web-console.md. #51
+3b3e2cc1a04ac2a8fa0f492158e3c5432f7b7d27,"Grammar and rewording for clarity
+
+Fixed grammatical errors and reworded portions of text for better clarity"
+5ee56e9475bb4fd992dbf3cf365d79f768965be5,add en async.md. #51
+045bd0e30cbb1db4731230a291aad5940af392e0,update en/commands.md. #51
+504fd740c5dd1db5a0391958cc036c165f54bb77,"Merge pull request #163 from anand1st/patch-1
+
+Grammar and rewording for clarity. #51"
+d02565745748ff3918844a90e5300c65cd0d8669,update README.md. #51
+b0bec341a082f9695f1fc8de508f28a5bf10a9b7,fix bash codeblock highlight.
+d8b843f1c68a5c24be73f3ba2f77ecdfb7fa6d63,bugfix
+b1a738999426d23c5f7a16d8f59fb5683305e88c,add repo mirror.
+97518b3d605b5400eb4922dbb3369797f1d383c4,"Merge pull request #166 from earayu/test-case
+
+bugfix&test case. #165"
+7c6fd86014764e6968e395275b16cc178acffe58,fix as-package.sh unzip error. #84
+0b135d8290d39bb03c4e372e25558be0dd5be6a9,Merge branch 'master' of github.com:alibaba/arthas
+c2c54743f070871d2eee9848b32b3ce0e2bbf995,fix log path error. #168
+e2d55e8dfec6dbdc2fa212c3d132e88606c083fd,enhance translation for advanced-use.md
+f26ad12b8ece4e2b89362de2e083bb95911d2e55,fix some logic and descriptions issues in doc
+bad5d2d9b1653c4be2e6962c7290b3fc39c1e732,"Merge pull request #175 from Hearen/demo-for-doc
+
+[WIP] fix some logic and descriptions issues in doc"
+5839afb3e8cfc8b64581879fb202607e7659c187,bug fix when unzip not found
+a59405c51d7bea235574072e1e61c097768c1a7e,"Merge pull request #172 from Hearen/fix-unzip-not-found-download-issue
+
+bug fix when unzip not found"
+2024795196830071e0fa834554902027254b3390,fix doc links
+fdbe1a48ea634b6d96781b9d49a9f74469ed42ec,add comment
+86d1d4bfb7bb88266ea9ed13733071a6f69f8099,improve get pid logic
+da4f2172da04198c8e132c4b2c699bfef33e5ac8,fix ObjectViewTest TimeZone problem.
+5a775f99325b9e4daa3bfed4a91f2af3f7bb1442,add travis and codecov support. fix #19
+d98af5cc5a7cc3358176727533f68779c68a7650,add badge into README.md
+b267a234d36b08858ee8da0f21875244985ea049,Add tests for a couple of methods of TypeRenderUtils
+378e854bfb451002b75cf112918582134af8dfca,Add tests for a couple of methods of TypeRenderUtils
+bcb272a0d397ab2f24c5ef6a47f0900d74682747,"fixed average, method invocation"
+3e61d2104a90538a4de2d83ab540485367debc1c,fixed environment
+a6034bf2d1bc96bc709393ecf47e09e823edc6a9,"Update async.md
+
+Do you mean 'cancel'?"
+67388b67eacc8ac6fdd6352b315a269c947cb476,added space
+032644351c62b27cff1bd3c17f6b8b54965718ea,fixed execute
+1a416a81d5c815de6de8a7e5253716f009fbb6fd,fixed overhead
+41c97be3ef0db453ddd69b13845f79fe034eac7c,added space
+cc79d2b20c6d0877447c93d356da1af138321bdb,"Merge pull request #1 from alibaba/master
+
+pull upstream"
+289f0dd77648d485f811bfd0876982fff35524f0,Fix typo for documentation
+17495f41b8b73ec6cd15287dbd682e71aed46838,Fix typo for README
+b7225b53ae0db84828c00eae22a5da58e14de66a,add test for FileUtils
+89e39fb2fcb8e4f6ca66915d62de2d0ec8e4170d,Testcase for file utils
+c3d2f1da6bd8c04d950b650c6935aaea44248707,clean as.sh
+dbcde9fe427e1f88ffab6d77919557643fdc8b66,Test case for DateUtils (#195)
+e2ac4673e7ec8d24f28406ce2ca5dffd3187eba7,enhance translation for advice-class
+16224993a9d1f337c7bbab7a9048aff3cd5262ba,Merge branch 'master' of github.com:alibaba/arthas
+f76e9e33af81ca33e15f3d218976e1711a32d684,fix as.sh test string contains space problem. #180
+21640a27f733ca3cc5b82e0b9c14f1683c206484,fix some typos in error prompts
+2ea00a33947084844f74eab5b1c515009347a8ca,improve finding java version. #212
+3a086fddf3ebf8a816027e6561b349f5b4be09ce,welcome timestamp replace with readable date time
+86b26477d98923bbb525fe6a07a7da3be3081bc1,support Cygwin/MinGw. #212
+8c4f1c75c3d56dd40f78e0a794e8923f5a328a64,"Merge pull request #209 from Hearen/typo-fix-in-prompts
+
+fix some typos in error prompts"
+61a56cd8c876c2f442c4e921b99e3fb8be77fd27,Merge branch 'master' into fix-timestamp
+d9ed410da63b9663d1ecc5da2bd451dcc879e1d6,"Merge pull request #213 from Hearen/fix-timestamp
+
+welcome timestamp replace with readable date time"
+8c91c2c068586c63b45a35e7beab91c687942f1a,set JPDA_SUSPEND default y
+cad02446bb16d2b82124040a2dd88abb29eb3bc5,remove LocalDebugTest. fix #196
+d37f4c9eb0c34591e92ec3d85c9ec9c49d7096e8,update CONTRIBUTING.md. #222
+74ab4946b0d7b4288c88c02315b572ec51bb3283,"improve sanity check logic, support busybox. #155 #140"
+79714b8d387065382a8a13e932637e6b94d4b974,adding time cost for watching methods
+f019eb0ff0b9530d2c056c655c08215a076325c4,JUL is actually java.util.concurrency.lock
+ccc95bf6a7e5383443fd42103fa03d698fe9b40a,"Merge pull request #228 from Hearen/fix-JUL-thread-command
+
+JUL is actually java.util.concurrency.lock"
+3de9456501b0494b140a575c9c3a33a08eaf0692,"Merge pull request #227 from Hearen/adding-time-cost-for-invoking-in-watch
+
+adding time cost for watching methods"
+0757b410bdac133717ea46f0a44c908db121db3f,make it easier to locate the class from so many matched
+9b99734c64dd723606a2833cbafd8f1093c738c7,upgrade termd-core to 1.1.6. fix #239
+03dcb8d6772cf39e8d4adbed455c464582d85d19,"Merge pull request #234 from Hearen/sort-matched-classes
+
+sort sc command ouput"
+4c41d6e759243474933a414684a779f1f74c02f0,Merge branch 'master' of github.com:alibaba/arthas
+734e5b547e97ef774508e066f41ccbe9ed489b75,add maven-jdk-tools-wrapper to support tools.jar. fix #243
+3442f3d95c248fae169a8080942a78b624cb4e0e,rename ExpressFactory.newExpress to ExpressFactory.threadLocalExpress
+f95447a493629a5d4c053ddb77bbc719e08ac006,rename getstatic code to hashCode
+58394dc8049a2ca55460b16fde1d287874875600,as-package.sh unzip error. #84
+7f89c8c290fb97a5e23890ff10c2a16953073770,fix as.sh jdk11 support
+13684c5718f375f493f1d831ae9b8061ad46d036,improve SearchClassCommand. #234
+65fc3bf5837117443c6dc12b5e44588c147da864,classloader command support load class. #246
+66fb3d3dc1f80329262d40229194956b67814b3f,enhance english doc
+6e98cd99fda3f32ffa3aec6ba3e317c533e26e3f,fix #256 CustomClassResolver multiple threads problem.
+2d30d876257d17e065cb07fcb1e90709a507d466,Merge branch 'master' of github.com:alibaba/arthas
+bffd6fff8d9f2caa90d89ed1075d83cf60e2577d,update doc
+82dc3b1922ffd6165039d91aa225268b866cb58a,add ognl command. #240
+e6b3486623638ce289ff76924423c76fd5ff5ffe,enhance the translation
+1332beca14efe04e0c6b444eb29ecbcdfac57592,update doc
+fab4a2abd99fef05cd8e51f8752c6a152f7205b5,enhance translation
+90f1b2c13486f957ae5ad810550f6557d0f587d1,enhance translation
+a378d05f5239b8428be6642cb4ecf00d2939deab,enhane translation
+30f3deeb391585314c51c5827855f7ce5d0f015d,enhance translation
+973526114a626394ed3096872ede961a911e547d,enhance translation
+5357324a18d51dca53da075c13327c4a7660111c,enhance translation
+4068350f53772dfc7c88bfe9bf36f206af1defa8,enhance translation
+ee2cbb130b8791d195bdd4b6f6a9c26c0b548be4,enhance the translation
+f39e386d2ebfc07bc6123d2a6a0d17d2e66e2f96,enhance translation
+ab781b16ef40d874d6adc7d49f08424f5cb56c37,enhance translation
+7614b6c18bd01f99e26b2974b76aca3e9cd9f01a,enhance translation
+bb8042f1121a304a7fec08c167b618be9cc9d01d,enhance translation
+fa807d9f8eb67f59f2af4fae3e4409eac2efd799,enhance translation
+27ec366f97dee615b3b9ad77f29e7fe6992863c0,enhance translation
+a61854049cb91709a033611f3f485c194aa1e38f,enhance translation
+cda6200f2b9abb4dea8f5cc89ff91dc446e6c451,enhance translation
+9696c263829a401477464149b51685bd82e337b3,enhance translation
+8852b0115a66c91b74341714e44b7183d2dee8be,enhance translation
+7d06083ed0270862ff0f7aaa9792dcb8513ba060,"Fix typos, some grammatical issues, using more formal terms/usages"
+a42b2ac8ff9171d1ed4d70e028caaa8f77099854,enhance translation
+924b3c9f2fe2019d1898097189909af09f9b09a3,enhance translation
+c9e7113015f45c6f65c8315b8be443eae79f83d6,enhance translation
+388854b81cdf58a11b509ba41954fbb2a75f1090,refactor TelnetConsole to support pure java telnet client. #272
+22df4a3997e82ee88399a132022a9b275c985ade,Merge branch 'master' of github.com:alibaba/arthas
+fca047db11c6059b9c6373aad60d455f4318e694,update TelnetConsole usage. #272
+86398a0d79d20cb209fe9c4daf273fa48f8b8147,Merge branch 'master' of https://github.com/alibaba/arthas
+82df3745747117af345ad55de8e54c41996ff58d,enhance translation
+b24efc5c883ebc7f2187bb1a7e8cf190762962e5,enhance translation
+e75b5d1fab11a9154b8cf3749e0e662959402c58,enhance translation
+34a4a8a829defce065dca7bf60ad3f9d4d497aec,enhance translation
+326cd2fe9a756300eb382d922039fe490b374eec,allow skip bind telnet port or http port. fix #284
+5b2fbf36e26adee6a551387f57a5bcc3ba7a69df,change TelnetConsole options to '-' style
+2eb0937df9fd623ad0fbec32086fcf4f5b294235,add arthas-boot module. #278
+54fbb6e602e6ffda27eca262726ebbf8ac068e96,as-package.sh unzip error. #84
+857488fffd2ffb6c2caa59c275b85069b35ed01d,remove oshi dependency. #278
+aa97bc5df6c992bb5324e14476f66472ebf9a2c7,fix cygwin/mingw input support
+ab6a047d206910167a57993a1aa49e9d4eeb750c,fix IOUtils
+e8225f1cbca799f56e051d28a1b38885ffd6260f,improve exec jps logic. #278
+561d3350a62b33d91c4ad460890d663dd2dabcbd,flush in batch mode
+5e82af867bfd469458cb60038be003f3fb07bbdf,arthas-boot support attach-only and help. #278
+b4e5230cfbac53a02062655c5f4521ca3a4327a0,print maven info before package.
+37f93f0edcef51fd08d7d80bb05d03213205edc0,assembly support arthas-boot
+137bece9d0168a52ba469ba2d088c7af3ed686ef,add sysenv command. close #288
+a082c3cdf8177602416a6b40fadd2cf6d10fd1d7,TelnetConsole support mingw/cygw color mode. #278
+8ff23ff2721b8acbee395a71881cc74ad82f73e0,format code
+551432da0aeaccc44bb9642f002d0e22adda8877,add common module
+0ae53869be901e2535f510111631c57d20c76572,merge two OSUtils
+8d32e691c954a4055d1b566e005695745da3b113,refactor AnsiLog
+617f990cfe0c42c57ba6c8e02dd7fc02082a6def,arthas-boot remove logback dependency
+2e090c8b940d1e655c472426ca98f4c487f504d7,arthas-boot support verbose
+b31350f0639d44866b41c40819e88918c852acfd,arthas-boot use https by default.
+56df22784a67d9c3b1baaebbbea96d9856e66392,fix OSUtils
+1c032b5dfc1a6c93b4080ec161b1292bf213d398,fix AnsiLog cygw/mingw support
+d5dca83bc50b292a9d57967370e1b2ed7230c796,upgrade ognl to 3.1.19. close #264
+35579b8ff5db313142243f1bab5fce93fd5df3a1,update doc
+1a42377a98f4757265a0b5cee31c4e0fa20a1c03,support session timeout config. #296
+fa4bf599ab39fd35ce51f9a3327790310088e11e,ignore jps when select java process. #278
+8403c23125fdc6f141891b784b0183e33dca6d06,"refactor as.bat, detect telnt, support jdk11. fix #181"
+755c527d3b1f9278ac431f8a486d4ac93c028635,fix typo
+775b342ab3dabc0f1074bd05a9b3db4b1a15a7ce,fix jad command do not match inner class. close #301
+5b52b1b9d9ff045277f7e77b250b6732093d7e5a,fix class search for which classes created by lambda method. #302
+e6a8e4624ae60eb830f99941e5a4f894cd5650a7,jad command support classes created by lambda method. fix #305
+50513fd459669a32a32e79a3dc313188ed0c2d02,upgrade tremd-core to 1.1.7. close #300
+d1aaf713bd02a16de63b13f09e863ac5ce2dbc2a,improve jad command inner class search. #301
+18cc2b0165026ef6bfccea842331c0e7df482f6c,fix default timeout. #296
+180ee6beb51aaf9540abc45dd2264651de996772,support history-search-forward and history-search-backward. close #307
+8ae6274ab01fcc74d6bc3b639d7a2eb42a6910b4,update doc
+f9fe8723fc0f04783ce760d4c3e98ba682e2aae7,update doc
+83897b668b754e2be8fd52b10b65e12cbfc0781b,"update doc, change localhost to 127.0.0.1"
+fca9a6e9a146342e4d16b09ae8f9697282e566e9,support read link to find out JAVA_HOME. #173
+b839be59dad3639befeb8f9932f048cc55397893,try to find JAVA_HOME from java command. #173
+eaae4eb72a4ca9d99df573645ca7385705652630,add history command. close #298
+ec6456c299e7f5ac09a0f715cad6b1b80a94448f,help command support completion
+e812cc8dca627df6fc61a90e53f891c57995f72f,"improve attach, skip attach logic. #278"
+2d961338893bf55708a03ca283e58158274831f8,update arthas-boot help info
+e951023a42a928a1598b2011a5c6649545da291b,as.sh support mac java_home. #173
+a547bb6449dab1d80bec6d6da036e12d429ef60a,update comment
+a140867a20868314fff10453a6ac76a87b8fee8c,update doc
+3ea5b9b6ca3b975bd5aed7d9b8a6a51099a9565e,update download link
+1a788e9ef1ef26bab7c6dbd0f12756e909b1431a,update comment
+634d9598697911e1facf739fc62661c0a0b52906,arthas-boot compare version before download; DownloadUtils support print progress. #278
+96f505e83b4bdf49e0e1236ef0e73d99fa7c91e5,DownloadUtils support http redirect. #278
+422c240ebc63d91910f2a46a97f45e9544d7c2a6,change use-https to use-http; use http when under java 6. #278
+11bbfbfc9ecf75d8c3f06a4fd9ccd2671cf1cfe3,arthas-boot support download specify version by --use-version. #278
+3cbaf9d3cf6c6485faece5fe05824106a571c0df,update arthas-boot usage. #278
+cc9e0374327468d3d058ee1d993834e903e623d4,Print usage support ansi color. #278
+d951a2166343780b9706df7dceabf0b4cde86c2c,arthas-boot support versions option. #278
+acf9989f7200ecb6d3b2130224d27f8d69fb2614,refactor as.sh support arthas home; support load arthas in as.sh directory. #130
+cf49acb5c13b897babd84730969ad9661253cc52,check telnet/http port before attach. #171
+c0c5171fe72c80b6100dad99b822b80759881c80,fix as.sh mingw support. #130
+e1e15e8f61a13dcf28ca1ddb1cedd83800a0cf21,as.sh support -v options. #130
+db78b670d60d26e8cf205ed060a5e86bce9885cb,change tt -D to --delete-all. fix #219
+361bda07efc773556363958176dcb5f49c439a09,fix long name option completion. close #318
+744beefe0e58bbcd243d6b14bfe4e98ce57d7056,improve help format
+d667bc12f0188a464f7ba2ecf5bf06e10b47e634,improve history command
+2a90a7f5b313e218c4e1eace32765b90e72443d2,clear code. fix #312
+41936aed83d8fe92ccccf3debfc39adbfd84d2f5,upgrade cli to 1.0.2 to support case sensitive options. close #322
+aee4cde690a34e9e20a6df6749fb77853f1e46fe,add demo module. #260
+00aeb9ae432e650b112be7ac5376f445fcbb82f3,add ognl command doc. #240
+27d94bf457326f788c5d70cbefaafed8062b91a0,update install-detail.md
+57b26d436185d3bf289963599244bf6b8cb0c957,add sysenv command doc. #288
+0df61d6d1e6701d6f44a32aa5369d07796f7970a,update quick-start.md
+7bdef14e0baf2484879dc4abc7fe729c7306dcf1,update advanced-use.md
+fce02632ba417f12ae88ac1f1a9878bad878c4dd,update as.sh
+3569e213fc0c5140033d8d4f4f0e98a90748a551,[maven-release-plugin] prepare release arthas-all-3.0.5
+feced41e92ebb48193a481ab9ce3e12769206315,[maven-release-plugin] prepare for next development iteration
+c6b639b6cc379d90b03232ae7e499bb2bbdabd27,update doc
+0b302b2382f37fe1ff38fabf47e896386da3f6a9,update quick-start.md
+57116129464eced15f9adc39443ee8f90f96cb51,update install-detail.md manual-install.md
+78391369a4f65fa3b200e5f9f96eee97ccfd2283,update README
+b2cd7370ef211a66bc1456bfb0ded32e1da91282,"那个->哪个
+
+那个->哪个"
+0bdf0bad70134be2c780284b936f59cd2ef69d57,"Merge pull request #331 from fanofxiaofeng/patch-1
+
+update doc"
+86a9e46e457e5b6e82929e09d557352cf45407fa,update doc. fix #330
+609c5ba94e602b665d42ef3b3ab1d0dc7e4f3c24,update doc
+ed16dc6212ae03dfd6ed169e2078d711f74cb2ad,update doc. fix #334
+ea80b6ed5c7f1ff076d2a4551756f557efa8fbf2,update getstatic command doc
+0153812d5ed3c4984f5a2f5894b68206d6940e02,update sc doc
+769b1bd93c24e6bcd4eb88679da53ef5b0ebb979,update sm doc
+de4a0a31e683bd7c104a6d5bf0e28fa051c54558,update dump doc
+61252e6edd036d893105515a7f823eb3e12797d8,update jad doc
+2865e0b83f8c98530e4c0f726e3baf46462501a8,update classloader doc
+e057bc549b18054fb76dff245a1d76a30d3906c0,update monitor doc
+e85e9528965e0484548f436c06f102d0d04365f6,ognl express support get private field. fix #336
+f9ba6b05bc52066036fd9ceb891595867c1e6b5a,update demo
+e4723bf8bf3b881f78cb26a65c9f7b922f9e45d4,update watch doc
+9d35b1a43670f1c6ce1d06d602e6116e1ffd8673,update watch doc
+689c57ded55e36e8e051d1666b5d01e36c505d68,update doc
+3fbbd9c1fd14b17e4d80552fd60a82d0ca632c7e,update trace doc
+307e6bad5a28d92ccb6d5b5488139ab9c7c24c84,update trace doc
+a59838289093042171ea17e438d0fd65dd255846,update tt doc
+78b6af69f8b1d889037a561ec5145632ab74cc72,update doc
+c2f7f3e8117a13f2cae653d49128a8074f5a362e,maven-assembly-plugin support Specification-Version/Implementation-Version. close #339
+f83d6b67435194d2cf1b110568b76f13ef46de57,new site style
+8cfec8157fa4188b0f7bbe070c2fddae7c5770ef,update doc
+2e7177826ab41bdeaf61a7f1f533252d7370faeb,Demo process should be the second one.
+f2f0f42acfe5a0447eef9b3957502b0cc9901b39,"Merge pull request #340 from garenchan/docs
+
+Fix quick-start.md: Demo process should be the second one."
+39a761333517c90912a66fd3f8d131f2070789f8,update doc
+4ac39bd69aa3ce69a14dcc70489e65f91a34af67,only show final release version in doc
+b9d1685b5f7b1ad6abccbf2fd0d75dd9ca145eec,Merge branch 'master' of github.com:alibaba/arthas
+403d4aab8e7e3963f9a7f6eb4e74b755c75d1352,fix doc download link
+cd3c75d1ea885628a9848773c3c1fc745c2f6e8f,update issue template
+9f8b5fc3debceede700d4c8d8de18f89f6498106,add more log in DownloadUtils
+f47596b2c273bb6f137d94ff976d243f464163ad,"Prefer to use jps/java under jdk, not jre. close #338"
+7218eb6d170766ea903f3f7ca4c5b991c7e077f1,add release steps doc
+9cf0ceef7ec818369d9e854994bdb825d52498d6,update redefine doc
+81935ee3ec68dc86cde7db6ef4b696dff918a37c,"when using jdk7, use http to download to avoid SSL Exception. fix #349"
+4fa7dc2560005756289a98c6319b1e96379813cc,"More user-friendly prompts when selecting pid.
+When users accidentally enter a non-integer, prompt instead of printing
+stack trace."
+a82bcf5550ae403a01cc93f7ec063c0250c89288,Improve find java home/tools.jar logic. fix #325 #332
+39b499793d2ca727381f3f2860298b6483956981,"Merge pull request #352 from garenchan/dev
+
+More user-friendly prompts when selecting pid."
+104c8fb28b5dfcbbe9f71337e5a4b105dabaaf25,Update advanced-use.md
+29ab56afc84cd1bc3272bb95c57ba25a9e70c669,Update advanced-use.md
+33565a89c63cb89b1d6c9998d56fe54dfc560157,"Merge pull request #354 from Acvrock/Acvrock-patch-1
+
+sysenv.md URL fix."
+07d2ebd5e983bda7691771faf3a42d75eb0e36e6,Use JavaVersionUtils to get java version.
+093c6023bc76cae2be745cb4d985568530eef94e,"Merge pull request #356 from garenchan/dev
+
+Improve get Java version"
+69683d4cc04fbe821e8a61acc6fb5d6998bee49e,arthas-boot print more info
+24024d4d38c8ac647a5d2fad17e19635b34b752f,"arthas-boot run jps with ""-l"" option. close #361"
+317241eb6d1a37f7bc814479f70f04a58f0e8ea2,fix as.sh batch mode support. close #363
+4d4acdf4035586bb88b1bf098921c5211dbec929,add gitee doc mirror
+2698143c8e8caeb8369ea092a7dc2e96675e5298,update doc
+7348530ec35411fcd009f7e6d4b27f84dcca0fa0,add Known Users
+f1c4aa12d064625bc920eab155f62de61204e09d,add known user
+e5e4cf7146af8ccbdb0ba5ecffc37f8b2ce24310,fix output encoding problem. close #376
+3c2528e1ef3d06e1f2ad7acf34ebf966cc7ee30d,update doc
+189537a573cdf15bb976f7883c9f66f1dbe45b43,add known user
+4cb36cfd2b31e6bc738b91c76ac12527feed281d,add Dockerfile. #364
+a11dabbeadedbecbc82fbe3760264ce0d18a126b,"Removing unnecessary/unused imports
+
+Signed-off by: Sergio Escalante sergioescala@gmail.com"
+1279bb2a37c2d9ccf760181ec6b472efd8746f7b,"Fixing typos
+
+Signed-off by: Sergio Escalante sergioescala@gmail.com"
+e375eba99dd9f639d40c3058ed94415817cd8016,"Merge pull request #380 from sergioescala/fixing-typos
+
+Fixing typos"
+ce1956cd017c6d6e2539407ba44cf87f74d354aa,"Merge pull request #379 from sergioescala/master
+
+Removing unnecessary/unused imports"
+9a8407525bb5b1fc9d491b06bc5b07b916062e1d,Refine as.sh script.
+931f05aef7c650afa50ff40d1edc42b4263fb8b0,add known user
+67697ce6dca1474646eeaafd0198e8c45e0b6326,add docker doc. #364
+59cece4d3a482bfa609b76dbd5b28476693307d1,update doc
+69a9f4f03b9f8ee2302cd5d37a81de45cf55392b,"Merge pull request #382 from garenchan/as.sh
+
+Fix #381: improve find tools.jar logic"
+73ae8ace38aaee23019a6f1845766acee9af8818,"arthas version use --build-arg
+
+default 3.0.5
+```
+docker build --build-arg ARTHAS_VERSION=3.0.3 . -t xxxx
+```"
+2b41b241be3597e3cbfc673a0e245decc2289249,add known user
+b6ae49acd285f86bf5664ff14b6a87f7cbf0d224,improve find tools.jar logic. fix #383
+7cf1e55b59521cda0777222ab8e6cd094288df7c,support aliyun mirror
+9b152c7ca8321a4b2b08dbbca80feca099df1978,delete MAINTAINER
+fab336fc63720658ff6604205e1a010ef57b3105,Change docker hub repository url.
+02909b20c49eafdbd5f9ed24331100984e6922f9,"Merge pull request #389 from garenchan/docs
+
+Change docker hub repository url."
+316b6191d325ca9c321afbce5c6879345ec1ef80,"Merge pull request #386 from anjia0532/patch-1
+
+arthas version & mirror use --build-arg"
+69fd1ce0546121f5b490e03f34d8a02c5e3a0328,bug fix when cannot create directory
+dceb0f1b21999622d2ba60eb3f09bac3c3f4a394,bug fix when cannot create directory
+3fd10c327fd6cd4075b17b173d387774f1314996,Fix typo.
+0346957240862ab98301c4e4c7f115a3d6bc3c06,add known user
+d692e42c5d638823eb510a9dd004246902d0a9d5,add known user
+4c5168a589c92943ff43e17b3771fececb515334,add known user
+699a761eb4776cde98e6271844d52248686f1b84,add known user
+82098e6913301040f3c4e0cd4fd5c22ffe91df5b,add known user
+dbf6a842ab13ea73591157e6ad71a41f1710cba4,"Create Dockerfile-No-Jdk (#388)
+
+* Create Dockerfile-No-Jdk"
+f94b12cf90af9002fbc9a89fcc2353c26cc71147,add known user
+4459c7babe0fda3c87365163acf2501720493024,add known user
+56358cb9d43733dfd53ab3f42c8e8217fb7bf0ae,add known user
+564190011634da097ab2c7d2fc9cb392f32c7c66,"Update Test.java (#407)
+
+Use uppercase L to declare variables"
+7d65cbcd54b3b0442e1c977da954b7c08cf3d974,add known user
+64dca1786bf62b7c10ebc3cd5675d8a4af8d899e,add known user (#424)
+78816cdb4e6659b48db75b6c4d1dab1d30493e23,update method of com.taobao.arthas.core.view.Ansi#bgCyan from this.fg(Color.CYAN) to this.bg(Color.CYAN)  fix #427
+2936528cdecc0f71a9b5f0b271d6029bca67becc,add known user
+8f2a5436b11bd3cd864ae3ad54295aa0a56c764e,update doc. #412
+86d73c904b12278ee71706fa4cc5271bcf253573,fix as.sh define JAVA_VERSION defore use it. fix  #382
+22220b653dc55dbf84bab838095620d4351b1668,add known user
+3c79aeab63f2bb15b184c445e26c0412c807ba9d,add known user (#438)
+f608ed026952d03ebd9c708e0d7d98c2509995ec,update README.md
+6da9eccec7befa75adfd79fb0b1af3c7399f0362,Merge branch 'master' of github.com:alibaba/arthas
+d18158457ba44b191b28fa1b330de8ddda6cdfcd,update doc
+5fe78a3ff655501cc3c168a828e83685b8e69ac4,upgrade asm to 7.0. close #425
+d1d1d2bc151699e51d063ad09e18b7be765f466c,add dingding/qq qr code img
+0bc225c7aefbd1b987a55691d906d5973463169d,add known user (#455)
+5590c1ae5a2d4281923aca5c80061a7163ad5ef5,Update tt.md (#457)
+5e31fd39f9803c9cf7f3a9cb5f5ccda980ffbb0d,ObjectView support enum. close #454
+919605c20d63ea50c7cbd1e628c161d767bc2cae,Merge branch 'master' of github.com:alibaba/arthas
+d4d7a0bbc6d6f7985229900867001e4bddcbe2ae,add known user (#460)
+5c19f9548e5f4fa4927a2d8079e00f80388e0897,add known user
+3c048b639c89b23f2be1a732ef77544269c12a7e,catch asm exception in Enhancer#transform. #462
+dcf9be47325c20bcd43d2f2b0369ef87310169f9,improve log info
+6ecc035a6da5378c8d278955df4f955a781b817e,improve log
+b80698becbaeb8487d8273e0876136b95bade0ea,upgrade asm api to Opcodes.ASM7. #459 #425
+4b98af05a991ff3800632785702acd7acc014c83,pom.xml add relativePath
+5c857d045a945819acf32bfb1bb4d5ef252b15b0,Exclude JDK 11 jps process. close #451
+64439540bb01fd57ee3d2d905d22b2e1bb130298,"when timezone is +0800, default repo mirror is aliyun. #452"
+c97730d2ca06cc945d09398138d3392e7d35c95a,fix NullPointerException when list local versions. #456
+e03c3ee2b1ffd9bd8208e43f499cbc8beaa0ac3a,keymap command usage more friendly. close #366
+345a73940cd8530e14407bc39a8e9f86f3469f6f,update doc
+08549731ecead71900151d0cf11537fec723698b,add known user. #111
+083144594e3e7457b1a858099ecbefc71487c23c,Update watch.md (#470)
+3a270759877ed3398054098806922e820f364e5b,update trace doc.
+f73bf969555fc63d992c0d8c5b0897260ce9c91b,make MathGame faster
+7d1a7c26e23f18abce2e6a8a285dd58dd820d54e,add known user
+809a328b82da137ee818bd2775f93d693b1f7d00,new arthas LOGO!
+32e38b6666b7f1f496e7517811b8ff278b57eca6,add new favicon.ico
+a800e2cf7c3f62652ab8876960b6e6a218cbf970,update doc (#481)
+efb835823ef9a13bed6562eba98c066bbe71ca98,update doc (#485)
+4dba865995e4940f897c18afff60501fa9cce05a,"Optimize toArray (#484)
+
+replace toArray(new T[size]) with toArray(new T[0]) for better performance
+
+https://shipilev.net/blog/2016/arrays-wisdom-ancients/#_conclusion"
+32f02a9e6c0ce88b691b620bd67a79fd063909a4,remove duplicate mac os check (#491)
+ad9685f479c40c7fd1b99c9b081a2236dfc45819,add memorycompiler module. #373
+f3561e9bc8025924053f65653a8c4e8c740ffd33,add mc command. #373
+6073b22ea6eb97862fd37f3c908a80741248d9d0,Merge branch 'master' of github.com:alibaba/arthas
+73e5f15adb479d8d84c4d58b916d795a37488e53,remove unnecessary -p option in the redefine command. close #492
+793df05b2fb06a083a440eff7e5df36434a3df11,add pwd command. #493
+9a57b5d8f399b4d74d141a23c241e0756a112006,improve redirect. #495
+895f1cb14d56f61e4957dd903611cc3eb71acd42,add cat command. close #494
+c18bd53ed5b423c994a261736453160284af860e,dump command support output directory. #419
+c4751931ce3cb047bbd13f0a14a5588de29f7ea8,jad command support --source-only option. #496
+79fe3a9382829bde6b5ff8ae265ce60633c4ad5f,improve cat/mc completion
+a7ee25b1f2b0b492702ee4ca08e2f1a5cb158834,redefine command support completion
+33fd06ba02c8e6a7a04518541592d960c9f29903,sc command support completion
+317e9d69addb87086eacff5e749997b9755697ee,catch completion exception
+a2ef539f4ea0dc5fcbfff07948586e219453f6e8,sm support completion. #323
+349c426bd105c1c931dae7bd0a81260d266893de,fix CompletionAdaptor lose chars when the last token is blank.
+9f57c2c9a6d785b56e3e29a959cbeb98ca5e2437,jad support completion. #323
+7b9b4107ad11261ee16a129be5fd0c541c9bf59b,watch/monitor/trace/tt/stack support better auto completion. close #497
+4eb0eec18226b8eabf1faff2734002161a1e01b7,inpurtrc support home/end. close #472
+ec7c5aea33547692427ac7418cbf5d707a42c0ea,change default session timeout to 30min. close #342
+2058ae47856d15fc81f993e398963e006034b38e,dashboard/watch/monitor/tt/stack/trace support press Q to exit. close #410
+f18187790b9307788d9fda53629c22d04c971f41,add arthas-tutorials.html. #499
+bb3b2f2b5a3a83321241c63cef245f342ce507d1,Fix typo in README_CN.md (#500)
+b0877cc17a340e66e94a9989dc9b938978aafbb8,sm command print method with Descriptor. close #504
+7bcd81d338416f67418ff9d7dcb9db8a95f37cc1,Merge branch 'master' of github.com:alibaba/arthas
+6a584022a0e8241c1b4c5589490e28aee5e73203,tt command support cost time/--replay-times/--replay-interval (#498)
+d235ee1050b62e8e4001520477fafdd9173af969,update watch command description.
+f4fc908825461a31d9265ed3760c8133a056fdf5,upgrade termd to 1.1.7.2. close #506
+f6d2c9eb7cdef7bd87d937057865a0805e15f9c7,add known user.
+1cec77997f9c3e050e904cc63c3ea19ebe1e902b,better way to select process and better error info. close #445
+0eb32d09807a12d293c07420019c11f95ec9fe99,as.sh/arthas-boot support width/height options. close #422
+0fe1ab45cd310ee68c68218af4c958d9aedb0fba,update doc
+6309ecb415aa2f8c00fa1df84db59e4ea21282e3,update doc
+1124c6f21d4e87eac182fc260d7b17b4f25ce6ca,update as.sh version
+9d4ed11bb29e128ea39e1262228cf789336ab46d,update doc download link
+2846685ee5ca8177872ea7c8c9b1ad3421033387,[maven-release-plugin] prepare release 3.1.0
+e861aeb3c06879c5eca36a48af6b184d42abe60b,[maven-release-plugin] prepare for next development iteration
+0335da286c4c60ad6f8682bb354153f8ee488b01,update doc
+fb1952078338e88fd75dadaf8a81e11119fa0cb1,update arthas-tutorials.html
+dedbe2c3c5e4a785905effa4ba5186d4b3c7381b,fix typo
+1966caa16901529c65a322a72b44406ea0f51d4f,update version in files
+3be2673fe8820171e157456942afd9e6d49665fa,update CONTRIBUTING.md
+46e0fb082a1c41e8a4b966db2fa61a372ea09ebf,update docker doc
+9f4c253462efd6c8a4c756d47b8c12f2e40d9913,add known user (#511)
+92e3628fe764c0f015bbc0672db9a309aa7c908e,fix doc
+0bfcb6ca11fc7bdfe1b9169caf6b4e96a72e1787,fix doc links
+81b093d2a095fa5abb9623428cb3332f121a79ec,add known user (#518)
+7e50a9342f7daa9d8753b56b644d538c6c81269a,update arthas-tutorials.html
+813ab9304ef739675bcf661f6109427d14b26780,Merge branch 'master' of github.com:alibaba/arthas
+c390d5571b30dd0f3f3da8c3ab2879e5dafde657,add tutorials link
+2d9f12cbeb89576097fd435c87375b3e995573d6,fix typo: currentPid (#525)
+c93fb9d59bea079fd9c834f8d9a70875f202ba0d,redefine command check class if loaded.
+c316e380b7737eaea895fb63a8857088764c8135,update doc
+260e7e604ee3170c5673bfc7fa1129a99383c2eb,update Credit
+cae1e0b3080011ac6058cd02028280fd87b067d9,update doc
+7e320084ad0a92c390cffc251d0e28bd795ee92f,update doc
+a944f2d4b817d423a8b660c18b3d0ad7fa7379bc,"fix RedirectHandler NullPointerException, when save-result option is true. close #517"
+007f773f5442ea42d39bffd92d5d14642268fe03,open Fork me at Github in new tab. close #512
+ee931d4e56a9d24d3ed09547db129a0d35f6937d,fix typo
+27d4dec87f2d4e8a9109b494e6c2f713f6879ff7,add known user.
+171394330bd5fa0431468fd9d48326d313517235,add known user
+e808da43eaa217a49898f3fb21664057e1fd5ce9,Fix typo (#548)
+cf05d67d9de436d49ed64df6e818a05ef307ab18,add known user
+09eee6fa542184be90803dca1042c749f71ff519,add known user
+6d7f00e3d1d223dee7c84bd1f288ca89aa13365d,Fix typo (#541)
+5e146c1bb7599a83fe18bb6629cebe85f15dd40c,add known user.
+88ed7897bdd5dcbe8a16618695f7601f31baec40,update doc
+3bc25df0577a0d5af167088bbea4ce9284c7f7ac,add known user
+6b45b3aca442f162cdabf793d534fb8e6139e303,add jd-2019.md
+17c42f3e9a45cff3f18de03b6c583f1ce6622e02,update dingding_qr.jpg
+ae67e7ed2cf0307b2b6e3d187a07f36e5228d1b8,"Apply pmd plugin and fix/ignore broken styles
+
+This commit applies [p3c-pmd](https://github.com/alibaba/p3c) plugin/rules, and fixes/ignores all violations of piority 1 (mandatory)."
+6f990a2cf3634cbaff4d4b86294137419345389a,polish #568
+4641ec0e6d15187e0aad1219db4c63f41a36b270,support windows unicode file path. #571
+afb4c9d3b286fe5d57bbce3fa06e4199031be116,"polish ""support windows unicode file path"" #574"
+25e28630ea4819bbd9272ae6bf9f2486f3f4e2e3,update doc
+74b232ce90d18d752d83af495c26c49332786b1e,add known user (#583)
+6a3aa5cb9156a157cd7c70021ca66bce12ded693,"Update CONTRIBUTING.md (#584)
+
+use docker build args"
+445e8141bd13561b83d81aabc95c4c29935369a9,Fix typo (#582)
+fe716df77a706139ff365729c9e378affd1f1b59,"Update README.md
+
+Editing pass of document: Rewords some sentences for clarity, makes formatting consistent in lists, and corrects some grammar and spelling."
+0a81d7b3c68bed736db439b118fc6e8bb8fcf65c,update doc. close #587
+5bb70c6b962753600c7ec43cd354a634a8bc1acc,"support inject into java process of windows service (#581)
+
+* add as-service.bat to support inject into java process of windows service
+* as.bat support telnet/http port args"
+b70f9569936fb7e20178cb06e3743c0867abe14a,avoid blocking while start arthas service (#591)
+ebe3257aadd9956e358c1820eae4841d821a7f6a,packaging as-service.bat (#595)
+b1f806feba71dafcf2ef1e03f92a184e98f4455e,add known user.
+c0187e134ab422b6a02473b1eb52c5cd824bc54c,Merge branch 'master' of github.com:alibaba/arthas
+6af9393a02f7b1cf417c6eb3ca8d629ba0111da5,Fix typo (#604) (#606)
+b265f5b14146398f12f00dc53a09834ee3d4da53,fix CompletionAdaptor index out of bounds when the token is empty (#610)
+1869964bfdcc7512596fbb7e23adfaf532a9de30,options command support complete options-name (#612)
+49c41c237caf079419aa8d05bbe6438e081bca22,add known user.
+d7656401909baeb4df9e944b08b6e63626ef13ca,fix getstatic description (#625)
+85d1df4026ac89569334849711e6633693557b5c,dump command support completion (#623)
+3813ba9b082527d26b338261d0d88c3ee49ff36a,fix method completion (#627)
+0d0b24e689b7f82f25f36a196cbf0c88cbb270ed,fix class loader npe (#632)
+b57bc923af7462b5e75ee5c8aff2e2fb3666cfa7,add known user. (#635)
+bfc7eb8602be48bfb705956e2ad7f67fa212b770,add known user.
+f5f2b53e15d95df2872ab68db41687497ecd42fd,Add unit tests to com.taobao.arthas.core.util.StringUtils (#638)
+ce445e4128a8e89c253e05d23115528b35fd3d9e,add known user
+16b3e4a3e30ccf915ee91c0ddd45c5ce1d4eff0c,travis print maven version
+e79603442d40120259621af7124addaf92d7a9af,travis ci support different jdk versions
+31f1440a47899209e37ecdd0a72588ca3f15b63c,remove cobertura
+200a8df32a83826c929e021a5a8edbef3c361071,remove travis unsupported jdk config
+e32533b2741aaf3e486e2064c6706846b7c8f0e2,switch to jacoco-maven-plugin
+0938b3ccfaee07e26b2ff83c5dafb6829d171bdb,mc support JPMS; merge JavaFileObjects from specified ClassLoader. #661
+232a3f56b42a522083b35c2c5740dddccd86d24d,mc command delegate additional output from the compiler. #662
+337ef35733641839439f239f0c62ea9d840460e7,add known user.
+39ec104b4fd939204f83d81603e4a18d31a501a9,Add unit tests for com.taobao.arthas.boot.DownloadUtils (#649)
+51c0c2ef4384c0279e12bd52cc8a760e23ebcba8,fix some doc and comment (#629)
+353d8501f3b69c975b3b7fc931ebe5051ed218ef,improve timetunnel command(#631)
+45dfcdcf69ce1702546975a3f5a2498459c581fe,jad complete method name (#667)
+c925b31ff9ae3352d7be6a14ef2619945c766c59,fix junit test. #649
+e6d21ea8a4d71af504076509a2531e2e10866051,Merge branch 'master' of github.com:alibaba/arthas
+195ea0667bd1a27454a0da356a63f5b453280598,fix jad commnad VerifyError when the class is created by lambda expression. #675
+cf904d7a7f5374e5e86dfe7bdc30458a86bccade,add known user. (#676)
+820761013a6046b2b910c7960ca0c1ee8f57e8ae,add known user.
+784cfc5285591c94a5f78a2104ffbea459c305d2,upgrade termd to 1.1.7.3. #678
+3481f927629b4942685b1079bc22c50a3c67ffb7,upgrade netty to 4.1.36.Final #680
+c3805d8dab1453ef41f8869d2e9d0739a156a092,redefine command log redefine info. #530
+e18837009987df410b1608c6025bd0070a180126,trace line number support (#668)
+2002c00e04461ff1354550609b0341c67acd0bc5,add mbean command (#666)
+a3f148c5878cf736088074e38b0ddf84e6c86695,"set arthas logs directory to /tmp/logs, when user.home is not writeable. #572"
+aa27d2666cfa0e0c191a1aee0918148049c4aa98,"arthas-boot set arthas lib to /tmp/.arthas/lib, when user.home is not writeable. #572"
+fec92031eb1f0490c35f559e4ee0abebebc240d0,"arthas-agent set log directory to /tmp/logs/arthas, when user.home is not writeable. #572"
+a4a2d08d4d7ea7942d25500f281284b770aa6141,fix bg job exit problem. #694
+b48aa0c8e1ca89ca58fc3bee7d96add89ae2fdcf,fix job redirect cache location. #695
+21ce2dd324300e852bc6063f5a4625c54b88fb2c,dashboard command remove the useless tomcat table. #696
+a55034ad12e308b7b023c9d93c37466aeb7f1995,upgrade termd to 1.1.7.4 #697
+487742dfb059882dd0f4ece59cfcb92bb6bd360d,polish #614
+c61fd137635fa50d5edaaf04b90e330bf91de581,save history when job complete. #9
+ec5eee1480cd57a2ca903174ab58cb793d832f11,prepare release
+0f17a4563343c2cc06264cb31f8da9aa1e1eae31,[maven-release-plugin] prepare release arthas-all-3.1.1
+555958c6083dd69fdde25b732c831af99215c53c,[maven-release-plugin] prepare for next development iteration
+7035e833ad0cf98c163c86257a6f5d5b68b11d84,remove jd-2019.md
+167bde559e1da6816c2a22c2598c86c82ba26f76,update doc
+41ec3e491c453e3756441bed42f27469b2ab6d12,update doc
+6b4d7c333d13cd2eb373ec48edb8908b018a8963,fix Docker build. #702
+c3fda8893d4145923d2d9ab121fe5c14c925f6b3,add known user.
+0f5948a0dfc48468ff2c3ac762a8673b1ed2836a,add known user.
+2703f6341408b82e4debaa755c8f55b7cfff40d2,add known user.
+e14fd1ebc81cc37e47ec843d5d0a77ce486e179f,add known user (#712)
+78b01858ec66f8ac8beb0d0e8dd7bf96c44bd010,add known user.
+b91d91afd5239047be952ec03ad8402d2ba1ac6f,polish (#726)
+f679b72188be3b942260dfd54eba318322c08e00,add known user
+54e4d0424aca39ff5b964d38fc8487855bc67d91,using cfr dependency from upstream mvn repository (#751)
+a5efe2546e8f283aa3621c607004419a5b4774dc,upgrade cfr to 0.145. #753
+4edacab7c55d069dde005752dd1dff6d52244b12,fix tt command cost less than 0. #746
+6b866325a3048b8732af034eef3e33f65786efa1,add known user.
+24ea3d36fd1b61b0cf05ebc13d0c836e0388117f,add known user.
+744950a07a32f633dd30ca94cbdb39f7c4264895,improve shutdown command tip (#757)
+e07074221283ed9bf46089270a7533af6ea0a7e1,add  known user (#758)
+c8e8374ed17f5f0f44ea4bcabc03118cbd55a035,"add stop command, an alias for shutdown. #707"
+a2d27f91d44405f0439e72f7263cb49767c13b9c,sc sm support -c option (#766)
+d630ba9a6f946489e6f936efbb80109ba6953ac2,sm support classloader hash. #767
+43a57d8b79984a2e729ad4760a51590345e7a29b,fix travis-ci. #777
+cbedb606acb0b812610daa1fe2498ce598a6002b,update maven link
+44b41984920d97d6cde199fadbb41decea8926cd,add known user
+24979e3efc95317187ad95bdaf5ec05ece341499,add known user (#779)
+4b63aa52dab1653b551a79a45e728a24abe1ee7b,clean up the code a little bit by following Uncle Bob's clean code guide (#785)
+c93340bec9720293d4738d667d6d18d589e25467,support Debian Package. (#775)
+55aedd5ca9fea5c9a835d17b6cb1a905bd1879f2,github release support deb files.
+7c87411e2d2221e0dc35b4a6a14b046554b92097,fix typo
+a02bb8f626afea704e703399a50b695d3c413078,add known user
+c1c8cfc0d396affb378fda526870f427bd111829,clean code in MemoryCompiler
+b41df4a5bd1babfa9f8c568b97b2a30a1e4abd08,check if JavaCompiler is avaliable. #799
+51f7739fb51bcfbe1693f827cad4d9c9e11fa778,add known user (#802)
+a20ba5dd83503fb235dfd7baa9b8057a4b5fe029,add known user. (#810)
+b3aa7e9eeed9df3a5b7b5297d7b8308b1894c31e,add known user. (#815)
+5d819563d3969ab2f39464fd1cd9e86e22ef9c3e,Throw IllegalAccessException out when Configure set filed failed. (#818)
+7a7e73650a07c96e97418f987311e3ff6ca1af49,add known user
+046427c445f1ba7ae17f4873c584c8d73b0a01c1,"find the true directory of as.sh, support symlink."
+5bbbf9d1a82471319bbbd46ca4fe2ebd7bfdca66,support RPM package (#816)
+e788774161e2f6ddb84e6f9763833f93cb93fc74,polish #816
+5465546f9cd713655c41a83d2b70bcbafb43a604,update deb packaging
+280dc270cf9f92c233acd48716e2070b6f1f6821,add derivative projects.
+6c5906c56e5b3107bd46ae79adca72aa0e572ade,update doc
+d3252c7b9a34ec5f2c1e445684a34a470f060f55,added installation instructions for debian and fedora packages (#825)
+a97ce29cabdf9cdcb050687b1dc676ab6f5e9796,polish #825
+baf41aa59f2910be92c25da938e8f3f5ce39abd0,change prompt to arthas@pid (#803)
+806c240900afdd6c9633bef035d2ae748700ff7f,upgrade netty to 4.1.39.Final. #834
+3eb73c7067bb8f7de76a1e11c2aab0eb71b7332f,add tunnel client/server. #835
+bde058572f277a0d2389e3f103687c1d8eda2bf7,"arthas-boot/arthas-core support tunnel server; Configure fix pass ""null"" string problem; #835"
+79b41b44b5241554fa3c3cabd6e429019aea4c7a,fix tunnel client logger output. #835
+fe8c8d2ebc6a02e564ff6e2ff7fd653a0a89ab0c,session command support print agent id/tunnel server. #835
+f91ecd2bdbbfe57a30db03afc22831b3dc4191f6,as.sh support tunnel server/agent id. #835
+cf4968b4e34e0b95fdf5ed8e9d0e3901cdd50332,tunnel server support endpoint. #835
+92b3f11b738948113e5afa954f318f52d55d6676,tunnel server endpoint support security. #835
+b2f1727c7c073cd9fd2d12556775c0ac98711e18,tunnel server add web static resources. #835
+132cf6704f98ec998dcbf7efa28e4feabccb433f,remove config. #835
+42e13cb345b585a677cb979bd7341209fadc76b0,fix ci with jdk7. #835
+ba027970009b1cdadb5fb5e8f5f6bbb22826fde6,add tunnel-server to releases. #835
+89a61ff18b29935a6d7585613a283702678ea2d9,add heapdump command. #837
+5dc091d38b2c7d2a8cf358b16e7f8d554a89fa9c,update SystemPropertyCommand message.
+58e77dc6f3c4391fede56a942b4d541352bf58dc,add vmoption command. close #839
+c2a2fbcd39da44d08f2c797d632e175202bbb451,add heapdump command doc. close #837
+c1e164f0b2396d049248e3f58488435b1fdd86d0,update doc
+612c644359e774de29394629c2653a9046a38e0c,add download doc
+8cb09cd3fb8ae831d486e7b12c88729f9b09a4c6,add known user (#840)
+f8cc5bc63e707396c87eb1af34c763f75dcaec0b,Merge branch 'master' of github.com:alibaba/arthas
+a5b86d2f417778c86e925a01fa2f6b70aec846db,clean code
+805876a2ad6a7d346443425caf7e35b2588205bb,upgrade slf4j to 1.7.25 and logback to 1.2.3. close #843
+859777f92b85c8a49a71cf7fc14e2dcb284855aa,remove .factorypath
+89bd23b9de45a5f763abeb86a13c80c4241c025b,add logger command. #736
+3f71f94f4a0b63029752be66730aca5e2d33bd4d,update logger command doc. #736
+bb56e26b10a8656c9caf38620eba36823188a59b,upgrade termd to 1.1.7.5. close #787
+582eca9e5aac7ce7e0a3a6cddb43d3d6efd75290,upgrade sphinx-maven-plugin to 2.6.0. close #845
+f10d24a3b6c244c89e6b9febfeb561d807833d8b,add tunnel server docs
+73e8c4e016aae6bf005673ce8466d01da01e6fe0,update doc
+6a44d5b2cb346c2b48226c587fb2128ca9ac3382,update doc
+8bdf23e51218b07003f7de6df19ee234603ade21,prepare release
+75faf476f02d2b8e2765a2ffbd1eb705b84071d8,[maven-release-plugin] prepare release arthas-all-3.1.2
+62ee6df39692c35f9c7b55b9291533c0ba50aabd,[maven-release-plugin] prepare for next development iteration
+620fcbaa96029a13bc89b46db7ebcd48b27fb812,update doc
+7180e03a3b26a723633ab7db32dfc797c99124cf,upgrade cfr to 0.146. close #857
+59df82731c4065269488a60cb67752cc4d8520d2,fix jad problem under jdk6/7. close #851
+c15f1d6098abb7699b118cbd85751137b29e7e6e,Update options.md (#853)
+6cd52d568d2b0f12638943856a1d15d7c5fa975a,polish #853
+edf705b166e750cfe4ea6ecf262821994b7817d5,clean code. #814
+3ac0baf7c5026a60751f303cf83e12ae98bf4fc0,alert error message when webconsole connect error (#855)
+a99be92ab0c99380baed8f910e8574c7779cf991,fix log
+744bd45cc5c83bacdea20e6eaa79fc39e5ba7729,prepare release
+c65a648764879fcff3eac75bbb93063c01a1992d,[maven-release-plugin] prepare release arthas-all-3.1.3
+5e3bb1e83d481b9033c1df24ca6f9566b533ae02,[maven-release-plugin] prepare for next development iteration
+6033ba22e186ab26e6a65e09ccb8df4e2cfe3b45,update doc
+80a18282e875b5e2d3a28f09ae8e5a7b93d09882,update logger command help info
+784ec442e51a1b56765f23835747b120bf6619ef,logger command print AsyncAppender blocking info #862
+053ee2044fa5345b3999885c0efaaabd71ec3f38,logger command support log4j2. #865
+b738166afd317694454051be8f345288a82d8f1c,update .travis.yml
+38e37181878a06a128ae3d5f157453d86c2fa780,update doc
+931c096673ee96086a175dcdc92a42cc021bbc8d,add known user
+79500271135540355d006f8eac58024e81f6af1f,fix ognl error info
+f9e698d09cf3ed4feff89d6e2525feb22df4df8b,fix logger command print parent ClassLoader result problem. #870
+59d8eee0a6adc4368b2059b3542467ec826a6ec2,fix arthas connect to tunnel server error info. close #871
+799b2a617a63459ffa4fde6e1ecf4ec596f256bb,fix download link. close #872
+0eff92a539ab869b892b1193dda226a65babf497,improve classloader hash string.
+fc502725c0ee40b3a3b3b6c2cdfac8dec67f918a,support stat data report. #848
+8062e32977667482d71ce3b69aa7c848652e1c5f,prepare release
+191a42c28d36b973831708cd97639174ad438330,[maven-release-plugin] prepare release arthas-all-3.1.4
+19d32afb380d221c2cf8227393b72fcb8573851e,[maven-release-plugin] prepare for next development iteration
+52b52f214f6fe9623689f06dbaed31e17bb2055e,update doc
+80ece655be15b018fc87a95bb5f5f72e87bd1898,update doc
+dc37df00686640507ac098b4d9ec8c7eb15350c1,fix doc link. #881
+db1c2db7d844afc40edcc6ea27f4e4100a0dd30d,correct spelling (#882)
+3e756db665329c9843f629890da22742bf5ce9fc,upgrade jdeb plugin to 1.8 (#885)
+221c1cc0c703b31fa15f6e8a396ce8aef188fcee,update doc
+396adb0d07b9b28ce81157b7a717bd4105bcf0b6,fix git bash support. close #833
+0d053b361cb3ea1121b69b63dbe5a06b1281394f,thread command support filter by state. #890
+b045b6fa0cb88c453a5ed5b70defeac153b03cba,"polish #890, update thread command doc"
+068af7d219c031a86b568f2bdf1829254da4dd05,add known user
+beeafebdd611887509e9876854c24900a6bd6c71,update dingding_qr.jpg
+a346e4e3f7d577112ebcde6ce01237d817623f20,add known user (#897)
+fde8d026081b5648c3bc2fa14f1f2686e46821b1,Add private ctor to util class (#902)
+ea96c8d0ce60def4c2f5ea01d5363782e31893c8,grep command support regexp(-e) and -n/-v/-n/-A/-B/-C #899
+940f274103facd8b28c52b3a1413858d75e873df,"polish #899 , improve grep command"
+3e4299e263323d3aad462158e7712f64571a7fbd,add grep command doc. #899
+d63f970dd37332964983d2211584fa7e636a9e84,fix grep testcase. #899
+84d74dedd3ed6a638b48029ce9431b9a91a868e0,update Constants.java
+665e944fbe14e7f1d2741087b514e1a04707bdef,update docs about stop/shutdown. #838
+ea3e25d790c540c534a6e81462a60d8f64842f59,Merge branch 'master' of github.com:alibaba/arthas
+4c4fe5fc7ede32ad77c507a9f263f60a745b8078,fix grep command --trim-end support
+7ccbf12bdb61c9511c4ce9b84704f055b38bda30,support http and telnet in one port. #316
+94f593d30cf7f75188d646aa32383a6d0eccdd06,add known user (#917)
+b10bb1089ba76f09473f5f8b8f429cf5215bbd71,supoort http visit arthas-output directory. #921
+b80cd1138e14ef9c4c197eef3011b2c0a30f71f2,upgrade cli to 1.0.3. #922
+53ebd8a2320585d7fcbd3332a300135626ba4f2d,dump command limit option. #916
+818d83c11c9912e317d15150ac3536336f48ecf8,support AsyncProfiler. #923
+0a4ff9edeb1a675bbc012e0a32d68f075159c38b,move http static resources from termd jar into core module. #924
+4b33cb69c35e46649b5c66ede103781a96d26a7a,support http and telnet in one port. #316
+3780e24653691539be6981fe45629b932603bd41,update .gitignore
+93da7dd60820cebd1a981a6c346c8c4ab239081c,Merge branch 'master' of github.com:alibaba/arthas
+649fb48edb90de337fc638e5a03f650ae6fe8ec5,update comment. #923
+53e800568cef62f20e61c8aaea5b209a3a3c3c73,Add known user (#911)
+fc74077a757331649c5f8afff3c6117d5fc6e2ab,fix rpm build
+bd6db6c85dafb89dc70c4b130b3f81bc637ac0ca,fix typo. #923
+38c02a28381ab6e646a4b4aeee9d73a8ce509423,Merge branch 'master' of github.com:alibaba/arthas
+61f3d9af1ef17c74650ff3c92617a7d4aac32974,update doc.
+653b21760a83256a1e157e97a7693a65fc9d8488,add known user (#927)
+107da67c2d645ed96422c34c354a2af6f204eaea,fix monitor command time stat problem(#942)
+24c4bcbac513c90a6a4054790f96c6d0ff558c44,"polish #942, improve stack in ThreadLocalWatch."
+6ca384b687a342f91da377fefd0694120c33f770,"polish #942, add LongStackTest."
+83275d1e27b980042d53371c03366dc9a3d3694d,add vote links
+c3778337c0d30de9fda938ce8c907dbc93bb591b,improve error log. close #944
+88ac062b516195ead4e15d2598d52ebb4ba0d03e,Upgrade logger.api to 0.2.8. close #945
+0411edbc006f91eabc22392e2b6997b8f358291f,update doc
+0cad734c9e7806c699767342126702a6627a1e56,update ProfilerCommand
+cfd73845ab8b2403da107136f04bc2f99e931cd3,update profiler doc. #923
+becb405aa832e383f64b3ff934a23a0904f974e2,fix arthas-output link
+fcc8c25ad50e272e598a4704c39e1ee9f12e982f,improve HttpRequestHandler error log
+2570fae5b2153c0bec02c03597af99dc74f22b3a,prepare release
+67406df9806c1c1294f02723ad3b561fc2abe619,[maven-release-plugin] prepare release arthas-all-3.1.5
+daeec7dbbc398d516024060e209ffea254e65602,[maven-release-plugin] prepare for next development iteration
+1e006c00186609fd206c2227dca7f7c532075cb8,update CONTRIBUTING.md
+ecd28c029fef8dc32739db68fd20890e267e182e,update doc
+e71891f9be1b34c7addb5aeda1095cdff667322b,Merge branch 'master' of github.com:alibaba/arthas
+b43b68eb4fad9053034142c35fbdc4781b1074bc,update LICENSE. #947
+9b6c4dd6201f56f24f2e81aff2980e4dd1fe8b64,update doc
+9ac432204ed5c65bc62cf91aafdcce26917db24e,add known user (#952)
+577b5b8fe1e652fd234ba3adff75abb0473adfab,fix typo
+649298c035ec7024c78a30b3968dd1c26e5be0cb,fix doc
+53d0976ef22d64e6ad8b6c53cc4808b37b87f7be,update trace command docs
+11601e8f34346bf428864356c659066b3bc3cc18,update doc for webconsole port. #955
+ad0a6404ba040e903140f5a81f56a626bf68bc1d,update options command doc.
+466fa406a1145dec09b587e282447f2fdcb61ae6,fix profiler execute make jvm crash problem. close #962
+cc078bf5d63204aa420ce14477046319df46312e,"move one/profiler java files to spy module, avoid load so profble. #961"
+3892fb12c653c0aad4b6b181f51c0d0e51de35d9,fix sc command render fields problem. close #956
+7a131c9a3782554a5b6f1caddffc0ecd421f9ab0,trace command skip jdk method by default. #958
+cb2700370f0d4c5d608f4dc6920371787d42cf6f,upgrade to termd 1.1.7.6. #948
+be13519032671a3d1b666ac95126a419cc318f59,fix http port 8563 support. #955
+9f0212422d2b70612249c8084b52f9b4381eeb13,update trace command doc. #958
+5850869843eab1b270c1195be8a3174a5a274df2,support print fields in parent class. #435
+43943311379a38e34d7eb0b36a5843dc8b126ca8,update doc. polish #435
+fd217e1160a74d206530c8498ce16b33a42746b4,[maven-release-plugin] prepare release arthas-all-3.1.6
+e0583f11ef4fc1835dab6af06517b2d724fd35bd,[maven-release-plugin] prepare for next development iteration
+6aeddf69a47fa2933cb236dfcec907def91913f0,prepare release
+b4f1066dd37192ca69766457e04019b36ef24e8a,[maven-release-plugin] prepare release arthas-all-3.1.7
+25e0444dedf8fffa1c4f6e5b0c209847c82c98f7,[maven-release-plugin] prepare for next development iteration
+50f8cf862f711b6fc4db2b0a42f7f4abdbe92326,update doc
+19aa01b0927ea27eb8eabbeecce50924c11fbba4,improve humanReadableByteCount
+b69203f029d55b5d70ad780b9d43862b522bea38,Naming the thread of ShellServerImpl (#967)
+778ffa2577280d68ae31cf7e53cac8b8d3b72933,fix arthas-boot error when have _JAVA_OPTIONS env. #970
+f42c9680cca1f2d6fbc5a2e5b1a2ab32f3640f46,update download.md
+edb506eb89176d9bcc11e477bcb0572397ce29e4,update doc
+bd70d05da237e055d3af2d28932a821c6e9acc87,clean code
+a0c33db7a8a17ca17eb1f221af3640f9e2ee2f35,Add tee command for pipes (#976)
+1e6ee6d9761c70391711b5039faac1addff13c3a,Merge branch 'master' of github.com:alibaba/arthas
+1d9643f35789c2ed6e522389d5bf2284eda38e75,"update doc, polish #976"
+380e96ee12e3fefec440a258b19e096c248ffb26,add known user
+9b792084164ed1e468f7b6ecc6007e419c5ffe22,update licenses
+5abcb65ef31528fc6569ca1b80cdafab18d68fbd,add known user
+ee08fa5b341f7dbfa8d36ad7cd4458ed53b6ac47,hide the shutdown command. #982
+558137a581d9affcbbf478ee82cbdf072452194a,update doc
+f5270aba36e2e80bff2daabff72fdad7123c11cb,support ArthasEnvironment. #986
+7d186f87f0122374e3ff307b9bf72697af9e9de2,simplify AgentBootstrap; use long to store pid; #990
+60e1889716d1f4c6a8768cb5ddeaee4e4f88ae3e,fix test
+e4c9e6f3e556e005fb7285130722c26346156f86,clean code
+eeb579f13145264c44ed457c00f1c793605463cf,"print exception message, when render error. fix #994"
+4cf5d3b3a48dbdcbc186e57ad323e2e7593b917a,Avoid append spy jar to BootstrapClassLoader multiple times. fix #996
+31ed34620241ad8156ed9496dfa272cacafbf4c3,fix typo (#1009)
+6e39e74ce6e551bb41213b469f03f97d3301d1fd,update index.md
+4937b99d1259c05906e386079c248447049b5bc6,support ArthasEnvironment. #986
+3da99d5ba5081bcc743bbca2077bb1da3135a4d5,support arthas.properties. #986
+4e771e2a7d90aa24dd7c5d500d837d699b94d0af,fix testcase. #1025
+f5f7583c98ed1a21d58219c9ced4fa94c510e3eb,add perfcounter command. #1029
+42d695de715d8111844dc099dede6bd465d2dfc3,fix dump -E option support. #1028
+4afddd8ab53a631e299697e7df817decaedf4e7c,fix resource not close problem. close #1023
+148e7b09812e8d59e4f91504bd55ea6ae3b53130,upgrade crf to 0.148. close #1031
+ee187751a4498584570b16a3e190130a0a121d08,upgrade termd to 1.1.7.8 close #1033
+9b2990c9a65d752a78ddf57829dc1570a20952b5,upgrade crf to 0.1498. close #1031
+d81fb24097174445854c682557c9a483652e64f3,upgrade netty to 4.1.45.Final #1034
+87a257acd5f3f3fcc4a8815d965cf4574e70fcbd,fix cfr version. #1031
+414216d82a155f610df4178781a66b4be3e2130d,upgrade netty to 4.1.45.Final #1034
+1293d51f94f7d8a6ea97a9819e3ec052aa7ffc9a,add known user (#1036)
+0179e0a84ef8c41bd4dcf5eeff0452ef4f9dff5b,update _templates/layout.html
+e7b6ce5a26a335b35a2e35517c1d6adafa7b6207,update contact-us.md
+96c54ebeac4b02753750496d6b955cffafdba261,update index.md
+9a98cc95b9022d2309cd9ddaa6184cc6865ee814,Upgrade  fastjson to 1.2.67(#1071)
+e358d5d72661df654152bb9c7b5475fd7b1f5eb8,Merge branch 'master' of github.com:alibaba/arthas
+16d96c9b0a7855aa00f2306bc5e04601997b115d,move OptionsCommand to basic package
+91968f18edaf0bc61b904844bf4db3ff67dfce5b,dashboard command delete unused -b option. fix #1074
+8ccdb439759f7f0dea2ce775400a051f6b0d2876,support q to quit. close #1075
+305e360f16f1253ef67956258be7eaa3512a3bbc,update batch-support.md. #1072
+e1141dfa978186d53d9cf0423bb02556b0133160,fix batch mode -c args problem. #1072
+061ed920fbab3c2c73e84b5e8dbd3baf7798752e,fix batch mode do not process PROMPT problem. #1072
+8de8d26a3cf759735ab1744b3e1b4bd35a83b2f4,add echo command. #1076
+c5438be0813d7568c548fbf80b40a15547e70d8e,add known user
+2ee2b42ce218dd0c8807fe76baad0fdeb9ed14c1,add known user
+b7cd7dd81f6493865d04c6736ae203dd8bd1627a,upgrade cfr to 0.149. #1031
+8e6153c320865c53885ad45e09279b0c88a0ab8e,add known user. #1055
+2ff0f551b8cbf7161d84bbcbd919eabae7dc8c8f,improve logger command error message. #1077
+a720769778c6e4ca3be56f702b740a043c73bd3d,"Optimize the hints at the beginning, when choosing a process #1024"
+4508367c06b6a1f5a5c1183232e3b0566c17f2dc,Three minor code enhancements (#1014)
+4c049d6c404433fb858b6169de4b611439457ab8,upgrade asm to 7.3.1. close #978
+94c54a10f2f3a8a03c0add5e077e9f166f34c50c,add known user. #1078
+f89ebbf163182d260a2f0a52177ddeed26c23d58,fix content-type problem. #1052
+5a2f44f3156f56a7837e4c5beb092b9b035eb736,add known user
+1baa1988a9f0f844fa4f5dd96e11149d4fb11c49,add known user
+5eb7ac4ded8c3bf9496c5e9af11b86c62125be95,add known user. #1044
+73320333327de857146e46719ad8c053d1fb9c4f,"remove the logger.api dependency, use repackaged logger. #985"
+4af87030a3a07c3761975e501212b1b454f21de8,remove useless code. #985
+c80ac4693e66c494795e7714fff11e2faa38f262,update logback.xml. #985
+c2551ac2e96497e9a313128c6ff781c7c99d5ef2,change package com.taobao.arthas.agent to com.taobao.arthas.agent3. #1085
+c1bc0591e8cedf6abe3a1b479daf0407bc7324ef,clean code
+298d56a829b6ff6e62434bd561af59ffab5640a6,prepare release 3.1.8
+863c7ef6b5f3d030bcb21c5a88718039a159fc25,Upgrade async-profiler to 1.7 and support arm arch. close #1089
+1c13a94b60302cec3977b8feda34def2716fdd34,Upgrade async-profiler to 1.7 and support arm arch. close #1089
+2b8f371d02083ebb2364de40d9418ecab16c94d4,[maven-release-plugin] prepare release arthas-all-3.1.8
+ac0cea0c069e385ecc25929c97d157cebbd20a54,[maven-release-plugin] prepare for next development iteration
+ea252fdb5abd2ba5120dc79ebd08017b282438b0,update copyright
+fa5fc3d5756a72b0b2656647aaf1e76707dd796d,fix dockerfile
+79ba5271f9cf1f6da742df1a7f2c33382cb2d5b8,fix the issue when the woven code is still running and throw NullPointerException after executing the stop command. #1094
+ed38c6a5784b0ea523e23a36050244230410ff2f,update doc
+de29a072ac3de2542a1d233f781b5e77c6410113,support agent premain. #1083
+6fb598235ad8dc879f3e8aa8c05c508a3a3b69fa,fix typo (#1103)
+583eb3934116dd6745029c40683a1247437a2b65,fix typo
+bec5cf5a6e4b2ea45bfff1fb26230a9c1a9f290d,update doc
+f409082b224cb50e7b3c9acf2055c07d84d1cf37,support default method. #1105
+43c8c88afab4baf5702f9f99ae73b192bf415267,add bytekit module
+07afd5a7d22f5eb47e71ac06f61d8b0ca0c0ec4a,add agent doc. #1083
+574b5d511c44858d5cef1a5fc364f80bd8a31c93,prepare release
+7c7f194dffad363102dc1c6070473f6dc2c009c6,prepare release
+b8c334566caa3fb648270fc354cda0bd5444139a,[maven-release-plugin] prepare release arthas-all-3.2.0
+75ee8320c7f68250c9e2d5e097fb28f54f737e7f,[maven-release-plugin] prepare for next development iteration
+e330bdc2f6bddbff63e634c3469fdd6c397cf231,add bytekit module
+7414b8e0ec81d7835da9b42d74fa6ed30e17c846,update doc (#1117)
+9209ebd3c92832500a6ba5e32a286d240f1e7ae7,exit redunant loop (#1123)
+a03259c67865e4a43706a7eea9348db4e6efe401,fix ZH doc (#1127)
+637f2b53a9b870dada64c47a8c9b9971b065a79d,support jdk 11
+d496fcede5c128e9d2808346b40dfe837fda522a,fix ReturnBinding save stack
+024912350a5637d7864bbedf0440b552f88be441,export Binding annotation
+342313c5bb131e7f0f1967f01217cf8f86289b72,Update README.md
+839fda45cd11ab92511c2545841822e9d41dd8cb,Update README_CN.md
+6b26a09a609f49e98307a1547594a5a3f706987f,chore(.gitignore): add ignore pom.xml.versionsBackup (#1129)
+968996856885dc23099e488b17301a6d1f0700f3,Set default value for the express argument of the watch command (#1122)
+0238b73186a0d8b1f6b5d22a3d761923b132bc8a,Add git commit information in the jar package. close #1132
+80e1fdf4ba5c8c9eaa31a1fe37cf3fc1317ef94a,improve history command. close #1140
+445236854b3c2fcd7985aa4ab137fb90005a183b,"support bindding MethodDesc, MethodName"
+eef89eeb55de38181d895da6accc1f5726a5dc89,update pom.xml
+7d598aee0d2ab60049cb7313a81fee65d6097cd7,Merge branch 'master' into bytekit
+e6926f91f762307c48973077b7bb01dcbbcd761d,update bytekit/pom.xml
+4f15c1072f07b8dce90be2ed0aff8f1924746c55,update bytekit Decompiler.java
+9ff2ce4a50bf14ddd64b8ff3f7f4d1a9eafdc57b,update AsmUtils.java
+10575cf17216e81e06c33e23819d20f6e30b96b0,update MethodDeclarationBinding.java
+bbe10cb8d560c7365678d4549b88cf209699c5c3,better support LineBinding
+e29d8d53e07560282f44aeaa9f025e665f288fc1,print more details when ProcessImpl error
+4a936476cc3cafa8d9c35bada65c422b7778d9cf,update tunnel-server/pom.xml
+3d3640e80e711a8303272fe5e26fec4a6cdd4c96,"better invoke location support, support invoke method name/desc/owner"
+8cfe315ed02e146b014000198ed0ea289615bb83,asm verity support print details
+6b31041e3318d3e1e3bd66d735e3299c6aca05f6,clean dep
+99ff54f375beb4363181cd214ec9e1088aa1c948,upgrade asm to 8.0.1
+82a3d69cc3d86bd21343bfb176d61cef52e80321,add AsmAnnotationUtils
+3204c0ad36adaa14b84477cf95db6c98bb969039,bytekit support LocationFilter
+0476c61af98f51b9815a33d83b1643c0d2f3017e,Avoid append spy jar to BootstrapClassLoader multiple times. fix #996 (#1153)
+d301d98e0d01b3742156af960a36c890f10f7c50,#1151 fix pipe char '|' problem
+79b4c9e29bdf48a2e1fced10620beaaa38260d1b,add testcase
+aaca4540b1c71f7f1e1a976e7043e71134ca9216,add unsupported testcase scenario
+4a950140dc3b5a821016593c281e87fbcff074cd,jad command better support unicode. #1169
+2e1911d21fee183c9af7e4c7803be40e6e37de4b,LineBinding support location whenComplete
+2324f497e0cc1a0722075c1e7f9c0ba22b447523,add InvokeInfo binding
+4879270225c1faf1c60ab841e28c6c61953f6020,add AtInvokeException.java
+da436fce7e9940c85f950a97e8bf9b5da9316a65,upgrade asm to 8.0.1
+e3f920fc743dd1f005e6acfd559e9a8035ea892d,Enhancer support SpyAPI
+9c6cfc9757f705f0fed5b1e7f7829e5eae0222ce,fix thread command cause application InterruptedException problem. #1175
+94c3eea37382170824e079dceaf60fcb4a908e74,Fix grammar issue (#1176)
+4cb6cabba6c49dca2e757308d39b141ff7c92e78,fix grammar issue (#1177)
+360db7dfd3dff563c2258854b64794bb2495f044,support MethodInfo binding
+4cb1015983638bfadaa66784c3b94329c918f20b,Merge remote-tracking branch 'upstream/master' into fix-issue-1151
+a82e0a9eb4c5f807b0dac2fd2989d5d9feea6316,better job timeout timer name
+b7c3202246d43a0e8354a48122980ab2cc4d3a8c,add timmer in ArthasBootstrap
+f37cad3bbea3412fd8a1da006a466fa2ba2c5dd5,fix MethodInfoBinding
+8d12bb7e0ad40d230b2a3eac11c40f59344e169d,update timer
+2b740b121f2f082b18e7c7283f6155e596ba5cc5,clean code
+f39236eb863c7378e94cf1a58e4cfd04aeaf6a3f,exclude box/unbox method when trace method
+c20e97d7def11743c3efb489ff48c0474bbe6dee,use TransformerManager to manager all Transformer; Enhancer only enhance bytecode once
+7263d9f568b2658699a7fda35a7dd62f06cb085e,AgentUtils support reTransform
+9660ad1ea07e9dd857ae34e1e9d89da1c9b5df35,add testcase
+62c5c00459b48414407f5a4ccf0227a4e0eb8119,Add known user  (#1099)
+ee0042cfc696eb3def3dd690b1284a0063945dfb,remove unnecessary ClassLoader.forName
+6d186954c6739e614f7cff39d708dafcf8172dc0,remove unnecessary reflect in AdviceListenerAdapter
+7d7b5460ad15b8dca7af0ef107cf3f9bc042dd14,tt command store the real method args at enter
+a55b471ea7ddc261ea6ca441b1dc5b52e59e5db3,clean code
+1e52ea453064eb64c727edbf4866e72aeb403eaa,"switch to SpyAPI, clean Spy code"
+b79c03f1219c573c1d819af15fc8e284703670e6,fix testcase config
+ff4b7ae829d584c354ea65bcf715c6a5c8b9bfd3,fix testcase config
+cead701c710fac1297100b753e4c50fc79ca64f2,Merge branch 'master' into bytekit
+2f5bc476eb6e33f098172a68a52fbb7284edb1c7,support classes load by bootstrap classloader
+4afedf89e1d461c1a6774e3c1dc83953108f39cc,check classloader before enhance
+d25f28fd060e1b3e3193fe537c29cf18739baac6,only save Class when enhance
+33eed92ae0e1f74e1b1aafef7d3daaeb02b8fea8,"Merge pull request #1182 from alibaba/bytekit
+
+A new bytecode framework bytekit"
+e24bef5815041d51f99d21bc8707f3409f395241,upgrade cli to 1.0.4. close #1121
+ae2c37266beb4db1973b3da2fdf67bcfe1dd5e67,Upgrade fastjson to 1.2.68 (#1188)
+03cd548ca4d4d6733117a0ba905570ef39570e00,clean object in ObjectStack
+f636e01482035da67cf89a9993375b2d9cedfde1,"fix issue #1189, clear job reference from timer"
+566a484d222c94dcb4341a43d6c86d0d77a3ed56,"Merge pull request #1192 from kylixs/fix-issue-1189
+
+fix issue #1189, clear job reference from timer"
+6da7add4f1414a4872b6118bdb9b1a41bb5910db,"Merge pull request #1152 from J-Cod3r/fix-issue-1151
+
+fix issue 1151 管道符“｜”与前后一条命令之间没有空格，不能正确识别"
+a7ec69b17824fa9db6e9ac718f5c6c64b3c8e84a,disable XML xxe feature (#1166)
+e92047cda2e44cefafdbbe3cbdf3cac48a9f9116,print affect class/method count more clear. close #1191
+8c18fe430d519869aae62f4e7157fc8c21a1b10d,Add a global option to print verbose information #1194
+eb62e0dec22010ae13595d5d6017bea55c63af79,EnhancerAffect print the affected method details when verbose option is true #1195
+5c01dc43071840961927b5578bab7aa2165a8a28,fix issue #1187: close shell when removing session
+bf1974e4f55419a06d705df950b3e6db453253be,add AgentUtils#install method
+a1c20eda7d1f00d91e5d85f4b3583d1d87a8c2e8,add ByteKitDemo
+bef66da5feaa361304a5d1fb3b773106e2a32c8a,add bytekit/README.md
+8b8948d1cc04acc5ed059c06d0e790e4be55d381,Merge branch 'master' of github.com:alibaba/arthas
+ec5eb5d4128d2b6f1595d035c57d57132cfb1a03,Update README.md
+8a37821ea4265608b0a9dec9924281092d932604,#730 print sm process failed class name (#1160)
+0397ec6486c3277aa22ae483448d2058ab6ccf99,fix typo (#1204)
+124ed2b1d4fb7da00c1f3af57e117dcb31651e00,update dashboard.png
+b89bc1b4008dd374a145cd4b597ba6ebfaa33d86,update dashboard.png
+6322374d81d9e1374c65f5594cf784c37a459fe9,"use ScheduledExecutorService instanceof timer, fix timer cancelled problem. #1184"
+21365c723735ace79bd32f2fb583013d660577e5,fix process null problem. #1184
+f66e1c9d59c91e93c76fb1a9ef9e7397ed86cc5a,"fix Transformer do not register problem, when Enhancer error. #1184"
+c20e9f917026b09e136bdbfd06d9d389ef267ade,fix testcase. #1184
+da90f46e432faf764443d1e5ce77fd8099c6ff33,polish 6322374d81d9e1374c65f5594cf784c37a459fe9
+b7414f899d672e91ee2c7374287d8aeec3b7d6e4,update comment
+4a673a79e3154a82f258ccc68f72a26d91674933,support trace/watch with exist listenerId. #1207
+53a544c61f84a82a91111cad81e3d08985dbce79,fix dump empty result when retransformClasses error #1210
+61876370d4a0f4c6b8fcc93c292499a675800f81,upgrade cfr to 0.150. close #1211
+daac254aea3f7565016c93a84b07714c5db58522,docs: removed typos and fixes grammatical errors (#1206)
+2204f501156516804e7a08c0bf187644c713cf35,add select option for as.sh/arthas-boot to select target process by classname or JARfilename. #1212
+3a12237d0585d1671c3b4a50264a314e3a86a6bf,optimization of tunnel server README.md (#1149)
+8178599836d4454cae0d3f2a27a9fa57f09ba6da,Avoid NPE in ForwardClientSocketClientHandler & code refactor (#1150)
+8227a7f69b96865f4a037f23f8925f5b529f9b4a,polish #1150
+abeaddea56f7ad04ee16ac7ce7e45cde7c4a6129,add known user. #1095
+1dd7f6c9bd31c4a507f46277b82ba10e655f19f8,profiler command support duration option. close #1197
+0d84baaf05329608969ef8ce62b082a54f76a641,double check telnet port and pid before attach agent (#1119)
+907b5c8b0dc2ff248563529121ffc6367910e006,add SessionManager
+33175d2f3eacc7bb137d503d7446cf2ac9b0f90d,"Extract JobListener and ResultDistributor, adapt to telnet and http api"
+a318bbdabe0c8e796b0afb054e38111f3d60f02f,transform command: help
+62c47c42598ac2b267bc2712a148bdd1f3964094,close ShellServer and SessionManager when shutdown
+c654abafedd3a70e8093cdc9ca082c0966657c3c,"transform command: echo, version"
+78316f340df9ea6dc1b738e173c50a2c3618470b,add http api handler
+3bf413b9c7bacf4b06282d1e8f211eb207f281a4,add result distributors and consumer for http api
+80ce09134289cb935e27e9e996e0521b358facce,transform command: history
+898da3da022eb6a0165d64cf72cd678cf0cd028f,Use custom worker group to reduce the occurrence of http api block
+fe8aba65c5a739c4fd9352652f20a91a4ca66435,Replace JobControllerImpl with interface JobController
+02c9d303341459b98e1124ca464a62fe93d59c52,correct java imports
+45cc29694f06b101673cd62354ea2e35f7b090c3,fix TunnelClient host may null problem. #1060
+fcb1136063440f1b0ff7eacfabe006b65f693fbf,clean unnecessarily asm dep
+f2d28a54d4fe6f48bfc44ef94c9de1e22a9464d4,upgrade termd to 1.1.7.9. close #1214
+565146f837bd6f17a25b310142df9ded2d2d14d1,fix monitor output problem. #1170
+02f6401b1328e8fa18aa9479c58c5a151198feea,add comment in arthas.properties
+6ec3bdb3e331a74142a882a2521408c6f3caf21f,polish #1212
+51842f7ff17ccd986381527116b40c182e97f22a,fix redefine may throw NullPointerException problem. close #1215
+0df7e8fa8d622534cdb6c4e4cd46461fe0303697,prepare release 3.3.0
+1f6710e380afd96d60d772fc5554e84e4c65b69b,[maven-release-plugin] prepare release arthas-all-3.3.0
+5b2479c9b717f0b2190670b97d49e88d96b0c536,[maven-release-plugin] prepare for next development iteration
+f63aa1439f096e6c195a0dc72f2cbedbbf7ac7c8,"only load xterm device, memory optimization (#1217)"
+ac3e188d4933e9ca28d94469cc5a0bf659041183,add binary files in arthas-packaging jar. #444
+8e06b400bce5edd910a8d8d0fd46d9239f82f8ff,add ClassLoaderAwareClassWriter to fix getCommonSuperClass ClassNotFoundException problem. #1218
+50709513958654fa898da07a81dd71878ff7b872,prepare release 3.3.1
+f6ef550e97a46cc09ca1f744fabd53bed730c34a,[maven-release-plugin] prepare release arthas-all-3.3.1
+fbdafec44778e8d9a0be31eddba18e377a6d7610,[maven-release-plugin] prepare for next development iteration
+c59fa48229029b71864a67583f7eb537abaf5475,Update CONTRIBUTING.md
+25c5fb7e7b3e3b904e09bf59c66fcc2834e50f02,"fix spring aop generated classes major version is 46, do not support ldc class problem. #1223"
+41bbedefdbc052f78010551cb1ba6b7a87786f43,EnhancerAffect save exception and print the exception message #1224
+87c8ada0f238c0c25be7b0e3b8d4573f157548cd,prepare release 3.3.2
+70774be6049baccc431b9e126620aafcd7d92e66,change package to com.taobao.arthas.agent332. #1219
+5d25600da61527aac2435c24de82ab8d255187b2,change package to com.taobao.arthas.agent332. #1219
+ef0e655a540a631d9535ab6093729512ad7f6940,[maven-release-plugin] prepare release arthas-all-3.3.2
+4bcf45a5e7cb5e2688c99b5c733063ff369611c7,[maven-release-plugin] prepare for next development iteration
+a79c82efbd0eb6afcbf013db8a00e3c6b0985f6a,fix stack command output null problem. #1231
+44aab46e496b445b02b19359123dcb32560a859c,add tutorials/katacoda. #847
+252f0e9ac8bf4d27bb6e7d2afb410ff52558f21a,add katacoda.yaml. #1229
+4148716b10a7c3e7d3183ed13b646951f653a658,add katacoda.yaml. #1229
+9b3da5a9741fb8c27e706a017740211631bec2ec,update katacoda/README.md
+fc19ce92973a40b2b3c91443ee43d744374d4430,translated into en and dingtalk installation instructions (#1216)
+1a6273f02abec35a11f474b618456cf403058fa3,fix link in tutorials (#1235)
+ab59d73f766bcda86873353bab3d3fa66ca509d5,update link.
+68884eee624a1401d20a54999e4b760eb3973d90,fix tutorials #1235
+98e645f7bc1d63bc896cd388153de53526ec6807,SpyImpl print error log
+5933d0b7a32a32ce2fccaa9a27d8e995545893c5,fix trace command output negative cost problem. #1246
+09ee5c0406f450d93cd4273c4a44d199731dae7c,prepare release 3.3.3
+40c914e73986580c8936bab9ce8a200a1e9b8f75,[maven-release-plugin] prepare release arthas-all-3.3.3
+6fb1d84c0104718a50982a51cdb55430250300c9,[maven-release-plugin] prepare for next development iteration
+17e268dde03388440fb23f170821689e2aa9d5f7,change jobId field type to int
+54988912520916f49df7bd848cd9fd0a53a9c6df,Add Countable interface for result model
+9bb63b4cd3f5be51fc8ec3ccf12522b8c919996c,transform command: cat
+1130cd371ce31638de7613ce9a37c45021bb588d,register view by viewClass
+24633439765c58826ffbfffa5e002787c5bbec50,catch throwable
+34aac1ecc5d8769bb36b650be5fad4022e37b32d,change resultViewMap's key to model class
+ce17780f6a2f7298d3159d6a3303491f52d9a344,change worker group threads to 8
+e7d130f1eb92edb4c937c6ee14de6b468401a136,remove redundant code (#1097)
+82660e543abcd964d9c1ebdb2df81dfedc39e693,add known user (#1253)
+4f772c36172961a248f412e43b7f563ced824b6c,upgrade fastjson to 1.2.71. #1255
+bcef13b7731c8daef83b97ba6cdb84834a31358d,upgrade netty to 4.1.46.Final. #1256
+ec57fc662155e472bd5894eef0f8fc45184b6914,switch to use https://katacoda.com/embed/arthas
+be1247e36f83f5cf239b8e987473f41ab1edaec4,Add http api basic function (#1203)
+a2f85bfd777ba2970d4180fc3f6f6eccdcb0e693,fix LocalVarsBinding type
+6952d92cbb2e4741fcd0037741d604d0b1d7fdea,improve code
+c69d79022f92352d450e7ebb699beb3afd7fe87b,add http web ui files (#1260)
+c83e9f65d28048663ee9cfb2edd62625ae32dc2a,ArthasBootstrap support map args
+344cf00d305c73414b42abc28eeae546ec5eda0e,clean code
+31dced261b8328ad1bb81cb8f09655ddd3502c26,move init spy code to ArthasBootstrap
+a79a78c46e883fff95e9b9a6f856f33e02113557,packaging/pom.xml support pack arthas-bin.zip into jar
+e155bbf1d005f96544f5cf381d22f4d339757b02,improve initArthasEnvironment
+293de3e2e5a58f6477fee5b1ab41347989583a1d,fix as-package.sh
+aea2ec25da8b76a1ad8aba4d3ec799498399cf43,Checking if arthas is started via SpyAPI
+5029b752b6e56555e52c043ec8eb00c978adab3b,add arthas-agent-attach and arthas-spring-boot-starter module.
+b2652715a283c7842f5daf57b367beda7a06d46f,fix iinc inst var in inline method (#1262) (#1279)
+0d61c158554a5637c71482a04505b3288d1adc41,"extract createInterceptorProcessor() function, reduce redundant code (#1263)"
+853e9b60070434cd136212a798cd03d2bd430905,Transform commands of pkg basic1000 (#1274)
+74c58d92c73ab2aee232efa721453b0e3c59561a,prepare release 3.3.4
+3f3500395be83864d796f3f398d2dc1ff462aa9f,fix arthas-packaging -p full
+7b119351f51e3e29bee43dc35bd0df313930421b,"prepare release 3.3.4 ,change package"
+fc23a18c7ae187e2bb8132ac8c5741fd0f9a513f,[maven-release-plugin] prepare release arthas-all-3.3.4
+2e07fa01145b2dbece95728096d50a2324d5b88b,[maven-release-plugin] prepare for next development iteration
+f65bb783f4a931bbe4078c3266f3773cef555b88,"upgrade byte-buddy to 1.10.13, fix testcase"
+67771881f7b6484654ec81acdeddd4fbf0171e9f,Update batch-support.md (#1283)
+f7683f1b39f68ec7e221534321e14911474c843f,fix jdk7 ci error
+cccd6c855558e2abc436ad0b99d188e2fbf80cc9,add new link
+66d9f2698a0d53b2db97c599d0fe9407edf9e371,arthas-spring-boot-starter add integration test
+b239886ce451ce390fbcda5d162ca337b774e3e1,prepare release 3.3.5
+34bdad780ad0ead847d0a390e95fa317927963fd,[maven-release-plugin] prepare release arthas-all-3.3.5
+ebce251f6e665aa6d68225426d1988b6814df024,[maven-release-plugin] prepare for next development iteration
+8ad0abaacae13276adfee1994a32cd359fafe83e,change starter groupId to com.taobao.arthas
+5dc6518f4076ae074d46b9dbd58cd653fb9bdf06,prepare release 3.3.6
+a4002e95c141b9965afb6510a1b48b0736b01ab8,[maven-release-plugin] prepare release arthas-all-3.3.6
+979095320a991e35db3fb2fedfb5eca54aa88124,[maven-release-plugin] prepare for next development iteration
+6d787c3eb815051f824a4c2db83486e417ef3915,add arthas-spring-boot-starter docs
+0822fa2f2dbd2f0b647dcd6bc79dd81f7fc156fb,update docs
+6f5a4d69218fc726be7b76623b267acef2a54e43,remove arthas-site dep in packaging/pom.xml
+07f3f744fa6bf1e1ca817ca42187691dd5895c3b,fix as.sh select target pid
+9269a36db8420179ce3772ff9f02d00ac5fca04a,update doc
+6ee06c1b7ec1e775dca41cd446f65777e025a71a,add link
+634fa70fc2022ec1c9f4696576e60ddf90a2fc8e,clean code
+cc17f269685f10b94db4200a9c4d812cce29e639,fix save-result options do not work problem. #1298
+7f44222d9f82fc619d1b1bb99d2bee8ae953d3fc,update doc
+10c973bd40f30db31afa157db44b71afe1c31082,update doc
+421dca08c9ce80936c16bd4c8b651dd37f9c651c,update doc
+85058adc5d115ee8b0b9d14487d36418ca744cc0,update doc
+afc51833219474f4f08998dafb3769f9142ff6c9,update doc
+4a48a7b0735e4eac15e652af60f241db23157589,Transform commands of pkg klass100 (#1285)
+94b95b2ab681396770aafe53ea900495b0e09959,fix jsr problem. #1304
+5946227327beaaff01e0f569f77317ce2f2341ea,fix jquery cdn problem.
+40c2c5e039db0809f9f0959a988a19839ace88a0,transform command: logger
+5b7603eebe0becc215a1e45c4125223eaefc2ff0,"transform command: dashboard, thread"
+25a8ba9f4f12a168f44dfed08602ed348f52add1,"transform commands: heapdump, perfcounter"
+e629ce72c2021ff262dde18e363e3a9859ffb5d3,"transform command: jvm, improve MEMORY section"
+5c564fbd0fc3305a14ac5cf46030589ed227a12d,transform command: mbean
+661291d464908a8b5f76e0305e655158755df7db,add new tutorials menu. #847
+5d2f555cd4f72e9f3b3bd6b4303a1dbf4acea48d,add tutorials common-resources. #847
+8e5bb61feeab810337af66b057e1d7e019c59050,add help commmand scenario. #847
+154cdb70019858548eb1fdb402dd2da64b433540,fix typo
+f508a8f74c8edae56c2b162862fb6e1298c013ae,"Transform commands of pkg monitor200  (#1306)
+
+* transform command: logger
+
+* transform command: dashboard, thread
+
+* transform commands: heapdump, perfcounter
+
+* transform command: jvm, improve MEMORY section
+
+* transform command: mbean"
+c946119b1d890f234e972d4490460cbfed08dc40,add known user (#1308)
+9d821967631dbe2b726363e0d283638e77557741,add cls commmand scenario. #847 (#1312)
+7c21ae5f515402fd7ce6697e937934a9ebb16aac,add version commmand scenario. #847 (#1315)
+73e8fcc82011f182d929da70459d0e27e9d05805,"make build Reproducible (mostly) (#1128)
+
+* make build Reproducible
+
+* make all subprojects use the same git.build.time
+
+Co-authored-by: gongdewei <kylixs@qq.com>"
+eacc5081fd6d5775cc583588fa8614e315457067,arthas thread with name
+14b1b325427d2fac22f8d75be3f224b092d8d53a,fix web console js do not close connect problem; fix js ws send state problem. #1345
+927adc9ab5b5d5cd2975bcfe442c66b872d214f0,fix tunnel client reconnect fail problem. #1284 #1178
+cee21c049c6c64eb25ba7eddfb46bd6afb3c19b7,change arthas threads to be daemon #1346
+0556c0af732002915d68456fd8ad8f120448c153,add session command scenario. (#1313)
+5f8cd7b4ce5f470ad3d7859a90bd392850d60035,add quit-stop commmand scenario. #847 (#1317)
+e0fdb84de3135f0e5824c6f3e22d04fcce2381b6,add reset command scenario. (#1314)
+d342b8d16dc868ab3caa0b9da2ea4c5c8ac28f4b,add echo command scenario. (#1320)
+17b9116630ea2c1bc5ca391996592d59f9642966,add history command scenario. #847 (#1316)
+c77a4bcf05c9549bc035794f316b6ec4c8ed66f2,"watch/trace/monitor/tt/stack support verbose option, print ConditionExpress result. #1348"
+8617d577719f62c68f1536afabce3853dad4b542,add vmoption command scenario. #847 (#1347)
+2e36ff31ea88039c7eb73a2087536f2e553123f3,add sysenv command scenario. #847 (#1330)
+c25dbd9a1f0fe4ca33fee8a50ef3db5fd8ed9a1e,"Arthas cat 命令教程 (#1319)
+
+* add cat command scenario. #847
+
+Signed-off-by: hollowman6 <hollowman186@vip.qq.com>
+
+* fix link typo
+
+Signed-off-by: hollowman6 <hollowman186@vip.qq.com>
+
+* polish cat command scenario. #847
+
+Signed-off-by: hollowman6 <hollowman186@vip.qq.com>"
+edb5bead1771f81577ee88c541adef59bc5883e1,Transform commands of pkg monitor200 (part 2) (#1355)
+7027705ad3252ec3bdaa4e26e283297c0d0de43c,"Arthas tee 命令教程 (#1322)
+
+* add tee command scenario. #847
+
+Signed-off-by: hollowman6 <hollowman186@vip.qq.com>
+
+* fix link typo
+
+Signed-off-by: hollowman6 <hollowman186@vip.qq.com>
+
+* add tee details to documents
+
+Signed-off-by: hollowman6 <hollowman186@vip.qq.com>
+
+* polish tee command scenario. #847
+
+Signed-off-by: hollowman6 <hollowman186@vip.qq.com>"
+6df465f1cddba0fe8062bdea72810e86d0a3729c,"Arthas grep 命令教程 (#1321)
+
+* add grep command scenario. #847
+
+Signed-off-by: hollowman6 <hollowman186@vip.qq.com>
+
+* fix link typo
+
+Signed-off-by: hollowman6 <hollowman186@vip.qq.com>
+
+* polish grep command scenario. #847
+
+Signed-off-by: hollowman6 <hollowman186@vip.qq.com>"
+a7856ffdc17fb0d3a49b80a1207f949cf7c80470,"Arthas dashboard 命令教程 (#1326)
+
+* add dashboard command scenario. #847
+
+Signed-off-by: hollowman6 <hollowman186@vip.qq.com>
+
+* fix link typo
+
+Signed-off-by: hollowman6 <hollowman186@vip.qq.com>
+
+* merge 'dashboard.md' and 'dashboard-usage.md'
+
+Signed-off-by: hollowman6 <hollowman186@vip.qq.com>"
+ed921432b3ed7322187789f58ab27bff0403166b,"Arthas sysprop 命令教程 (#1331)
+
+* add sysprop command scenario. #847
+
+Signed-off-by: hollowman6 <hollowman186@vip.qq.com>
+
+* fix links
+
+Signed-off-by: hollowman6 <hollowman186@vip.qq.com>
+
+* switch to use arthas-demo
+
+Signed-off-by: hollowman6 <hollowman186@vip.qq.com>"
+0da415f0ceef6b0602a74d7353dd8fc2e02f0a62,"Arthas perfcounter 命令教程 (#1352)
+
+* add perfcounter command scenario. #847
+
+Signed-off-by: hollowman6 <hollowman186@vip.qq.com>
+
+* switch to use arthas-demo
+
+Signed-off-by: hollowman6 <hollowman186@vip.qq.com>"
+d5fa0d037fe17ab1eb8dd30665f6a36a4b540d11,"Arthas keymap 命令教程 (#1318)
+
+* add keymap command scenario. #847
+
+Signed-off-by: hollowman6 <hollowman186@vip.qq.com>
+
+* fix link typo
+
+Signed-off-by: hollowman6 <hollowman186@vip.qq.com>
+
+* remove additional link
+
+Signed-off-by: hollowman6 <hollowman186@vip.qq.com>
+
+* polish 'Custom shortcuts'
+
+Signed-off-by: hollowman6 <hollowman186@vip.qq.com>
+
+* polish kaymap command scenario. #847
+
+Signed-off-by: hollowman6 <hollowman186@vip.qq.com>
+
+* fix mistake
+
+Signed-off-by: hollowman6 <hollowman186@vip.qq.com>"
+96bb9be0d6abf8e60a7950df5e37ed7adcbe3025,"Arthas pwd 命令教程 (#1323)
+
+* add pwd command scenario. #847
+
+Signed-off-by: hollowman6 <hollowman186@vip.qq.com>
+
+* fix link typo
+
+Signed-off-by: hollowman6 <hollowman186@vip.qq.com>
+
+* remove '--target-ip 0.0.0.0' in arthas-boot.md
+
+Signed-off-by: hollowman6 <hollowman186@vip.qq.com>"
+20762ef304bb3b22c6f1adcbe00f431f51a97c66,"Arthas jvm 命令教程 (#1329)
+
+* add jvm command scenario. #847
+
+Signed-off-by: hollowman6 <hollowman186@vip.qq.com>
+
+* add jvm scenario doc links. #847
+
+Signed-off-by: hollowman6 <hollowman186@vip.qq.com>
+
+* fix links
+
+Signed-off-by: hollowman6 <hollowman186@vip.qq.com>
+
+* switch to use arthas-demo
+
+Signed-off-by: hollowman6 <hollowman186@vip.qq.com>
+
+* update to fit the latest situation
+
+Signed-off-by: hollowman6 <hollowman186@vip.qq.com>
+
+* add examples to use jvm
+
+Signed-off-by: hollowman6 <hollowman186@vip.qq.com>
+
+* update to fit the 3.3.7 situation
+
+Signed-off-by: hollowman6 <hollowman186@vip.qq.com>
+
+* update to fit the 3.3.7
+
+Signed-off-by: hollowman6 <hollowman186@vip.qq.com>"
+75d5b15ad6530cb8b2e1f1d76009a374e92086ee,Arthas thread 命令教程 (#1328)
+694cbfc069c0c3d1041ed1a4363c4f9161a3b3a0,Improve the way to get traceid #1362
+4161af4b22ea32ae8071dc893c7d82847bda68b0,"upgrade arthas-repackage-logger to 0.0.4, fix #1363"
+3e12b15f77db0b02607e46f3545113f358b252ef,prepare release 3.3.7
+30b0f5f0d70dcc3893acc2bfbcbebc704eafd779,[maven-release-plugin] prepare release arthas-all-3.3.7
+e9386539f40fdf14788bb893c26a90af64dfc12c,[maven-release-plugin] prepare for next development iteration
+3826dad43f4eac9b4a3d5b0279629a21a2737943,update web pages for online tutorial (#1364)
+20f31d47f23b2ac79ea7cb335e335d5e7b1a552a,fix build Reproducible. #1128
+c0b3272157835af3013d1abfebd2b2f0f6f7665f,fix build Reproducible. #1128
+5c9c1b3d0d44c63b6de14210dcd6316b0cc3811b,fix tt show record missing params (#1387)
+9758bfaa912a3acdfb1edc48c4faf8cf09944565,"fix version_gt in as.sh under zsh #1366"" (#1369)"
+0508c7727bf37523833057323f9b317aa6c577b8,repackage netty (#1389)
+54d672ff97771df4bd6209f49fa10a02d6ab546c,fix js cdn
+8dfe26625b03eb1f1c0a6da91af88b13de5807c0,fix logger command do not work with Log4j2. ##1394 #1395
+98bdf681f67545e485d02b173f920cd1882ed86f,fix spring-boot-starter.md
+b7af332d5ff6136af2d7eb01dca21c9b780efd54,switch to alicdn
+ce11773865ed6f90d2e854f7d0b4db2ea7f2b2ca,webconsole support wss (#1401)
+dc6c61df82088cfab5064d9ccb844717bcceb1de,fix `profiler actions` command does not end (#1403)
+8e51c91b313fdd02527355b2f19c322741647479,add wc command scenario. #847 (#1384)
+247281b2c52402b961bff5bcf61ac4dfc1b04051,add plaintext command scenario. #847 (#1383)
+8d88d2bff5dd0c73ef6fedad097c50c378fd8b3e,classloader command support the classLoaderClass option (#1360)
+4d918392e7ed46fc03d2e4826b1d361df2de7e48,add options command scenario. #847 (#1382)
+c4c782e7e8f9883db16eaac236f142dafcf1ac48,add getstatic command scenario. #847 (#1368)
+6b5a8f0ec9541f00a42b47c45bf5383d6bf4482e,add monitor command scenario. #847 (#1377)
+d490a6c583eb9f05e9ec43b2e95f594efa112de1,add stack command scenario. #847 (#1380)
+c7dd99e8cd239e59bfe4f201684610afbb685457,Arthas mbean 命令教程 #847 (#1357)
+16ea37d509957e31f5f756e2bea282b8f763aa22,support cnzz stat
+7a01f23a73dcec7d1ca4f12f802a8c7fecbb2500,HTTP API support one-time command execution and add HTTP API docs (#1408)
+47c2da49244d7b7b44f7bed6592172c9b2e5e6a9,"Polish http api doc, add web ui snapshot"
+19ed2103bb2ccc061a2fefbb77ab22945ce2fb35,add tt command scenario. #847 (#1381)
+70910d452aeed44f85acf998159c39678f460c7d,add trace command scenario. #847 (#1379)
+a3e31c8eb443b6cdf02a2a20f45a29d2c45d3ed7,add heapdump command scenario. #847 (#1373)
+3ba6451b1a023f302f982d50900468784c513369,Arthas watch 命令教程 #847 (#1378)
+6c43d06ef66e8dfa68f7426c2f074a6a168a6c59,Arthas web console 案例教程 (#1332)
+c315d7454d0fa67e469379592203ee8f60485a7b,Update webpage (#1385)
+e49a9346b2198a6baeae60a2cd90263ad0f45c46,Merge branch 'master' of github.com:alibaba/arthas
+e1db96bfa0c07c0c70dc47238c569fa374917daf,update download link
+86a45e9ce278312da595004517e90599af6e0d6a,update tutorial links
+e30eaae71547dd0573a3d49bdb1cc4453f3b9d00,Arthas Async Jobs tutorial (#1354)
+9022fd77e549851c3496536423b4a035dd2d188e,Arthas dump tutorial #847 (#1372)
+93be862c206babb3cc247f4d2204706e404ce9e8,Arthas arthas-boot tutorial #847 (#1344)
+75b89eec9dc33bff93ca2cd746eb7b46b41e9b41,Get  Spring context tutorial (#1342)
+b66538e1488f2b9e963d2f8e31c0635bdc1ac04f,save output result to file tutorials (#1334)
+4c7dd9666164980cb19bab030220cc89b6c2f2ea,A case tutorial for troubleshooting HTTP requests returning 401 (#1341)
+ecda07c36fd1088178cfa0030ce7e56aa95ade9c,ognl command tutorial #847 (#1327)
+f9160fcbea6383ffba47947710867ad667f07045,update link to arthas.aliyun.com. #1411
+6f4391aaf2be1eb02bd0a37a0164a60a82a7a9bb,fix profiler command --format jfr support(#1406)
+2edd2389cd66225c95723789d49d170d4b3b0d13,update download link to arthas.aliyun.com. #1411
+1c4eea1b9f124aa15404910714c0c31ef97d8d22,prepare release 3.3.8
+e347fd7fda0d71e8d97a72295c59c4b16a8f2f08,[maven-release-plugin] prepare release arthas-all-3.3.8
+9046dbb93242f8b0a26cede4c6ec10b41f9b1c76,[maven-release-plugin] prepare for next development iteration
+128afe51e5b853602ef9272b43616e39ea2daca5,fix terminal hanging #1412 (#1413)
+5286ae027578b4623dd53d8459389d4d135d4cef,Split the online tutorial web commands into multiple menus (#1414)
+a384466a39b216f2f463455bc604d7c9b244ba3a,update doc
+3079869dc96f5b8f0217a44a76de54bc5327cc9d,update layout.html
+191b7979be1e527746700c923f4b3549b19a0623,"restore terminal flags, fix hanging issue #1412 (#1415)"
+c1aee60a5bbec298d4dff47a90ac7a0e26924c2e,polish pr #1412 (#1415)
+d2be558190bb02bbec6ecee2aca6c2dd3e0125b7,prepare release 3.3.9
+feac3a48259183299ca6f44beac471454e9f0d7c,[maven-release-plugin] prepare release arthas-all-3.3.9
+1c97b1a7cc56dbdbe63e9b126c25c6187c74cc9a,[maven-release-plugin] prepare for next development iteration
+464d4ed1228b8abb6ab28aeb2c8c5fe530f7f6cb,"Fix classloaderhash problem in advance tutorial
+
+Signed-off-by: hollowman6 <hollowman186@vip.qq.com>"
+add263b569a2801c704948b003d71c573fd69a74,remove '--target-ip 0.0.0.0' in arthas-boot.md (#1359)
+a3b2774a778b2bda87016c29aac2a97b498e212e,Fix typos in 'Async jobs' (#1418)
+78eb6db3b53a75e64daec52a006a82e1d0514d5a,"Fix classloaderhash problem in advance tutorial (#1417)
+
+Signed-off-by: hollowman6 <hollowman186@vip.qq.com>"
+ef9cf11b1e24f81f9e08e102e8b1e20fd757f677,Fix typos (#1419)
+5e3d8711ffeb4ecbeab3a34f93bf27bbe3f4c739,update dashboard docs. #1301
+e297f112099134e062397fb8e47b8bd52e920ebc,add Troubleshooting HTTP request returns 404 case scenario. (#1340)
+756a8c4b6045f0328370917808f1404f3d3eac0e,update blockquote css
+01fdc099de518013e4cf858f01b85f3389acf7ff,add idea plugin doc
+4045d57498037a49d1b5eafcd05f12ff51924e42,fix typo
+7354d85c42e3e1675e69950043119bce82ba92bb,Arthas redefine class case tutorial #847 (#1339)
+c4b1fe9af593e1372b3531c93b2a0f35672e2ff3,Arthas jad tutorial #847 (#1374)
+306866ae12740ccfc62ce10e3a9ec6ac4986f5d5,Arthas ClassLoader case tutorial #847 (#1343)
+20a5fdacab2eb8a8c027ebe985396b39d861eddf,Arthas Change Logger Level case scenario #847 (#1337)
+efb6d1cc93889c26c4c056d1dfc471d6e8e456d3,ignore ClassNotFoundException AgentBootstrap. #1422
+dbc525d2a99c0daa520eb7f115f53b2678e35a4e,Arthas logger command scenario tutorial #847 (#1365)
+9b56029152e7e58bfc6bf80274b75de0ef49ae4a,add profiler command scenario #847 (#1421)
+35aa6cf686776eca8c902d2c81ef1ef262bbb011,add mc-redefine command scenario #847 (#1376)
+2e979ff35f80e4ee29466db6c5eb1b604436ba70,add sc command scenario #847 (#1370)
+1179fe16be4d0855bd2652191e9eb5b52c27d57a,add sm command scenario #847 (#1371)
+f125099387c55fafdc201153fd30d4a51f96044f,add Troubleshooting method invoke exception case scenario #847 (#1335)
+0366205bdac766fa6315bd365491202c373581e0,add Find CPU usage Top N threads case scenario #847 (#1336)
+e652137af2cabfe9d617db06bbb90e6683568813,add get java app classpath case of http api (#1426)
+92dd9a2fb0bc468d6276cf3a447553b3b0bf0ed2,Fix intro.md (#1367)
+3dc3f36b9d86f2e0e73cd416bc830d83988f9abd,Classloader support matching classloader by class name. (#1428)
+8f3dd1e0e907c9c1723815a7ab3e3b21f691fb56,add Troubleshoot logger conflicts case scenario #847 (#1338)
+52062ea082bdbda279dc5738883c82d5c3535c51,add HTTP API case scenario #847 (#1423)
+3d99c4429b216462123cdc415c24e082275aaeef,add classloader command scenario #847 (#1375)
+30d4a1acc72534f50d8475b5557d12aeee933998,Fix typos and links (#1434)
+08fa2a04de785de7c594192349ab668077344d9f,Fix  tutorial links (#1435)
+80d716c9bd206a93b108f51e1ded5d2f0ea3e582,Fix displaying (#1436)
+6c7039114cc967e0336daedc2109a0cf28da2d7d,ignore .pmd (#1439)
+1bfda2b8277cd6b5ce59cfc1f4e450df72c5a05a,fix typo (#1440)
+ea262bd52b6ca8b1386c73080c196b6d36f79fb8,Add --classLoaderClass for sc/sm (#1433)
+f8a1d7d81f64d52becadb0f0441052b93a5fea8c,Update sc/sm Online Tutorial for classLoaderClass (#1443)
+aa810814eb1a21041f093aa8276f7bb6c8c9647a,Optimize --classLoaderClass #1428 (#1431)
+69abe313975a080878a07a97c03c9e18bc0e9b5e,support skip jacoco by skipTests (#1292)
+1ec663375b27f707c42c2ce55ef37014ebe33825,fix pom
+5c367eeb06104dc46f591bf32ef57107055d996c,Add Press Q or Ctrl+C to abort for enhanced commands (#1454)
+bc8a5b809260060273d88be6613b1b7deeac53cb,Fix ID doesn't exist in T4 (#1451)
+7ecdf938a934a523595861ef00ac56953c623971,improve .travis.yml
+6a3bd51560edd9cc924cf2d89d698a51b82dec37,fix typo (#1458)
+9ae8862055436cab7f99df62b06e8c123bc69d53,Classloader using --classLoaderClass in Advanced tutorial (#1456)
+d2683064fa62dfe77858d36c613eca7520166ca1,"Fix links, typos, 'intro.md', 'finish.md' for Online Tutorials #847 (#1453)"
+e63e0cfc6aaec1fcf001f0b3728aecf675548efb,Add guides for using and contributing (#1455)
+74c313ecaa425595fd5aab46d3e933b55a43522b,Add --classLoaderClass for logger (#1445)
+3ce077300be74cd5a0c32b253b22646c45027fd6,redirect alibaba.github.io/arthas  to aliyun
+ed70f644a33c4f33f62e804472507ca65257ed38,update doc
+e3283f0439f48bbf1e66ce23ffd9c079b99a9f76,Add --classLoaderClass for dump/getstatic/jad/mc/redifine (#1447)
+f36959bfcf27530cc41ca0610bb49191ba33f54e,Fix typos and accessibility #847 (#1460)
+9835ee5e1543a48493709e4443264378dbf3bd88,update contact-us.md
+60bb714675885994dc0dcd59e97f57d8b6c4fc8a,change version to 3.4.0-SNAPSHOT
+111f597ffca2769852d848b562862a6793abea03,support maven Parallel builds and speed up as-package.sh
+cd67c4aa6626247849f4cec4b04ac8afb843b3b2,Add condition-express param to monitor command (#1420)
+0af6ef061e4eae98a3ca2036bc412a50ef694cf6,Merge branch 'master' of github.com:alibaba/arthas
+a1c8f43032eff2c2843abcbd911d7069f8ea7bd4,support listen random port. #524
+dcf50ad948e31454d49f411527523bbae75e81ff,"support listen at netty LocalAddress, and tunnel client connect to LocalAddress. #1467"
+0ade922855816e7d8608355db5cc60c1c7ad4178,fix do not unReg listener error. #1468
+7742469c7c77f2f2ea17f74dc2284009a17e485a,prepare release 3.4.0
+b85bc9aafb0da50a2c927dfd0ecf21e9e10ec71b,[maven-release-plugin] prepare release arthas-all-3.4.0
+c0721bcc986d36d0136579c65d21b5754af4f83b,[maven-release-plugin] prepare for next development iteration
+bbb695ca81bace8f7915b6f7b6203354b737d8cd,add arthas-properties.md
+41ac1037209f39a2c7799ea4539050ed85837ae6,fix typo (#1472)
+2d4c59d1ced1a1dc108814760382aeb3de0cbb39,improve ArthasAgent API. #1471
+41f86ac5ca1c963ce5e79fd18db9c01d788b8d12,profiler command support framebuf option. #1476
+fa4561533f53a18a1e58aa54a8966b0c4ec5ee72,upgrade async-profiler to 1.8.1. #1478
+b522ab1472f29578ef28d7ee4aed5da03c92c7ed,profiler command support include/exclude options. #1479
+4f24f82ccb5301db65ec5cacf9bdae97cc5f83c2,add known user (#1481)
+ab2d8320ac2b54be08a6a7ee0aa0741d9674a426,fix as.bat set JAVACMD error (#1489)
+6c009625088de528f51f3ab90340dc4697262066,fix arthas load logback.xml from app problom. #1495
+01142ae8b84f3bc75c966a6f7761c2fe0e145fcd,upgrade arthas-repackage-logger to 0.0.5 close #1496
+4a72c3e7839f1dba946fc9a31038579f13d33b19,prepare release 3.4.1
+d748271fd17a332a31b6793c177075df3c4de736,[maven-release-plugin] prepare release arthas-all-3.4.1
+4972f64713ca5f8fb254a55b44a04fb50f34d2cb,[maven-release-plugin] prepare for next development iteration
+bcbd5924e63760ae90b1985c41625c43624af862,update profiler docs. #1478 #1479
+fe84834880ac6fd338dc01c39135692be66da614,Print recommend latest version #1509
+1f9f7d6e5d6d850c634e3c4589e728b80ba9b010,Fix metaspace OOM problem when trace large method (#1511)
+820d463af2d1470aee0bbb44f22f403e14b9fb92,update spring-boot-starter.md
+9e433a26c0be2a53af5b3a255318af8d385fbac6,improve arthas stop logic. #1514
+ffc411b6eab9144c4773bd24fac9cd12e2f80fcf,update docker.md
+4d06126b763255d5c2b2b2be3a8515f2840ef437,"Improve arthas stop logic (#1513, #1514) (#1517)"
+503e0de6b4328d8541aaabbb233bff43f7563276,"improve dashboard/thread cpu time sample (#1501)
+
+* dashboard command support native thread, delta time
+* thread command support --all option"
+7f16b59e2155c29d1705ab27b9c2f3e1128f202f,prepare release 3.4.2
+956a27bff8ca15c2fbf20974a8575d4332587e30,[maven-release-plugin] prepare release arthas-all-3.4.2
+e40025a2df2fe1406dee2737abcff377521bff03,[maven-release-plugin] prepare for next development iteration
+512472ed17f84f636ebc3dfa1e4c1e0c5d8d6644,"Fix the problem that when the --enable-preview feature is enabled, set the wrong java version in watch/trace. #1526 #1223"
+a7a1c06ecb3985592593cad60bfc1be436c970f4,Upgrade asm to 9.0 #1527
+4214156579548ec9686e15b35ef560d319ff069c,update web-console.md
+f775b0fd42dd30d74bf768c5f992d9663bb7c8f4,"Upgrad termd to 1.1.7.10 , remove unnecessary code #1529"
+4b2d182518c7a35d0f60e554c54e4e3b4bb6c974,fix arthas-client windows cmd shortcuts support. #616
+4abcac9b65dd9e36cca89db5f95a5e004a94d505,avoid retransform lambda class. #1512
+59dd38308475a1b7ea8aea75eb4d6f8957eb2829,avoid retransform lambda class. #1512
+a6b68321ae977bd73545a58f45dff4d30e04beaf,prepare release 3.4.3
+4268b4d13e7a81ed4803cd9d7a23e340e14adbdd,[maven-release-plugin] prepare release arthas-all-3.4.3
+b9aabe42007d2dbc64ebf352901c417b15723535,[maven-release-plugin] prepare for next development iteration
+bdd801739910fce426b98c12e02dbbb7a048f93b,update spring-boot-starter.md
+f67dbb6b1075f17d84f3fe69d5185b41a2ef5ba2,update spring-boot-starter.md
+734e1f92e78b4d6941365523597592c1263c09d0,update web-console.md
+c95205b5eed228d79c022f4ac6b4b4a57ebde5cc,tunnel server bind 0.0.0.0 by default. close #1535
+b628eb7e2e5c3373f873f4f80fcc11649bc23991,Bump junit from 4.11 to 4.13.1 (#1540)
+832573e1a9943433e710393908a6da7b38f3d90f,Reduce small objects generated by dashboard commands (#1533) #1542
+ef2b8e57c95a6881cec98dac93283c76c313aa03,feature: optimize version management (#1543)
+6be0cc596b4b485d87d80d3b01ccb6e737cb6204,Support profiler command on arm64. (#1259)
+9a84d2883ce54ea3378e1014d3be8030ae905c23,fix eclipse ide support. #1543
+2d0b669e6327fb3ae5b7b24b9b6c36a24f419ad2,support maven release
+8d43d8cc456b2e084e0732fc646e079b40f38d6f,move bytekit to a independent project. #1545
+5e73f49abd3106690c1fa0a561910c65647916cc,fix arthas-agent-attach dependency problem. #1547
+a2b45c45b8c0a7e6244f2aadae42a9ec2e61071d,fix ArthasAgent NullPointerException. #1546
+79c27ad13c940a15b160520c70c12d11cdfb2a15,add tunnel-common module. #1548
+32d4321a99c8deb7a9af04da84072a3d4177d00a,tunnel server/client support http proxy. #1553
+8114a977d3f9369e734b6b200084ac067f29865f,fix typo (#1551)
+f85ad038053da9388ca747660c0e896b5b275327,tunnel server support brower arthas-output. #1553
+6a359ccff6ee594be1681a640f0f260c861165ae,upgrade termd to 1.1.7.11. fix save history command ConcurrentModificationException. #1554
+e53f35597866225efb8dc967a26d60ee6e6e551a,tunnel client report arthas version. #1556
+f2101f93869d8564cb036b257c4c55bd09981f38,add known user (#1557)
+20b507cd8caaa7326e522338a5d89d8a58f9e534,tunnel server support package normal jar
+80b568404fba8f98e62d518bd052bf7ecb13996d,tunnel server support save agent info to redis; websocket url support config path. #1558
+e3786af5e4e443c34791393f3908972e8ddaf05b,tunnel server fat jar support executable. #1558
+84ebb8959fc379639ae2f57932b96637fae23d11,tunnel server save AgentClusterInfo into redis; web-console support path/targetServer para. #1558
+8e156956c06508eeea91e6e5e3aff6d4fea502c1,tunnel server support X-Real-IP/X-Real-Port. #1558
+b64e18e1c59b38eec7e77ba5ab005651ef0cadda,upgrade bytekit to 0.0.2. #1545
+248e6172e7034df91a67bc01d9f16d01c610006a,clean code
+e13ced6fdf045d23eae98de7e85d1bcc1a6c3988,support config appName;tunnel client/server support add appName prefix for agentId.  #1562
+cdec5061b42a68cb56dbf6b2590dade01803a57c,remove default value in as.sh/arthas-boot. #1561
+288b1eee0cea58517d387b570c3bfdf8a0d403d1,fix testcase. #1561
+1eafe43b0a686959d0aacb00a9459f5a83c03074,arthas-spring-boot-starter support appName. #1562
+5c0a1c7c223cd2cb2129a99f25e54ccf3a5b0456,"tunnel server add pages about apps/agents, support embedded redis #1563"
+85be1fe82d378996f51cc134cf17a17fa383447f,add tunnel doc.
+88296cf8bcdbfc849817f1639dd41167a4ccd36f,fix travis-ci failed problem.
+e4eae4f93dca27fb417360b1791ee9b7e8f07bf8,release 3.4.4
+1f42326106ef372a707d674100b3c8d884fbe75c,fix release config
+69064b056034405bc42ee22cbb7cad3c97bf5be9,prepare for next development iteration
+10b31abef59f3132cb4d57c12c685c12ec3c4013,fix javadoc
+c75f9790eaf13153ab347f1a2732ec1b0ed5c70b,update doc
+6d56f997a552fc963af6b366c1fc49ec6a273c97,fix doc conf.py
+709f08813350b97862d1b09d992faa0024a3255e,improve print agentId in welcome message. #1575
+85aa4f27b45c05578748319a1032d3c11fa1d9e2,session command print tunnel client connect status. #1576
+ac458c1ae1e04f833f48f705b16086713da83212,update doc
+bf3e0f603c7e8e4e07d526cca48b562a7815dfd9,add qqgroup2
+e9e83c9aa1bef46efd7eeca7aff5b68e274d4c7f,use advise's classloader to avoid NPE when the class is not loaded by current thread (#1586)
+d2d5641e1e1c3f71e0409142ee8549259daee35c,polish #1586
+0aed28966cc282192d832d7b215cf4ac9f47d22c,improve
+7b2b38388360fd691c3fcf307a9696a770be2817,tunnel server embedded redis support settgins. #1592
+f9b70d590254813c9371290ed96a27eca28ae6c3,update doc about tunnel/arthas properties
+ea44b7c8b0d5bca4fffc683d88121014c3dd61a0,update doc
+9c847d2dd577ef3f892884c7368d7ddfaaf6ed13,enhance ClassLoader#loadClass to reslove the classloader can not load SpyAPI problem. #1596
+bc70853b0c9991c1ba9e1b8ddea1f5376a0ee9e4,support arthas.enhanceLoaders config/add jboss ModuleClassLoader testcase. #1596
+08db056c2022ef26242fcf45c8956018fa39ed2a,Enhancer print error exception.
+2c3315a09de4c2e25c119daefbf47fbd34e837a1,fix IOUtils unzip security problem
+769e998a5a56b65486320b128c9fddf1bb0fe986,Create codeql-analysis.yml
+2b523fde48afadcb969c8932e3b543b00933d25e,tunnel server support InMemoryClusterStore. #1593
+52f09b9ae28994cb2db57a253df7d985f6aaf61e,dashboard command print current timestamp. #1595
+d891843f5c9effb1d75ad08f553de2b6b2c94387,use ext classloader to try load SpyAPI. #1596
+46998e935d0faa28219675581c4f724d54e5adbe,upgrade bytekit to 0.0.3
+1e03081ae99fcdb1ae6827f89a044c79e445aedb,update doc. #1578
+b569c5ad45d7aad5059ce3fa2fefe7ad8033bdc3,disable rpm plugin by default
+b309c2b80c53aaa93eb6fdc8fb9ec52441cc3991,clean code
+a5c13d886a85f25e1d1ab648be63795303519ad2,update version string
+2efda059b1c90bc505d67137fa7a803483c4483d,release 3.4.5
+8bb4e6f9a5a89871298c05228c3eac7afc57721c,prepare for next development iteration
+110f0e8a1e9d7875a2cbc86f1dbe2218df342547,fix ArthasBootstrapTest
+9d6c17b137df7f3fb13cf032e582ef27c6483189,ignore native method. #1565
+9b1065c603ffd27ef474fc365b56f6a0bd54fb31,remove 2 addition non-reproducible Git properties (#1604)
+d3eb03d57842b89b856c83662aa9a3486082a0b6,change xsd url to https. #1604
+db533a02b0296588757923b17daf547e8bb3798f,upgrade bytekit to 0.0.4-SNAPSHOT
+6a3d9fac33655db3b00d2ac10a4ebacbd9e1f897,Some code optimization (#1608)
+58f3f2a3cee1eaa9e0008da8128d95e85c1be1d7,update trace.md
+a528c0170510b734d226f72d898512b8c4402455,update README.md
+8753c02ad1e5fd0a7d142c3128c05f4468a67ece,fix NullPointerException in PidUtils. #1611
+62dfe634dcefec1d5f9076fe5e5fb53da6111abd,update doc
+e392950f9b606ca3b40b698b3a2a0e8cdb910732,disable fastjson circular reference feature. #1614
+1fca980f154d62d0df1f7914539f2e60b3f0a8f2,Add dateformat option for fastjson (#1623)
+bf0ff03206e280c2764d24c63643e3c80b19bf7f,add test ci/support jdk 12
+286799c03dfb805c4d1ce52fafc3978f9fb45c66,fix DateUtilsTest
+cf279a9a91f827da2420e2c6830c9255b98704fa,"upgrade fastjson to 1.2.75, fix http api ClassNotFoundException: java.time.LocalDateTime. #1619"
+d9151ed4599c9e2a67eb14849c670ea841bc7f72,update DownloadUtilsTest
+a89378e1df8aa0580c4e5aa40f8dd97cb8e113df,wiki: not support 'trace java.lang.Thread getName' (#1633)
+d20346075caa3315fe390332549be29e4e67212b,update doc
+ca3e44258f5589f01218658115873f022ffce336,watch/trace support --exclude-class-pattern option. #1638
+41576b4b3e0fa7703bb131313a2fd665dd95ff0f,fix test. #1638
+748ced4db573667cc09eee795ee09ceeb7559ed6,support arthas.outputPath config. #1641
+2e75721ddde180066cc043921d6e7497bb3daa52,trigger ci when pull request
+8c7afb823eb8af28ca54ebfcb120304ab75af037,fix NullPointerException in MBeanView. #1644 (#1645)
+d4e54cd2f21b7b5d31c409ff7064224bebb93bbb,add faq.md
+285b73d624180763a91fc8abb694c0a39d55004b,#1612 support download large file. (#1642)
+0d2cd8b1809209b85163b5c89cf18cc90be760b2,polish #1642
+b2a069f89f03e78ff6b621dac4fd4b708626fea1,update faq.md (#1652)
+ffa536ed212e02897696006e15461dd4bb64e692,add base64 command. #1646
+7a3106753c0d31112e130ca929f6b7423fe30615,update doc
+668e4537c43a922e4a967ca16e74959fbcc12ed0,fix en doc version
+1a047c705654725180af850d3c236f0ed551d80d,update RedefineCommand.java
+62aed21be89e409e46765f9946f0eaf297e417c8,fix as-package.sh maven build
+aa396f8f9ad9e4a55ccdfdf003d9b2247bd0a96c,add retransform command. #1651
+5a8d11c8e552d7c1944e5ce063b00454cfeec7ce,fix #1646
+3dc42e69db6237d44d926550399fd9b5c95e3fe7,update faq
+f436c29f46f95e255d1113faa3482d4880e11257,fix watch/trace exclude class pattern #1638
+dd997c267a0cdd8b9ee2a4b9613e0ef06b23c062,retransform command print transformCount. #1651
+8c441f13cff7303d87fad7ea36c22e4823db02cb,watch command support print access point (#1628)
+d400db5931a4aab5e5303ad7905b765de0ccf7a5,update faq.md
+f8fa439d44e341e3a05f7fcb0771388c540cb319,polish #1628
+cc26b806d6e27abcf5c578a3f85f82d8ba2470c8,as.sh batch mode support select java process. #1497
+fac8dd5470e96109366fb55dddeef13eb6cba220,update faq.md (#1660)
+2ab06df83c8db7e52f075462fe9daad3bfdf7189,fix session#getResultDistributor NullPointerException. #1579
+a72ea418c50700126c24e80d6bb2bdfd5a916fef,update MathGame.java
+50a2e98f40cc829567084141d5bd7756f90cd473,fastjosn ignore getter error. #1661
+5db7c45f0bd934060464004d8df11c2c55217af9,upgrade bytekit to 0.0.4. close #1609
+96bf82b2d8d55fc4f34e17cefecd84d5661b0815,release 3.4.6
+8c5774c247701d93b2e56d63802be81f22a71fcd,"Revert ""update DownloadUtilsTest""
+
+This reverts commit d9151ed4599c9e2a67eb14849c670ea841bc7f72."
+170ccac9ef0c897d6eafe7b3196ca6b8cf3092ca,add aliyun handson-lab link (#1662)
+8bf76d2400edc9ed80458b87e0c825fc9344efed,update doc
+65b025dba4ef1bca966c785d1390df7e72049e2d,upgrade katacode imageid to openjdk:15
+dd48b2b4337ebcc059cc1b77b0591d8fb77836bf,add retransform command tutorial
+a87f29842e62303cec9718c62832dcb592087433,does not nessary invoke method findJavaHome() twice (#1666)
+23a4cefcc14a4f74491f51cd21b7ae2131a31f03,avoid repeated calls of method findJavaHome (#1667)
+b1c239caaeb4c1e551dee806d629b5b09ad6683b,update doc
+64009ee03fed251ca4f4d3259ae07a2eee7e25ba,update faq
+bf0ed8ffaf4a9d8a91f9b44b6275995354d02e52,update faq
+6ce53dfbadadb1eb5acf2622db02314e87e14cde,fix profiler tutorial
+0b20e4026c8612f9f1542415790a64f0a80f0180,fix stack command NullPointerException. #1674
+d87861eb359aeedcafcd0c6affaee2f2e20184c7,fix dashboard command may read tomcat info error. #1678
+9dd749fbb104c918908c32a38b79eedf5f3ec9d4,add known user (#1679)
+3ad6116241000996e8c7c7cadf9ed553659c172d,add USERS.md
+3e592f48d964d306dfb5f614be1092eb6c1cf2b2,remove links from fonts.loli.net. #1680
+43566d21df6cf421dd00fe893d2bb7f69a9c4504,update USERS.md
+1db537b65b3d4f3c2faf5ef8df2d0358401fb944,clean code
+1ac76b25a32eddb01ccc8139c7bb42624d3d8a17,update job link
+196289d5045193a4b274d0398fd56e4b1e6c3889,upgrade netty to 4.1.58.Final. #1685
+92e36803634f9fb6c90ed38e19be91d11bcee050,prepare for next development iteration
+6d99659a6d1fc83b515092f55e9c5b535e74d5c2,update faq.md
+f3b6cff56b747cdee33c6e226068451d5a92a3e1,update trace.md
+a1056fe309b61fc205542fa0771658ffbff0c9a8,update index.md
+2df70a5fa7c22796851cd9298f133afd4cf27a39,update faq.md
+e49f9bac1d2f7d179e20ab118a151e9ec799d46e,upgrade cfr to 0.151. close #1695
+b1b1eb9b9aca118b9409938e8a1d799c824a6d6e,upgrade netty to 4.1.59.Final. close #1696
+dc507df175c615458deb976346208bb9310fcd16,jad command support print line numbers. #1 #1695
+369d2acfb469fcbff8d9b65f8c2f87a85e83875a,clean code
+ce14fcb995fa29071f84ae549c051dced65a3699,fix dashboard command may block when try to read tomcat info. #1700
+eb41c373adc3927ee1a7bf97a31f5e1133401d10,use repackage-asm dep from bytekit. #1701
+5357c6f0ba8222fdeede030a4c1898ca79e9898b,upgrade arthas-repackage-logger to 0.0.8
+eb3ac0562fdec332f007af6496e8c3320abf859c,upgrade async-profiler to 1.8.3. close #1702
+537d56d1f106d7d91873382bd408a1b32beabdc4,websocket support idle PingWebSocketFrame. #1573
+c9e3099cbca05c68b3963f926cd4d5cd5f392d11,update watch docs
+2d7e19f13357da96fc2c519f6ce707d194f187d3,JadModel support line mappings. #1
+1376c88663729b0ded84bd3f121a3d51b1445f5a,"fix save command history npe, improve load/save history logic #1704 (#1705)"
+c67c8e4ae336f7a56320d7fe4501f52ebce0aadf,fix EnhancerByCGLIB class constructor exception table. #1690
+46dd0539d0de17206aab20cac18b35c377a679f5,upgrade bytekit to 0.0.5
+9b3b80088b4f442c26b6c74e62bf25ad46fa6c4c,release 3.4.7
+1c432dbb000831bf3aca434e3dda826b53e569f2,fix Decompiler jdk7 support . #1711
+7972fe081a346c170bd8c43276b9538e695a2e3c,release 3.4.8
+14b972973847d2995fded6960c930f7974afe252,update jad.md
+6ebf5689dd0fac53fa85336b68a44ba6de8dea56,"upgrade mvnw, use maven 3.6.3 (#1713)"
+013f7e9ce1742ef7bbf92e44f64b4544877751ee,fix AbstractTraceAdviceListener may throw ArrayIndexOutOfBoundsException problem. #1712
+154b81b2a806c8e07a9c36e216d8999c156c7b24,read cleint ip from X-Forwarded-For header. #1714
+4c1692650e429e3265db08118a560634bfa75540,fix print exception #1717
+7c71623f14df25107cdf35d8a2643bbf9d7edc91,print main class in welcome message. #1719
+f9672d64704093d790f694871dce0c460e639108,read cleint ip from X-Forwarded-For header. #1714
+985963b9d1272f2a872810a57d69291fb1294c81,tunnel client close ctx in exceptionCaught. #1720
+e520b10319fc88e4c30bd5180b85d4b2180a1954,"Add auth command, support authentication (#1724)"
+7f955a537e0d6ff7f1cd2176c404b33774a67977,fix one time http api support. #1655
+a909f8f1a384abcf0ee65c701330fbe46573ed0e,update doc. #1655
+978cb18f8f3fd55fb3b938cccf4f0e324ef0de16,fix arthas-boot --app-name option support. #1725
+8f348a1ded533b3a0910e53aa6cc8fa53323520b,update doc
+082672fb1a89006a8aabfed18f3398255ce4d53b,update doc
+51bf98cdc5409fee24ad989e9541c74be76a0151,support username/password in url; websocket support url with parameters. #1655 #1727
+0a09b666f582f930d92a1724f7e0120e15ee7d9f,update faq
+20a4a8e1d6b931fa86a6a14a6ac5f7c7e2a97490,fix travis release tunnel-server include files
+93743ca834c7896f1abc63e53398941e8ea806b4,update auth.md
+c51bfaaf6ed009b1c2abecc9bdba5cbe43f22b72,release 3.5.0
+9dbcee7bd1f56f29f9c06467f2413659ad39f14f,update tunnel.md
+f7c6c5729c681a013ee52a80a1ca59498e3d4cca,update auth.md
+ec911a502bd11217140d7d85b1e7bed21f3f736f,prepare for next development iteration
+6e511ea1713d61c738c97374fdda7b593ed327df,update USERS.md
+f19bd33805f752ffefcf1e6a914a24a5e0141e9a,print more info when failed to bind server. #1737
+9c936db7b3af9635a53ba46f40802ee06de06f97,rename arthas-demo to math-game. #1738
+4b90931ed7cc1756b1216bd235f71390986643b6,"rename arthas-demo to math-game, update tutorials. #1738"
+e763ddcf58d81df37281b9b4c346507ee5d59265,"rename arthas-demo to math-game, update tutorials, part 2. #1738"
+a9784ef46d08ccfbaa32e6f59a20d1f6f7a34232,print more detail when render object throw exception. #1740
+1a809d2a96d345dacafdaea602fac43b0fd883a1,typo : package name not intact (#1744)
+5c606a62f395f9a4f0539a656374303969561ca3,add case-ognl-practise-cn
+acbae91c731b3a8533b309220d432fcbfe965bac,add case-ognl-practise-en. #1743
+ca3421d6ea1cd5ebdfa658ca27666102cae6f154,add known user (#1746)
+cbfeabfb67f20791efce428aa049399db1227437,polish #1746
+48c4359e91a19144d48a50f8797905698271757a,update help message when can not find java process. close #1748
+fccdd5c313d28f29e6ec2705a929d695eb2877b4,clean code
+4782fd6270a02aa5fca213ea99c60d858ab34fa2,fix thread -n -1. #1755
+4dd4aa83ae291d93a75947cc0056673fb5fc6ec9,update doc
+3eca34b9d8f053d219e670cc2c3368d6cdccc595,remove jd links
+a61fa7cee33a0dbd4b48c49be0f3c865e3acd8e0,disable arthas.enhanceLoaders by default. #1757
+9236c8f748e0e93930e8f6af69302475ee3b3bcf,fix tyop (#1758)
+2465251d32685f6ee724205d45f0f00350b23ae3,update options.md
+8870e16f3a8451d9f6448a870774cb5aba92b823,improve the prompt message when enhance failure.
+342c474980961abfbb550f32064c494b2adf4ed2,unset env JAVA_TOOL_OPTIONS in scripts (#1764)
+4af322f6da0b941397a10ac6014c1d5463c1e9a1,fix jad command render table width problem. #1767
+1d1f0bebb332ca9eccb60db48af9b33e85bc56da,fix CompilationMXBean may null problem. #1772
+705bfdad32876669dd91412abaf84556708c848d,update tutorials case-ognl-practise-cn
+c6e2c2d4dc4a7abb93c08ba9ecd688153c409e27,update profiler.md
+4a4eb331f8ab6d3d15ce4a7150516ec2d4c9abbd,set content-length header for DefaultFullHttpResponse (#1779)
+884c6e994714e0c70778268896eb06de9a16453a,update tunnel.md
+80e469496192bd84e1f5b21b8c4710b23e849a57,Merge branch 'master' of github.com:alibaba/arthas
+59f4d10103db21f107067f0e1253d9be748dfee8,add basic vmtools code. #1698
+52bb8afbee34a617c5a92705df03c6b60fca3192,rename arthas-beans module to arthas-vmtool. #1781
+4f91d181e26c051bb6cc213d18d9471cf0328cd8,rename JvmUtils to Vmtool. #1781
+843a3ed0aa3c505b2b74002a4fd555a693f392e7,fix commons-io security problem. #1782
+15f7844b4f848b2f4b23af2a85cedac251c9cff8,"refactor Vmtool, support singleton, support VMtoolMXBean. #1781"
+4282bdb762c61a9d1e3b63afb40cf56c19323976,add build-vmtool.yaml.
+5e95d66a98fccee2c0c2af13d527b9ed9855fc75,fix testcase in windows
+3a044bc9e0147d9787ba823940173ce0d50d37e8,support upload lib
+3672c2c7a6434bcf0451e0377350c30615440629,update lib name
+ba2ed2832335f9a98af188326ae7cdee8d39e997,do not use auto in cpp
+5b9eb89826974b8c342d818427293d0311a9fcbe,fix lib arch
+b704e7cabd8239b8ff9c8ddd4af27596664f843a,rename
+6a102d61b0d1653d84f5200925cdadd734f177ff,"add OptionCompleteHandler, better complete option"
+932340eac6e4957f58c883a45f593e8164ee19dd,"add vmtool command, part1. #1781"
+adf7725618fcd5962cce2be93d8c16bd0a98ba2b,Remove the useless resetClassFileTransformer in Enhancer (#1786)
+6623ef44c6017d5bc52a316ac9d731a37254ed82,"return array in VmTool native method, fix jni memory leak problem #1781"
+ac27ea39223ccd95602546a00c56e0bfc88b2626,improve arthas-vmtool package jar config
+3499a307e2d8258dc170a41e5e5638d067e54214,vmtool command support forceGc action. #1781
+00430ca4228ccb24fccfcaf52b9f606f549345c9,generate jni header file by maven javah goal.
+46273d268591d105ed19c60fe2d319a7d55ddd03,improve vmtool getAllLoadedClasses0
+fe22e0f4fb2c6d2f68018b0e50be7f8d63f163ea,init jvmtiEnv through JNI_OnLoad method.
+35581b1cf41f5a242449a116fe3497176be05192,jvmti AddCapabilities when init
+aeede28cb97000b130f3679fd3bb1acbc25779bd,simplify tag generation mechanism
+d7a0fdf1e88ddd72dec4d0f08cf68b8a7e009297,remove useless code.
+f1d86b5c434728f6a793b4655ad98e5bf343a491,add getInstances interface test
+d8ce0beeafedeef5b46af37a5f1ea8df896724a5,fix jni method return type
+e2e7061182c5bcad7699e5bfb5f9f217fe0732ee,vmtool support limit option. #1781
+3170a92b565b59c037fe501accc7c0ef4187f0d4,vmtool command support libPath
+fc707109b172395958bb9e8d8b9722ba393dd10f,improve vmtool search class.
+88b31d68efcbc6e5288218a6554b8c8bacb87a0f,add vmtool doc. #1781
+5c418545f4a4589e6f8d2e68be703146ed02a61f,update vmtool so
+14d7efab1eb254fdba377db2edd8ffb939e67d02,update vmtool.md
+32e7bfa6b8b8c644acd8e7817bf6f858a273030f,vmtool lib support reload/reattach.
+edeec131a64f56fb1dc2df386b8a9803d5dd5f97,"Merge pull request #1784 from alibaba/vmtool
+
+Add vmtool command"
+a4372cf24e480dfb72a9bae2d46fbb02bb461c1d,update dingding qr images
+59701d775d11ea8d6ef4e0591c5038aa7116f130,update tutorials
+732174ad3626e9b26e4ac3c347b35985a0373835,release 3.5.1
+4c573990c3f0d92b9696c7957ca318db62f26f10,add vmtool command tutorials
+5fbb943c3783fa4e33dcd42e2e61aa091b984a21,update vmtool command tutorials
+b7dd619b253391cf81ec4134fc44195a8bb4c47a,update README.md
+fd5401a28e8b18875969ca10df1d1fb1d6f280a7,Fix vmtool command tip when matches multiple classes (#1798)
+8f06d81827e325ec4a3297b1a001151a14ce94b1,update condition express example
+4faa3fb6991ae661a3da8f0f46f6c6d2afb9537d,update faq
+aa94a3b36ca6c50df8308cd7173eaf7fd4843865,update tutorial arthas-basics
+57259ec3ede95be588cd4851be7319cf864ae91b,add docs for basic commands (#1804)
+5a2b2f5ca7c7e5401f739b3d64a9e2ded90cbc5d,fix typo (#1807)
+58981be66212c0e5c8afea5baaefde3b8b680c4d,update links
+b8bc2279404d942183b30e77b95ae11f07591bd0,update tutorials
+61d5ce633765321680e439398b74e775ca1f7ca9,fix typo (#1815)
+00faa3c4c9e5033defc654b106bcd8f6ebdda4dc,Close ResultDistributor and foreground job when close session #1808
+e6f5b5971db91b7dc3e164876693f68df2b118dd,fix trace command may not print result problem. #1817
+edd3fb8ef50d417d4b2cb661c439888ec525b1d7,update faq.md
+15ebbd1c5a15cd0662ea15409667be4910e699d2,update arthas idea help link (#1820)
+260e347f5ee401ec3fa8a0219380ee0fccb324fb,support disabledCommands part 1. #1729
+dbf63013992d50e46ca9b0fa0f210fd9eba146ed,support disabledCommands part 2. #1729
+b17a0cde8eabe0e102e80ae6d855990c3e90fa5e,support disabledCommands part 3. #1729
+03f2994923b985651678dc8153b5d85ee2f261b2,remove shutdown command. close #1799
+f87a178fb17a9d580f1b0bf20d37f449634a9351,release 3.5.2
+b7d2b3586d45130219ace063f0a56e29e5a78067,fix math-game url (#1826)
+0d66af357bf910fb84297380a2931f395823bbbc,polish #1826
+5194b74e2dc0d45d0fffb20fc061a6bfb27c9e2c,improve doc (#1824)
+aa728d7e221631f512d3304539d11fefeb4b2911,"delete useless parameter ""name"" (#1822)"
+4b76cedb4e650d99b8169ac0a3f1bbe555cfe502,add release.yaml
+a085c8ddf603257736a5a84ebf670486b4c4d6f7,fix typo (#1835)
+963dbf6c40d7f30aea8d152b87a2f3c6af500413,update web-console.md
+51cc9469ddea1cba3c04e4620bc67de98c6816ad,add /api/tunnelAgents?agentId API. #1839
+223b68a9107362867b3632eed013b2378339379f,set the exact version number for build vmtool
+dca9bc31493d83cc0b3751eece7a3747ac6d4378,fix arthas-vmtool upload path
+5f31bbff9735c4bfcc0924534474ab9c966dc50b,fix: inst#getAllLoadedClasses() may cause NullPointerException when search class(IBM jvm 1.7) (#1840)
+dff07638844c17ead612eae51522888b0c3ca322,upgrade slf4j-api to 1.7.31
+a33ce7e405c93bfa508b0e7305e951098350b078,upgrade arthas-repackage-logger to 0.0.9
+dae1e448f82021f2abb2a89c462e2400c3940ea9,upgrade bytebuddy to 1.11.6. close #1841
+ac74fbd1328c91423769e57d69533f4c33159a82,upgrade bytekit-core to 0.0.6. #1842
+e227ad8732d17ba60325a9626123efe97cdb6585,"fix vmtool ""Can't find dependent libraries"" problem under windows. #1833"
+6bb360e9bc18d94e72a27defd14071d12ae01824,fix arthas-spring-boot-starter disabledCommands default value problem. #1763 #1853 #1821
+2ab1bca5f09318dcd2f84a6809014523a6fda387,fix ArthasBootstrap load arthas.properties with arthas.config.location/arthas.config.name config (#1852)
+43b5b0566984d72e2fdef758604cf85dc19485f2,polish #1852
+110bfcbeea3e1efb66f63276fb2a9eb4b31eb0b5,add ArthasTunnelApplicationTest
+bca0de1fd49413671deede61911fe1c4dcbef318,update ArthasJniLibrary. #1833
+a683ef9851f89df565160a771374ddcea5483e0a,add known user (#1834)
+c58e461ec1c7f66037b56075c20e27377bae82b5,polish #1834
+1c9144a5a05240bc32c0dc024b1702cd04fe1912,support ARTHAS_LIB_DIR env. close #1861
+bfaf416c69a6a509506b7209cdf1e01ad393a71e,imporve split methodInfo/invokeInfo. #1860
+be3e6f150db0921e53989a715bc3717288a86bf0,upgrade bytekit to 0.0.7. #1855
+f4f80e27bf5c7a9b6c1448ca02762fea30c8bee4,upgrade async-profiler to 1.8.6. close #1857
+9a0f8b5353d8101bcdfc5d2ad763e6596fbf4b15,fix method signature/javadoc (#1869)
+e2d5c3c4455a99b2e87062c737975e16335f1c7b,move one.profiler from arthas-spy to arthas-core. #1796
+2e161d621d63ebd18824369603a64bcd98a9188b,fix imporve split methodInfo/invokeInfo. #1860
+c8ad4aead568633d27e019e2a5aa6c9d46efe3b4,update vmoption/vmtool doc
+dfecd76e31b5b6aa4814ef52ff9d5bc7cad9c5a0,release 3.5.3
+1e1c12636c53e6339035eda0a3bb2480edf3ec8b,support hide nav in web console. #1873
+ace4fd7cab94d265104527a0da8caea3e486ee67,"update tunnel.md, add tunnel server management page section."
+29aef3ee8837332f1d5c9850b69308c7c3066131,update ognl tutorial
+9b8cbf3f8ca9809fa8bf5816c6f6350e288e91ec,fix vmtool find clasloader error with hashcode(#1885)
+cc04d73fba4b898f55d9c5cecc7fbf730de9284d,disable iframe deny header by default. #1873
+3eb01ccdfd9a39038e52d291fd626253829cc044,Merge branch 'master' of github.com:alibaba/arthas
+7be218c7648656b95418709c7086a97955ca84cf,update head files (#1898)
+763961bdda36d1ad8c2b37d3d669a6115649ded6,Fixed typo (#1899)
+48d7364e5d08c42346daf5fc9e00dcb0f74bdadd,delete deprecated .travis.yml
+abad06f0350c414d91f55f275f838e9705bd5e2e,Set the screenReaderMode of xterm to false (#1901)
+ce2b488f92116184247a2d9553db9651988a2a27,update watch/trace docs
+ad5f0e47673953ccaaea4219817251b8caff3a6c,"add arthas.localConnectionNonAuth config, better support localhost connection. #1904"
+fa16a6867bfe19cd055ab480bdd1ee5cf9d47e40,clean auth info when save history. #1903
+a41bcc1eed61ca9b7f28bf5db6f131e21fbcc772,update lib #1897
+7f7c47cee43a6ebd436ef11e38456e53fe0c8cab,release 3.5.4
+18e1e96236a8796d2fbb5bc981707f977561aa09,Update CONTRIBUTING.md
+2d1e26579f31585a7cbe9fdada7c1f0da895e4d9,upgrade text-ui to 0.0.3. fix CharSlicer StackOverflowError
+716e964353bcf7f69495bbfe5ce1d1b43ed4c5c2,WebConsole support scrollback url param(#1909)
+6c349670ccf01dc813c561deed3478b9b1a933e9,polish #1909
+dee70a88c5be2317578a3b86643e094f114fe4e2,"fix arthas logfile path in windows, fix typo (#1913)"
+4be365e2ba447ac982b0d09270d2b69840a4e7b6,Bugfix: PackageInternalsFinder support file path with white space and Unicode characters (#1921)
+109abe1ba34534fc237e75a54c385ca682272396,potential NPE in PackageInternalsFinder (#1998)
+da0ab96ea8bdf5d516a8151ba2acacb4fef600ba,potential NPE in ArthasReflectUtils (#1992)
+d88a2e93d1defe3c8ab7a657adb742f1e21a166f,potential NPE in Base64Command (#1993)
+58b53813749d0589891fd94355db5f9895f919f3,use Arrays.fill (#1989)
+b38d9b38ac16a311b08727b5b4e89ece6f593bdf,improve UserStatUtil. (#1987)
+ad806616f0e9acc19054a517eac74c98fb69b8b8,remove unused imports (#1979)
+cbc640203564f13f9f75cb927a358e466c0746f0,use StringBuilder instead of StringBuffer when can (#1980)
+52274ff63e459b998c3a6da583e33d0c78d43fae,thread safety bug (#1988)
+8f6ea953f0cca5d2693e488b2529637439073de8,String function shortcuts (#1990)
+863d57f57f734181d52615616fdb889495b75234,potential NPE in CompletionUtils (#1996)
+09765b00faa88ef17c7b1b9133c8fcf7b1b5b469,do NOT create wrapper type instance when can (#1985)
+c73c3d10a1e9a1ac603529927b58a870a2b2e724,string concat in StringBuilder append chain (#1984)
+72b1c7401e571883dc51e11e90b289474c1ff176,add LICENSE for StringUtils.java. #2007
+172f4397b39bf82c9d613a464227f93be7a008d3,use System#currentTimeMillis instead of new Date().getTime() (#1975)
+e5506005de92bf109691a751840bd2a68542d93e,use static inner class when can (#1981)
+f410c7f7eb9aa03354c502fe8c12064b7fc8574f,use generic on class NoOpHandler (#1976)
+a753bf1337b97ec5005ebf2b17b9978630f6b4fd,polish #1976
+6c56c9eed3cc543a857ad640e69d1f46a40abc3f,reduce memory use in Base64Command (#1986)
+8c0e080ed8d5dcc00c569acfcd3b77389a7fd50e,update watch.md
+4ac6f29a61946d0f2ed4191d89d223cae41e6d74,fix docs catalog
+3844c2f907b23dd41a1fc626d0fdb20534802d96,fix user define arthasConfigMap support (#2017)
+9ba957fdf4aac2fe0745e2ed8c3c9fab86b7c9ca,polish #2017
+3792ca30878544177ee458fa7a2c00f0c8d504e8,"improve the handling of attach exception ""Non-numeric value found"". #2023"
+3e89593d7bef93adc97acb122f22f69c52d9b3f2,simplify condition (#1977)
+8ffa389db3793795f41b68c28a7e0dc58c0f009f,Optimize string splicing. (#2034)
+d39538a408b6a9b97cd48d72b1d07603bf89efba,upgrade async-profiler to 2.5 #2035
+65e98b1ceabcefc5914b9592d6cafd867ed887a5,vmtool support mac arm64 #2036
+2924c81e4fdff0ac0ccd0aa627d97b51feaf435d,fix resize event error when websocket closed (#1970)
+a8aab52c2c4a42a9d1afcc17290f82e5740f1751,Fix skywalking doc url (#2028)
+e7c63d146c7d66a0326b71e68ee71e778978b32b,potential NPE in ArthasBootstrap (#1991)
+0c85c896b9238794a17f9dd3d17b1f8a62c5fee1,potential NPE in BasicHttpAuthenticatorHandler (#1994)
+2d5bfdd2409c7e53c82605cc8108377de8cbaf76,potential NPE in TunnelSocketFrameHandler. (#2000)
+83bb0942735dcc730edea4fbc84b98ebd73b18b0,polish #2000
+1983f84361eabcb81089f4a06696fc1e4df0b622,potential NPE in RedisTunnelClusterStore. (#1999)
+2030c39c930d58a614e5090f62c9754d35929396,fix potential NPE in Bootstrap. #1995
+99fef31610f07d3aaee1a2b6c81cbb98b0d9c9bd,add exception log. #1978
+17cd0b61cae01548790ee227a5853f9a668db598,logic bug in Decompiler (#1997)
+6f8d38f9f52f7cdde6e56f76e2e8d09010744efc,numeric issues (#1982)
+9c24d9da03ea69a7e7aa580b8384cf8ec433fe72,collection issues #1983
+ad260cadfec6ee200dc2cff3d7260a2f6237e5a1,refine collection creations (#1974)
+c08ccec21fec7ba7f56987bdbbe782e723f26fa8,fix resource not close problem. #2037
+fe09b57719a378f7b6a774dd2185101566ac26c6,release 3.5.5
+03a57ddf728719f388f6282051c9a840341d453d,update async-profiler link. #2035
+0aa2366ce415ee88c40398d933eb830bd06521d7,update porfiler doc. #2035
+3da228fced58346c39384d2cdf8f4118a71a6d94,update arthas-output.jpg. #2035
+c86f4a796d3eb120db71c604a69c82bb5ce1ac64,update links
+0608e7c32d47e3268ea442d698ca3c28bbaeb4f6,update CONTRIBUTING.md
+0e03afb98b3498bb6fd22359b3d6aca500d1dfce,upgrade log4j-core to 2.15.0. fix #2044
+088b29ba7ad18e6e542c378e544d987871bcc0bc,disable jdk 7 compile support. #2044
+1043695500e754585e891e442d46979958f3c06c,fix build status svg
+416fb8923e569cd75f3a7148fb05af30c69fd3ec,upgrade netty to 4.1.71.Final. fix #2043
+86e44c9121418b22a6b01b98f561fb0032acab07,"Revert ""disable jdk 7 compile support. #2044""
+
+This reverts commit 088b29ba7ad18e6e542c378e544d987871bcc0bc."
+3a5c8d6e4808380e7b5efe51ccc3f2b0cd6207f4,"Revert ""upgrade log4j-core to 2.15.0. fix #2044""
+
+This reverts commit 0e03afb98b3498bb6fd22359b3d6aca500d1dfce."
+13c192658fabff6d55583337d6023d305367f26b,upgrade log4j-core to 2.12.2. #2044
+eae5d0a470a5ae91eb73b1a3aff5e3082714826e,update doc
+1bbba85dc29c11e995978b2fb10d8e5bfc72ded3,Remove repeated conditional judgments. (#2068)
+5a644b94b824eacc0ace572b607c3b92513506bc,add known user (#2067)
+98fff9d31c4e0733e8ca8e4d33b7fa73864b41ec,add cloudtoolkit doc (#2070)
+95ffa3a9a7255ae33a86019f8550583c2bc53a31,upgrade log4j-core to 2.12.4. #2044
+2ce2efc82a9e1399d81a5bad8b54206e5a463247,fix GlobalJobControllerImpl jobTimeoutTaskMap not thread safe problem. #2074
+6a770f02d4ba40da4e643feae52929ed6fe7673c,Correct mismatched comments. (#2075)
+308a66aae2427206a03086d5272b7d3f9530e06d,add known user (#2077)
+a5f1b6be9792dde4780d68900213bdd1f8b9c064,fix http api json format. #2081
+6f67f6ad0e3e4d90ac15f795e47e06eb3c613292,add unicode docs
+665021a6cb2a156d3ee59fb3ed1824b7cc485bda,fix typo (#2083)
+caea6c50835639aeb31f6cbff672508aae662d26,change RetransformCommand and DumpClassCommand limit option description to match @DefaultValue annotation (#2086)
+8b726bae8f3f52f43f40f5ffc66a51727070abbe,upgrade async-profiler to 2.6. #2089
+edb4d25bdf8516adb9cc4196ba834c815f489ebc,Update run-cmd-in-backgd.md (#2093)
+d41b254e37b68794fc2299b90d9f09ac6cc9e900,update tips
+b93ada7c4fb72a9203cc79f26a6734c26702f256,fix jackson null IllegalArgumentException. #2110
+94d36066044b4a22b76893d2275fff0d23e4fa83,Add known user (#2116)
+a7ec3a89ee14d9a5accef57eabf790c62031b1e3,upgrade cfr to 0.152. close #2048
+bbb508251029b1b7ca3de00ead8000a0002eb756,shade fastjson (#2104)
+d2003177fe153be1c7f5aed1274cac04994a7761,"support enhance enum, print ignore class reson. #1677"
+5a98510635ae1f8850e9b0aca9d866c5a953fc07,add memory command. #2118
+8dd155f425fceec4ce339a4613388fb74e7453d7,handle MemoryPoolMXBean.getUsage() exception. #2120
+f8a4cd57231c5c6cb6a1dbba228274376db1ee33,update faq.md
+851c2948e5761f7ff893c750033e6558358f6f2a,classloader command support url statistics. #2095
+e7c1e014e56a1d05342f0a681beee7d01fa895df,update classloader.md #2095
+931ce392fdc6bf675bbc3997917079c9ce3c9cb2,release 3.5.6
+d9aa3fed6dc3f064da88e8bdfd00fca4b2327ee8,fix typo
+5fc2508bd266525388ac7fe60ee02586f645f2af,"upgrade logback to 1.2.11, slf4j-api to 1.7.36 (#2132)"
+6f0fded18cecbebf223182d930d186e2910dc65f,upgrade arthas-repackage-logger to 0.0.10
+6f855ef2cc193282b12db66615b06d24febc9d8a,Support strict mode (#2134)
+f4ba958911f5dde386a33c717434cc6b218cbf6b,"Revert ""fix resource not close problem. #2037""
+
+This reverts commit c08ccec21fec7ba7f56987bdbbe782e723f26fa8."
+23d1edee6e6f945aa913f55bf8aaf4682e9072e4,fix download large file problem. #2135
+9cee219896ae9a66bfce78cd520aad3461ec407b,fix:mac chrome webconsole xterm size problem (#2126)
+923201270aac262f7bb420f82590f0c7f6f1f353,release 3.6.0
+ff1fd1c95551c86e61ab9e193d048d90a87e1886,fix:mac chrome webconsole xterm size problem #2136
+2157ca3c0d34c7b131e9ce60b7d00145900e8d72,fix typo (#2144)
+cb36bdfe21cb6819033c5ca7cae231b26fc3d1f7,fix windows build workflow
+989728d5ea93c8a278104fd9722ba536ed1d93cf,update faq.md
+c661d2d24892ce8a09a783ca3ba82eda90a66a85,update trace/watch command help message
+69f08a334312465a5c577f9742b466e8a63da593,add more info about expand object
+c214f2fca993f8660551f179b40050524e3f36be,fastjson IgnoreNonFieldGetter
+fc37ff7d38691bee0740e4416d1047f66b423729,upgrade fastjson to 1.2.80-fix. #2153
+39760baf17fdd16efd4cab5b91859a3ec57b749c,fix tunnel proxy websocket can not process frame length larger than 65536 problem. #2152
+92483fca8f1c0434672d3824049099bec35c54dc,RelayHandler clone relayChannel whent exceptionCaught. #2152
+620bdf611dab0b6c7bd4c1e843ecd7b462b5099c,trace command print the percentage of time cost  (#2156)
+1f1cfd01e59e9d61593ef21609684247aa898db8,polish #2156
+20d0faab379ba598aec4815df45d286cf16ca807,fix monitor command -E flag support #2009
+d6c99db2f67a42e3ba313ca73b2441db44a49ced,print more info when jad command failed. #2148
+f9edbf02b2b8bfbfa10a76150bbc0fe5fcb5fb9d,starter ArthasProperties support username/password fields. #2092
+a4be43ded7370168d30c53f621a0eda42d145c0f,"Revert ""fastjson IgnoreNonFieldGetter""
+
+This reverts commit c214f2fca993f8660551f179b40050524e3f36be."
+4faefc44a0ca2c1ef5267ca489a010b61013b863,vmtool command support http api. #2141
+7e5e320cdfa5b1ee64032570be0eb22e01408176,release 3.6.1
+413a9bccdd1e807648b96358e29c45846ebe05e5,update CONTRIBUTING.md
+b70b852b675861f09ac727d3ea283367a53bf4e2,update faq
+136b90f6bf19cc512eb66aa79143835b6d8e21e4,Strengthen the code (#2168)
+56106401f947ed813fb3b8fb7ae0faecddc67089,"when under root dir, do not print parent link in DirectoryBrowser. #2173"
+29a96b489b9a3357ce635123bfdfcb5c06c43a5d,fix faq links
+7043607c5f06e519155a6aae6345a1d25c2150af,fix trace cost percentage. #2171
+6eeb59ddf843d4b32f38055283913bfe07566fc6,docs: update obsolete link in thread.md (#2182)
+0d301b441d8a752e270d2ddd2b53061106badf19,upgrade spring boot to 2.7.0 #2186
+5e0cc1d13dc3c0c10ad1297efad458d1a290cd0e,upgrade netty to 4.1.77.Final. close #2188
+572282c0eab5f9c4d15a057581127316202e2847,upgrade fastjson to 1.2.83
+5ef6dd1b82a687c7e2e4be08333248da2c10eb2f,release 3.6.2
+e96f927c773c9079c2233740cb5d79103fafcd28,upgrade fastjson to 1.2.83_noneautotype. #2199
+60d5957de6fe91bae32eb488f1ac394eb374e775,release 3.6.3
+3d13cfd5f572cd9e4d17fd5542a3387d6b119d15,It is an honor to be a part of the Arthas community and to contribute. (#2218)
+7938f4dfc8e83a0e631dfc63b13bab8ab2a15c83,add tianxingda log (#2209)
+8e6c573d2b2c1da36ce0f6ae4993989d1084ba31,"Bump netty-codec-http from 4.1.71.Final to 4.1.77.Final (#2187)
+
+Bumps [netty-codec-http](https://github.com/netty/netty) from 4.1.71.Final to 4.1.77.Final.
+- [Release notes](https://github.com/netty/netty/releases)
+- [Commits](https://github.com/netty/netty/compare/netty-4.1.71.Final...netty-4.1.77.Final)
+
+---
+updated-dependencies:
+- dependency-name: io.netty:netty-codec-http
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+c8645db3f002c0e083fbbe885c8e8a7050385163,update doc
+55147e7cc6872fa55cfbf02cceea1db25c65e7df,feat(docs): new docs site by vuepress2 (#2220)
+842462f860cc42fb85399ff8473ca60b812573b9,add new doc site to maven build chain. #2161
+3a4159e13c77479504d007db8c4f3cdc70b67f68,update codeql-analysis.yml
+8f36fdd7203fc6e337c7a5202e20046ef334ddcb,fix java ci
+d776a93b1ea543e1d96914a7b13ea25579359e89,fix site build
+1b91777d74d78eec778b3bd27276c2308063c46c,feat(docs): add right menu and optimize (#2224) #2161
+0ade1c61dde8c485c77d7a5d28691bc950c9aa32,Bump terser from 5.14.1 to 5.14.2 in /site (#2227)
+6d8c91fe700633732d6fedeef23522d0f4aa868c,disable tunnel detail-pages by default. #2232
+71095cf36466ce22007ece9e5775ba562dc99365,Prettified Code!
+a200ef409b873c31e1b1368e5c7491765480c001,release 3.6.4
+98a28bd9d10d258d22de30849b3f23356dbbfc76,add name site/pom.xml
+d4c5b765e20adec8eea72833ac58fc163fb53fc9,update tunnel.md
+7954f12bf63b54c6a8c70473811b986072e82fc7,Prettified Code!
+2f06d8bb36efda16c31e7acfab9acf4c65e0495e,docs(style/plugin): add a version tag to the navbar and add the DocSearch plugin (#2233)
+91ac6e21b1a8b826028eec24439b28a5ea411cc7,"polish #2233, update docsearch apiKey"
+ea18c476497437bbd52027719a0b492322af8072,Bump node-fetch from 1.7.3 to 2.6.7 in /site (#2236)
+1b2f8cbe687f65edd409d02af95f283db3f5c462,fix(plugin): fix page can not get version data (#2237)
+153afba1ff32846aa67bd1ca249aa56bad665550,fix(docs): fix badge component (#2238)
+e749188e534add431b67b6f2fdccfac7b549d86f,"fix(docs): refactor sidebar, support aplus (#2242)"
+1d9908752f7aee10177e032da2afe135aef92c51,HTTP API support plain txt ObjectView #2261
+586e953e6c0c2d147cafb7ed90ca609f0c1b14c9,update github workflows
+c536748f20b985c511b000e4c378a186016d9d2f,add jfr command. #2262
+4c0b7b36e40930b41cec398a25a71e81676fb3ae,support higher version of JDK to attach lower version of JDK. #2249
+bcd8ef498b984c81569b87ca63d979b6d9cecdfb,"upgrade asm to 9.3, support Java 19. #2202"
+b269ba5a572c2a6c705569fd44be5736e7c4e998,release 3.6.5
+6d2d78dd1c811ddafe9c5488328dd3fc05400f21,fix release workflow
+3166af3ab1ecafd0ba591eccddfd39bde5b55a79,update CONTRIBUTING.md
+d053c81f243e12676517a7853bc456ae6ca41256,remove aliyun handson-lab link
+b18fb0886617a0cac6ce39be269fc4325b84c5a5,update CONTRIBUTING.md
+6762a22f8466fa3cca76cee573578c5e9f5607f9,improve logger command detect log type. #2269
+298e3db559161065216a6637d3926d6a09d36206,fix(docs): adapted vuepress2 beta51 (#2270)
+60b3080c864766e90fb042457120488ee7a720ae,arthas-boot support unset JAVA_TOOL_OPTIONS. #2166
+3b38957dea3b9831da6743a6bf429570d7ba2677,release 3.6.6
+0dbb10a7b022e7298b9d243255aa6d521ba017fb,update docs about save log
+21081ad0ef28e6e0a7d3274f06903d841d35fc36,fix typo
+9f3a28e400834994b9bd0210230bc04dd4070ba0,fix: solved duplicate run addOldContributors in same page (#2286)
+9ca6782acd7b316bde9756d81a9768620d798551,fix:Solve the problem that the response stream is blocked when getting the latest version of arthas (#2290)
+24171d4f8de79ba985a1a39cf6095c7635b670f5,print ARTHAS_LIB_DIR and JAVA_HOME. #2289
+1589d0490606f0226c4822c0dd1ddc403a27b358,Fix typo (#2294)
+c80b59eab2b10577c72a4e341ef204bd0c401ce9,fix typo #2291 (#2293)
+2b1d4d053c8811cfc5df36bbb4e5adcc08275038,upgrade git-commit-id-plugin to 4.9.9
+116b2495e99c52defb7b67173c215390943a3b8c,update workflow test.yaml
+bd9e85e55a781a211bc59074092945b4c823c17a,Web UI for arthas #2145 (#2292)
+ab3337f8af109c33116e09bb7d35926b85a4773a,copy webui build result to core module. #2145
+b9c78f82b80fa0b58acf6df724e7d3d8cbf0a22a,add known user (#2298)
+bdd9a9328ae4d9e408c98e2848fa34b7c59adfda,fix typo #2145
+ef510173b64fd57027f1bcf3fb72438777816086,"web-ui remove jquery/bootstrap, upgrade xterm (#2302)"
+3e5749127c8960d03aaf071bb18062b21c1445a3,exec git-commit-id-plugin when full profile activation
+019c55d5cf6f70395fdf19c6e3a718f55ee58d97,fix(web ui): profiler #2145 (#2304)
+55e3a6ee80702335d1426b5f714e7774d120f885,fix #2277 sc command throws NPE. (#2308)
+282c47da60b1487fa87f1b7bf1e16174c4e89b54,update aplus
+1c17f9fd390ac42f575ac3551d3090cd0c90f6b6,update site/yarn.lock
+7637761fbb3d76d521e0ea404bb0cfcc5e6238b3,support packaging arthas-vmtool in 32-bit windows. (#2316)
+f6fe8b913483f7eaa453d3512cedd714d9073bb9,http api monitor command return timestamp. close #2320
+aa2526075bf4b91c7fcf04f9e68ff1ea9fe812c2,"update web ui (#2318)
+
+* fix(web ui): profiler
+
+* chore(web ui):perf proxy config
+
+* perf(web ui):update style
+
+* chore(web ui):update deps
+
+* perf(web ui):fix monitor category
+
+* fix(web ui):fix style of table and monitor rt chart
+
+* refactor(web ui):refactor config
+
+* feat(web ui):support debug http api with console"
+18e8f6b5d86abf87a4366bc2b89f4a4a8832a4fd,perf(web ui):keep alive consumer (#2325)
+aaeb2d2fd48b7c258ab11b1d81f9791b387d4612,perf(web ui):remove tree component in watch
+b252ca2b1b5faeda4512f3f6721afbdef38aeadf,chore(web ui):ref tunnel modules (#2331)
+537209a4ee1f52eb26c9d5789cdae6f2fe0b003b,"polish #2331, fix package"
+b7aad3f803914f9779aa12d2b07bb334235ee827,Update README.md (#2334)
+221ddd7c5380d7bff2a09816720217558729e7ea,update CONTRIBUTING.md
+2a4452f839c7caaa3918639ca6bc6bdf44544e23,fix thread command NullPointerException. #2342
+ca08cf5ebd309f13ea86105aa35844643fe59383,support ClassLoader#toString() for sc command. (#2329)
+14374b032f43874e9231e13fba6d194ddd9e5327,Prettified Code!
+92967f2485291c594f79091e0bf8f4ad67dc6b55,release 3.6.7
+0bc3635b2679cb2dc236c0d714c90e9d126726a0,fix(web ui):support relative paths
+23bff5bae421770c7a3774cddc37e3d07076f830,"update thanks.txt, delete links"
+be27d0e51d5b1b76f03e6c8083159d579e805804,fix pom.xml url. #2348
+f74167bfdb2ef2d9bca2052d9adf6e92c6cfa621,refactor(web ui):refactor echarts component
+e9e2c57934fd72bf2cfcf9378c260420b1113e24,perf(web ui): dashboard
+fcfd8eeb622253813ff56eb26c514260ae88d54b,update CONTRIBUTING.md
+4fc682265ce9e8db0101f978d32b142af6751493,classloader command support jdk.internal.loader.ClassLoaders$AppClassLoade. #2350
+3196c58cf543ef88179a2f71563afffe788d9f9f,update dingding group info. #2346
+27f852f2f141b84cef34032af525c5c8def76310,Prettified Code!
+84c5ba2e8b82cc1469441ec1e555f636408f2e49,update qq group info. #2346
+5ce03c7c8fd51489a565e0b433ec881eb4330c1f,Prettified Code!
+03cb78230b2e3613905d2562d35e603483e23b15,fix typo (#2388)
+42ff3ef935a482ed53c56e325219e473bbd28a7a,reformat JFRCommand
+4638c3eec48021b8071e3389ce101eedbe5d00a3,typo fix
+cbf68453cc986d9534ccb06764b13c971dbfef80,fix attach doublecheck
+72109850d690a0ebb3fffbe051591d0c4ea99d77,fix TelnetConsole#process return status
+5491f6b42733bc1d658f2ae568bf6e7823b81660,fix AnsiLog format NullPointerException
+60c5b4a7d0db1c0903fb20c12b672fe4c3e227f7,update DownloadUtils: clear hardcode
+3c3ffdd21c7f8f77bbbe6867ed6ea15ac91746d3,remove useless param
+ee49b8e4b0f8069f58eb6a10e3d8d6092993f105,add known user (#2404)
+b57379da65c076a7549359f0146afdc858c4efe0,fix the priority of environment properties (#2412)
+db3141e9d2535257c96b559dd2a35b14bf3dc21a,"when jdk version greater than 9, perfcounter command print more info (#2371)"
+92be8bc9ee5465198c9d1186ca48d1c9ed98015a,"doc: update readme
+
+Add contribution leaderboard badge into README file.
+
+Signed-off-by: frank-zsy <syzhao1988@126.com>"
+738e4896e08b622193bf56c7b8965baae9a72792,watch/trace support maxMatch option. (#2385)
+e51adf033995f9ca2a884755054460c6b479e839,Prettified Code!
+9dda713e70b93200acea370067304b9f5188f295,update docs about arthas-vmtool
+5b62c3e43fbb929f0ed1c204f7e1bea00408756e,update trace.md
+4aff8910d2c9ce30eb45d920a4145562a9f6fd0c,change websocket idle time to 10s. #2448
+efcab913a96b68501cc3ab5bab93489a0efc3577,change tunnel server websocket idle time to 10s. #2448
+c9c7a637555669aea043e8be43218b7a1f7dd3b3,TunnelSocketFrameHandler support IdleStateEvent. #2448
+dac6ae7ef3c58794a49fa9675a6ed2823f9e02e4,"doc(web ui):update document about introduction, tunnel server pages support relative path  (#2353)"
+304d51d2e31b751f6a5e11716bd41d84d66dc844,Update trace.md (#2455)
+8024aca4cffc05390166966d36dccefa6f21a6d1,Add http header connection close (#2432)
+9a95565ae1d1e97bb60fc764dbc62bd0f747f338,support build vmtool linux aarch64 #2226 (#2478)
+68c32e552b0d90a9c9b6c3f8f66583179b0d7c34,Add -n command example to mbean commands (#2468)
+6a3029bf0a35f5009436853ab7d746a27ad806b6,upgrade asm to 9.5 #2470
+f6e18e79e5d85236a1aa9acd3869fe14fe06c2d8,upgrade bytekit to 0.0.8
+bcc9d7aa57efc00633c330d025db68b0748c0bde,polish #2468
+5a56025e813515c7a501d9ba1403c895192f90c4,Update heapdump.md (#2441)
+398d05fee8507aa80f0102c51234af0c7d868e09,polish #2441
+ed381886b4d67db9e568b3e2f179b22648d75c88,add linux-other-arch complie/build support (#2443)
+fc7bbfad9cfa6f3bae04192eda7ed3a99ecd1aa3,polish #2443
+e9a4a90314be37ad7b02d0e1ba470851f7c19074,update arthas vmtool lib
+929adc8c9d45e9e9389647a821a0c9414a5fde21,fix auto-prettier.yaml
+735ec2e0b5f7006865b0ee8f1abac20e0299eed5,vmtool command support interrupt thread. #2427
+2cc538848c67b96fdd4fd32aee29ef33a0ff1623,update docs #2427
+7061d8e73ed17693641d6bebc81cd9f3ebb91e06,Prettified Code!
+1116a95e63f396d14d304408ba1a85377eb742e6,update CONTRIBUTING.md
+e00a0d1df347ca1715131b89b34b5921abe40425,release 3.6.8
+acd9844853ad1281848ea45c684dca32155ef258,"Improve the build support of arthas-vmtool, JDK 11, and remove unnecessary header files (#2485)"
+8834a0f2b2ab1fbf5cd697bfcda124fb977a4499,change target to jdk8. #2146
+6d1c74da2d5862e501955083ee5f407d64d1563a,as.sh support jps crash. #2487
+cfcdd79ea09f2f40321b42538cd6abe80ed6e173,Bump netty from 4.1.77.Final to 4.1.86.Final (#2492)
+a1e7fe59b62f0a3470accac0650df3d82fa7008b,Bump spring-boot from 2.7.0 to 2.7.11 (#2491)
+b73475fe08d6554628e7cb67ea85a44308c1385e,upgrade to fastjson2. #2498
+2d4f2b1c2fac82588a7a1f07564a343fdfbb80ef,upgrade netty to 4.1.92.Final
+243ffacf88d44685b7b9c1996e616e1f62cc25fe,update codeql-analysis.yml
+fa1d2bd30ae85981ae1f296da2a1d8a42a361f1b,UserStat support agentId (#2501)
+ba108736b370b704fe08d2051460994d47538a03,"Update as.bat (#2496)
+
+Fix ""exit was unexpected at this time"""
+e3a5c3d8bcf3359961d75842c74d1bb4665ffe17,"Support profiler command in Alpine Linux, support musl libc (#2481)
+
+* Support profiler command in Alpine Linux, support musl libc
+
+* Add pipeline for building Alpine Linux async-profiler dynamic link library files
+
+---------
+
+Co-authored-by: 昆泰 <dongyun.tdy@alibaba-inc.com>"
+d26ecf7bdffcaf87262196dfaeed4910c0eaae8a,Upload arthas async-profiler libs
+90e3eb25a594c7cb20eafe1aacea502fa9d2775c,upgrade fastjson to 2.0.31 #2498
+48fe4028a6bb15ef7acb27acb03bdd71554c2ba0,Update tunnel-server README.md (#2519)
+e63b7444b2554b20602c53b78f7cc7a7b977e177,avoid include cpp header files. #2504
+005fa1707bb901a01a2f09c42dc226732074d338,arthas-spring-boot-starter support spring boot3. #2524
+8593b1d77cfb2f47157e8b6014b98a3faf2f56c5,polish #2524
+8a954b4f283996abd17eec0623e04e5b23b1434f,update tunnel-server  README.md (#2529)
+c55cb7c3acb30ea8552736c668429753fd685231,update memory command doc
+e1104aeb5cddf154298f71b8cb8cb6eb0192bc46,Prettified Code!
+2ae93d669e4b5d6958c2f815e5bc284f25ae65bf,fix typo (#2559)
+dbb67b55871a27a1b368a0c69a0259f93108b152,update profile include/exclude doc (#2560)
+0b29b7d1d83df66ba9cc089132760f984cc84b5e,print job output file path  (#2566)
+0bf9fc5028a720e491f770dba8c2a823da9cfb1b,Fix the page redirection issue of Arthas tunnel server
+275a54c0f166eaa9ea6878b20cb5dda637193afd,update doc/tunnel.md
+af70d95383ddc3692dbcd0e9c1cbfc201ae43a98,Prettified Code!
+76fef20ff6fb64e42f8f0e1c5098fb9bce3ead6d,SimpleHttpResponse adds deserialization whitelist
+213399fbfa7f654f2f6f2e0daeb669ca3ad23846,upgrade spring boot to 2.7.14
+4dc65baf7f21012fb302e6615cda58a5d2a676fa,upgrade bytekit to 0.0.9
+ede902329d84274c002fadfbda87dc6c36123a04,Upgrade Async Profiler API to v2.9 (#2608)
+b58f02f2d6dfcf88ffa6c757bf183ea74cf8a130,fix classloader command (#2601)
+5b4eb75bdb18ec201d5ada761e0a615e5a6fda2a,"feat: update online tutorials, switch to killercoda (#2604)"
+f375238d74130091288458de4469d50c1e36706d,"Add -s,-g,-a,-l option for profiler command, better support farmat option (#2613)"
+ba63c3ab70b81af78185cff3c3e0a8b3b1fddd20,profiler command add dump action (#2622)
+1c41bcdc38b88d43c741c2dba801e53037611e4e,"Upgrade profiler action: version, meminfo (#2626)"
+b70a8870464872d5bace2bd7516f0eda43ffb872,chore: fix typo
+11ec7d99f082a5c6780600298c977f9a8c145d70,"when listen 0.0.0.0, generate random password. #2620"
+aa5459207db7667c5fb61ef1d02bbd0d8569d0e2,update as.sh/arthas-boot help message. #2620
+53817080744f14c6882db174c0de78256afcbacb,disable viewing history commands without auth #2620
+ce6c3a24724b25073fc56cade6c9728c4f293b9c,update site
+e4fab590d857dece958b7d761b905dc292af6290,Prettified Code!
+8ccb9cba90d4006f4a8170a22da38380c54b1e5c,"profiler command support jstackdepth option, remove framebuf option  (#2634)"
+88a89275edab6cd36902ce8086c0ab34445306b5,fix include/exclude docs of profiler command(#2636)
+f6351cba84dc748b1fbdf12589064e6026b89e99,fix: update platform name in Arthas tutorials (#2641)
+3fcb654a359c3215ebad6311c9061b1eddc9c015,profiler command support alloc/lock/chunksize/chunktime option (#2647)
+7442fba627ad103b8c09f0cc1a21a9f588472df8,jad command support -d/--directory option (#2646)
+b3399e2592406383d3126959d3f84ac3ce71dad4,Prettified Code!
+30793f9a7e487366684f86544995759cbf0bd80b,change revision to 4.0.0-SNAPSHOT
+6a3bc665695034df948e9ee57ee5e21d917d829f,sysenv/sysprop command sorted by key #2619 (#2652)
+5ab73905b69b8314b132eaa2dff741aea58be1dd,fix Override  annotation (#2653)
+69cdf8318190a41bb8ce7f8ca415395be5c04688,upgrade ognl version from 3.1.19 to 3.4.2 (#2644)
+910b578f25113d4437db99e65df13abc6abd6edd,profiler command support live/sched/cstack/begin/end/ttsp options (#2657)
+294565ca9631462451ddcb7b7919a0cfdf116ea0,Prettified Code!
+d6f85b169dcfc98b25d6f26c67f75e150cff6892,improve UserStatUtil
+6994e4528606b043fc9d672c7dc667cecf8fb003,update faq.md
+4340d4df73d4a76a4ef98dca6902c87ce91c6dd9,update faq.md
+93d8f5c2f1c0abac671df1f47fda7995180c34c1,Prettified Code!
+c3c40076fcabe614f2b689082e2362e346d7e77b,Make thread id uniformly displayed in decimal format
+a9ed41b59a13c95366d97dfb041c3cbdb383f38e,update faq.md
+7676282f2c87df5a3aa63ff7984b77439cf44ebc,Prettified Code!
+a23d93ba45569e0f87857cef8b549f67ed329c0c,fix directory check for DumpClassCommand
+2d6930058dcae53e34e74e09a7cd4c8aea747c65,Adjust time display accuracy to milliseconds (#2663)
+97c8fbc3e068bad1c1b369e123d16543116c7336,fix not use arthasHome when constructing ArthasAgent(#2544)
+e7baa385c0288fbe11a623e558f7ee3ed0f5de03,feat: upgrade to JUnit 5 (#2517) (#2661)
+eede2aacf64154bf89eacac31a8a5f0cc1e4d968,Improve token parsing and better support control operators such as pipe and redirections (#2658)
+6221684a01a7ab0f748ae12180b93b6c662e3646,Polishing #2663 (#2672)
+d1586cd727f12ccac425e2615bc1020449b19b3c,check directory for JadCommand and fix typos (#2670)
+9653fc0e34f57a44e868fff4a0625cb31f30c174,Bump spring-boot3 from 3.0.6 to 3.1.3 and spring-boot from 2.7.14 to 2.7.15
+5a04dfb62e7812e73968daf7913a7717f9070ac4,Bump zt-zip from 1.14 to 1.16
+2edc5f31505f970e89d0a7ada148bd69740d0c6b,Bump AssertJ Core from 2.9.1 to 3.24.2
+ec2936d312ae0ae44a454aed62b41cc92e396386,Bump netty from 4.1.92.Final to 4.1.97.Final
+f5bb0861ce3c5e7687b118dc7a60ffb0bb0ab69c,Bump byte-buddy and byte-buddy-agent from 1.14.4 to 1.14.8
+60bc1e7155b0823f718d30052028a8de7e2fe512,Bump fastjson2 from 2.0.31 to 2.0.40
+cceb1965175cb0c82c70de91f79ce7562b9c4ade,Bump logback from 1.2.11 to 1.2.12
+3745f08752d49a418c712e9f800c1b3946b437a7,add arthas-grpc-web-proxy module (#2668)
+a6a9dcdde17959eda6a5194151e22e7b648bd418,Bump RSTA from 2.5.8 to 3.3.4 (#2677)
+93eaede913cf075c911b511c874635bb7dce5224,Fix profiler command live option (#2684)
+00f7848c3a46deedd02b10151f45110551b24da1,fix typo in thread command description (#2690)
+19c3e0ef408ea7d7977d2218493d2b6809c27a81,support windows file separator for file path completion
+0493d953fab4b3d9f6b1201d645c4a352fdf3b10,"profiler command support jfrsync option, check action (#2683)"
+82195d3e8cdb02ef4d3a739d7976e56914ea0301,Prettified Code!
+1c1713cdfe4ca8960380d97ba1b193b7c5622dbb,profiler command add action collect (#2685)
+59292ed9244c974a03b4bdd1f10e43b39d78668a,Prettified Code!
+d71828e4870323ed58291a9be742e79f78005a33,add dingding group 4
+8d9af06592b2a43dbcfb5bc51ecfdb57eb69027c,Prettified Code!
+85244e9e5432a159a1cd50ad556be24e0a2558e5,arthas grpc service prototype (#2694)
+d2b358b21d81085654f4bf49c2aa70eeea83bb17,use jdk ThreadLocalRandom (#2686)
+e638b9746abd195c2768fd4aa0ab6cedd9c3e957,update ognl website url
+5fcbbc4a7826f044dfca849bc23f8e16fa2a2451,doc: add trace command limit default value desc (#2722)
+3713dad2002d5f114f6f220cfd638d0723ace56f,Prettified Code!
+61b0d9ac2388d68b91ba909d6a795a89b782088f,add known user (#2731)
+6a43273936280e3582005ecf83c9f9046073a148,Add jar file index to improve mc command compilation speed (#2736)
+82ab95c3c35c1496712c0ea959b59b06a93cae92,use MethodHandles.Lookup IMPL_LOOKUP to support define class after jdk 17. #2659
+9a370d9d8a2e52bbd226c1246021f1ab23ee802b,update README.md
+7a722217ab3d9953518f4c1c7f61c1b9d5f08097,fix AnsiLog static init may error. #2740
+343ac12498c75370c7ab8e1bacf04ec89254e82f,fix typo (#2746)
+eb9596f06a31a04b3ad436d683f583d36cb122f6,Refactored code to adopt JDK 8 style and features. (#2759)
+07414dfd13fecf40e81963634480d82fda08db0f,upgrade bytebuddy to 1.14.11
+cb5d59fd0b95c45b46f4991961b6cfbf4ca34fd1,update tt docs. #2771
+5e71a45f0e90b368573c9b680ff5111f2b98e417,Prettified Code!
+57d8b62589d8008db1654f3097fab188b89152b7,"upgrade spring-boot 2 to 2.7.15, spring boot 3 to 3.1.7"
